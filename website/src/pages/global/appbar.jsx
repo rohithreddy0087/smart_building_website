@@ -18,7 +18,7 @@ const styles = {
     backgroundColor: 'transparent',
     color: 'black',
     '&:hover': {
-      textDecoration: "underline red",
+      textDecoration: "underline #3c52b2",
       textDecorationThickness: "6px",
       border: "none",
     },

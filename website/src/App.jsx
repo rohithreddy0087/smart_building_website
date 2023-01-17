@@ -1,11 +1,9 @@
 import * as React from 'react';
 
 import { Routes, Route } from "react-router-dom";
-import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
 import GlobalStyles from '@mui/material/GlobalStyles';
 
-import indexImage from './assets/index.jpg'; // Import using relative path
 import Home from './pages/home';
 import Info from './pages/info';
 import Research from './pages/research';
@@ -13,15 +11,6 @@ import Data from './pages/data';
 import Register from './pages/register';
 import Simulator from './pages/simulator';
 
-
-const styles = {
-  heroContainer: {
-    backgroundImage:  'url('+ indexImage+')',
-    backgroundSize: 'cover',
-    backgroundPosition: '70% 1%',
-    width: `calc(100vw + 48px)`,
-  }
- };
 
 function App() {
   return (

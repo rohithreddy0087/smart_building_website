@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
-import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
+
 import Hero from '../../components/Hero';
 import About from './about';
 import Cite from './cite';
 import Web from './web';
+import Api from './api';
+import Fields from './fields';
 
 
 const styles = {
@@ -34,6 +36,12 @@ function Item({ text }) {
   }
   else if (text === "web") {
     return <Web />;
+  }
+  else if (text === "api") {
+    return <Api />;
+  }
+  else if (text === "fields") {
+    return <Fields />;
   }
   return <About />;
 }
