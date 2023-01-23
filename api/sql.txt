@@ -12,7 +12,7 @@ CREATE TABLE USERS(
 CREATE TABLE CREDENTIALS(
    ID SERIAL PRIMARY KEY     NOT NULL,
    EMAIL            TEXT     references USERS(EMAIL),
-   PASSWORDS            TEXT     NOT NULL,
+   PASSWORD            TEXT     NOT NULL
 );
 
 ; DB_HOST = mesl-exp.ucsd.edu

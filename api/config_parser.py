@@ -29,6 +29,9 @@ class ConfigFileparser:
         config_path = os.path.join(ROOT_DIR, configfile)
         parser = ConfigParser()
         parser.read(config_path)
+
+        self.download_path = parser.get('DEFAULT','DOWNLOAD_PATH')
+
         self.db_host = parser.get('DATABASE','DB_HOST')
         self.db_port = int(parser.get('DATABASE','DB_PORT'))
         self.db_name = parser.get('DATABASE','DB_NAME',fallback="brick")

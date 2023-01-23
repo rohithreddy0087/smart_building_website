@@ -79,7 +79,7 @@ class Data extends Component {
             <Grid item xs={1.2}>
               <Button onClick={this.handleClick.bind(this,'api')} fullWidth variant="outlined" sx={styles.buttonStyle}>
                 <Typography variant="button" color="inherit" noWrap sx={{ flexGrow: 1 }}>
-                API
+                Sites
                 </Typography>
               </Button>
             </Grid>

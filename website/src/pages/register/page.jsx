@@ -186,7 +186,7 @@ class Page extends Component {
   };
   
 
-  handleClick(){
+  handleClick = () => {
     console.log(this.state.firstName)
     console.log(this.state.lastName)
     console.log(this.state.affliation)

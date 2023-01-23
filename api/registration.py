@@ -83,7 +83,7 @@ class Register:
         if self.check_user_credentials(email,password):
             return False
         try:
-            query = f"insert into credentials(EMAIL,PASSWORDS) values ('{email}','{password}')"
+            query = f"insert into credentials(EMAIL,PASSWORD) values ('{email}','{password}')"
             self.psql_cur.execute(query)
             self.psql_conn.commit()
         except Exception as err:
@@ -101,7 +101,7 @@ class Register:
         Returns:
             message (str): success/fail message
         """
-        query =f"select * from credentials where email = '{email}' and passwords = '{password}'"
+        query =f"select * from credentials where email = '{email}' and password = '{password}'"
         data = self.fetch_data(query)
         if len(data)>0:
             return True

@@ -7,7 +7,7 @@ import { Box } from '@mui/system';
 const Cite = () => {
     
     return (
-    <Box mt={2} mr={'auto'} ml={'auto'} pt={3} pb={3} maxWidth="lg" backgroundColor = {"#eeeeee"}>
+    <Box mt={2} mr={'auto'} ml={'auto'} pt={3} pb={3} maxWidth="md" backgroundColor = {"#eeeeee"}>
       <Container maxWidth="lg" component="main" sx={{pt:3, pb:3}}>
         <Typography variant="h4" align="center" color="black" component="p" >
           Citing the Dataset

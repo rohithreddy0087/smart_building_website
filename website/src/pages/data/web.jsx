@@ -11,7 +11,12 @@ import MenuItem from '@mui/material/MenuItem';
 import dayjs from 'dayjs';
 import {DateTimePicker, LocalizationProvider} from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import AlertTitle from '@mui/material/AlertTitle';
+import Alert from '@mui/material/Alert';
+import axios from 'axios';
+import download from 'downloadjs';
 
+import buildingData from '../../assets/building_data.json';
 const Option = (props) => {
   return (
     <div>
@@ -40,6 +45,9 @@ class Web extends Component {
     this.handleOptionChange = this.handleOptionChange.bind(this)
     this.Form = this.Form.bind(this)
     this.Dropdown = this.Dropdown.bind(this)
+    this.allTrue = this.allTrue.bind(this)
+    this.AlertItem = this.AlertItem.bind(this)
+    this.download = this.download.bind(this)
     // this.Option = this.Option.bind(this)
     this.state = {
         usermail : '',
@@ -48,15 +56,20 @@ class Web extends Component {
         fromValue : dayjs('2020-08-21T00:00:00'),
         toValue : dayjs('2021-04-18T00:00:00'),
         lineValue : '100',
-        optionSelected: null
+        optionSelected: null,
+        response:''
     };
-
-    this.buildings = [
-      {
-          value: 'NAE-01',
-          label: "Multipurpose Building",
-      },
-    ];
+    console.log(buildingData)
+    this.buildings = [];
+    this.featureOptions = [];
+    for(const [key, value] of Object.entries(buildingData)){
+      this.buildings.push(
+        {
+          value: key,
+          label: value["meta"]["description"],
+        },
+      )
+    }
     this.styles = {
       buttonStyle: {
         backgroundColor: '#3c52b2',
@@ -71,20 +84,21 @@ class Web extends Component {
       }
     };
 
-    this.colourOptions = [
-      { value: "ocean1", label: "Ocean" },
-      { value: "blue", label: "Blue" },
-      { value: "purple", label: "Purple" },
-      { value: "red", label: "Red" },
-      { value: "orange", label: "Orange" },
-      { value: "yellow", label: "Yellow" },
-      { value: "green", label: "Green" },
-      { value: "forest", label: "Forest" },
-      { value: "slate", label: "Slate" },
-      { value: "silver", label: "Silver" }
-    ];
+    this.errors = {
+      buildingName : false,
+      features : false,
+      proxy:true
+    };  
 
   }
+
+  allTrue(obj)
+    {
+      for(var o in obj)
+          if(obj[o]) return true;
+        
+      return false;
+    }
 
   handleUserChange = (event) => {
     this.setState({usermail : event.target.value});
@@ -94,6 +108,21 @@ class Web extends Component {
   };
   handleBuildingChange = (event) => {
     this.setState({buildingName : event.target.value});
+    this.featureOptions = [];
+    for(const  [key,feature] of Object.entries(buildingData[event.target.value]["meta"]["most_common_features"])){
+      this.featureOptions.push(
+        {
+          value: feature,
+          label: feature,
+        },
+      )
+    }
+    if (event.target.value === "") {
+      this.errors.buildingName = true;
+    }
+    else{
+      this.errors.buildingName = false;
+    }
   };
   handleFromChange = (newValue) => {
     this.setState({fromValue : newValue});
@@ -105,6 +134,20 @@ class Web extends Component {
     this.setState({lineValue : event.target.value});
   };
 
+  handleOptionChange = (selected) => {
+    this.setState({
+      optionSelected: selected
+    });
+    if (!selected){
+      this.errors.features= true
+    }
+    else{
+      this.errors.features= false;
+      this.errors.proxy = false;
+    }
+  };
+
+
   handleClick(){
     console.log(this.state.usermail)
     console.log(this.state.password)
@@ -113,14 +156,85 @@ class Web extends Component {
     console.log(this.state.toValue)
     console.log(this.state.lineValue)
     console.log(this.state.optionSelected)
+
+  
+    const options={
+        method: "POST",
+        body: JSON.stringify(this.state),
+        headers:{
+            'Content-Type':'application/json',
+        }
+    };
+
+    axios.post("http://127.0.0.1:5000/api/data", this.state).then((response) => {
+      this.setState({response : response.data.message});
+      this.download()
+    }).catch(error => {
+      console.error('There was an error!', error);
+      this.setState({response : error});
+      });   
   }
 
-  handleOptionChange = (selected) => {
-    this.setState({
-      optionSelected: selected
-    });
-  };
+  download(){
+    fetch(`${this.state.buildingName}.json`).then(response => {
+      response.blob().then(blob => {
+          // Creating new object of PDF file
+          const fileURL = window.URL.createObjectURL(blob);
+          // Setting various property values
+          let alink = document.createElement('a');
+          alink.href = fileURL;
+          alink.download = `${this.state.buildingName}.json`;
+          alink.click();
+      })
+  })
+  }
 
+  AlertItem() {
+    console.log(this.state.response)
+    if (this.state.response === "") {
+      return null;
+    }
+    if(this.state.response === "User Verified"){
+     return ( 
+      <Alert severity="success">
+          <AlertTitle>Success</AlertTitle>
+          User Verified — <strong> Please wait till the data gets downloaded.</strong>
+      </Alert>
+   );
+    }
+    else if (this.state.response === "Wrong password"){
+      return (
+        <Alert severity="error">
+          <AlertTitle>Error</AlertTitle>
+          Wrong password — <strong>Try again !!</strong>
+        </Alert>
+      );
+    }
+    else if (this.state.response === "User doesn't exist"){
+      return (
+        <Alert severity="info">
+          <AlertTitle>Info</AlertTitle>
+          <strong>Register to download more data</strong>
+        </Alert>
+      );
+    }
+    else if (this.state.response === "Internal Error"){
+      return (
+        <Alert severity="error">
+          <AlertTitle>Error</AlertTitle>
+          Internal Error — <strong>There is some error with server, Please try again after sometime</strong>
+        </Alert>
+      );
+    }
+    else {
+      return (
+        <Alert severity="error">
+        <AlertTitle>Error</AlertTitle>
+          Network issue— <strong>Try after sometime</strong>
+      </Alert>
+      );
+    }
+  }
   
 
   render() {
@@ -140,9 +254,10 @@ class Web extends Component {
         Without username and password, number of rows will be limited to 1000 only.
         </Typography>
         <this.Form />
+        <this.AlertItem/>
         <Box align="center">
-        <Button variant="outlined" sx={this.styles.buttonStyle}>
-          <Typography onClick={this.handleClick} variant="button" color="inherit" noWrap sx={{ flexGrow: 1 }}>
+        <Button variant="outlined" onClick={this.handleClick} disabled={this.allTrue(this.errors)} sx={this.styles.buttonStyle}>
+          <Typography  variant="button" color="inherit" noWrap sx={{ flexGrow: 1 }}>
             Download
           </Typography>
         </Button>
@@ -169,7 +284,7 @@ class Web extends Component {
         <TextField
           id="outlined-select-line-limit"
           label="User email"
-          helperText="Please input the user email address"
+          helperText="Please input the user email address to download more data"
           value={this.state.usermail}
           onChange={this.handleUserChange}
         >
@@ -264,7 +379,7 @@ class Web extends Component {
         data-content="Please select account(s)"
       >
         <ReactSelect
-          options={this.colourOptions}
+          options={this.featureOptions}
           isMulti
           closeMenuOnSelect={false}
           hideSelectedOptions={false}

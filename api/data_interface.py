@@ -63,17 +63,5 @@ class DataInterface:
             "meta": self.__meta_dict,
             "items": self.__items_list
         }
-        json.dump( json_dict, open( f"{building_name}.json", 'w' ) )
+        json.dump( json_dict, open( f"{self.config.download_path}/{building_name}.json", 'w' ) )
         return json_dict
-
-if __name__ == "__main__":
-    global_var = {}
-    config = get_config(global_var,configfile="config.ini")
-    data_interface_obj = DataInterface(config)
-    building_name = "NAE-01"
-    start_time = ""
-    end_time = ""
-    features = []
-    latest_line_limit = int("10")
-
-    ret = data_interface_obj.fetch_and_save_data(building_name,limit = 10,features = features)

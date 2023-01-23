@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, send_file, make_response, jsonify
+from flask import Flask, request, send_from_directory
 from flask_cors import CORS
 
 from api.config_parser import get_config
@@ -17,6 +17,39 @@ def register():
     message = register_obj.insert_new_user(data)
     return {"message":message}
 
+@app.route("/api/data", methods=['POST'])
+def data():
+    """_summary_
+    """
+    payload = request.json
+    print(payload)
+    email = payload["usermail"]
+    password = payload["password"]
+    lines = 10
+    text_message =  None
+    if register_obj.check_if_user_exists(email):
+        if register_obj.check_user_credentials(email,password):
+            lines = data["lineValue"]
+            text_message = "User Verified"
+        else:
+            text_message = "Wrong password"
+    else:
+        text_message =  "User doesn't exist"
+
+            
+    # try:
+    #     message = data_interface_obj.fetch_and_save_data(
+    #         building_name = payload["buildingName"],
+    #         start_time = None,
+    #         end_time= None, 
+    #         limit = lines, 
+    #         features = None
+    #     )
+    # except Exception as err:
+    #     text_message = "Internal Error"
+    #     config.log("Data %s",err)
+    print(text_message)
+    return {"message":text_message}
 if __name__ == '__main__':
 
     global_var = {}
