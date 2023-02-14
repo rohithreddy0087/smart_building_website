@@ -1,0 +1,3148 @@
+@prefix bacnet: <https://brickschema.org/schema/bacnet#> .
+@prefix brick: <https://brickschema.org/schema/1.0.3/Brick#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:uuid:0001dc1d-1dab-48c4-8d3e-193c5020015c> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001044 ;
+    bacnet:jci_name "RO5 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Outputs.BO-4" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3001044@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:01dc4274-1b64-46bb-992b-91114b56a929> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000165 ;
+    bacnet:jci_name "AO2 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-22" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000165@552" ;
+    bacnet:unit "milliamperes" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:036f8ee7-0cb9-4926-b35d-9b71013028de> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000045 ;
+    bacnet:jci_name "PRC PID DEV" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-11" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000045@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:04211896-af59-4c70-806e-79c745669654> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001020 ;
+    bacnet:jci_name "START ENABLE 1" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-15" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001020@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:04abf7bc-1006-4b7f-8b4b-843221441cdc> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000048 ;
+    bacnet:jci_name "KWH (R)" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-8" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000048@552" ;
+    bacnet:unit "kilowattHours" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:06a3a6b2-33b4-4a29-94d7-85eb4f86a92c> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000097 ;
+    bacnet:jci_name "MBOX WRITE" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-16" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000097@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:06e22b02-4825-4333-81f1-8f26fa046622> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000054 ;
+    bacnet:jci_name "DC BUS VOLT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-2" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000054@552" ;
+    bacnet:unit "volts" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:0719e04d-517f-41a5-8648-a9cf2c432ce4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000114 ;
+    bacnet:jci_name "RO4 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Inputs.BI-3" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000114@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:07a14e94-b05a-40c5-b1e7-668363b728bf> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001054 ;
+    bacnet:jci_name "DI2 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Inputs.BI-6" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3001054@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:0a6ed51f-6533-4a19-b31e-1c68c5ec75cd> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000197 ;
+    bacnet:jci_name "CTL OVERRIDE ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-19" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000197@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:0b129ed3-4ab5-4932-9242-29371503e4aa> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000058 ;
+    bacnet:jci_name "MBOX DATA" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-26" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000058@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:0c614343-ef35-47bb-9bae-47a34d800db6> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000096 ;
+    bacnet:jci_name "LOCK PANEL" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-17" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000096@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:0e7d9507-c186-404b-82b2-144fb0ed90bf> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000147 ;
+    bacnet:jci_name "EXT PID FBCK" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-12" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000147@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:0f51542d-0b0a-4711-a731-e6783a502898> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001025 ;
+    bacnet:jci_name "RUN/STOP CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-10" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001025@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:102b8300-ed1e-4c25-bac5-58865b665c79> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000137 ;
+    bacnet:jci_name "RO6 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Inputs.BI-5" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000137@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:102d2a1c-d0df-4ca8-b5d7-356f047bb206> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000117 ;
+    bacnet:jci_name "RO1 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Inputs.BI-0" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000117@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:126c613f-93f5-4097-bcde-e67631ea1a7c> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000112 ;
+    bacnet:jci_name "RO6 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Inputs.BI-5" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000112@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:1361fce8-07b7-4478-9437-5d3cf8ca70a3> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000086 ;
+    bacnet:jci_name "ALARM ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-5" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000086@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:13682a8e-69a0-446a-ba7b-af376be9d9c7> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000260 ;
+    bacnet:jci_name "Trend - Present Value" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP2-O.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000260@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:153217e9-5de9-47c8-a252-61fedfbe7cc1> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001051 ;
+    bacnet:jci_name "DI5 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Inputs.BI-9" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3001051@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:155d3d62-cfed-4362-91c5-19ea9cad2e22> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000082 ;
+    bacnet:jci_name "RUN ENA ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-9" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000082@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:171971b8-7b55-476d-adcb-275a22acee23> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000181 ;
+    bacnet:jci_name "EXT 1/2 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-13" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000181@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:18a8d653-0d3f-4517-b6ca-475148a87c25> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000041 ;
+    bacnet:jci_name "MOTOR TEMP" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-15" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000041@552" ;
+    bacnet:unit "degreesCelsius" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:18c958f6-6a42-4bb5-87c9-4f024c40f353> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "CHW SYSTEM ENABLE" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000236 ;
+    bacnet:jci_name "Literature.CHW.SYSTEM-ENABLE" ;
+    bacnet:name "NAE-52/FCB.Local Application.SYSTEM-EN" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000236@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:193107bd-2909-4b2b-bb82-7f06dbec989e> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000200 ;
+    bacnet:jci_name "MBOX WRITE" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-16" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000200@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:19a79da6-dc84-4e0c-9e81-a3b7609b1c2a> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000088 ;
+    bacnet:jci_name "EXT 1/2 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-3" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000088@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:19d22ac2-40c2-424f-8cce-ed8a1d682b31> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001039 ;
+    bacnet:jci_name "PAR LOCK" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-19" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001039@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:1a364a6a-ce9b-45d3-a6bc-32ba28ac30e1> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000100 ;
+    bacnet:jci_name "RO5 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Outputs.BO-4" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000100@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:1bedf6da-4364-4f3e-b95f-2e942c0e92e6> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000159 ;
+    bacnet:jci_name "OUTPUT SPEED" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-0" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000159@552" ;
+    bacnet:unit "revolutionsPerMinute" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:1cc8378a-eca8-4cd0-a6fd-c298926dd90f> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "Application Tuning Reset" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000968 ;
+    bacnet:jci_name "TUNING-RESET" ;
+    bacnet:name "NAE-52/FCB.Local Application.TUNING-RESET" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000968@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:1d826f05-45b6-4790-9da2-93669267f921> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000074 ;
+    bacnet:jci_name "AI1 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Inputs.AI-0" ;
+    bacnet:object_type "analogInput" ;
+    bacnet:source_identifier "analogInput:3000074@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:1e2b3823-6fd0-4b3e-9ea9-05a1a8d979e1> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "P1-START/STOP" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000231 ;
+    bacnet:jci_name "Literature.CHW.CHWP1-SS" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP1-C" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000231@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:1ed63a9d-e490-4a32-b8e8-1fac5b68acae> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000107 ;
+    bacnet:jci_name "DI5 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Inputs.BI-10" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000107@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:21de9b4a-9b2b-41aa-943d-3cd117b5f791> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "MAx CHW DP Setpoint" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000294 ;
+    bacnet:jci_name "DPSTPT-MAX" ;
+    bacnet:name "NAE-52/Programming.CHW-DP.DPSTPT-MAX" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000294@552" ;
+    bacnet:unit "poundsForcePerSquareInch" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:2333e64b-e556-4076-b258-df41d10a2085> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001053 ;
+    bacnet:jci_name "DI3 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Inputs.BI-7" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3001053@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:251a1297-deaf-4c8a-8b81-fb086a8ffccc> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001024 ;
+    bacnet:jci_name "OVERRIDE CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-11" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001024@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:29eca8b2-b07a-4797-80b4-22790755717a> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001060 ;
+    bacnet:jci_name "RO1 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Inputs.BI-0" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3001060@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:2a818437-2f44-4832-a651-b2f2f3ab3c5b> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001000 ;
+    bacnet:jci_name "CHW DP" ;
+    bacnet:name "NAE-52/FCB.Local Application.CHW-DP SHARE.Trend1.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3001000@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:2b4b9744-eb8f-4787-9c74-61f3e4d745c1> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000145 ;
+    bacnet:jci_name "RUN TIME (R)" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-14" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000145@552" ;
+    bacnet:unit "hours" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:2b54c20d-59bb-4cd4-9f93-bd1c1cd53cea> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001017 ;
+    bacnet:jci_name "BYPASS MODE" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-1" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001017@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:2c2c3201-1823-44be-86af-914710068334> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000116 ;
+    bacnet:jci_name "RO2 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Inputs.BI-1" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000116@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:2d3d8e87-335d-4373-9218-37bfa8bd4769> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000276 ;
+    bacnet:jci_name "CHWDP_Setpoint_Reset" ;
+    bacnet:name "NAE-52/Programming.CHW-DP.CHWDP_Setpoint_Reset" ;
+    bacnet:object_type "program" ;
+    bacnet:source_identifier "program:3000276@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:2dbb6351-b494-40ac-924c-e2ba18be5d48> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000162 ;
+    bacnet:jci_name "MBOX PARAM" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-25" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000162@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:2dc8c8ce-f533-42b4-9c77-244c4305f342> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000056 ;
+    bacnet:jci_name "OUTPUT SPEED" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-0" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000056@552" ;
+    bacnet:unit "revolutionsPerMinute" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:2f240911-7619-4a2a-a887-285dc28e2730> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000180 ;
+    bacnet:jci_name "FAULT RESET" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-14" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000180@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:31f87f08-4748-4685-bc59-1105daf33de7> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000168 ;
+    bacnet:jci_name "PREV FLT 1" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-19" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000168@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:32dee9b7-e581-4f58-8bae-bba3130088d3> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001011 ;
+    bacnet:jci_name "PCB TEMP" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-7" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001011@552" ;
+    bacnet:unit "degreesCelsius" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:33dfd150-abbd-438d-87c8-a3ce605747cd> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001015 ;
+    bacnet:jci_name "LAST FLT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-3" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001015@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:343eb7d7-5dcc-462e-87ef-1f00fdbaae7e> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000252 ;
+    bacnet:jci_name "Trend - Present Value" ;
+    bacnet:name "NAE-52/FCB.Local Application.P1-STS.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000252@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:34a52613-0d03-47f9-a720-cc3ff3b04817> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000090 ;
+    bacnet:jci_name "FWD/REV ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-1" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000090@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:34d6085c-2fec-4b0f-b2d1-e91f9e7df2b6> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001018 ;
+    bacnet:jci_name "CURRENT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-0" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001018@552" ;
+    bacnet:unit "amperes" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:3513b1d3-f512-4ce5-9473-7c0cac5c58a4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000993 ;
+    bacnet:jci_name "WLH_CHWP2_VFD" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP2-O.Trend1.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000993@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:361075b8-a155-403f-80f8-916f53f79b9e> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000089 ;
+    bacnet:jci_name "FAULT ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-2" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000089@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:367a57df-d818-4a12-9b9e-4cec38bbc88d> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000206 ;
+    bacnet:jci_name "RO2 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Outputs.BO-1" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000206@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:3a04c38e-145a-4583-8521-45a1f204ea88> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001035 ;
+    bacnet:jci_name "SYS RUN ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-0" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001035@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:3a8675ea-7866-433f-b47e-576216c5edb4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000177 ;
+    bacnet:jci_name "AI1 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Inputs.AI-0" ;
+    bacnet:object_type "analogInput" ;
+    bacnet:source_identifier "analogInput:3000177@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:3b17334b-f80d-4702-8ac4-cf5b2f770493> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001023 ;
+    bacnet:jci_name "RUN ENA CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-12" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001023@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:3b3e732a-303c-40e8-95ee-e012b2a7b5a8> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000151 ;
+    bacnet:jci_name "KWH (R)" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-8" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000151@552" ;
+    bacnet:unit "kilowattHours" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:3b7d3417-0ada-4ced-b0b8-11faeae97607> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000050 ;
+    bacnet:jci_name "POWER" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-6" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000050@552" ;
+    bacnet:unit "kilowatts" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:3c1a1378-5d27-4a65-a41b-4c8b3b911d73> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000146 ;
+    bacnet:jci_name "EXT PID DEV" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-13" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000146@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:3ebf1e50-998c-4ced-aead-325d4aa94595> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000139 ;
+    bacnet:jci_name "RO4 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Inputs.BI-3" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000139@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:3ed60c83-a831-4277-9486-9949ba8d640d> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001031 ;
+    bacnet:jci_name "SYSTEM MODE" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-4" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001031@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:42633808-3a2a-428c-86cb-6417f12aa2b1> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000060 ;
+    bacnet:jci_name "DECEL1 TIME" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-24" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000060@552" ;
+    bacnet:unit "seconds" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:42869b89-dd47-4891-9858-1bb49232fd67> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000190 ;
+    bacnet:jci_name "HAND/AUTO ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-4" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000190@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:432b1269-2595-46a2-bba8-992cc1630bb4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000186 ;
+    bacnet:jci_name "AT SETPOINT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-8" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000186@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:447e4b53-b18b-49b9-9dfe-d699d8217f3b> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000084 ;
+    bacnet:jci_name "READY TO RUN" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-7" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000084@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:44cf012b-5be0-41d5-bce4-2fcfe5711840> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000140 ;
+    bacnet:jci_name "RO3 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Inputs.BI-2" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000140@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:45c3d9a8-90e1-4d4c-bdf8-7a0f59fffcce> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000080 ;
+    bacnet:jci_name "FWD/REV CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-11" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000080@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:46261d86-d35d-48b8-b3a7-28fe1f540a1f> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000087 ;
+    bacnet:jci_name "HAND/AUTO ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-4" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000087@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:467a39ba-4f19-4543-a0eb-ee7b8d71cd0c> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000079 ;
+    bacnet:jci_name "RUN ENA CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-12" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000079@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:46f2cf4a-a504-4035-af5e-db4df4b14c8f> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "EXT PID STPT" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000064 ;
+    bacnet:jci_name "noUnits" ;
+    bacnet:name "PREV FLT 2" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000064@552" ;
+    bacnet:unit "NAE-52/FCB.Device-18061.Analog Values.AV-20" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:473adc00-3beb-4137-90a6-9c15676a0c61> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000188 ;
+    bacnet:jci_name "MAINT REQ" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-6" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000188@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:477f8785-73ca-44c8-9bd5-cfac084150a4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000131 ;
+    bacnet:jci_name "DI6 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Inputs.BI-11" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000131@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:49903b63-7238-4156-a459-ef83fe37406a> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "CHW P-2 STATUS" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000248 ;
+    bacnet:jci_name "Literature.CHW.P2-STS" ;
+    bacnet:name "NAE-52/FCB.Local Application.P2-STS" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000248@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:4a3e8857-7ece-47f8-9172-cad6e0221c59> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001001 ;
+    bacnet:jci_name "CHW DP SPT" ;
+    bacnet:name "NAE-52/FCB.Local Application.CHWDP-SP.Trend1.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3001001@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:4a4eb87a-177b-4b49-aed7-cb84be661f6f> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000055 ;
+    bacnet:jci_name "OUTPUT FREQ" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-1" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000055@552" ;
+    bacnet:unit "hertz" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:4a555d72-363c-4421-bb32-a4e3f0cebfff> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000053 ;
+    bacnet:jci_name "OUTPUT VOLT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-3" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000053@552" ;
+    bacnet:unit "volts" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:4cd16261-c0b9-42cf-b3e2-8a1ed7a97cbb> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000132 ;
+    bacnet:jci_name "DI5 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Inputs.BI-10" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000132@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:4e6456ad-fdc6-456c-9f08-3b4204df6173> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000203 ;
+    bacnet:jci_name "RO5 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Outputs.BO-4" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000203@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:4ee41431-88e9-4b69-9260-a9b521b14b68> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000169 ;
+    bacnet:jci_name "LAST FLT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-18" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000169@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:50e27bc9-beb8-46cd-b085-59864ebb558d> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001058 ;
+    bacnet:jci_name "RO3 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Inputs.BI-2" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3001058@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:52b0a6f3-0e1f-4ef0-96cc-6056c2e0af93> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000191 ;
+    bacnet:jci_name "EXT 1/2 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-3" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000191@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:53b40e3b-a64e-47f0-b092-c2e42af17939> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001004 ;
+    bacnet:jci_name "MBOX DATA" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-14" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001004@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:53e78b13-1ae5-4893-9e77-2aff560a78e6> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001028 ;
+    bacnet:jci_name "READY TO RUN" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-7" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001028@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:544e2b1c-fac8-42f7-8025-eb9819161a79> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000176 ;
+    bacnet:jci_name "AI2 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Inputs.AI-1" ;
+    bacnet:object_type "analogInput" ;
+    bacnet:source_identifier "analogInput:3000176@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:552a78a1-b69a-4533-b0eb-da921d588f81> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001012 ;
+    bacnet:jci_name "INPUT VOLT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-6" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001012@552" ;
+    bacnet:unit "volts" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:5668d2c7-fc8f-406e-917d-8e7adc6da9e8> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000153 ;
+    bacnet:jci_name "POWER" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-6" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000153@552" ;
+    bacnet:unit "kilowatts" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:575ed01b-4857-495f-92cf-c4e2e278e4a4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001005 ;
+    bacnet:jci_name "MBOX PARAM" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-13" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001005@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:581adf1d-be9b-4224-8358-a195f5906710> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000254 ;
+    bacnet:jci_name "Trend - Present Value" ;
+    bacnet:name "NAE-52/FCB.Local Application.CHW-DP SHARE.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000254@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:59a393db-f1eb-4a7a-bd17-15c22fbdd344> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000258 ;
+    bacnet:jci_name "Trend - Present Value" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP2-C.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000258@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:5a8034cd-0ff1-431e-b056-6c686c7b85fe> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001038 ;
+    bacnet:jci_name "CTL OVERRIDE CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-20" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001038@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:5b722c3e-bac0-4652-a1f1-a2c14adfee45> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001065 ;
+    bacnet:jci_name "Trend - Present Value2" ;
+    bacnet:name "NAE-52/FCB.Local Application.CHWDP-SP.Trend3" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3001065@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:5b761bca-4322-4a24-9307-f91a5aaf2a7e> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000052 ;
+    bacnet:jci_name "CURRENT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-4" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000052@552" ;
+    bacnet:unit "amperes" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:5b7c1092-76ee-4703-93ee-8241cb8e9b4a> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001014 ;
+    bacnet:jci_name "ALARM W0RD 1" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-4" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001014@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:5c287bff-89a4-468c-a099-24ac992deef1> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000179 ;
+    bacnet:jci_name "MBOX READ" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-15" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000179@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:5ccc9ed8-592a-4073-ab6f-5d20fbf7e12b> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000261 ;
+    bacnet:jci_name "Trend - Present Value" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP1-O.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000261@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:5e2234f6-0024-43cb-a72f-ce7aef915aa5> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "Min CHW Valve Open to Reset DP upwards" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000295 ;
+    bacnet:jci_name "CHWVLV-OPEN" ;
+    bacnet:name "NAE-52/Programming.CHW-DP.CHWVLV-OPEN" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000295@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:5e57eb78-fab4-4d10-be8c-80db3be93b4f> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000134 ;
+    bacnet:jci_name "DI3 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Inputs.BI-8" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000134@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:6109bb22-1cbc-44e4-9f66-70e1adfbae75> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000994 ;
+    bacnet:jci_name "WLH_CHWP1_VFD" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP1-O.Trend1.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000994@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:62a5e674-eab9-41af-bbb9-a92bd9cc3caa> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000255 ;
+    bacnet:jci_name "Trend - Present Value" ;
+    bacnet:name "NAE-52/FCB.Local Application.SYSTEM-EN.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000255@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:63abfdcd-7bf7-4f20-94a5-3a0fef74be6d> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000065 ;
+    bacnet:jci_name "PREV FLT 1" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-19" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000065@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:63f0e4a6-b81a-4679-9b14-af0a42194f48> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000094 ;
+    bacnet:jci_name "CTL OVERRIDE ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-19" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000094@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:645421c2-42f7-490d-98e1-64f6ff61c412> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000156 ;
+    bacnet:jci_name "OUTPUT VOLT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-3" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000156@552" ;
+    bacnet:unit "volts" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:659df3a9-3496-465c-9b86-5cdfcc1920b5> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000049 ;
+    bacnet:jci_name "DRIVE TEMP" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-7" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000049@552" ;
+    bacnet:unit "degreesCelsius" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:65c5a585-e607-4cc8-a08b-48342e61527e> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000091 ;
+    bacnet:jci_name "RUN/STOP ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-0" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000091@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:67157196-f725-41f6-9f49-888c4b0627c4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000183 ;
+    bacnet:jci_name "FWD/REV CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-11" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000183@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:6a263dfb-f72b-42f2-b4a0-f4f96cb9fc18> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000133 ;
+    bacnet:jci_name "DI4 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Inputs.BI-9" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000133@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:6a4132aa-7d79-49ba-bb6b-9a3c40983a15> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000106 ;
+    bacnet:jci_name "DI6 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Inputs.BI-11" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000106@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:6b07daff-888e-45e9-8ecb-d2481d34b4f0> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000138 ;
+    bacnet:jci_name "RO5 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Inputs.BI-4" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000138@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:6c7074b5-7a15-4f14-9d5c-65f496880d1f> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000061 ;
+    bacnet:jci_name "ACCEL1 TIME" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-23" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000061@552" ;
+    bacnet:unit "seconds" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:6ca58cad-8d5d-4091-bba3-2ae6e6efd1a5> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000266 ;
+    bacnet:jci_name "Event Rate Trend Log" ;
+    bacnet:name "NAE-52/Event Rate Trend Log" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000266@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7000a16e-8ad2-4335-bab2-0c9449ab33f4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000193 ;
+    bacnet:jci_name "FWD/REV ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-1" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000193@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:70e2f2aa-36f3-4a5c-8439-aa298e182fe9> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000081 ;
+    bacnet:jci_name "RUN/STOP CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-10" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000081@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7199cbe0-5cf5-4bf3-a76f-699f247a3773> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000144 ;
+    bacnet:jci_name "MOTOR TEMP" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-15" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000144@552" ;
+    bacnet:unit "degreesCelsius" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:71d99134-0193-4f53-bf3c-ca63f9f17e5b> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001029 ;
+    bacnet:jci_name "BYP RUN ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-6" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001029@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:72fe98d8-204d-4df8-8b0d-29ff58297619> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000998 ;
+    bacnet:jci_name "CHWP2" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP2-O.Trend1.Trend3" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000998@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:73830532-86b1-4a77-987c-2fcf200d3aa6> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000185 ;
+    bacnet:jci_name "RUN ENA ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-9" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000185@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7385843c-4e92-4062-be75-50c990d062e1> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000198 ;
+    bacnet:jci_name "CTL OVERRIDE CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-18" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000198@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:744d0de6-aace-4b52-8c76-3efca21c9f1f> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000135 ;
+    bacnet:jci_name "DI2 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Inputs.BI-7" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000135@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:74f6e355-b101-4029-96a8-324fe81bd909> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000104 ;
+    bacnet:jci_name "RO1 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Outputs.BO-0" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000104@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7718a671-5f49-4879-90d3-c312c018c329> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000062 ;
+    bacnet:jci_name "AO2 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-22" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000062@552" ;
+    bacnet:unit "milliamperes" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7813210d-9f6f-453e-9079-82bc794b97aa> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000205 ;
+    bacnet:jci_name "RO3 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Outputs.BO-2" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000205@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:795f9ae2-fd50-4dbd-a1f3-9281977dfc2c> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000173 ;
+    bacnet:jci_name "AO2 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Outputs.AO-1" ;
+    bacnet:object_type "analogOutput" ;
+    bacnet:source_identifier "analogOutput:3000173@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:79a09690-8537-4882-84fa-850ec01372e3> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "CHW DP Setpoint Increment" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000296 ;
+    bacnet:jci_name "DP-DIFF" ;
+    bacnet:name "NAE-52/Programming.CHW-DP.DP-DIFF" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000296@552" ;
+    bacnet:unit "poundsForcePerSquareInch" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7a65bac0-0986-4bb9-b8fb-7b19a97fd4ab> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001041 ;
+    bacnet:jci_name "START ENABLE 3" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-17" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001041@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7ad37fb5-a61a-4ab9-84ae-85cf51add9a1> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000085 ;
+    bacnet:jci_name "MAINT REQ" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-6" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000085@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7b31c42c-1ae2-464c-b4b9-5118c319e687> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000043 ;
+    bacnet:jci_name "EXT PID DEV" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-13" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000043@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7bb0cd8f-d336-48fa-acdb-fa5b122c9f65> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000136 ;
+    bacnet:jci_name "DI1 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Inputs.BI-6" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000136@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7c8e2f76-fc6a-48bd-8c31-ed394e7618f9> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000128 ;
+    bacnet:jci_name "VFD-FREQ" ;
+    bacnet:name "NAE-52/FCB.Device-18061.VFD-FREQ" ;
+    bacnet:object_type "analogInput" ;
+    bacnet:source_identifier "analogInput:3000128@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7cd9b7c1-2d61-4859-863f-fd964d8adc25> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000073 ;
+    bacnet:jci_name "AI2 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Inputs.AI-1" ;
+    bacnet:object_type "analogInput" ;
+    bacnet:source_identifier "analogInput:3000073@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7d47362d-2269-4e9d-b2af-5c39acf7001e> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000995 ;
+    bacnet:jci_name "WLH_CHWP1" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP1-O.Trend1.Trend2" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000995@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7dbe7b3d-0f23-48da-bed0-b261a40f899e> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001052 ;
+    bacnet:jci_name "DI4 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Inputs.BI-8" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3001052@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7f9e39f4-aaf8-4e48-9d77-790f39d5163a> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000152 ;
+    bacnet:jci_name "DRIVE TEMP" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-7" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000152@552" ;
+    bacnet:unit "degreesCelsius" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:7fc4d906-edb4-4012-a152-f504e669f3fb> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000259 ;
+    bacnet:jci_name "Trend - Present Value" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP1-C.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000259@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:80ce6dcf-3bb2-4db3-8ee9-ed2484bbca74> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001008 ;
+    bacnet:jci_name "A-B VOLT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-10" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001008@552" ;
+    bacnet:unit "volts" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:80ee0e97-b291-4294-a672-ccf8b9f46746> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001040 ;
+    bacnet:jci_name "START ENABLE 4" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-18" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001040@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:819701c7-f91b-440c-9791-632eccf2aeeb> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000095 ;
+    bacnet:jci_name "CTL OVERRIDE CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-18" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000095@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:819cbde1-9d86-4532-9386-93e9c1d45197> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000076 ;
+    bacnet:jci_name "MBOX READ" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-15" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000076@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:8247c4b8-6171-4dbe-92d0-fc7844ca6fb2> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000192 ;
+    bacnet:jci_name "FAULT ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-2" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000192@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:827210ed-a235-4ce4-9ccc-4269b1324fca> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000996 ;
+    bacnet:jci_name "WLH_CHWP2" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP2-O.Trend1.Trend2" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000996@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:82cbcc2c-39df-41df-9c28-73f99e7ab334> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000160 ;
+    bacnet:jci_name "EXT PID STPT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-27" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000160@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:8391b0f9-607c-4df9-b005-2616038381d7> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001056 ;
+    bacnet:jci_name "RO5 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Inputs.BI-4" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3001056@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:84099fdb-b04f-4259-92c4-dc59e76fbd0d> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "Min CHW DP Setpoint" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000293 ;
+    bacnet:jci_name "DPSTPT-MIN" ;
+    bacnet:name "NAE-52/Programming.CHW-DP.DPSTPT-MIN" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000293@552" ;
+    bacnet:unit "poundsForcePerSquareInch" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:841c23da-eedf-47aa-bb1f-74349895b2fc> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000111 ;
+    bacnet:jci_name "DI1 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Inputs.BI-6" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000111@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:84a7a36e-bf1d-4785-a165-722fc4a57211> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000057 ;
+    bacnet:jci_name "EXT PID STPT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-27" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000057@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:865ba7a4-bd45-473f-9d29-676dacbd310a> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000101 ;
+    bacnet:jci_name "RO4 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Outputs.BO-3" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000101@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:86a5f15b-dff3-4eeb-b4cd-bb4677911455> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000184 ;
+    bacnet:jci_name "RUN/STOP CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-10" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000184@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:88de20bf-5e7e-440a-911b-c9ef341284ca> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000196 ;
+    bacnet:jci_name "START ENABLE 1" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-20" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000196@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:89b4593d-b91f-43fd-88c3-0a29f2272ee4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000161 ;
+    bacnet:jci_name "MBOX DATA" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-26" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000161@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:8ad457c7-1ce3-48c5-9db2-25d5d2e8bfae> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001027 ;
+    bacnet:jci_name "UNDERLOAD" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-8" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001027@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:8c0aec45-6a15-41da-b7cd-6de91b755a06> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000170 ;
+    bacnet:jci_name "INPUT REF2" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-17" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000170@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:8d7e9d66-9106-4f37-b228-5044c04c482c> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000167 ;
+    bacnet:jci_name "PREV FLT 2" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-20" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000167@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:8de9a334-5b2e-4d81-b1df-ed36652bdff0> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000077 ;
+    bacnet:jci_name "FAULT RESET" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-14" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000077@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:91bf9be8-c6dc-4d33-b5cd-bda328140811> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001026 ;
+    bacnet:jci_name "RUN ENA ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-9" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001026@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:94ea913c-4c3c-4e67-ba42-2606e9f2534d> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001064 ;
+    bacnet:jci_name "Trend - Present Value2" ;
+    bacnet:name "NAE-52/FCB.Local Application.CHW-DP SHARE.Trend2" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3001064@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:94faf198-a1a5-41dd-87d3-82cdfd1e0aae> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000071 ;
+    bacnet:jci_name "AO1 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Outputs.AO-0" ;
+    bacnet:object_type "analogOutput" ;
+    bacnet:source_identifier "analogOutput:3000071@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:99550530-00ab-4fbd-9909-78c12cc53480> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000171 ;
+    bacnet:jci_name "INPUT REF1" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-16" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000171@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:9b55dc4b-3b55-4a1f-bb93-080dd1569815> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000164 ;
+    bacnet:jci_name "ACCEL1 TIME" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-23" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000164@552" ;
+    bacnet:unit "seconds" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:9cd9299c-ad62-43d1-ab8f-ffffd2c7a096> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000067 ;
+    bacnet:jci_name "INPUT REF2" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-17" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000067@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:9de7c965-ec3c-493d-9ba5-91423d90fdd5> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000207 ;
+    bacnet:jci_name "RO1 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Outputs.BO-0" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000207@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:a0050bcb-53c7-46b4-8087-d534916a09c3> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000103 ;
+    bacnet:jci_name "RO2 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Outputs.BO-1" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000103@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:a02ee4b6-0ae8-44ec-b070-954fb5cf7eea> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000163 ;
+    bacnet:jci_name "DECEL1 TIME" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-24" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000163@552" ;
+    bacnet:unit "seconds" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:a05c83ba-e09f-49cf-ac3f-b8a754066e0d> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000044 ;
+    bacnet:jci_name "EXT PID FBCK" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-12" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000044@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:a33d53b0-7b55-49bb-b152-4eca95a5a563> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001057 ;
+    bacnet:jci_name "RO4 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Inputs.BI-3" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3001057@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:a3f69e7d-36cd-4742-94ee-b48fbc8e6dcc> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001021 ;
+    bacnet:jci_name "FAULT RESET" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-14" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001021@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:a47ea454-c464-4f06-a084-d8f0f5023077> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001022 ;
+    bacnet:jci_name "OVERRIDE ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-13" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001022@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:a4c02760-26f5-4e9a-a01f-8b4fbe63f16d> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001007 ;
+    bacnet:jci_name "B-C VOLT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-11" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001007@552" ;
+    bacnet:unit "volts" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:a519783c-e933-4b8c-8e73-ce4964a68162> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000981 ;
+    bacnet:jci_name "Literature CHWDP-SP Load Shed" ;
+    bacnet:name "NAE-52/Programming.ZONE LOAD SHED.Literature CHWDP-SP Load Shed" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000981@552" ;
+    bacnet:unit "poundsForcePerSquareInch" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:a6bea5ea-98df-465e-ad28-ae3292cccccd> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000066 ;
+    bacnet:jci_name "LAST FLT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-18" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000066@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:a745046f-b194-4338-aa02-d022fd380015> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000150 ;
+    bacnet:jci_name "MWH (NR)" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-9" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000150@552" ;
+    bacnet:unit "megawattHours" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:a95ce56f-967a-4743-bf09-d697640e6346> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000108 ;
+    bacnet:jci_name "DI4 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Inputs.BI-9" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000108@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:a9ab5eb7-9048-4499-a1cf-a9e9fc5d2965> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000078 ;
+    bacnet:jci_name "EXT 1/2 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-13" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000078@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:ab29a8f8-6cd7-4a84-878d-0aa010a8e329> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000166 ;
+    bacnet:jci_name "AO1 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-21" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000166@552" ;
+    bacnet:unit "milliamperes" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:abfe8574-7cf8-4669-9ed2-346516fe0d17> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001045 ;
+    bacnet:jci_name "RO4 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Outputs.BO-3" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3001045@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:ac19f7ec-70ef-4f61-93f5-fd6f46f5d00d> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001010 ;
+    bacnet:jci_name "KWH (R)" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-8" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001010@552" ;
+    bacnet:unit "kilowattHours" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:ac44a032-125b-4fc8-8fa4-3ad7941fbb16> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001050 ;
+    bacnet:jci_name "DI6 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Inputs.BI-10" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3001050@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:acfc6193-affe-4cfc-b485-3c673d120bcb> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001055 ;
+    bacnet:jci_name "DI1 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Inputs.BI-5" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3001055@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:aebcec7e-58b7-48b5-8165-fb9b9a6e5ef4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000005 ;
+    bacnet:jci_name "Memory Usage Trend Log" ;
+    bacnet:name "NAE-52/Memory Usage Trend Log" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000005@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:afa059e5-6a4c-4922-b5f5-cacd37021def> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000182 ;
+    bacnet:jci_name "RUN ENA CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-12" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000182@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:b08218d9-6e75-4dd6-a91a-41b97eb139f9> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000189 ;
+    bacnet:jci_name "ALARM ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-5" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000189@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:b0a08fa9-b37a-43c3-b516-383291a7b0c2> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000068 ;
+    bacnet:jci_name "INPUT REF1" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-16" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000068@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:b7278f08-08e3-44aa-bf8f-3b35646e7219> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001048 ;
+    bacnet:jci_name "RO1 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Outputs.BO-0" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3001048@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:b78f7a79-b0a5-4c80-9776-260fa58cf4ca> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001006 ;
+    bacnet:jci_name "C-A VOLT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-12" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001006@552" ;
+    bacnet:unit "volts" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:b7b6e4c2-3ffd-49f7-b94a-8497cac1c7a5> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000195 ;
+    bacnet:jci_name "START ENABLE 2" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-21" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000195@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:b930503c-3f12-4e7d-8820-9f8fbc6645f8> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000154 ;
+    bacnet:jci_name "TORQUE" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-5" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000154@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:bab66868-d54f-4d05-a3f4-b7a58c816e87> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000157 ;
+    bacnet:jci_name "DC BUS VOLT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-2" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000157@552" ;
+    bacnet:unit "volts" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:bc4f84dd-0478-471a-b39d-344237954c81> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001059 ;
+    bacnet:jci_name "RO2 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Inputs.BI-1" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3001059@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:bde1502a-187b-41a3-a6e4-e10b7336714b> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000093 ;
+    bacnet:jci_name "START ENABLE 1" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-20" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000093@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:c2045c29-8cfd-494d-86f5-c4bf0a4c6b88> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000257 ;
+    bacnet:jci_name "Trend - Present Value" ;
+    bacnet:name "NAE-52/FCB.Local Application.CHWDP-SP.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000257@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:c27c67c0-f45b-45f5-ae77-340a74b4ef87> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001046 ;
+    bacnet:jci_name "RO3 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Outputs.BO-2" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3001046@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:c47fd379-aa5e-4a1a-8381-a34ff87f813b> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000063 ;
+    bacnet:jci_name "AO1 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-21" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000063@552" ;
+    bacnet:unit "milliamperes" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:c597aa52-8c5a-4447-a686-34a8c3404bf5> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000158 ;
+    bacnet:jci_name "OUTPUT FREQ" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-1" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000158@552" ;
+    bacnet:unit "hertz" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:c6b53c3b-2938-4415-8c2f-c14aa3dd67d0> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000046 ;
+    bacnet:jci_name "PRC PID FBCK" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-10" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000046@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:c749234b-6182-457d-9871-617577206658> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001036 ;
+    bacnet:jci_name "MBOX WRITE" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-22" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001036@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:c97792ab-20f8-4098-94c5-6a7db9b9d681> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000102 ;
+    bacnet:jci_name "RO3 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Outputs.BO-2" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000102@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:ca4161f2-dec4-4fad-a524-ac5a127f7b88> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "CHW P-1 STATUS" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000247 ;
+    bacnet:jci_name "Literature.CHW.P1-STS" ;
+    bacnet:name "NAE-52/FCB.Local Application.P1-STS" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000247@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:ca77a993-dbab-4d27-85d9-7bd4ecfd7cd2> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000141 ;
+    bacnet:jci_name "RO2 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Inputs.BI-1" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000141@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:cbac2939-2631-42ad-a9fb-1403f103916e> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "P-2 SPEED COMMAND" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000230 ;
+    bacnet:jci_name "Literature.CHW.CHWP2-SPD" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP2-O" ;
+    bacnet:object_type "analogOutput" ;
+    bacnet:source_identifier "analogOutput:3000230@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:cd30973f-ed7f-4dd2-a4e7-0b040196997b> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000149 ;
+    bacnet:jci_name "PRC PID FBCK" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-10" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000149@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:cdde3af0-f691-4999-a306-3c616cf47618> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "P-1 SPEED COMMAND" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000229 ;
+    bacnet:jci_name "Literature.CHW.CHWP1-SPD" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP1-O" ;
+    bacnet:object_type "analogOutput" ;
+    bacnet:source_identifier "analogOutput:3000229@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:ce4a0dba-b328-4a76-986b-266682878868> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000250 ;
+    bacnet:jci_name "Trend - Present Value" ;
+    bacnet:name "NAE-52/FCB.Local Application.P2-STS.Trend1" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3000250@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:cfe1d3a8-15f4-484c-aab2-0ea625441db4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001042 ;
+    bacnet:jci_name "START ENABLE 2" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-16" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001042@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d0173bd8-abd2-4336-b10c-3e6195a17f04> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000142 ;
+    bacnet:jci_name "RO1 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Inputs.BI-0" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000142@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d0cf0e65-ca48-4a93-9a39-62d27a3a1892> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000042 ;
+    bacnet:jci_name "RUN TIME (R)" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-14" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000042@552" ;
+    bacnet:unit "hours" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d0ff45d8-0e65-4528-a062-a612f410a8f1> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000187 ;
+    bacnet:jci_name "READY TO RUN" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-7" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000187@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d1207233-3743-4ab8-97f8-7e0bd2e47faa> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000113 ;
+    bacnet:jci_name "RO5 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Inputs.BI-4" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000113@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d1966bdc-a075-4799-a74f-ef005ee03f8f> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001030 ;
+    bacnet:jci_name "ALARM ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-5" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001030@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d1ae61ef-88af-4aa9-a095-14e5a2eb6ca9> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "P-2 START STOP" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000232 ;
+    bacnet:jci_name "Literature.CHW.CHWP2-SS" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP2-C" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000232@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d330a272-1b84-46b3-98ef-c598677e2b42> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000083 ;
+    bacnet:jci_name "AT SETPOINT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-8" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000083@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d46d8898-6882-460a-9fe9-767da1bf08d7> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000110 ;
+    bacnet:jci_name "DI2 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Inputs.BI-7" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000110@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d4c01c3a-6164-4545-99ac-e092ab17ff3d> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "CHW DP FROM 4TH FLOOR RM 425" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000244 ;
+    bacnet:jci_name "Literature.CHW.CHW-DP" ;
+    bacnet:name "NAE-52/FCB.Local Application.CHW-DP SHARE" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000244@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d4c1ae5a-93df-4dc4-ad39-aeb391b87e72> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000199 ;
+    bacnet:jci_name "LOCK PANEL" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-17" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000199@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d5a2c6b1-1844-40c9-ac18-9ae7bb765a51> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001032 ;
+    bacnet:jci_name "SYS FLT ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-3" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001032@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d6a6b5e3-304d-4157-9ee4-7e2df583c9d6> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001047 ;
+    bacnet:jci_name "RO2 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Outputs.BO-1" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3001047@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d86150b1-21fe-4114-81b8-bb71593b8910> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000099 ;
+    bacnet:jci_name "RO6 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Outputs.BO-5" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000099@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:d87a5cb4-063a-4d5c-ad83-3fc94853d8a6> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000047 ;
+    bacnet:jci_name "MWH (NR)" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-9" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000047@552" ;
+    bacnet:unit "megawattHours" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:dab85a82-b41e-44f8-a1b8-fddf75b40a59> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "ROTATION COMMAND" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000235 ;
+    bacnet:jci_name "Literature.CHW.PUMP ROTATION" ;
+    bacnet:name "NAE-52/FCB.Local Application.SCHWP-ROT" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000235@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:db788686-38e9-4188-a9e6-592485fd0566> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000204 ;
+    bacnet:jci_name "RO4 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Outputs.BO-3" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000204@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:de393934-4a5a-4c2d-86cb-4087be10e542> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000155 ;
+    bacnet:jci_name "CURRENT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-4" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000155@552" ;
+    bacnet:unit "amperes" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:de8c67fd-ea5d-4073-9259-61dfdc879132> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000980 ;
+    bacnet:jci_name "Literature CHW-DP Load Shed" ;
+    bacnet:name "NAE-52/Programming.ZONE LOAD SHED.Literature CHW-DP Load Shed" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000980@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:e05fc0fc-f231-4eb1-9092-a3ca4109c7d4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001037 ;
+    bacnet:jci_name "MBOX READ" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-21" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001037@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:e2fed4d3-4283-4efd-9ffa-091ee08467a1> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000129 ;
+    bacnet:jci_name "FRE" ;
+    bacnet:name "NAE-52/FCB.Device-18061.FRE" ;
+    bacnet:object_type "analogInput" ;
+    bacnet:source_identifier "analogInput:3000129@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:e4f40867-bf1f-4d02-82de-ab6fcac88a5c> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000982 ;
+    bacnet:jci_name "Literature CHW-DP Load Shed Cmd" ;
+    bacnet:name "NAE-52/Programming.ZONE LOAD SHED.Literature CHW-DP Load Shed Cmd" ;
+    bacnet:object_type "program" ;
+    bacnet:source_identifier "program:3000982@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:e5bc4cd7-3920-4832-a7f8-697d56f27c50> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000194 ;
+    bacnet:jci_name "RUN/STOP ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Values.BV-0" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000194@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:e5d58995-267a-4272-a5ba-48a85901b6d6> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "State" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000237 ;
+    bacnet:jci_name "Literature.CHW.CHWSYS-AVAIL" ;
+    bacnet:name "NAE-52/FCB.Local Application.CHWSYS-AVAIL" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000237@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:ea42dfcf-7ea0-4e3d-abb5-4c6602266a49> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001033 ;
+    bacnet:jci_name "BYP FLT ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-2" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001033@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:eacc2443-9bf7-4d2e-9e1a-fe4cd264333b> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000115 ;
+    bacnet:jci_name "RO3 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Inputs.BI-2" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000115@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:ec5b4487-fa45-492e-9491-66cd17cec8f3> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001013 ;
+    bacnet:jci_name "ALARM W0RD 2" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-5" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001013@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:ee527a1b-9345-45e8-b2af-5ef4c6289f1b> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "CHILLED WATER DP SETPOINT" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000233 ;
+    bacnet:jci_name "Literature.CHW.CHWDP-STPT" ;
+    bacnet:name "NAE-52/FCB.Local Application.CHWDP-SP" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000233@552" ;
+    bacnet:unit "poundsForcePerSquareInch" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:eecec03d-698d-4a12-a6a8-00793bb23fba> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000109 ;
+    bacnet:jci_name "DI3 ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Inputs.BI-8" ;
+    bacnet:object_type "binaryInput" ;
+    bacnet:source_identifier "binaryInput:3000109@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:f04a8d71-c502-446d-a9e7-ecadf975562a> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001016 ;
+    bacnet:jci_name "BYP RUN DLY" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-2" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001016@552" ;
+    bacnet:unit "seconds" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:f41efa55-bb95-4d70-abe5-f6bf7a8b75bf> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001034 ;
+    bacnet:jci_name "SYS START ACT" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Binary Values.BV-1" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3001034@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:f47da224-7ae9-41a0-b34a-617351d6bef4> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000092 ;
+    bacnet:jci_name "START ENABLE 2" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Binary Values.BV-21" ;
+    bacnet:object_type "binaryValue" ;
+    bacnet:source_identifier "binaryValue:3000092@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:f823f8c8-1878-4381-887d-d66ac792390c> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001062 ;
+    bacnet:jci_name "Trend - Present Value" ;
+    bacnet:name "NAE-52/FCB.Local Application.CHWDP-SP.Trend2" ;
+    bacnet:object_type "trendLog" ;
+    bacnet:source_identifier "trendLog:3001062@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:f8e9bc3b-6bf2-4a57-b765-00c189ae9afa> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000148 ;
+    bacnet:jci_name "PRC PID DEV" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Values.AV-11" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000148@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:f977cb1c-bc16-4949-9854-12a3aede4c09> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000070 ;
+    bacnet:jci_name "AO2 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Outputs.AO-1" ;
+    bacnet:object_type "analogOutput" ;
+    bacnet:source_identifier "analogOutput:3000070@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:fa18e329-7250-4522-86eb-3a1d7429408b> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3001009 ;
+    bacnet:jci_name "RUN TIME (R)" ;
+    bacnet:name "NAE-52/FCB.Device-18062.Analog Values.AV-9" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3001009@552" ;
+    bacnet:unit "hours" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:fd4472e0-37bb-49cb-8d9c-479bc0be3c81> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000059 ;
+    bacnet:jci_name "MBOX PARAM" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-25" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000059@552" ;
+    bacnet:unit "noUnits" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:fe03ba48-8145-4580-85dc-e14b9c04a713> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000174 ;
+    bacnet:jci_name "AO1 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Analog Outputs.AO-0" ;
+    bacnet:object_type "analogOutput" ;
+    bacnet:source_identifier "analogOutput:3000174@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:ff4329dc-d1a1-4f3f-9fdc-d21009f3ba81> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000202 ;
+    bacnet:jci_name "RO6 CMD" ;
+    bacnet:name "NAE-52/FCB.Device-18063.Binary Outputs.BO-5" ;
+    bacnet:object_type "binaryOutput" ;
+    bacnet:source_identifier "binaryOutput:3000202@552" ;
+    bacnet:unit "None" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:ff616b0c-d682-4cc0-8e00-511f6d0b6b21> a brick:Point ;
+    brick:isPointOf <urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> ;
+    bacnet:description "" ;
+    bacnet:device_ref 552 ;
+    bacnet:instance 3000051 ;
+    bacnet:jci_name "TORQUE" ;
+    bacnet:name "NAE-52/FCB.Device-18061.Analog Values.AV-5" ;
+    bacnet:object_type "analogValue" ;
+    bacnet:source_identifier "analogValue:3000051@552" ;
+    bacnet:unit "percent" ;
+    bacnet:uuid "None" .
+
+<urn:uuid:251ebb6a-9ed4-4b9b-9288-d790990804e2> a bacnet:BACnet_Device ;
+    brick:hasPoint <urn:uuid:0001dc1d-1dab-48c4-8d3e-193c5020015c>,
+        <urn:uuid:01dc4274-1b64-46bb-992b-91114b56a929>,
+        <urn:uuid:036f8ee7-0cb9-4926-b35d-9b71013028de>,
+        <urn:uuid:04211896-af59-4c70-806e-79c745669654>,
+        <urn:uuid:04abf7bc-1006-4b7f-8b4b-843221441cdc>,
+        <urn:uuid:06a3a6b2-33b4-4a29-94d7-85eb4f86a92c>,
+        <urn:uuid:06e22b02-4825-4333-81f1-8f26fa046622>,
+        <urn:uuid:0719e04d-517f-41a5-8648-a9cf2c432ce4>,
+        <urn:uuid:07a14e94-b05a-40c5-b1e7-668363b728bf>,
+        <urn:uuid:0a6ed51f-6533-4a19-b31e-1c68c5ec75cd>,
+        <urn:uuid:0b129ed3-4ab5-4932-9242-29371503e4aa>,
+        <urn:uuid:0c614343-ef35-47bb-9bae-47a34d800db6>,
+        <urn:uuid:0e7d9507-c186-404b-82b2-144fb0ed90bf>,
+        <urn:uuid:0f51542d-0b0a-4711-a731-e6783a502898>,
+        <urn:uuid:102b8300-ed1e-4c25-bac5-58865b665c79>,
+        <urn:uuid:102d2a1c-d0df-4ca8-b5d7-356f047bb206>,
+        <urn:uuid:126c613f-93f5-4097-bcde-e67631ea1a7c>,
+        <urn:uuid:1361fce8-07b7-4478-9437-5d3cf8ca70a3>,
+        <urn:uuid:13682a8e-69a0-446a-ba7b-af376be9d9c7>,
+        <urn:uuid:153217e9-5de9-47c8-a252-61fedfbe7cc1>,
+        <urn:uuid:155d3d62-cfed-4362-91c5-19ea9cad2e22>,
+        <urn:uuid:171971b8-7b55-476d-adcb-275a22acee23>,
+        <urn:uuid:18a8d653-0d3f-4517-b6ca-475148a87c25>,
+        <urn:uuid:18c958f6-6a42-4bb5-87c9-4f024c40f353>,
+        <urn:uuid:193107bd-2909-4b2b-bb82-7f06dbec989e>,
+        <urn:uuid:19a79da6-dc84-4e0c-9e81-a3b7609b1c2a>,
+        <urn:uuid:19d22ac2-40c2-424f-8cce-ed8a1d682b31>,
+        <urn:uuid:1a364a6a-ce9b-45d3-a6bc-32ba28ac30e1>,
+        <urn:uuid:1bedf6da-4364-4f3e-b95f-2e942c0e92e6>,
+        <urn:uuid:1cc8378a-eca8-4cd0-a6fd-c298926dd90f>,
+        <urn:uuid:1d826f05-45b6-4790-9da2-93669267f921>,
+        <urn:uuid:1e2b3823-6fd0-4b3e-9ea9-05a1a8d979e1>,
+        <urn:uuid:1ed63a9d-e490-4a32-b8e8-1fac5b68acae>,
+        <urn:uuid:21de9b4a-9b2b-41aa-943d-3cd117b5f791>,
+        <urn:uuid:2333e64b-e556-4076-b258-df41d10a2085>,
+        <urn:uuid:251a1297-deaf-4c8a-8b81-fb086a8ffccc>,
+        <urn:uuid:29eca8b2-b07a-4797-80b4-22790755717a>,
+        <urn:uuid:2a818437-2f44-4832-a651-b2f2f3ab3c5b>,
+        <urn:uuid:2b4b9744-eb8f-4787-9c74-61f3e4d745c1>,
+        <urn:uuid:2b54c20d-59bb-4cd4-9f93-bd1c1cd53cea>,
+        <urn:uuid:2c2c3201-1823-44be-86af-914710068334>,
+        <urn:uuid:2d3d8e87-335d-4373-9218-37bfa8bd4769>,
+        <urn:uuid:2dbb6351-b494-40ac-924c-e2ba18be5d48>,
+        <urn:uuid:2dc8c8ce-f533-42b4-9c77-244c4305f342>,
+        <urn:uuid:2f240911-7619-4a2a-a887-285dc28e2730>,
+        <urn:uuid:31f87f08-4748-4685-bc59-1105daf33de7>,
+        <urn:uuid:32dee9b7-e581-4f58-8bae-bba3130088d3>,
+        <urn:uuid:33dfd150-abbd-438d-87c8-a3ce605747cd>,
+        <urn:uuid:343eb7d7-5dcc-462e-87ef-1f00fdbaae7e>,
+        <urn:uuid:34a52613-0d03-47f9-a720-cc3ff3b04817>,
+        <urn:uuid:34d6085c-2fec-4b0f-b2d1-e91f9e7df2b6>,
+        <urn:uuid:3513b1d3-f512-4ce5-9473-7c0cac5c58a4>,
+        <urn:uuid:361075b8-a155-403f-80f8-916f53f79b9e>,
+        <urn:uuid:367a57df-d818-4a12-9b9e-4cec38bbc88d>,
+        <urn:uuid:3a04c38e-145a-4583-8521-45a1f204ea88>,
+        <urn:uuid:3a8675ea-7866-433f-b47e-576216c5edb4>,
+        <urn:uuid:3b17334b-f80d-4702-8ac4-cf5b2f770493>,
+        <urn:uuid:3b3e732a-303c-40e8-95ee-e012b2a7b5a8>,
+        <urn:uuid:3b7d3417-0ada-4ced-b0b8-11faeae97607>,
+        <urn:uuid:3c1a1378-5d27-4a65-a41b-4c8b3b911d73>,
+        <urn:uuid:3ebf1e50-998c-4ced-aead-325d4aa94595>,
+        <urn:uuid:3ed60c83-a831-4277-9486-9949ba8d640d>,
+        <urn:uuid:42633808-3a2a-428c-86cb-6417f12aa2b1>,
+        <urn:uuid:42869b89-dd47-4891-9858-1bb49232fd67>,
+        <urn:uuid:432b1269-2595-46a2-bba8-992cc1630bb4>,
+        <urn:uuid:447e4b53-b18b-49b9-9dfe-d699d8217f3b>,
+        <urn:uuid:44cf012b-5be0-41d5-bce4-2fcfe5711840>,
+        <urn:uuid:45c3d9a8-90e1-4d4c-bdf8-7a0f59fffcce>,
+        <urn:uuid:46261d86-d35d-48b8-b3a7-28fe1f540a1f>,
+        <urn:uuid:467a39ba-4f19-4543-a0eb-ee7b8d71cd0c>,
+        <urn:uuid:46f2cf4a-a504-4035-af5e-db4df4b14c8f>,
+        <urn:uuid:473adc00-3beb-4137-90a6-9c15676a0c61>,
+        <urn:uuid:477f8785-73ca-44c8-9bd5-cfac084150a4>,
+        <urn:uuid:49903b63-7238-4156-a459-ef83fe37406a>,
+        <urn:uuid:4a3e8857-7ece-47f8-9172-cad6e0221c59>,
+        <urn:uuid:4a4eb87a-177b-4b49-aed7-cb84be661f6f>,
+        <urn:uuid:4a555d72-363c-4421-bb32-a4e3f0cebfff>,
+        <urn:uuid:4cd16261-c0b9-42cf-b3e2-8a1ed7a97cbb>,
+        <urn:uuid:4e6456ad-fdc6-456c-9f08-3b4204df6173>,
+        <urn:uuid:4ee41431-88e9-4b69-9260-a9b521b14b68>,
+        <urn:uuid:50e27bc9-beb8-46cd-b085-59864ebb558d>,
+        <urn:uuid:52b0a6f3-0e1f-4ef0-96cc-6056c2e0af93>,
+        <urn:uuid:53b40e3b-a64e-47f0-b092-c2e42af17939>,
+        <urn:uuid:53e78b13-1ae5-4893-9e77-2aff560a78e6>,
+        <urn:uuid:544e2b1c-fac8-42f7-8025-eb9819161a79>,
+        <urn:uuid:552a78a1-b69a-4533-b0eb-da921d588f81>,
+        <urn:uuid:5668d2c7-fc8f-406e-917d-8e7adc6da9e8>,
+        <urn:uuid:575ed01b-4857-495f-92cf-c4e2e278e4a4>,
+        <urn:uuid:581adf1d-be9b-4224-8358-a195f5906710>,
+        <urn:uuid:59a393db-f1eb-4a7a-bd17-15c22fbdd344>,
+        <urn:uuid:5a8034cd-0ff1-431e-b056-6c686c7b85fe>,
+        <urn:uuid:5b722c3e-bac0-4652-a1f1-a2c14adfee45>,
+        <urn:uuid:5b761bca-4322-4a24-9307-f91a5aaf2a7e>,
+        <urn:uuid:5b7c1092-76ee-4703-93ee-8241cb8e9b4a>,
+        <urn:uuid:5c287bff-89a4-468c-a099-24ac992deef1>,
+        <urn:uuid:5ccc9ed8-592a-4073-ab6f-5d20fbf7e12b>,
+        <urn:uuid:5e2234f6-0024-43cb-a72f-ce7aef915aa5>,
+        <urn:uuid:5e57eb78-fab4-4d10-be8c-80db3be93b4f>,
+        <urn:uuid:6109bb22-1cbc-44e4-9f66-70e1adfbae75>,
+        <urn:uuid:62a5e674-eab9-41af-bbb9-a92bd9cc3caa>,
+        <urn:uuid:63abfdcd-7bf7-4f20-94a5-3a0fef74be6d>,
+        <urn:uuid:63f0e4a6-b81a-4679-9b14-af0a42194f48>,
+        <urn:uuid:645421c2-42f7-490d-98e1-64f6ff61c412>,
+        <urn:uuid:659df3a9-3496-465c-9b86-5cdfcc1920b5>,
+        <urn:uuid:65c5a585-e607-4cc8-a08b-48342e61527e>,
+        <urn:uuid:67157196-f725-41f6-9f49-888c4b0627c4>,
+        <urn:uuid:6a263dfb-f72b-42f2-b4a0-f4f96cb9fc18>,
+        <urn:uuid:6a4132aa-7d79-49ba-bb6b-9a3c40983a15>,
+        <urn:uuid:6b07daff-888e-45e9-8ecb-d2481d34b4f0>,
+        <urn:uuid:6c7074b5-7a15-4f14-9d5c-65f496880d1f>,
+        <urn:uuid:6ca58cad-8d5d-4091-bba3-2ae6e6efd1a5>,
+        <urn:uuid:7000a16e-8ad2-4335-bab2-0c9449ab33f4>,
+        <urn:uuid:70e2f2aa-36f3-4a5c-8439-aa298e182fe9>,
+        <urn:uuid:7199cbe0-5cf5-4bf3-a76f-699f247a3773>,
+        <urn:uuid:71d99134-0193-4f53-bf3c-ca63f9f17e5b>,
+        <urn:uuid:72fe98d8-204d-4df8-8b0d-29ff58297619>,
+        <urn:uuid:73830532-86b1-4a77-987c-2fcf200d3aa6>,
+        <urn:uuid:7385843c-4e92-4062-be75-50c990d062e1>,
+        <urn:uuid:744d0de6-aace-4b52-8c76-3efca21c9f1f>,
+        <urn:uuid:74f6e355-b101-4029-96a8-324fe81bd909>,
+        <urn:uuid:7718a671-5f49-4879-90d3-c312c018c329>,
+        <urn:uuid:7813210d-9f6f-453e-9079-82bc794b97aa>,
+        <urn:uuid:795f9ae2-fd50-4dbd-a1f3-9281977dfc2c>,
+        <urn:uuid:79a09690-8537-4882-84fa-850ec01372e3>,
+        <urn:uuid:7a65bac0-0986-4bb9-b8fb-7b19a97fd4ab>,
+        <urn:uuid:7ad37fb5-a61a-4ab9-84ae-85cf51add9a1>,
+        <urn:uuid:7b31c42c-1ae2-464c-b4b9-5118c319e687>,
+        <urn:uuid:7bb0cd8f-d336-48fa-acdb-fa5b122c9f65>,
+        <urn:uuid:7c8e2f76-fc6a-48bd-8c31-ed394e7618f9>,
+        <urn:uuid:7cd9b7c1-2d61-4859-863f-fd964d8adc25>,
+        <urn:uuid:7d47362d-2269-4e9d-b2af-5c39acf7001e>,
+        <urn:uuid:7dbe7b3d-0f23-48da-bed0-b261a40f899e>,
+        <urn:uuid:7f9e39f4-aaf8-4e48-9d77-790f39d5163a>,
+        <urn:uuid:7fc4d906-edb4-4012-a152-f504e669f3fb>,
+        <urn:uuid:80ce6dcf-3bb2-4db3-8ee9-ed2484bbca74>,
+        <urn:uuid:80ee0e97-b291-4294-a672-ccf8b9f46746>,
+        <urn:uuid:819701c7-f91b-440c-9791-632eccf2aeeb>,
+        <urn:uuid:819cbde1-9d86-4532-9386-93e9c1d45197>,
+        <urn:uuid:8247c4b8-6171-4dbe-92d0-fc7844ca6fb2>,
+        <urn:uuid:827210ed-a235-4ce4-9ccc-4269b1324fca>,
+        <urn:uuid:82cbcc2c-39df-41df-9c28-73f99e7ab334>,
+        <urn:uuid:8391b0f9-607c-4df9-b005-2616038381d7>,
+        <urn:uuid:84099fdb-b04f-4259-92c4-dc59e76fbd0d>,
+        <urn:uuid:841c23da-eedf-47aa-bb1f-74349895b2fc>,
+        <urn:uuid:84a7a36e-bf1d-4785-a165-722fc4a57211>,
+        <urn:uuid:865ba7a4-bd45-473f-9d29-676dacbd310a>,
+        <urn:uuid:86a5f15b-dff3-4eeb-b4cd-bb4677911455>,
+        <urn:uuid:88de20bf-5e7e-440a-911b-c9ef341284ca>,
+        <urn:uuid:89b4593d-b91f-43fd-88c3-0a29f2272ee4>,
+        <urn:uuid:8ad457c7-1ce3-48c5-9db2-25d5d2e8bfae>,
+        <urn:uuid:8c0aec45-6a15-41da-b7cd-6de91b755a06>,
+        <urn:uuid:8d7e9d66-9106-4f37-b228-5044c04c482c>,
+        <urn:uuid:8de9a334-5b2e-4d81-b1df-ed36652bdff0>,
+        <urn:uuid:91bf9be8-c6dc-4d33-b5cd-bda328140811>,
+        <urn:uuid:94ea913c-4c3c-4e67-ba42-2606e9f2534d>,
+        <urn:uuid:94faf198-a1a5-41dd-87d3-82cdfd1e0aae>,
+        <urn:uuid:99550530-00ab-4fbd-9909-78c12cc53480>,
+        <urn:uuid:9b55dc4b-3b55-4a1f-bb93-080dd1569815>,
+        <urn:uuid:9cd9299c-ad62-43d1-ab8f-ffffd2c7a096>,
+        <urn:uuid:9de7c965-ec3c-493d-9ba5-91423d90fdd5>,
+        <urn:uuid:a0050bcb-53c7-46b4-8087-d534916a09c3>,
+        <urn:uuid:a02ee4b6-0ae8-44ec-b070-954fb5cf7eea>,
+        <urn:uuid:a05c83ba-e09f-49cf-ac3f-b8a754066e0d>,
+        <urn:uuid:a33d53b0-7b55-49bb-b152-4eca95a5a563>,
+        <urn:uuid:a3f69e7d-36cd-4742-94ee-b48fbc8e6dcc>,
+        <urn:uuid:a47ea454-c464-4f06-a084-d8f0f5023077>,
+        <urn:uuid:a4c02760-26f5-4e9a-a01f-8b4fbe63f16d>,
+        <urn:uuid:a519783c-e933-4b8c-8e73-ce4964a68162>,
+        <urn:uuid:a6bea5ea-98df-465e-ad28-ae3292cccccd>,
+        <urn:uuid:a745046f-b194-4338-aa02-d022fd380015>,
+        <urn:uuid:a95ce56f-967a-4743-bf09-d697640e6346>,
+        <urn:uuid:a9ab5eb7-9048-4499-a1cf-a9e9fc5d2965>,
+        <urn:uuid:ab29a8f8-6cd7-4a84-878d-0aa010a8e329>,
+        <urn:uuid:abfe8574-7cf8-4669-9ed2-346516fe0d17>,
+        <urn:uuid:ac19f7ec-70ef-4f61-93f5-fd6f46f5d00d>,
+        <urn:uuid:ac44a032-125b-4fc8-8fa4-3ad7941fbb16>,
+        <urn:uuid:acfc6193-affe-4cfc-b485-3c673d120bcb>,
+        <urn:uuid:aebcec7e-58b7-48b5-8165-fb9b9a6e5ef4>,
+        <urn:uuid:afa059e5-6a4c-4922-b5f5-cacd37021def>,
+        <urn:uuid:b08218d9-6e75-4dd6-a91a-41b97eb139f9>,
+        <urn:uuid:b0a08fa9-b37a-43c3-b516-383291a7b0c2>,
+        <urn:uuid:b7278f08-08e3-44aa-bf8f-3b35646e7219>,
+        <urn:uuid:b78f7a79-b0a5-4c80-9776-260fa58cf4ca>,
+        <urn:uuid:b7b6e4c2-3ffd-49f7-b94a-8497cac1c7a5>,
+        <urn:uuid:b930503c-3f12-4e7d-8820-9f8fbc6645f8>,
+        <urn:uuid:bab66868-d54f-4d05-a3f4-b7a58c816e87>,
+        <urn:uuid:bc4f84dd-0478-471a-b39d-344237954c81>,
+        <urn:uuid:bde1502a-187b-41a3-a6e4-e10b7336714b>,
+        <urn:uuid:c2045c29-8cfd-494d-86f5-c4bf0a4c6b88>,
+        <urn:uuid:c27c67c0-f45b-45f5-ae77-340a74b4ef87>,
+        <urn:uuid:c47fd379-aa5e-4a1a-8381-a34ff87f813b>,
+        <urn:uuid:c597aa52-8c5a-4447-a686-34a8c3404bf5>,
+        <urn:uuid:c6b53c3b-2938-4415-8c2f-c14aa3dd67d0>,
+        <urn:uuid:c749234b-6182-457d-9871-617577206658>,
+        <urn:uuid:c97792ab-20f8-4098-94c5-6a7db9b9d681>,
+        <urn:uuid:ca4161f2-dec4-4fad-a524-ac5a127f7b88>,
+        <urn:uuid:ca77a993-dbab-4d27-85d9-7bd4ecfd7cd2>,
+        <urn:uuid:cbac2939-2631-42ad-a9fb-1403f103916e>,
+        <urn:uuid:cd30973f-ed7f-4dd2-a4e7-0b040196997b>,
+        <urn:uuid:cdde3af0-f691-4999-a306-3c616cf47618>,
+        <urn:uuid:ce4a0dba-b328-4a76-986b-266682878868>,
+        <urn:uuid:cfe1d3a8-15f4-484c-aab2-0ea625441db4>,
+        <urn:uuid:d0173bd8-abd2-4336-b10c-3e6195a17f04>,
+        <urn:uuid:d0cf0e65-ca48-4a93-9a39-62d27a3a1892>,
+        <urn:uuid:d0ff45d8-0e65-4528-a062-a612f410a8f1>,
+        <urn:uuid:d1207233-3743-4ab8-97f8-7e0bd2e47faa>,
+        <urn:uuid:d1966bdc-a075-4799-a74f-ef005ee03f8f>,
+        <urn:uuid:d1ae61ef-88af-4aa9-a095-14e5a2eb6ca9>,
+        <urn:uuid:d330a272-1b84-46b3-98ef-c598677e2b42>,
+        <urn:uuid:d46d8898-6882-460a-9fe9-767da1bf08d7>,
+        <urn:uuid:d4c01c3a-6164-4545-99ac-e092ab17ff3d>,
+        <urn:uuid:d4c1ae5a-93df-4dc4-ad39-aeb391b87e72>,
+        <urn:uuid:d5a2c6b1-1844-40c9-ac18-9ae7bb765a51>,
+        <urn:uuid:d6a6b5e3-304d-4157-9ee4-7e2df583c9d6>,
+        <urn:uuid:d86150b1-21fe-4114-81b8-bb71593b8910>,
+        <urn:uuid:d87a5cb4-063a-4d5c-ad83-3fc94853d8a6>,
+        <urn:uuid:dab85a82-b41e-44f8-a1b8-fddf75b40a59>,
+        <urn:uuid:db788686-38e9-4188-a9e6-592485fd0566>,
+        <urn:uuid:de393934-4a5a-4c2d-86cb-4087be10e542>,
+        <urn:uuid:de8c67fd-ea5d-4073-9259-61dfdc879132>,
+        <urn:uuid:e05fc0fc-f231-4eb1-9092-a3ca4109c7d4>,
+        <urn:uuid:e2fed4d3-4283-4efd-9ffa-091ee08467a1>,
+        <urn:uuid:e4f40867-bf1f-4d02-82de-ab6fcac88a5c>,
+        <urn:uuid:e5bc4cd7-3920-4832-a7f8-697d56f27c50>,
+        <urn:uuid:e5d58995-267a-4272-a5ba-48a85901b6d6>,
+        <urn:uuid:ea42dfcf-7ea0-4e3d-abb5-4c6602266a49>,
+        <urn:uuid:eacc2443-9bf7-4d2e-9e1a-fe4cd264333b>,
+        <urn:uuid:ec5b4487-fa45-492e-9491-66cd17cec8f3>,
+        <urn:uuid:ee527a1b-9345-45e8-b2af-5ef4c6289f1b>,
+        <urn:uuid:eecec03d-698d-4a12-a6a8-00793bb23fba>,
+        <urn:uuid:f04a8d71-c502-446d-a9e7-ecadf975562a>,
+        <urn:uuid:f41efa55-bb95-4d70-abe5-f6bf7a8b75bf>,
+        <urn:uuid:f47da224-7ae9-41a0-b34a-617351d6bef4>,
+        <urn:uuid:f823f8c8-1878-4381-887d-d66ac792390c>,
+        <urn:uuid:f8e9bc3b-6bf2-4a57-b765-00c189ae9afa>,
+        <urn:uuid:f977cb1c-bc16-4949-9854-12a3aede4c09>,
+        <urn:uuid:fa18e329-7250-4522-86eb-3a1d7429408b>,
+        <urn:uuid:fd4472e0-37bb-49cb-8d9c-479bc0be3c81>,
+        <urn:uuid:fe03ba48-8145-4580-85dc-e14b9c04a713>,
+        <urn:uuid:ff4329dc-d1a1-4f3f-9fdc-d21009f3ba81>,
+        <urn:uuid:ff616b0c-d682-4cc0-8e00-511f6d0b6b21> ;
+    bacnet:description "Serving CHW pumps for Literature Bldg" ;
+    bacnet:device_id 552 ;
+    bacnet:device_identifier "device:552" ;
+    bacnet:jci_name "None" ;
+    bacnet:name "NAE-52" ;
+    bacnet:obj_count 242 .
+

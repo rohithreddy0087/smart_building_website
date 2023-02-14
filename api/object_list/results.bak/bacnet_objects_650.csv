@@ -1,0 +1,9 @@
+uuid,device_ref,instance,object_type,description,jci_name,name,unit
+urn:uuid:8fb9e68e-da2c-4e02-84ed-a26cb386aaf1,650,3000021,analogInput,Actual Cooling Setpoint,EBU1.W7THFLR.RM-7310.VAV-54.ACTCLG-SP,NAE-150/N2-1.AH24-VAV-54.ACTCLG-SP,degreesFahrenheit
+urn:uuid:692c7cd0-fc82-43bb-a8b3-e423ad11c006,650,3000022,analogInput,Actual Heating Setpoint,EBU1.W7THFLR.RM-7310.VAV-54.ACTHTG-SP,NAE-150/N2-1.AH24-VAV-54.ACTHTG-SP,degreesFahrenheit
+urn:uuid:0043a30c-8977-46b9-aaa1-fd6bf05e9f31,650,3000029,analogInput,Supply Flow,EBU1.W7THFLR.RM-7310.VAV-54.SA-F,NAE-150/N2-1.AH24-VAV-54.SA-F,cubicFeetPerMinute
+urn:uuid:a0249650-72bf-49e8-9e10-cb5ae733cb2d,650,3000030,analogInput,Supply Air Velocity Pressure,EBU1.W7THFLR.RM-7310.VAV-54.SA-VP,NAE-150/N2-1.AH24-VAV-54.SA-VP,inchesOfWater
+urn:uuid:008a8b92-2016-4fbd-bcd6-a198e0e858a0,650,3000034,analogInput,Warm Cool Adjust,EBU1.W7THFLR.RM-7310.VAV-54.WC-ADJ,NAE-150/N2-1.AH24-VAV-54.WC-ADJ,degreesFahrenheit
+urn:uuid:c74b827b-474d-4ae9-ab7a-a14154a97c84,650,3000035,analogInput,Zone Temperature,EBU1.W7THFLR.RM-7310.VAV-54.ZN-T,NAE-150/N2-1.AH24-VAV-54.ZN-T,degreesFahrenheit
+urn:uuid:9cad3958-8f8b-4c9e-bc25-e3132464bb5a,650,3000036,analogInput,Actual Cooling Setpoint,EBU1.W7THFLR.RM-7304.VAV-55.ACTCLG-SP,NAE-150/N2-1.AH24-VAV-55.ACTCLG-SP,degreesFahrenheit
+urn:uuid:14be9ea6-dfca-4450-9410-ef9a19db0d2d,650,3000037,analogInput,Actual Heating Setpoint,EBU1.W7THFLR.RM-7304.VAV-55.ACTHTG-SP,NAE-150/N2-1.AH24-VAV-55.ACTHTG-SP,degreesFahrenheit

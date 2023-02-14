@@ -9,9 +9,11 @@ import json
 
 import numpy as np
 import pandas as pd
-from .config_parser import ConfigFileparser
-from .config_parser import get_config
-from .data_fetcher import DataFetcher
+from config_parser import ConfigFileparser
+from config_parser import get_config
+from data_fetcher import DataFetcher
+from psql import DataBase
+
 
 class DataLoader:
     """
@@ -33,7 +35,9 @@ class DataLoader:
     ) -> None:
         self.config = config
         self.building_details_file = building_details_file
-        self.data_fetcher_obj = DataFetcher(self.config)
+        db = DataBase(config)
+        psql_conn, psql_cur = db.create_psql()
+        self.data_fetcher_obj = DataFetcher(self.config, psql_conn, psql_cur)
         self.__building_data = OrderedDict()
         self.__match_strs = {
             "NAE-01" : "Room [0-9][0-9][0-9]"
@@ -156,8 +160,12 @@ class DataLoader:
                 room_no = name[match.start():match.end()]
                 for feature in most_common_features:
                     if df.description[i] == feature:
-                        latest_timestamp = None # self.data_fetcher_obj.fetch_latest_entry(df.uuid[i])
-                        initial_timestamp = None # self.data_fetcher_obj.fetch_first_entry(df.uuid[i])
+                        table_name = f"{building_name}_{room_no}_{feature}"
+                        table_name = table_name.replace(" ","_").strip().lower()
+                        table_name = table_name.replace("-","_").strip().lower()
+                        table_name = table_name.replace("/","_")
+                        latest_timestamp = self.data_fetcher_obj.fetch_latest_entry(table_name)
+                        initial_timestamp = self.data_fetcher_obj.fetch_first_entry(table_name)
                         if building_name in self.__building_data:
                             if room_no in self.__building_data[building_name]["items"]:
                                 self.__building_data[building_name]["items"][room_no][feature] = {

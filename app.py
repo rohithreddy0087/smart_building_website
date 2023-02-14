@@ -1,5 +1,7 @@
 from flask import Flask, request, send_from_directory
 from flask_cors import CORS
+from datetime import datetime
+import json
 
 from api.config_parser import get_config
 from api.psql import DataBase
@@ -8,6 +10,13 @@ from api.registration import Register
 
 app = Flask(__name__)
 CORS(app)
+
+@app.after_request
+def set_headers(response):
+    response.headers["Access-Control-Allow-Origin"] = "*"
+    response.headers["Access-Control-Allow-Headers"] = "*"
+    response.headers["Access-Control-Allow-Methods"] = "*"
+    return response
 
 @app.route("/api/register", methods=['POST'])
 def register():
@@ -21,37 +30,58 @@ def register():
 def data():
     """_summary_
     """
-    payload = request.json
+    payload = json.loads(request.get_data())
+    # print(request.get_json())
+    # payload = request.json
     print(payload)
+    building_name = payload["buildingName"]
     email = payload["usermail"]
     password = payload["password"]
-    lines = 10
+    type_file = payload["filetype"]
+    options = payload["optionSelected"]
+    features = []
+    for option in options:
+        features.append(option['value'])
+    lines = 100
+    from_time = None
+    to_time = None
     text_message =  None
     if register_obj.check_if_user_exists(email):
         if register_obj.check_user_credentials(email,password):
-            lines = data["lineValue"]
+            # lines = int(payload["lineValue"])
+            from_time = datetime.strptime(payload["fromValue"],"%Y-%m-%dT%H:%M:%S.%fZ")
+            to_time = datetime.strptime(payload["toValue"],"%Y-%m-%dT%H:%M:%S.%fZ")
             text_message = "User Verified"
         else:
             text_message = "Wrong password"
     else:
         text_message =  "User doesn't exist"
 
-            
-    # try:
-    #     message = data_interface_obj.fetch_and_save_data(
-    #         building_name = payload["buildingName"],
-    #         start_time = None,
-    #         end_time= None, 
-    #         limit = lines, 
-    #         features = None
-    #     )
-    # except Exception as err:
-    #     text_message = "Internal Error"
-    #     config.log("Data %s",err)
+    try:
+        if type_file == "csv":
+            data_interface_obj.fetch_and_save_data_csv(
+                building_name = building_name,
+                start_time = from_time,
+                end_time= to_time,
+                limit = lines,
+                features = features
+            )
+        else:
+            data_interface_obj.fetch_and_save_data_json(
+                building_name = building_name,
+                start_time = from_time,
+                end_time= to_time,
+                limit = lines,
+                features = features
+            )
+
+    except Exception as err:
+        text_message = "Internal Error"
+        config.logger.debug("Data %s",err)
     print(text_message)
     return {"message":text_message}
-if __name__ == '__main__':
 
+if __name__ == '__main__':
     global_var = {}
     config = get_config(global_var,configfile="config.ini")
     db = DataBase(config)

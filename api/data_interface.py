@@ -1,9 +1,13 @@
 from typing import Callable, List, Tuple, Dict
+import os
+import zipfile
+import shutil
 import json
 
 from .data_parser import DataParser
 from .config_parser import ConfigFileparser
 from .config_parser import get_config
+
 
 class DataInterface:
     """Data Interface class
@@ -44,8 +48,8 @@ class DataInterface:
         return self.__items_list
     
 
-    def fetch_and_save_data(self, building_name: str, start_time: str = None, end_time: str = None, limit: int = 100, features: List[str] = None)->dict:
-        """_summary_
+    def fetch_and_save_data_json(self, building_name: str, start_time: str = None, end_time: str = None, limit: int = 100, features: List[str] = None):
+        """fetches data and saves as a json file
 
         Args:
             building_name (str): name of the building
@@ -64,4 +68,19 @@ class DataInterface:
             "items": self.__items_list
         }
         json.dump( json_dict, open( f"{self.config.download_path}/{building_name}.json", 'w' ) )
-        return json_dict
+        
+    
+    def fetch_and_save_data_csv(self, building_name: str, start_time: str = None, end_time: str = None, limit: int = 100, features: List[str] = None):
+        """fetches data and save as zip file
+
+        Args:
+            building_name (str): name of the building
+            start_time (str, optional): start time. Defaults to None.
+            end_time (str, optional): end time. Defaults to None.
+            limit (int, optional): Number of rows. Defaults to 100.
+            features (List[str], optional): list of features. Defaults to None.
+
+        """
+        self.data_parser_obj.generate_meta_csv(building_name,start_time,end_time,limit,features)
+        self.data_parser_obj.generate_items_csv(building_name,start_time,end_time,limit,features)
+        shutil.make_archive(f"{self.config.download_path}/{building_name}", 'zip', f"{self.config.download_path}/{building_name}")

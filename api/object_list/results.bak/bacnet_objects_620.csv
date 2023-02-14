@@ -1,0 +1,554 @@
+uuid,device_ref,instance,object_type,description,jci_name,name,unit
+urn:uuid:562751ab-752c-4d72-bfcb-9ceb0b464e05,620,3000425,analogInput,Zone Temperature,EBU1.EBASEMENT.RM-B912.VAV-10.ZN-T,NAE-120/N2-1.AH4-VAV-10.ZN-T,degreesFahrenheit
+urn:uuid:4ef54e5c-0eed-4c15-995e-dc8dfeecaa2c,620,3000426,analogInput,Warm Cool Adjust,EBU1.EBASEMENT.RM-B912.VAV-10.WC-ADJ,NAE-120/N2-1.AH4-VAV-10.WC-ADJ,degreesFahrenheit
+urn:uuid:993ae757-741d-43b0-b934-f62c7408e48a,620,3000427,analogInput,Actual Cooling Setpoint,EBU1.EBASEMENT.RM-B912.VAV-10.ACTCLG-SP,NAE-120/N2-1.AH4-VAV-10.ACTCLG-SP,degreesFahrenheit
+urn:uuid:48f36db2-4293-46cd-9c83-725f7fdfc78e,620,3000428,analogInput,Actual Heating Setpoint,EBU1.EBASEMENT.RM-B912.VAV-10.ACTHTG-SP,NAE-120/N2-1.AH4-VAV-10.ACTHTG-SP,degreesFahrenheit
+urn:uuid:94939230-1ce1-42a8-a12e-847ff9c9afed,620,3000621,analogInput,Zone Temperature,EBU1.E1STFLR.RM-1718.VAV-25.ZN-T,NAE-120/N2-1.AH7-VAV-25.ZN-T,degreesFahrenheit
+urn:uuid:9a9ef5ce-b350-486c-bcb7-0e3dc8ad94df,620,3000622,analogInput,Warm Cool Adjust,EBU1.E1STFLR.RM-1718.VAV-25.WC-ADJ,NAE-120/N2-1.AH7-VAV-25.WC-ADJ,degreesFahrenheit
+urn:uuid:3021162f-b49e-43eb-bca9-87b3631433a1,620,3000623,analogInput,Actual Cooling Setpoint,EBU1.E1STFLR.RM-1718.VAV-25.ACTCLG-SP,NAE-120/N2-1.AH7-VAV-25.ACTCLG-SP,degreesFahrenheit
+urn:uuid:50d6b0be-8a5c-4b9d-afb6-e4f442e056c7,620,3000624,analogInput,Actual Heating Setpoint,EBU1.E1STFLR.RM-1718.VAV-25.ACTHTG-SP,NAE-120/N2-1.AH7-VAV-25.ACTHTG-SP,degreesFahrenheit
+urn:uuid:2325304a-3db7-4374-abb9-909190b08fe7,620,3000649,analogInput,Zone Temperature,EBU1.E1STFLR.EHALL.VAV-27.ZN-T,NAE-120/N2-1.AH22-VAV-27.ZN-T,degreesFahrenheit
+urn:uuid:3b59d59b-2c36-45a6-8a75-d725db646769,620,3000650,analogInput,Warm Cool Adjust,EBU1.E1STFLR.EHALL.VAV-27.WC-ADJ,NAE-120/N2-1.AH22-VAV-27.WC-ADJ,degreesFahrenheit
+urn:uuid:c208d597-fd89-4f4e-8417-91508925833d,620,3000651,analogInput,Actual Cooling Setpoint,EBU1.E1STFLR.EHALL.VAV-27.ACTCLG-SP,NAE-120/N2-1.AH22-VAV-27.ACTCLG-SP,degreesFahrenheit
+urn:uuid:41589035-fac2-41e0-93e2-3393ea2d10a1,620,3000652,analogInput,Actual Heating Setpoint,EBU1.E1STFLR.EHALL.VAV-27.ACTHTG-SP,NAE-120/N2-1.AH22-VAV-27.ACTHTG-SP,degreesFahrenheit
+urn:uuid:af14cf2b-a6f7-494e-acd4-ea89c56b9991,620,3000663,analogInput,Zone Temperature,EBU1.E1STFLR.RM-1712.VAV-28.ZN-T,NAE-120/N2-1.AH7-VAV-28.ZN-T,degreesFahrenheit
+urn:uuid:5a17f447-9068-4cea-97db-1330427cfdf2,620,3000664,analogInput,Warm Cool Adjust,EBU1.E1STFLR.RM-1712.VAV-28.WC-ADJ,NAE-120/N2-1.AH7-VAV-28.WC-ADJ,degreesFahrenheit
+urn:uuid:82dee3b6-8f12-4ff3-9300-ccac347d9156,620,3000665,analogInput,Actual Cooling Setpoint,EBU1.E1STFLR.RM-1712.VAV-28.ACTCLG-SP,NAE-120/N2-1.AH7-VAV-28.ACTCLG-SP,degreesFahrenheit
+urn:uuid:41d6d424-79a3-4e82-b1b0-62b15d88d635,620,3000666,analogInput,Actual Heating Setpoint,EBU1.E1STFLR.RM-1712.VAV-28.ACTHTG-SP,NAE-120/N2-1.AH7-VAV-28.ACTHTG-SP,degreesFahrenheit
+urn:uuid:b8960b50-a91d-4952-9580-69875f5a0678,620,3000677,analogInput,Zone Temperature,EBU1.E1STFLR.RM-1511.VAV-29.ZN-T,NAE-120/N2-1.AH7-VAV-29.ZN-T,degreesFahrenheit
+urn:uuid:af24ccfb-f8b4-4cea-bb91-8b03a6607835,620,3000678,analogInput,Warm Cool Adjust,EBU1.E1STFLR.RM-1511.VAV-29.WC-ADJ,NAE-120/N2-1.AH7-VAV-29.WC-ADJ,degreesFahrenheit
+urn:uuid:011f7986-3a47-4782-9312-5fb017fe203c,620,3000679,analogInput,Actual Cooling Setpoint,EBU1.E1STFLR.RM-1511.VAV-29.ACTCLG-SP,NAE-120/N2-1.AH7-VAV-29.ACTCLG-SP,degreesFahrenheit
+urn:uuid:3e5f9ca5-27d7-4767-ad09-c4150d55d667,620,3000680,analogInput,Actual Heating Setpoint,EBU1.E1STFLR.RM-1511.VAV-29.ACTHTG-SP,NAE-120/N2-1.AH7-VAV-29.ACTHTG-SP,degreesFahrenheit
+urn:uuid:7a67ca9e-f52c-4bfc-b4a4-a8f825c2f848,620,3000705,analogInput,Zone Temperature,EBU1.E1STFLR.SCORRIDOR.VAV-32.ZN-T,NAE-120/N2-1.AH22-VAV-32.ZN-T,degreesFahrenheit
+urn:uuid:d8e0271f-e4f6-46b4-b143-58784849f68b,620,3000706,analogInput,Warm Cool Adjust,EBU1.E1STFLR.SCORRIDOR.VAV-32.WC-ADJ,NAE-120/N2-1.AH22-VAV-32.WC-ADJ,degreesFahrenheit
+urn:uuid:12c6344f-0887-45dd-9329-41c666e15fb2,620,3000707,analogInput,Actual Cooling Setpoint,EBU1.E1STFLR.SCORRIDOR.VAV-32.ACTCLG-SP,NAE-120/N2-1.AH22-VAV-32.ACTCLG-SP,degreesFahrenheit
+urn:uuid:310d4f25-c526-403a-80ce-13316cf195df,620,3000708,analogInput,Actual Heating Setpoint,EBU1.E1STFLR.SCORRIDOR.VAV-32.ACTHTG-SP,NAE-120/N2-1.AH22-VAV-32.ACTHTG-SP,degreesFahrenheit
+urn:uuid:ed00d947-8339-4e4c-988b-2e9541dcb5e6,620,3001465,analogInput,Lab CHW Supply Temperature,EBU1.LBW.LCWS-T,NAE-120/N2-1.UNT-10.LCWS-T,degreesFahrenheit
+urn:uuid:e629d980-251a-4a3d-8b45-3f30cd04544f,620,3001468,analogInput,HX-1 MTWR Temperature,EBU1.EASTPLANT.HX-1.MTWR-T,NAE-120/N2-1.UNT-110.MTWR-T,degreesFahrenheit
+urn:uuid:8a0feb93-402e-4c04-95e4-92bf67e0cf4b,620,3001469,analogInput,HX-1 MTWS Temperature,EBU1.EASTPLANT.HX-1.MTWS-T,NAE-120/N2-1.UNT-110.MTWS-T,degreesFahrenheit
+urn:uuid:8e472a70-736f-49e9-baf9-99f3fe8456fe,620,3001471,analogInput,MTW Return Common Temperature,EBU1.EASTPLANT.HX-1.MTWR-COM,NAE-120/N2-1.UNT-110.MTWR-COM,degreesFahrenheit
+urn:uuid:536e5d4f-bf81-4f18-9641-2351b9ba4e7d,620,3001472,analogInput,Clean Room B904 Humidity,EBU1.BASEMENT.CLEANRM-B904.VAV-10.RM-H,NAE-120/N2-1.AH4-VAV-10.RM-H,percentRelativeHumidity
+urn:uuid:ea39baa3-5963-441a-9abc-57a630e090a0,620,3001473,analogInput,Clean Room B904 Static Pressure,EBU1.BASEMENT.CLEANRM-B904.VAV-10.RM-SP,NAE-120/N2-1.AH4-VAV-10.RM-SP,inchesOfWater
+urn:uuid:993973d5-ae65-4ea2-9afd-faf05896e23e,620,3001474,analogInput,Clean Room B904 Temperature,EBU1.BASEMENT.CLEANRM-B904.VAV-10.RM-T,NAE-120/N2-1.AH4-VAV-10.RM-T,degreesFahrenheit
+urn:uuid:c962e7f4-cf63-49b3-9cb5-3dc4b17bea79,620,3001478,analogInput,Clean Room 1515A Humidity,EBU1.1STFLR.CLEANRM-1515A.VAV-25.RM-H,NAE-120/N2-1.AH7-VAV-25.RM-H,percentRelativeHumidity
+urn:uuid:713e4fd6-75e8-404a-930c-1a3aaa891dac,620,3001479,analogInput,Clean Room 1515A Static Pressure,EBU1.1STFLR.CLEANRM-1515A.VAV-25.RM-SP,NAE-120/N2-1.AH7-VAV-25.RM-SP,inchesOfWater
+urn:uuid:61fe77c6-23e2-4b25-9a61-a004ef06b16b,620,3001480,analogInput,Clean Room 1515A Temperature,EBU1.1STFLR.CLEANRM-1515A.VAV-25.RM-T,NAE-120/N2-1.AH7-VAV-25.RM-T,degreesFahrenheit
+urn:uuid:45768743-8399-410e-83ce-cfd0b7964b36,620,3001484,analogInput,Clean Room 1708 Humidity,EBU1.1STFLR.CLEANRM-1708.VAV-27.RM-H,NAE-120/N2-1.AH22-VAV-27.RM-H,percentRelativeHumidity
+urn:uuid:5b6dfca4-8ae3-4f1f-ad38-217029506ba3,620,3001485,analogInput,Clean Room 1708 Static Pressure,EBU1.1STFLR.CLEANRM-1708.VAV-27.RM-SP,NAE-120/N2-1.AH22-VAV-27.RM-SP,inchesOfWater
+urn:uuid:ba3fee64-6b4f-43fd-886d-671e1ebe469a,620,3001486,analogInput,Clean Room 1708 Temperature,EBU1.1STFLR.CLEANRM-1708.VAV-27.RM-T,NAE-120/N2-1.AH22-VAV-27.RM-T,degreesFahrenheit
+urn:uuid:ddf26722-6c3a-42ab-970f-70f5cc886ca0,620,3001487,analogInput,Clean Room 1706 Humidity,EBU1.1STFLR.CLEANRM-1706.VAV-28.RM-H,NAE-120/N2-1.AH7-VAV-28.RM-H,percentRelativeHumidity
+urn:uuid:9d6c6448-892b-4b8f-8e45-4048bac43413,620,3001488,analogInput,Clean Room 1706 Static Pressure,EBU1.1STFLR.CLEANRM-1706.VAV-28.RM-SP,NAE-120/N2-1.AH7-VAV-28.RM-SP,inchesOfWater
+urn:uuid:ce8668f3-8c3d-46e1-8859-07bbe668ca3c,620,3001489,analogInput,Clean Room 1706 Temperature,EBU1.1STFLR.CLEANRM-1706.VAV-28.RM-T,NAE-120/N2-1.AH7-VAV-28.RM-T,degreesFahrenheit
+urn:uuid:3fa65d71-7db2-4e0a-8b52-058f4d4f561e,620,3001490,analogInput,Clean Room 1704 Humidity,EBU1.1STFLR.CLEANRM-1704.VAV-29.RM-H,NAE-120/N2-1.AH7-VAV-29.RM-H,percentRelativeHumidity
+urn:uuid:1eb5ed0a-66dc-49c3-becf-109ef6a29bd6,620,3001491,analogInput,Clean Room 1704 Static Pressure,EBU1.1STFLR.CLEANRM-1704.VAV-29.RM-SP,NAE-120/N2-1.AH7-VAV-29.RM-SP,inchesOfWater
+urn:uuid:e61fc2be-1a33-4ef9-8f13-88281361e2ca,620,3001492,analogInput,Clean Room 1704 Temperature,EBU1.1STFLR.CLEANRM-1704.VAV-29.RM-T,NAE-120/N2-1.AH7-VAV-29.RM-T,degreesFahrenheit
+urn:uuid:3dcd6ee7-019b-4b8b-ad35-1074901ba916,620,3001502,analogInput,Clean Room 1707 Humidity,EBU1.1STFLR.CLEANRM-1707.VAV-32.RM-H,NAE-120/N2-1.AH22-VAV-32.RM-H,percentRelativeHumidity
+urn:uuid:9ac22d34-980e-46e6-b223-c2b33cc4ee2d,620,3001503,analogInput,Clean Room 1707 Static Pressure,EBU1.1STFLR.CLEANRM-1707.VAV-32.RM-SP,NAE-120/N2-1.AH22-VAV-32.RM-SP,inchesOfWater
+urn:uuid:682d113b-3531-4d16-950b-0f9f8698a0d8,620,3001504,analogInput,Clean Room 1707 Temperature,EBU1.1STFLR.CLEANRM-1707.VAV-32.RM-T,NAE-120/N2-1.AH22-VAV-32.RM-T,degreesFahrenheit
+urn:uuid:0f41ec2e-bad3-400b-a51a-6afa7a5a33f1,620,3002851,analogInput,Building CHW DP,EBU1.EBASEMENT.RM-B810.EPLANT.BLDGCHW-DP,NAE-120/FC-2.FEC-004.BLDGCHW-DP,poundsForcePerSquareInch
+urn:uuid:91d0f03a-d3b1-4ca2-a629-4ca4a674b451,620,3002873,analogInput,CHW Supply Temperature,EBU1.EBASEMENT.RM-B565.EPLANT.CHWS-T,NAE-120/FC-2.FEC-004.CHWS-T,degreesFahrenheit
+urn:uuid:81f5fcb7-ecab-4f90-8965-fef8ab29fa11,620,3002875,analogInput,CHW Return Temperature,EBU1.EBASEMENT.RM-B565.EPLANT.CHWR-T,NAE-120/FC-2.FEC-004.CHWR-T,degreesFahrenheit
+urn:uuid:86c82e63-443d-486c-ab18-33920e64d65c,620,3002899,analogInput,Heat Exhanger 3 Supply Temperature,EBU1.EBASEMENT.RM-B565.EPLANT.HX3S-T,NAE-120/FC-2.FEC-004.HX3S-T,degreesFahrenheit
+urn:uuid:3ca1e630-3524-4482-96c1-9d022b003099,620,3002901,analogInput,HX-3 MTW Return Temperature,EBU1.EBASEMENT.RM-B565.EPLANT.HX3MTWR-T,NAE-120/FC-2.FEC-004.HX3MTWR-T,degreesFahrenheit
+urn:uuid:2e59e690-7ecf-4925-b297-235683890b34,620,3002907,analogInput,MTW Supply Temp,EBU1.EBASEMENT.RM-B565.EPLANT.MTWS-TMP,NAE-120/FC-2.FEC-004.MTWS-TMP,degreesFahrenheit
+urn:uuid:e88cb4ef-4049-48ab-acd9-fa3e9c5ce562,620,3002909,analogInput,MTW Static Line Press,EBU1.EBASEMENT.RM-B565.EPLANT.MTW-PRESS,NAE-120/FC-2.FEC-004.MTW-PRESS,poundsForcePerSquareInch
+urn:uuid:5c4656f8-73dd-44b5-9fc4-44e78ab9ee94,620,3002910,analogInput,HX-3 HTHW Supply Temperature,EBU1.EBASEMENT.RM-B565.EPLANT.HX3HTHWS-T,NAE-120/FC-2.FEC-004.HX3HTHWS-T,degreesFahrenheit
+urn:uuid:78b4da8b-430a-4de7-a873-0bfef0bf49eb,620,3002912,analogInput,HX-3 HTHW Return Temp,EBU1.EBASEMENT.RM-B565.EPLANT.HX3HTHWR-T,NAE-120/FC-2.FEC-004.HX3HTHWR-T,degreesFahrenheit
+urn:uuid:d002e871-0fec-4988-90ad-426c70db4305,620,3002919,analogInput,High Temp Hot Water Flow,EBU1.EBASEMENT.RM-B565.EPLANT.HTHW-FLOW,NAE-120/FC-2.FEC-004.HTHW-FLOW,usGallonsPerMinute
+urn:uuid:58beef24-ab9c-4c39-9eb5-ee8ca0920db5,620,3004253,analogInput,Zone Temperature,EBU1.BASEMENT.RM-B902.VAV-B902-1.ZN-T,NAE-120/FC-2.AH4-SAV-009.ZN-T,degreesFahrenheit
+urn:uuid:a6e4bdcb-33bc-4930-9220-ffd91fbae4ad,620,3004283,analogInput,Zone Temperature,EBU1.BASEMENT.RM-B800.VAV-B800-1.ZN-T,NAE-120/FC-2.AH4-SAV-010.ZN-T,degreesFahrenheit
+urn:uuid:f5ddd437-d5f1-4072-8ff4-982871278e1d,620,3004313,analogInput,Zone Temperature,EBU1.BASEMENT.RM-B561.VAV-B561-2.ZN-T,NAE-120/FC-2.AH22-VMA-011.ZN-T,degreesFahrenheit
+urn:uuid:d1aaa6e8-0b72-4fe9-b972-fbc6339b267b,620,3004316,analogInput,Supply Air Temperature,EBU1.BASEMENT.RM-B561.VAV-B561-2.SA-T,NAE-120/FC-2.AH22-VMA-011.SA-T,degreesFahrenheit
+urn:uuid:233a1950-e1c1-4965-92ba-a9c1af529b2f,620,3004341,analogInput,Zone Temperature,EBU1.BASEMENT.RM-B707.VAV-B707-1.ZN-T,NAE-120/FC-2.AH4-SAV-012.ZN-T,degreesFahrenheit
+urn:uuid:55792e30-1ee2-4247-99a9-051e11615f8a,620,3004371,analogInput,Zone Temperature,EBU1.BASEMENT.RM-B703.VAV-B703-1.ZN-T,NAE-120/FC-2.AH4-SAV-013.ZN-T,degreesFahrenheit
+urn:uuid:9135a5e9-64a4-48e3-b7f1-24c40ac53109,620,3004401,analogInput,Zone Temperature,EBU1.BASEMENT.RM-B912.VAV-B912-1.ZN-T,NAE-120/FC-2.AH4-SAV-014.ZN-T,degreesFahrenheit
+urn:uuid:d879c47b-c220-4ae9-8ff4-fd49fc5c7718,620,3006169,analogInput,Return Air Temperature,EBU1.BASEMENT.RM-B565.AH2.RA-T,NAE-120/FC-2.AH2-FEC-015.RA-T,degreesFahrenheit
+urn:uuid:ab40dadb-901e-43e0-ac82-19abaa5f3e92,620,3006171,analogInput,Supply Air Temperature,EBU1.BASEMENT.RM-B565.AH2.SA-T,NAE-120/FC-2.AH2-FEC-015.SA-T,degreesFahrenheit
+urn:uuid:4fffee3c-da2c-4353-8b2e-d6bbc6a1fb27,620,3006172,analogInput,Chilled Water Return Temperature,EBU1.BASEMENT.RM-B565.AH2.CHWR-T,NAE-120/FC-2.AH2-FEC-015.CHWR-T,degreesFahrenheit
+urn:uuid:06a0d08f-4804-439d-bcce-77f4de824e4e,620,3000429,analogOutput,Cooling Command,EBU1.EBASEMENT.RM-B912.VAV-10.CLG-CMD,NAE-120/N2-1.AH4-VAV-10.CLG-CMD,percent
+urn:uuid:cbc6e51d-597e-4270-8533-55b4b525d6aa,620,3000430,analogOutput,Heating Command,EBU1.EBASEMENT.RM-B912.VAV-10.HTGVLV-CMD,NAE-120/N2-1.AH4-VAV-10.HTGVLV-CMD,percent
+urn:uuid:231dc061-7259-4124-969c-919205b21f1f,620,3000431,analogOutput,Occupancy Cooling Setpoint,EBU1.EBASEMENT.RM-B912.VAV-10.OCCCLG-SP,NAE-120/N2-1.AH4-VAV-10.OCCCLG-SP,degreesFahrenheit
+urn:uuid:2d0642d4-c9e1-407f-b299-2807e914089b,620,3000432,analogOutput,Occupancy Heating Setpoint,EBU1.EBASEMENT.RM-B912.VAV-10.OCCHTG-SP,NAE-120/N2-1.AH4-VAV-10.OCCHTG-SP,degreesFahrenheit
+urn:uuid:6655d397-5795-42a2-8e5c-e080013609c5,620,3000433,analogOutput,Unoccupancy Cooling Setpoint,EBU1.EBASEMENT.RM-B912.VAV-10.UNOCCCLG-SP,NAE-120/N2-1.AH4-VAV-10.UNOCCCLG-SP,degreesFahrenheit
+urn:uuid:c2054d64-7136-45f9-a4b7-06986dc86658,620,3000434,analogOutput,Unoccupancy Heating Setpoint,EBU1.EBASEMENT.RM-B912.VAV-10.UNOCCHTG-SP,NAE-120/N2-1.AH4-VAV-10.UNOCCHTG-SP,degreesFahrenheit
+urn:uuid:c22643bf-c75e-4bcf-98ab-4adb6a81af4c,620,3000625,analogOutput,Cooling Command,EBU1.E1STFLR.RM-1718.VAV-25.CLG-CMD,NAE-120/N2-1.AH7-VAV-25.CLG-CMD,percent
+urn:uuid:5128a9dc-3d53-43f5-aebe-0156797ef672,620,3000626,analogOutput,Heating Command,EBU1.E1STFLR.RM-1718.VAV-25.HTGVLV-CMD,NAE-120/N2-1.AH7-VAV-25.HTGVLV-CMD,percent
+urn:uuid:fbd8a4fc-a386-48c9-b305-b8dfd657bef8,620,3000627,analogOutput,Occupancy Cooling Setpoint,EBU1.E1STFLR.RM-1718.VAV-25.OCCCLG-SP,NAE-120/N2-1.AH7-VAV-25.OCCCLG-SP,degreesFahrenheit
+urn:uuid:e30cc0fc-8856-4ec7-bc5a-8d47c9200816,620,3000628,analogOutput,Occupancy Heating Setpoint,EBU1.E1STFLR.RM-1718.VAV-25.OCCHTG-SP,NAE-120/N2-1.AH7-VAV-25.OCCHTG-SP,degreesFahrenheit
+urn:uuid:add751c3-6a34-400b-ad14-c8ce512bf95d,620,3000629,analogOutput,Unoccupancy Cooling Setpoint,EBU1.E1STFLR.RM-1718.VAV-25.UNOCCCLG-SP,NAE-120/N2-1.AH7-VAV-25.UNOCCCLG-SP,degreesFahrenheit
+urn:uuid:f4416c38-df55-4b30-97d5-282d1d5595ad,620,3000630,analogOutput,Unoccupancy Heating Setpoint,EBU1.E1STFLR.RM-1718.VAV-25.UNOCCHTG-SP,NAE-120/N2-1.AH7-VAV-25.UNOCCHTG-SP,degreesFahrenheit
+urn:uuid:1fe5a4cb-48d1-4a78-9234-6016c60420eb,620,3000653,analogOutput,Cooling Command,EBU1.E1STFLR.EHALL.VAV-27.CLG-CMD,NAE-120/N2-1.AH22-VAV-27.CLG-CMD,percent
+urn:uuid:33e4b242-dec9-4ee4-9a7c-0fef8a0d7fc9,620,3000654,analogOutput,Heating Command,EBU1.E1STFLR.EHALL.VAV-27.HTGVLV-CMD,NAE-120/N2-1.AH22-VAV-27.HTGVLV-CMD,percent
+urn:uuid:ecd5bfbe-6e3e-4cb2-b327-f019815d12f4,620,3000655,analogOutput,Occupancy Cooling Setpoint,EBU1.E1STFLR.EHALL.VAV-27.OCCCLG-SP,NAE-120/N2-1.AH22-VAV-27.OCCCLG-SP,degreesFahrenheit
+urn:uuid:0dd169d3-5326-4830-b66c-6870a8fb187a,620,3000656,analogOutput,Occupancy Heating Setpoint,EBU1.E1STFLR.EHALL.VAV-27.OCCHTG-SP,NAE-120/N2-1.AH22-VAV-27.OCCHTG-SP,degreesFahrenheit
+urn:uuid:92ff2d6c-dd03-4c68-a1dc-932649c1f8d7,620,3000657,analogOutput,Unoccupancy Cooling Setpoint,EBU1.E1STFLR.EHALL.VAV-27.UNOCCCLG-SP,NAE-120/N2-1.AH22-VAV-27.UNOCCCLG-SP,degreesFahrenheit
+urn:uuid:f8338a17-99b6-4b32-9e55-1f84c69adf6a,620,3000658,analogOutput,Unoccupancy Heating Setpoint,EBU1.E1STFLR.EHALL.VAV-27.UNOCCHTG-SP,NAE-120/N2-1.AH22-VAV-27.UNOCCHTG-SP,degreesFahrenheit
+urn:uuid:eb8a3c7c-b039-48db-9c44-057531af4bd4,620,3000667,analogOutput,Cooling Command,EBU1.E1STFLR.RM-1712.VAV-28.CLG-CMD,NAE-120/N2-1.AH7-VAV-28.CLG-CMD,percent
+urn:uuid:0c7020e8-57f4-4f78-a4ec-33c502110978,620,3000668,analogOutput,Heating Command,EBU1.E1STFLR.RM-1712.VAV-28.HTGVLV-CMD,NAE-120/N2-1.AH7-VAV-28.HTGVLV-CMD,percent
+urn:uuid:d6f1dcd8-8459-4b22-97d3-4170dd192452,620,3000669,analogOutput,Occupancy Cooling Setpoint,EBU1.E1STFLR.RM-1712.VAV-28.OCCCLG-SP,NAE-120/N2-1.AH7-VAV-28.OCCCLG-SP,degreesFahrenheit
+urn:uuid:1ff62a23-2893-4412-973c-1d1e0735a289,620,3000670,analogOutput,Occupancy Heating Setpoint,EBU1.E1STFLR.RM-1712.VAV-28.OCCHTG-SP,NAE-120/N2-1.AH7-VAV-28.OCCHTG-SP,degreesFahrenheit
+urn:uuid:3a772403-c16c-4666-a23c-752b5429ddca,620,3000671,analogOutput,Unoccupancy Cooling Setpoint,EBU1.E1STFLR.RM-1712.VAV-28.UNOCCCLG-SP,NAE-120/N2-1.AH7-VAV-28.UNOCCCLG-SP,degreesFahrenheit
+urn:uuid:22c0aea6-102a-489c-af9c-b4365f644500,620,3000672,analogOutput,Unoccupancy Heating Setpoint,EBU1.E1STFLR.RM-1712.VAV-28.UNOCCHTG-SP,NAE-120/N2-1.AH7-VAV-28.UNOCCHTG-SP,degreesFahrenheit
+urn:uuid:f8e271ed-9833-4f73-ac43-50acf6660a23,620,3000681,analogOutput,Cooling Command,EBU1.E1STFLR.RM-1511.VAV-29.CLG-CMD,NAE-120/N2-1.AH7-VAV-29.CLG-CMD,percent
+urn:uuid:7e2e01b5-2ccc-4f16-b2a7-28d8c515a759,620,3000682,analogOutput,Heating Command,EBU1.E1STFLR.RM-1511.VAV-29.HTGVLV-CMD,NAE-120/N2-1.AH7-VAV-29.HTGVLV-CMD,percent
+urn:uuid:b1b57837-ec61-43ff-bfee-f235fa9be734,620,3000683,analogOutput,Occupancy Cooling Setpoint,EBU1.E1STFLR.RM-1511.VAV-29.OCCCLG-SP,NAE-120/N2-1.AH7-VAV-29.OCCCLG-SP,degreesFahrenheit
+urn:uuid:1f51a96f-3c80-4c38-83ee-65c15d7ce308,620,3000684,analogOutput,Occupancy Heating Setpoint,EBU1.E1STFLR.RM-1511.VAV-29.OCCHTG-SP,NAE-120/N2-1.AH7-VAV-29.OCCHTG-SP,degreesFahrenheit
+urn:uuid:a8fc4c28-516e-4be2-994b-e9dff3afd010,620,3000685,analogOutput,Unoccupancy Cooling Setpoint,EBU1.E1STFLR.RM-1511.VAV-29.UNOCCCLG-SP,NAE-120/N2-1.AH7-VAV-29.UNOCCCLG-SP,degreesFahrenheit
+urn:uuid:669c2428-2f23-40d1-b20f-98a1df3bf15b,620,3000686,analogOutput,Unoccupancy Heating Setpoint,EBU1.E1STFLR.RM-1511.VAV-29.UNOCCHTG-SP,NAE-120/N2-1.AH7-VAV-29.UNOCCHTG-SP,degreesFahrenheit
+urn:uuid:bf27529d-671e-481d-a66b-fe01d9a5a9dc,620,3000709,analogOutput,Cooling Command,EBU1.E1STFLR.SCORRIDOR.VAV-32.CLG-CMD,NAE-120/N2-1.AH22-VAV-32.CLG-CMD,percent
+urn:uuid:51c8abb9-a7ba-4d1e-9011-6ab375135eea,620,3000710,analogOutput,Heating Command,EBU1.E1STFLR.SCORRIDOR.VAV-32.HTGVLV-CMD,NAE-120/N2-1.AH22-VAV-32.HTGVLV-CMD,percent
+urn:uuid:24a03061-bcd0-4448-a931-bc14e9eccf69,620,3000711,analogOutput,Occupancy Cooling Setpoint,EBU1.E1STFLR.SCORRIDOR.VAV-32.OCCCLG-SP,NAE-120/N2-1.AH22-VAV-32.OCCCLG-SP,degreesFahrenheit
+urn:uuid:80f0d73f-458a-47f7-b826-f8ea40739a25,620,3000712,analogOutput,Occupancy Heating Setpoint,EBU1.E1STFLR.SCORRIDOR.VAV-32.OCCHTG-SP,NAE-120/N2-1.AH22-VAV-32.OCCHTG-SP,degreesFahrenheit
+urn:uuid:6b5c6fbd-927e-4bdb-afb2-839cfe836a11,620,3000713,analogOutput,Unoccupancy Cooling Setpoint,EBU1.E1STFLR.SCORRIDOR.VAV-32.UNOCCCLG-SP,NAE-120/N2-1.AH22-VAV-32.UNOCCCLG-SP,degreesFahrenheit
+urn:uuid:52a10f04-8e79-4f78-8072-e583aefdbf8c,620,3000714,analogOutput,Unoccupancy Heating Setpoint,EBU1.E1STFLR.SCORRIDOR.VAV-32.UNOCCHTG-SP,NAE-120/N2-1.AH22-VAV-32.UNOCCHTG-SP,degreesFahrenheit
+urn:uuid:044d976e-1aab-434d-939b-c3ae6d131bac,620,3001470,analogOutput,HX-1 Valve Control,EBU1.EASTPLANT.HX-1.MTWVLV-CMD,NAE-120/N2-1.UNT-110.MTWVLV-CMD,264
+urn:uuid:6c77fc9f-fe9a-4751-9fd8-15f203d08333,620,3001835,analogOutput,Heating Proportional Band,EBU1.EBASEMENT.RM-B912.VAV-10.HTG-PB,NAE-120/N2-1.AH4-VAV-10.Tuning.HTG-PB,degreesFahrenheit
+urn:uuid:3660b280-b1cb-40e8-b5ff-54f80c3c285e,620,3001836,analogOutput,Heating Integral Time,EBU1.EBASEMENT.RM-B912.VAV-10.HTG-IT,NAE-120/N2-1.AH4-VAV-10.Tuning.HTG-IT,seconds
+urn:uuid:eeae1fac-f809-4202-a71c-217fb2987006,620,3001837,analogOutput,Cooling Proportional Band,EBU1.EBASEMENT.RM-B912.VAV-10.CLG-PB,NAE-120/N2-1.AH4-VAV-10.Tuning.CLG-PB,degreesFahrenheit
+urn:uuid:9825bf41-4675-4810-b133-7b2cc8620162,620,3001838,analogOutput,Cooling Integral Time,EBU1.EBASEMENT.RM-B912.VAV-10.CLG-IT,NAE-120/N2-1.AH4-VAV-10.Tuning.CLG-IT,seconds
+urn:uuid:dbc217d3-72b0-4499-a7b6-861fd7c8e834,620,3001905,analogOutput,Heating Proportional Band,EBU1.E1STFLR.RM-1718.VAV-25.HTG-PB,NAE-120/N2-1.AH7-VAV-25.Tuning.HTG-PB,degreesFahrenheit
+urn:uuid:5c7c8d75-3fcb-4a6d-8828-65a0180ff381,620,3001906,analogOutput,Heating Integral Time,EBU1.E1STFLR.RM-1718.VAV-25.HTG-IT,NAE-120/N2-1.AH7-VAV-25.Tuning.HTG-IT,seconds
+urn:uuid:ba0db2a9-7f13-471c-845c-ad9363539571,620,3001907,analogOutput,Cooling Proportional Band,EBU1.E1STFLR.RM-1718.VAV-25.CLG-PB,NAE-120/N2-1.AH7-VAV-25.Tuning.CLG-PB,degreesFahrenheit
+urn:uuid:83afca47-adda-4f1e-b4e9-c0c05c89e262,620,3001908,analogOutput,Cooling Integral Time,EBU1.E1STFLR.RM-1718.VAV-25.CLG-IT,NAE-120/N2-1.AH7-VAV-25.Tuning.CLG-IT,seconds
+urn:uuid:185da426-bd4c-453d-9fdb-1a31db00e6d3,620,3001915,analogOutput,Heating Proportional Band,EBU1.E1STFLR.EHALL.VAV-27.HTG-PB,NAE-120/N2-1.AH22-VAV-27.Tuning.HTG-PB,degreesFahrenheit
+urn:uuid:a5b9e63c-5d7f-45c5-8529-e530287e61fb,620,3001916,analogOutput,Heating Integral Time,EBU1.E1STFLR.EHALL.VAV-27.HTG-IT,NAE-120/N2-1.AH22-VAV-27.Tuning.HTG-IT,seconds
+urn:uuid:349152df-337e-4f6f-8c13-f20093f5f608,620,3001917,analogOutput,Cooling Proportional Band,EBU1.E1STFLR.EHALL.VAV-27.CLG-PB,NAE-120/N2-1.AH22-VAV-27.Tuning.CLG-PB,degreesFahrenheit
+urn:uuid:a1e61682-6201-400a-b87d-5066d5c671a2,620,3001918,analogOutput,Cooling Integral Time,EBU1.E1STFLR.EHALL.VAV-27.CLG-IT,NAE-120/N2-1.AH22-VAV-27.Tuning.CLG-IT,seconds
+urn:uuid:3f0c118a-610b-4e4d-9360-1d551c24e72e,620,3001920,analogOutput,Heating Proportional Band,EBU1.E1STFLR.RM-1712.VAV-28.HTG-PB,NAE-120/N2-1.AH7-VAV-28.Tuning.HTG-PB,degreesFahrenheit
+urn:uuid:ae86653c-de94-4f13-987c-16644821d8f5,620,3001921,analogOutput,Heating Integral Time,EBU1.E1STFLR.RM-1712.VAV-28.HTG-IT,NAE-120/N2-1.AH7-VAV-28.Tuning.HTG-IT,seconds
+urn:uuid:ecbc54ea-0aca-49ca-a2d3-119ff8b2e202,620,3001922,analogOutput,Cooling Proportional Band,EBU1.E1STFLR.RM-1712.VAV-28.CLG-PB,NAE-120/N2-1.AH7-VAV-28.Tuning.CLG-PB,degreesFahrenheit
+urn:uuid:59163806-5d55-4b90-a852-9d2006c9aa5c,620,3001923,analogOutput,Cooling Integral Time,EBU1.E1STFLR.RM-1712.VAV-28.CLG-IT,NAE-120/N2-1.AH7-VAV-28.Tuning.CLG-IT,seconds
+urn:uuid:8910ad72-717f-41bb-934f-91d6e51c64bc,620,3001925,analogOutput,Heating Proportional Band,EBU1.E1STFLR.RM-1511.VAV-29.HTG-PB,NAE-120/N2-1.AH7-VAV-29.Tuning.HTG-PB,degreesFahrenheit
+urn:uuid:723941d3-f859-4f1f-83c5-9e27be3ac829,620,3001926,analogOutput,Heating Integral Time,EBU1.E1STFLR.RM-1511.VAV-29.HTG-IT,NAE-120/N2-1.AH7-VAV-29.Tuning.HTG-IT,seconds
+urn:uuid:df62a429-0716-4d91-85b1-f93162e2e85e,620,3001927,analogOutput,Cooling Proportional Band,EBU1.E1STFLR.RM-1511.VAV-29.CLG-PB,NAE-120/N2-1.AH7-VAV-29.Tuning.CLG-PB,degreesFahrenheit
+urn:uuid:d5c13351-d43f-413a-85a5-8a1c13e81588,620,3001928,analogOutput,Cooling Integral Time,EBU1.E1STFLR.RM-1511.VAV-29.CLG-IT,NAE-120/N2-1.AH7-VAV-29.Tuning.CLG-IT,seconds
+urn:uuid:d0430487-b8d0-4ea5-833f-ec3f8c777fce,620,3001935,analogOutput,Heating Proportional Band,EBU1.E1STFLR.SCORRIDOR.VAV-32.HTG-PB,NAE-120/N2-1.AH22-VAV-32.Tuning.HTG-PB,degreesFahrenheit
+urn:uuid:9e5851ca-1126-4fcd-8221-e106295abae5,620,3001936,analogOutput,Heating Integral Time,EBU1.E1STFLR.SCORRIDOR.VAV-32.HTG-IT,NAE-120/N2-1.AH22-VAV-32.Tuning.HTG-IT,seconds
+urn:uuid:f021546a-9474-4d66-816c-29c682047ca0,620,3001937,analogOutput,Cooling Proportional Band,EBU1.E1STFLR.SCORRIDOR.VAV-32.CLG-PB,NAE-120/N2-1.AH22-VAV-32.Tuning.CLG-PB,degreesFahrenheit
+urn:uuid:5842d13d-9515-414e-a55e-9504349ae878,620,3001938,analogOutput,Cooling Integral Time,EBU1.E1STFLR.SCORRIDOR.VAV-32.CLG-IT,NAE-120/N2-1.AH22-VAV-32.Tuning.CLG-IT,seconds
+urn:uuid:34d3852f-b4d1-4e4e-933b-78e29e06c713,620,3002862,analogOutput,CHW Pump 1 VFD Command,EBU1.EBASEMENT.RM-B565.EPLANT.CHWP1VFD-CMD,NAE-120/FC-2.FEC-004.CHWP1VFD-CMD,percent
+urn:uuid:691a8bac-9f34-4fc8-92cd-5c2a0184d183,620,3002869,analogOutput,CHW Pump 2 VFD Command,EBU1.EBASEMENT.RM-B565.EPLANT.CHWP2VFD-CMD,NAE-120/FC-2.FEC-004.CHWP2VFD-CMD,percent
+urn:uuid:2dace892-9dd4-43a7-99a8-2f75a97416e5,620,3002889,analogOutput,HW Pump 3 VFD Command,EBU1.EBASEMENT.RM-B565.EPLANT.HWP3VFD-CMD,NAE-120/FC-2.FEC-004.HWP3VFD-CMD,percent
+urn:uuid:f11b4783-26bc-49db-880e-1d127d686103,620,3002896,analogOutput,HW Pump 4 VFD Command,EBU1.EBASEMENT.RM-B565.EPLANT.HWP4VFD-CMD,NAE-120/FC-2.FEC-004.HWP4VFD-CMD,percent
+urn:uuid:21666250-fc10-4f35-8f98-4731e19fe876,620,3002905,analogOutput,Heat Exchanger 3 Valve Command,EBU1.EBASEMENT.RM-B565.EPLANT.HX3-VLV,NAE-120/FC-2.FEC-004.HX3-VLV,percent
+urn:uuid:b5bfa11a-97c1-42fe-af34-a5c34835f5d9,620,3002928,analogOutput,Medium Temp Water Setpoint,EBU1.EASTPLANT.HX-1.MTWST-STPT,NAE-120/N2-1.UNT-110.MTWST-STPT,degreesFahrenheit
+urn:uuid:bfbbc36f-6d37-47f3-9bc2-60d1d1e2e741,620,3004262,analogOutput,Heating Valve Command,EBU1.BASEMENT.RM-B902.VAV-B902-1.HTGVLV-CMD,NAE-120/FC-2.AH4-SAV-009.HTGVLV-CMD,noUnits
+urn:uuid:3711bd74-c2e6-425b-a384-58e647f69802,620,3004292,analogOutput,Heating Valve Command,EBU1.BASEMENT.RM-B800.VAV-B800-1.HTGVLV-CMD,NAE-120/FC-2.AH4-SAV-010.HTGVLV-CMD,noUnits
+urn:uuid:2910a8c9-8109-4793-a4ee-c069352780af,620,3004324,analogOutput,Damper Command,EBU1.BASEMENT.RM-B561.VAV-B561-2.DPR-CMD,NAE-120/FC-2.AH22-VMA-011.DPR-CMD,percent
+urn:uuid:8ca6840f-d9f7-4ba1-9836-f2a78444be1d,620,3004332,analogOutput,Heating Valve Command,EBU1.BASEMENT.RM-B561.VAV-B561-2.HTGVLV-CMD,NAE-120/FC-2.AH22-VMA-011.HTGVLV-CMD,percent
+urn:uuid:6fee4075-18a2-4771-8727-b61fbe100e3b,620,3004350,analogOutput,Heating Valve Command,EBU1.BASEMENT.RM-B707.VAV-B707-1.HTGVLV-CMD,NAE-120/FC-2.AH4-SAV-012.HTGVLV-CMD,noUnits
+urn:uuid:06ea5bc8-0eae-43a7-8b7b-fc0d7d1e4608,620,3004380,analogOutput,Heating Valve Command,EBU1.BASEMENT.RM-B703.VAV-B703-1.HTGVLV-CMD,NAE-120/FC-2.AH4-SAV-013.HTGVLV-CMD,noUnits
+urn:uuid:0b7e0ae4-2d34-49ff-910c-c08341d1e08e,620,3004410,analogOutput,Heating Valve Command,EBU1.BASEMENT.RM-B912.VAV-B912-1.HTGVLV-CMD,NAE-120/FC-2.AH4-SAV-014.HTGVLV-CMD,noUnits
+urn:uuid:fe09a941-da54-4cdb-853b-8cd0fd115a3e,620,3004440,analogOutput,Cooling Valve Command,EBU1.BASEMENT.RM-B565.AH2.CLGVLV-CMD,NAE-120/FC-2.AH2-FEC-015.CLGVLV-CMD,percent
+urn:uuid:33178528-1d47-481b-9265-410511122f30,620,3000271,analogValue,,MONTH,NAE-120/Programming.CHW-PUMPS.MONTH,258
+urn:uuid:38f71f30-d24b-46a7-9c48-96199518789f,620,3000273,analogValue,LEAD CHW PUMP,EBU1.CHW.LEAD-PMP,NAE-120/Programming.Analog Data.EBU1CHW LEAD-PMP,258
+urn:uuid:9761c4a0-353c-4326-9207-96c635bbdb38,620,3000275,analogValue,Lead Lab Chiller Pump (odd=7/ even=6),EBU1.LBW.LEAD-PMP,NAE-120/Programming.Analog Data.EBU1LBW LEAD-PMP,258
+urn:uuid:b85e1d30-283f-4c48-bc6f-d20ab5adfb05,620,3000301,analogValue,Heating Valve Open On OSA Temperature,EBU1.HTHW.FULL-HEAT,NAE-120/Programming.Analog Data.EBU1HTHW FULL-HEAT,degreesFahrenheit
+urn:uuid:483df5a3-93b0-433e-85b9-8023f2239242,620,3000310,analogValue,MTWS DIFF PRES SETPOINT,EBU1.HTHW.DP-STPT,NAE-120/Programming.Analog Data.EBU1HTHW DP-STPT,poundsForcePerSquareInch
+urn:uuid:a591ccac-929c-4b94-ab1b-f1eb832d6a1c,620,3000311,analogValue,P8 ENABLE SETPOINT,EBU1.LBW.PMP-SETP,NAE-120/Programming.Analog Data.EBU1LBW PMP-SETP,264
+urn:uuid:25c0db09-84b3-4215-823d-2a41c84def8d,620,3000312,analogValue,P8 ENABLE DIFFERENTIAL,EBU1LBW PMP-DIFF,NAE-120/Programming.Analog Data.EBU1LBW PMP-DIFF,264
+urn:uuid:6f550cf7-7985-465f-bf12-9dc52d3149a6,620,3002843,analogValue,,Month,NAE-120/Programming.P1-2-3-4 ROTATE.Month,months
+urn:uuid:6da7ad92-26de-407f-88fc-2c375c19d591,620,3002853,analogValue,CHW Differential Pressure AH-21 (PV),EBU1.EBASEMENT.RM-B810.EPLANT.CHWDP-7THFLR,NAE-120/FC-2.FEC-004.CHWDP-7THFLR,noUnits
+urn:uuid:84bd3e1e-be49-4be0-9ee2-3dfab324059d,620,3002855,analogValue,CHW Differential Pressure Setpoint,EBU1.EBASEMENT.RM-B565.EPLANT.CHWDP-STPT,NAE-120/FC-2.FEC-004.CHWDP-STPT,poundsForcePerSquareInch
+urn:uuid:6e5eae09-8b24-4dbf-b656-924d43a481c7,620,3002871,analogValue,CHW Start Lag Cut in %,EBU1.EBASEMENT.RM-B565.EPLANT.CHWSTRT-LAG,NAE-120/FC-2.FEC-004.CHWSTRT-LAG,percent
+urn:uuid:d72aea80-a33d-4fed-8d4d-58dc248fab9a,620,3002872,analogValue,CHW Lag Difr Cut out %,EBU1.EBASEMENT.RM-B565.EPLANT.CHWLAG-DIFR,NAE-120/FC-2.FEC-004.CHWLAG-DIFR,percent
+urn:uuid:372282a5-37ee-4704-b6c5-6b3711639877,620,3002880,analogValue,MTW Differential Pressure 7th Floor,EBU1.EBASEMENT.RM-B565.EPLANT.MTWDP-7THFLR,NAE-120/FC-2.FEC-004.MTWDP-7THFLR,noUnits
+urn:uuid:e866fe8a-4474-4c6f-96e1-4f874366aa99,620,3002882,analogValue,Hot Water Differential Pressure Setpoint,EBU1.EBASEMENT.RM-B565.EPLANT.HWDP-STPT,NAE-120/FC-2.FEC-004.HWDP-STPT,noUnits
+urn:uuid:873ade3e-0555-44f1-94fe-e385f17dc450,620,3002903,analogValue,Heat Exhanger 3 Temperature Setpoint,EBU1.EBASEMENT.RM-B565.EPLANT.HX3T-STPT,NAE-120/FC-2.FEC-004.HX3T-STPT,noUnits
+urn:uuid:e158e872-6d4d-40fa-b303-12e2d36cc4bc,620,3002923,analogValue,Month,EBU1.EBASEMENT.RM-B565.EPLANT.MONTH,NAE-120/FC-2.FEC-004.MONTH,noUnits
+urn:uuid:7dacc745-2cf7-40bd-85e6-3a485868b7a4,620,3002942,analogValue,,CHWDPSP-IL,NAE-120/Programming.EPLANT-DP.CHWDP-SP-RESET.CHWDPSP-IL,percent
+urn:uuid:51cb0136-cbe5-432e-a93b-d0572b42039f,620,3002943,analogValue,,CHWDPSP-IH,NAE-120/Programming.EPLANT-DP.CHWDP-SP-RESET.CHWDPSP-IH,percent
+urn:uuid:bff78296-b1be-445f-92a8-7ae96ef442b1,620,3002944,analogValue,CHW Differential Pressure Setpoint High,CHWDPSP-OH,NAE-120/Programming.EPLANT-DP.CHWDP-SP-RESET.CHWDPSP-OH,poundsForcePerSquareInch
+urn:uuid:84286739-de21-459f-987d-139c6603ead7,620,3002945,analogValue,CHW Differential Pressure Setpoint Low,CHWDPSP-OL,NAE-120/Programming.EPLANT-DP.CHWDP-SP-RESET.CHWDPSP-OL,poundsForcePerSquareInch
+urn:uuid:434b6b02-b602-4f82-890a-c4bd4bd172cf,620,3003525,analogValue,,HX1-OATL,NAE-120/Programming.EPLANT-DP.HW-SYS.HX1-OATL,degreesFahrenheit
+urn:uuid:b872fcc4-d999-4982-addc-84a5b872b805,620,3003526,analogValue,,HX1-HI,NAE-120/Programming.EPLANT-DP.HW-SYS.HX1-HI,degreesFahrenheit
+urn:uuid:6352ec78-daa3-404f-b9d2-193dc0cf69b7,620,3003527,analogValue,,HX1-OATH,NAE-120/Programming.EPLANT-DP.HW-SYS.HX1-OATH,degreesFahrenheit
+urn:uuid:1d61feb5-ef1a-43c0-aec1-df2090bb20d4,620,3003528,analogValue,,HX1-LO,NAE-120/Programming.EPLANT-DP.HW-SYS.HX1-LO,degreesFahrenheit
+urn:uuid:fadc97a6-131a-4c3b-8dce-e82305c3cb9d,620,3003529,analogValue,,HX3-OATL,NAE-120/Programming.EPLANT-DP.HW-SYS.HX3-OATL,degreesFahrenheit
+urn:uuid:9e0613e0-ff6d-4ef7-a4a7-00b14fd8caef,620,3003530,analogValue,,HX3-HI,NAE-120/Programming.EPLANT-DP.HW-SYS.HX3-HI,degreesFahrenheit
+urn:uuid:e050cad2-ef47-406a-945e-5d0d674f13f3,620,3003531,analogValue,,HX3-OATH,NAE-120/Programming.EPLANT-DP.HW-SYS.HX3-OATH,degreesFahrenheit
+urn:uuid:b49941d1-f642-4110-9018-fb87cbdee165,620,3003532,analogValue,,HX3-LO,NAE-120/Programming.EPLANT-DP.HW-SYS.HX3-LO,degreesFahrenheit
+urn:uuid:fe21f1c3-a191-4810-b3ea-e7f55873b7db,620,3003648,analogValue,,HW-SYS Disable OA-STPT,NAE-120/Programming.EPLANT-DP.HW-SYS.HW-SYS Disable OA-STPT,degreesFahrenheit
+urn:uuid:d4b24392-4027-4e15-95c1-5987434185a8,620,3003649,analogValue,,HW-SYS Enable OA-STPT,NAE-120/Programming.EPLANT-DP.HW-SYS.HW-SYS Enable OA-STPT,degreesFahrenheit
+urn:uuid:3b0d6edc-2233-435f-baf7-12679fae1f7e,620,3004145,analogValue,Frequency,EBU1.BASEMENT.RM-B565.P1-VFD.FREQ,NAE-120/FC-2.P1-VDF-005.FREQ,noUnits
+urn:uuid:c2145c45-cd54-432a-aeea-e9bc9a02ed01,620,3004147,analogValue,Current,EBU1.BASEMENT.RM-B565.P1-VFD.VFD-AMP,NAE-120/FC-2.P1-VDF-005.VFD-AMP,noUnits
+urn:uuid:1f6c24d4-9a1c-407c-911e-40deacb696e4,620,3004149,analogValue,Volts,EBU1.BASEMENT.RM-B565.P1-VFD.VOLTS,NAE-120/FC-2.P1-VDF-005.VOLTS,noUnits
+urn:uuid:0be470ce-3475-4a02-a3d7-ff6d67050904,620,3004160,analogValue,Power Kilowatts,EBU1.BASEMENT.RM-B565.P1-VFD.PWR-KW,NAE-120/FC-2.P1-VDF-005.PWR-KW,noUnits
+urn:uuid:b7bf2748-3099-4245-ba12-09feb45b9ccf,620,3004162,analogValue,Run Hours,EBU1.BASEMENT.RM-B565.P1-VFD.RUN-HRS,NAE-120/FC-2.P1-VDF-005.RUN-HRS,noUnits
+urn:uuid:c0f9eb3f-1edf-40aa-995a-0ad9a4802b4c,620,3004163,analogValue,Kilowatt Hours,EBU1.BASEMENT.RM-B565.P1-VFD.KW-HRS,NAE-120/FC-2.P1-VDF-005.KW-HRS,noUnits
+urn:uuid:512094e8-27cd-42cb-8942-426a7da5dd23,620,3004165,analogValue,Megawatt Hours,EBU1.BASEMENT.RM-B565.P1-VFD.MW-HRS,NAE-120/FC-2.P1-VDF-005.MW-HRS,noUnits
+urn:uuid:58fc48f3-945b-454e-886e-bb27d4ffcf4a,620,3004167,analogValue,Drive Temperature,EBU1.BASEMENT.RM-B565.P1-VFD.DRIVE-T,NAE-120/FC-2.P1-VDF-005.DRIVE-T,noUnits
+urn:uuid:72eb24a4-5dd7-4526-b54b-5f1b0ceddd5a,620,3004169,analogValue,Revolutions Per Minute,EBU1.BASEMENT.RM-B565.P1-VFD.RPM,NAE-120/FC-2.P1-VDF-005.RPM,noUnits
+urn:uuid:4ee78c2c-6527-4cfc-9a7b-d5332e190229,620,3004172,analogValue,Frequency,EBU1.BASEMENT.RM-B565.P2-VFD.FREQ,NAE-120/FC-2.P2-VFD-006.FREQ,noUnits
+urn:uuid:284a833e-d3ed-46ae-8b1d-514ab16fc244,620,3004174,analogValue,Current,EBU1.BASEMENT.RM-B565.P2-VFD.VFD-AMP,NAE-120/FC-2.P2-VFD-006.VFD-AMP,noUnits
+urn:uuid:95ade79f-a604-47dd-be5e-408c35fd345c,620,3004176,analogValue,Volts,EBU1.BASEMENT.RM-B565.P2-VFD.VOLTS,NAE-120/FC-2.P2-VFD-006.VOLTS,noUnits
+urn:uuid:025c85bf-7ec1-4500-bf82-7aff4abce38f,620,3004187,analogValue,Power Kilowatts,EBU1.BASEMENT.RM-B565.P2-VFD.PWR-KW,NAE-120/FC-2.P2-VFD-006.PWR-KW,noUnits
+urn:uuid:7439de1b-8ef7-490f-98ee-79e9ed0112e6,620,3004189,analogValue,Run Hours,EBU1.BASEMENT.RM-B565.P2-VFD.RUN-HRS,NAE-120/FC-2.P2-VFD-006.RUN-HRS,noUnits
+urn:uuid:f835171b-3f9d-45c6-a5ce-fb806d51a6b9,620,3004190,analogValue,Kilowatt Hours,EBU1.BASEMENT.RM-B565.P2-VFD.KW-HRS,NAE-120/FC-2.P2-VFD-006.KW-HRS,noUnits
+urn:uuid:0b8d1164-9a95-430f-b62a-ed4f6f6af30b,620,3004192,analogValue,Megawatt Hours,EBU1.BASEMENT.RM-B565.P2-VFD.MW-HRS,NAE-120/FC-2.P2-VFD-006.MW-HRS,noUnits
+urn:uuid:03a06a82-249a-40ff-be3b-a5ce9e709b58,620,3004194,analogValue,Drive Temperature,EBU1.BASEMENT.RM-B565.P2-VFD.DRIVE-T,NAE-120/FC-2.P2-VFD-006.DRIVE-T,noUnits
+urn:uuid:f80cee2c-81f0-466e-ac8d-d30105e7e427,620,3004196,analogValue,Revolutions Per Minute,EBU1.BASEMENT.RM-B565.P2-VFD.RPM,NAE-120/FC-2.P2-VFD-006.RPM,noUnits
+urn:uuid:9b5ac0f6-1c33-451a-9b0a-c478df7ea36e,620,3004255,analogValue,Warmer/Cooler Adjust,EBU1.BASEMENT.RM-B902.VAV-B902-1.WC-ADJ,NAE-120/FC-2.AH4-SAV-009.WC-ADJ,degreesFahrenheit
+urn:uuid:72088bfc-a155-47f4-8be8-5e0ea258d2b2,620,3004256,analogValue,Actual Cooling Setpoint,EBU1.BASEMENT.RM-B902.VAV-B902-1.ACTCLG-STPT,NAE-120/FC-2.AH4-SAV-009.ACTCLG-STPT,degreesFahrenheit
+urn:uuid:69c166f5-0d79-499c-bb35-f1e83366849b,620,3004258,analogValue,Actual Heating Setpoint,EBU1.BASEMENT.RM-B902.VAV-B902-1.ACTHTG-STPT,NAE-120/FC-2.AH4-SAV-009.ACTHTG-STPT,degreesFahrenheit
+urn:uuid:5c87b173-cedb-4b6d-9792-07b21fcf2faa,620,3004260,analogValue,Occupied Temperature Setpoint,EBU1.BASEMENT.RM-B902.VAV-B902-1.OCCTEMP-STPT,NAE-120/FC-2.AH4-SAV-009.OCCTEMP-STPT,noUnits
+urn:uuid:48a36a50-e7a9-4f34-b708-76b0cdc1aa9f,620,3004261,analogValue,Occupied Temperature Deadband,EBU1.BASEMENT.RM-B902.VAV-B902-1.OCCTEMP-DB,NAE-120/FC-2.AH4-SAV-009.OCCTEMP-DB,degreesFahrenheit
+urn:uuid:a08b65a4-cf30-4d46-b524-ba92efc90051,620,3004264,analogValue,Cooling Demand,EBU1.BASEMENT.RM-B902.VAV-B902-1.CLG-DMD,NAE-120/FC-2.AH4-SAV-009.CLG-DMD,noUnits
+urn:uuid:ee49f511-36ee-4981-81bc-5f222b397d4d,620,3004270,analogValue,Supply Flow Command,EBU1.BASEMENT.RM-B902.VAV-B902-1.SUPFLOW-COMMAND,NAE-120/FC-2.AH4-SAV-009.SUPFLOW-COMMAND,noUnits
+urn:uuid:9b3d668e-ee60-451d-919e-2fa99cc58b53,620,3004271,analogValue,Supply Flow Feedback,EBU1.BASEMENT.RM-B902.VAV-B902-1.SUPFLOW-FEEDBACK,NAE-120/FC-2.AH4-SAV-009.SUPFLOW-FEEDBACK,noUnits
+urn:uuid:2a083d58-8ca0-4325-ae92-0edbc9f35b0b,620,3004273,analogValue,Exhaust Flow Command,EBU1.BASEMENT.RM-B902.VAV-B902-1.EXHFLOW-COMMAND,NAE-120/FC-2.AH4-SAV-009.EXHFLOW-COMMAND,noUnits
+urn:uuid:e2c18fd2-046e-4ba0-adc5-8acfce16642a,620,3004274,analogValue,Exhaust Flow Feedback,EBU1.BASEMENT.RM-B902.VAV-B902-1.EXHFLOW-FEEDBACK,NAE-120/FC-2.AH4-SAV-009.EXHFLOW-FEEDBACK,noUnits
+urn:uuid:018f818b-1bfa-42ee-bb71-f973640cb4fe,620,3004276,analogValue,Unoccupied Cooling Setpoint,EBU1.BASEMENT.RM-B902.VAV-B902-1.UNOCCCLG-STPT,NAE-120/FC-2.AH4-SAV-009.UNOCCCLG-STPT,degreesFahrenheit
+urn:uuid:b2962b2d-b651-4ad1-9f9b-b5a3ef50b937,620,3004277,analogValue,Unoccupied Heating Setpoint,EBU1.BASEMENT.RM-B902.VAV-B902-1.UNOCCHTG-STPT,NAE-120/FC-2.AH4-SAV-009.UNOCCHTG-STPT,degreesFahrenheit
+urn:uuid:354929a5-9d15-42c3-bfcc-aa180e033db3,620,3004285,analogValue,Warmer/Cooler Adjust,EBU1.BASEMENT.RM-B800.VAV-B800-1.WC-ADJ,NAE-120/FC-2.AH4-SAV-010.WC-ADJ,degreesFahrenheit
+urn:uuid:7f56a442-e14f-43ba-92ad-2a811684e7d0,620,3004286,analogValue,Actual Cooling Setpoint,EBU1.BASEMENT.RM-B800.VAV-B800-1.ACTCLG-STPT,NAE-120/FC-2.AH4-SAV-010.ACTCLG-STPT,degreesFahrenheit
+urn:uuid:eef2996c-18bc-44db-85ff-fc05827c1f1e,620,3004288,analogValue,Actual Heating Setpoint,EBU1.BASEMENT.RM-B800.VAV-B800-1.ACTHTG-STPT,NAE-120/FC-2.AH4-SAV-010.ACTHTG-STPT,degreesFahrenheit
+urn:uuid:b78e2519-e7ec-4816-afa1-9eb7f4c620d5,620,3004290,analogValue,Occupied Temperature Setpoint,EBU1.BASEMENT.RM-B800.VAV-B800-1.OCCTEMP-STPT,NAE-120/FC-2.AH4-SAV-010.OCCTEMP-STPT,noUnits
+urn:uuid:f1244016-e93a-4b8b-b6a2-b55cad83ca7a,620,3004291,analogValue,Occupied Temperature Deadband,EBU1.BASEMENT.RM-B800.VAV-B800-1.OCCTEMP-DB,NAE-120/FC-2.AH4-SAV-010.OCCTEMP-DB,degreesFahrenheit
+urn:uuid:6488ca16-b737-48f5-a200-73879110254a,620,3004294,analogValue,Cooling Demand,EBU1.BASEMENT.RM-B800.VAV-B800-1.CLG-DMD,NAE-120/FC-2.AH4-SAV-010.CLG-DMD,noUnits
+urn:uuid:94fb261f-5825-4353-a1e6-125a01cc7202,620,3004300,analogValue,Supply Flow Command,EBU1.BASEMENT.RM-B800.VAV-B800-1.SUPFLOW-COMMAND,NAE-120/FC-2.AH4-SAV-010.SUPFLOW-COMMAND,noUnits
+urn:uuid:fc4adb9e-0d89-4b6f-81fe-2afedad0f767,620,3004301,analogValue,Supply Flow Feedback,EBU1.BASEMENT.RM-B800.VAV-B800-1.SUPFLOW-FEEDBACK,NAE-120/FC-2.AH4-SAV-010.SUPFLOW-FEEDBACK,noUnits
+urn:uuid:6ad9d950-d35e-45dc-9ef7-b2c350968a92,620,3004303,analogValue,Exhaust Flow Command,EBU1.BASEMENT.RM-B800.VAV-B800-1.EXHFLOW-COMMAND,NAE-120/FC-2.AH4-SAV-010.EXHFLOW-COMMAND,noUnits
+urn:uuid:12e952e1-5e28-4ad1-acf9-5d7309af3ac5,620,3004304,analogValue,Exhaust Flow Feedback,EBU1.BASEMENT.RM-B800.VAV-B800-1.EXHFLOW-FEEDBACK,NAE-120/FC-2.AH4-SAV-010.EXHFLOW-FEEDBACK,noUnits
+urn:uuid:00443efd-cf26-4e0f-9f2d-8bbfff45b8f4,620,3004306,analogValue,Unoccupied Cooling Setpoint,EBU1.BASEMENT.RM-B800.VAV-B800-1.UNOCCCLG-STPT,NAE-120/FC-2.AH4-SAV-010.UNOCCCLG-STPT,degreesFahrenheit
+urn:uuid:1311533a-c8f4-4c07-bb5c-c70b09485dc1,620,3004307,analogValue,Unoccupied Heating Setpoint,EBU1.BASEMENT.RM-B800.VAV-B800-1.UNOCCHTG-STPT,NAE-120/FC-2.AH4-SAV-010.UNOCCHTG-STPT,degreesFahrenheit
+urn:uuid:bc87470d-e54b-46e6-93ce-104f445abdf7,620,3004315,analogValue,Warmer/Cooler Adjust,EBU1.BASEMENT.RM-B561.VAV-B561-2.WC-ADJ,NAE-120/FC-2.AH22-VMA-011.WC-ADJ,degreesFahrenheit
+urn:uuid:3e9072ce-4bfb-4c68-9afe-652b7abb6360,620,3004326,analogValue,Supply Air Flow,EBU1.BASEMENT.RM-B561.VAV-B561-2.SA-FLOW,NAE-120/FC-2.AH22-VMA-011.SA-FLOW,cubicFeetPerMinute
+urn:uuid:ad8e3837-0b88-4e71-97e2-8c258d2365d4,620,3004328,analogValue,Supply Air Flow Setpoint,EBU1.BASEMENT.RM-B561.VAV-B561-2.SAFLOW-STPT,NAE-120/FC-2.AH22-VMA-011.SAFLOW-STPT,cubicFeetPerMinute
+urn:uuid:692f18b1-bb99-4ab3-9a61-a8b0cd67750b,620,3004330,analogValue,Cooling Command,EBU1.BASEMENT.RM-B561.VAV-B561-2.CLG-CMD,NAE-120/FC-2.AH22-VMA-011.CLG-CMD,percent
+urn:uuid:6501c387-b3cf-4738-b408-753b72544a34,620,3004334,analogValue,Common Setpoint,EBU1.BASEMENT.RM-B561.VAV-B561-2.COM-STPT,NAE-120/FC-2.AH22-VMA-011.COM-STPT,degreesFahrenheit
+urn:uuid:0851cd9d-3a98-494e-b04c-c58bf8354000,620,3004336,analogValue,Actual Cooling Setpoint,EBU1.BASEMENT.RM-B561.VAV-B561-2.ACTCLG-STPT,NAE-120/FC-2.AH22-VMA-011.ACTCLG-STPT,degreesFahrenheit
+urn:uuid:54a42caf-e6ee-45da-8ad8-8ded115502cf,620,3004338,analogValue,Actual Heating Setpoint,EBU1.BASEMENT.RM-B561.VAV-B561-2.ACTHTG-STPT,NAE-120/FC-2.AH22-VMA-011.ACTHTG-STPT,degreesFahrenheit
+urn:uuid:eb115b29-c498-4455-9f36-c65976b288fc,620,3004343,analogValue,Warmer/Cooler Adjust,EBU1.BASEMENT.RM-B707.VAV-B707-1.WC-ADJ,NAE-120/FC-2.AH4-SAV-012.WC-ADJ,degreesFahrenheit
+urn:uuid:45c40d28-36bd-442a-ab9c-dd661e338877,620,3004344,analogValue,Actual Cooling Setpoint,EBU1.BASEMENT.RM-B707.VAV-B707-1.ACTCLG-STPT,NAE-120/FC-2.AH4-SAV-012.ACTCLG-STPT,degreesFahrenheit
+urn:uuid:238d3823-6413-42a2-bc54-8230b7e8b7fc,620,3004346,analogValue,Actual Heating Setpoint,EBU1.BASEMENT.RM-B707.VAV-B707-1.ACTHTG-STPT,NAE-120/FC-2.AH4-SAV-012.ACTHTG-STPT,degreesFahrenheit
+urn:uuid:e8abb070-1be4-4760-9835-30b93f77d88f,620,3004348,analogValue,Occupied Temperature Setpoint,EBU1.BASEMENT.RM-B707.VAV-B707-1.OCCTEMP-STPT,NAE-120/FC-2.AH4-SAV-012.OCCTEMP-STPT,noUnits
+urn:uuid:1340d311-bd53-4257-8c3a-9940cb4ed7f9,620,3004349,analogValue,Occupied Temperature Deadband,EBU1.BASEMENT.RM-B707.VAV-B707-1.OCCTEMP-DB,NAE-120/FC-2.AH4-SAV-012.OCCTEMP-DB,degreesFahrenheit
+urn:uuid:4b92c384-b890-4084-90c4-75af2328383f,620,3004352,analogValue,Cooling Demand,EBU1.BASEMENT.RM-B707.VAV-B707-1.CLG-DMD,NAE-120/FC-2.AH4-SAV-012.CLG-DMD,noUnits
+urn:uuid:4a514cb7-45a1-4b22-a641-53e16703129a,620,3004358,analogValue,Supply Flow Command,EBU1.BASEMENT.RM-B707.VAV-B707-1.SUPFLOW-COMMAND,NAE-120/FC-2.AH4-SAV-012.SUPFLOW-COMMAND,noUnits
+urn:uuid:77ea7287-56e7-4541-84c6-218b5b651ae1,620,3004359,analogValue,Supply Flow Feedback,EBU1.BASEMENT.RM-B707.VAV-B707-1.SUPFLOW-FEEDBACK,NAE-120/FC-2.AH4-SAV-012.SUPFLOW-FEEDBACK,noUnits
+urn:uuid:d8703b64-2bfa-4b36-a91f-3fcf18a69ca1,620,3004361,analogValue,Exhaust Flow Command,EBU1.BASEMENT.RM-B707.VAV-B707-1.EXHFLOW-COMMAND,NAE-120/FC-2.AH4-SAV-012.EXHFLOW-COMMAND,noUnits
+urn:uuid:82c7c00e-debc-4028-afed-f644fbec1aac,620,3004362,analogValue,Exhaust Flow Feedback,EBU1.BASEMENT.RM-B707.VAV-B707-1.EXHFLOW-FEEDBACK,NAE-120/FC-2.AH4-SAV-012.EXHFLOW-FEEDBACK,noUnits
+urn:uuid:fd43f481-9c2c-448f-a4ee-21d0afb0fb1c,620,3004364,analogValue,Unoccupied Cooling Setpoint,EBU1.BASEMENT.RM-B707.VAV-B707-1.UNOCCCLG-STPT,NAE-120/FC-2.AH4-SAV-012.UNOCCCLG-STPT,degreesFahrenheit
+urn:uuid:b1bb3d08-8f3e-45f0-9528-0ec228365b8d,620,3004365,analogValue,Unoccupied Heating Setpoint,EBU1.BASEMENT.RM-B707.VAV-B707-1.UNOCCHTG-STPT,NAE-120/FC-2.AH4-SAV-012.UNOCCHTG-STPT,degreesFahrenheit
+urn:uuid:23f8198e-db24-4ad0-8da3-4bb33854882e,620,3004373,analogValue,Warmer/Cooler Adjust,EBU1.BASEMENT.RM-B703.VAV-B703-1.WC-ADJ,NAE-120/FC-2.AH4-SAV-013.WC-ADJ,degreesFahrenheit
+urn:uuid:f9a23e0e-5205-411e-bfe3-e2400378d7e9,620,3004374,analogValue,Actual Cooling Setpoint,EBU1.BASEMENT.RM-B703.VAV-B703-1.ACTCLG-STPT,NAE-120/FC-2.AH4-SAV-013.ACTCLG-STPT,degreesFahrenheit
+urn:uuid:ca407bec-9ee6-4d83-9232-c286c06521ce,620,3004376,analogValue,Actual Heating Setpoint,EBU1.BASEMENT.RM-B703.VAV-B703-1.ACTHTG-STPT,NAE-120/FC-2.AH4-SAV-013.ACTHTG-STPT,degreesFahrenheit
+urn:uuid:34afa439-89c5-44d9-b021-3e0e9cbf1469,620,3004378,analogValue,Occupied Temperature Setpoint,EBU1.BASEMENT.RM-B703.VAV-B703-1.OCCTEMP-STPT,NAE-120/FC-2.AH4-SAV-013.OCCTEMP-STPT,noUnits
+urn:uuid:bfc0ba93-0979-4067-9916-6ca887cc17eb,620,3004379,analogValue,Occupied Temperature Deadband,EBU1.BASEMENT.RM-B703.VAV-B703-1.OCCTEMP-DB,NAE-120/FC-2.AH4-SAV-013.OCCTEMP-DB,degreesFahrenheit
+urn:uuid:ad3f9fb8-b915-4274-baf2-2a089fe1b1c0,620,3004382,analogValue,Cooling Demand,EBU1.BASEMENT.RM-B703.VAV-B703-1.CLG-DMD,NAE-120/FC-2.AH4-SAV-013.CLG-DMD,noUnits
+urn:uuid:b2c54732-2daa-40ff-801a-14bf526f67e7,620,3004388,analogValue,Supply Flow Command,EBU1.BASEMENT.RM-B703.VAV-B703-1.SUPFLOW-COMMAND,NAE-120/FC-2.AH4-SAV-013.SUPFLOW-COMMAND,noUnits
+urn:uuid:d3980032-fba9-4822-8828-64c26b2b0b8b,620,3004389,analogValue,Supply Flow Feedback,EBU1.BASEMENT.RM-B703.VAV-B703-1.SUPFLOW-FEEDBACK,NAE-120/FC-2.AH4-SAV-013.SUPFLOW-FEEDBACK,noUnits
+urn:uuid:70a56e09-1df1-46dc-8720-8f660ac9e16d,620,3004391,analogValue,Exhaust Flow Command,EBU1.BASEMENT.RM-B703.VAV-B703-1.EXHFLOW-COMMAND,NAE-120/FC-2.AH4-SAV-013.EXHFLOW-COMMAND,noUnits
+urn:uuid:eba40366-64ed-48a2-adac-3a42f7e06346,620,3004392,analogValue,Exhaust Flow Feedback,EBU1.BASEMENT.RM-B703.VAV-B703-1.EXHFLOW-FEEDBACK,NAE-120/FC-2.AH4-SAV-013.EXHFLOW-FEEDBACK,noUnits
+urn:uuid:e355705f-8ed8-4409-90e0-a53bb2e73249,620,3004394,analogValue,Unoccupied Cooling Setpoint,EBU1.BASEMENT.RM-B703.VAV-B703-1.UNOCCCLG-STPT,NAE-120/FC-2.AH4-SAV-013.UNOCCCLG-STPT,degreesFahrenheit
+urn:uuid:85fdcc81-8a34-40bf-a13d-730cd2773361,620,3004395,analogValue,Unoccupied Heating Setpoint,EBU1.BASEMENT.RM-B703.VAV-B703-1.UNOCCHTG-STPT,NAE-120/FC-2.AH4-SAV-013.UNOCCHTG-STPT,degreesFahrenheit
+urn:uuid:a84c7b08-f9f7-4917-95c3-c3af44bf180c,620,3004403,analogValue,Warmer/Cooler Adjust,EBU1.BASEMENT.RM-B912.VAV-B912-1.WC-ADJ,NAE-120/FC-2.AH4-SAV-014.WC-ADJ,degreesFahrenheit
+urn:uuid:86c1a565-5ab4-4ee0-acb6-b03401b60c1d,620,3004404,analogValue,Actual Cooling Setpoint,EBU1.BASEMENT.RM-B912.VAV-B912-1.ACTCLG-STPT,NAE-120/FC-2.AH4-SAV-014.ACTCLG-STPT,degreesFahrenheit
+urn:uuid:9f1d8cee-5d4d-4b12-8ce4-606612d3595b,620,3004406,analogValue,Actual Heating Setpoint,EBU1.BASEMENT.RM-B912.VAV-B912-1.ACTHTG-STPT,NAE-120/FC-2.AH4-SAV-014.ACTHTG-STPT,degreesFahrenheit
+urn:uuid:3cf23347-2707-4785-b932-e5abde4b5bc3,620,3004408,analogValue,Occupied Temperature Setpoint,EBU1.BASEMENT.RM-B912.VAV-B912-1.OCCTEMP-STPT,NAE-120/FC-2.AH4-SAV-014.OCCTEMP-STPT,noUnits
+urn:uuid:81c2ba6f-515d-4562-bfbc-5731a760d9dd,620,3004409,analogValue,Occupied Temperature Deadband,EBU1.BASEMENT.RM-B912.VAV-B912-1.OCCTEMP-DB,NAE-120/FC-2.AH4-SAV-014.OCCTEMP-DB,degreesFahrenheit
+urn:uuid:c277ea97-5a24-4493-9926-e6b5fd0833de,620,3004412,analogValue,Cooling Demand,EBU1.BASEMENT.RM-B912.VAV-B912-1.CLG-DMD,NAE-120/FC-2.AH4-SAV-014.CLG-DMD,noUnits
+urn:uuid:f3c67c44-5cb7-4bc6-a2e0-44fc879856d2,620,3004418,analogValue,Supply Flow Command,EBU1.BASEMENT.RM-B912.VAV-B912-1.SUPFLOW-COMMAND,NAE-120/FC-2.AH4-SAV-014.SUPFLOW-COMMAND,noUnits
+urn:uuid:c9647b84-1a90-4a60-a91e-49bd20b2e0cd,620,3004419,analogValue,Supply Flow Feedback,EBU1.BASEMENT.RM-B912.VAV-B912-1.SUPFLOW-FEEDBACK,NAE-120/FC-2.AH4-SAV-014.SUPFLOW-FEEDBACK,noUnits
+urn:uuid:cf6c7151-57d5-48a0-834d-d351be004485,620,3004421,analogValue,Exhaust Flow Command,EBU1.BASEMENT.RM-B912.VAV-B912-1.EXHFLOW-COMMAND,NAE-120/FC-2.AH4-SAV-014.EXHFLOW-COMMAND,noUnits
+urn:uuid:adfd4fa6-5059-40a6-bc78-421eb569e494,620,3004422,analogValue,Exhaust Flow Feedback,EBU1.BASEMENT.RM-B912.VAV-B912-1.EXHFLOW-FEEDBACK,NAE-120/FC-2.AH4-SAV-014.EXHFLOW-FEEDBACK,noUnits
+urn:uuid:65705432-64e7-45c7-8548-f033aae5ddf6,620,3004424,analogValue,Unoccupied Cooling Setpoint,EBU1.BASEMENT.RM-B912.VAV-B912-1.UNOCCCLG-STPT,NAE-120/FC-2.AH4-SAV-014.UNOCCCLG-STPT,degreesFahrenheit
+urn:uuid:9c2c4f16-cc97-4dd3-9aa8-d0661d654772,620,3004425,analogValue,Unoccupied Heating Setpoint,EBU1.BASEMENT.RM-B912.VAV-B912-1.UNOCCHTG-STPT,NAE-120/FC-2.AH4-SAV-014.UNOCCHTG-STPT,degreesFahrenheit
+urn:uuid:547e4441-e4ea-4fba-a219-c222d03c1a9a,620,3004441,analogValue,Return Air Temperature Setpoint,EBU1.BASEMENT.RM-B565.AH2.RAT-STPT,NAE-120/FC-2.AH2-FEC-015.RAT-STPT,degreesFahrenheit
+urn:uuid:ce69758f-175b-483e-ab0f-f0f3c1ee05c2,620,3006047,analogValue,Outside Air Temperature,EBU1.BASEMENT.RM-B565.AH2.OA-T,NAE-120/FC-2.AH2-FEC-015.OA-T,degreesFahrenheit
+urn:uuid:81e2b198-27e0-4f1b-93f3-94fcbe7ded94,620,3006103,analogValue,Frequency,EBU1.BASEMENT.RM-B565.P3-VFD.FREQ,NAE-120/FC-2.P3-VFD-007.FREQ,noUnits
+urn:uuid:c42ebd42-cda8-4491-a17f-e1ec6141ce30,620,3006105,analogValue,Current,EBU1.BASEMENT.RM-B565.P3-VFD.VFD-AMP,NAE-120/FC-2.P3-VFD-007.VFD-AMP,noUnits
+urn:uuid:9c1e9163-3414-4095-aef7-0cef6fc8d822,620,3006107,analogValue,Volts,EBU1.BASEMENT.RM-B565.P3-VFD.VOLTS,NAE-120/FC-2.P3-VFD-007.VOLTS,noUnits
+urn:uuid:dc2e57b9-58f8-43ad-b6c6-4e8a15529f8c,620,3006118,analogValue,Power Kilowatts,EBU1.BASEMENT.RM-B565.P3-VFD.PWR-KW,NAE-120/FC-2.P3-VFD-007.PWR-KW,noUnits
+urn:uuid:9d0030a9-37e5-4c02-aa89-3cf1198f8830,620,3006120,analogValue,Run Hours,EBU1.BASEMENT.RM-B565.P3-VFD.RUN-HRS,NAE-120/FC-2.P3-VFD-007.RUN-HRS,noUnits
+urn:uuid:c95fe5a6-2fec-4c0f-b9f1-4e719508db0e,620,3006121,analogValue,Kilowatt Hours,EBU1.BASEMENT.RM-B565.P3-VFD.KW-HRS,NAE-120/FC-2.P3-VFD-007.KW-HRS,noUnits
+urn:uuid:b2820412-5423-4236-b74d-85d89cddb9b9,620,3006123,analogValue,Megawatt Hours,EBU1.BASEMENT.RM-B565.P3-VFD.MW-HRS,NAE-120/FC-2.P3-VFD-007.MW-HRS,noUnits
+urn:uuid:2828bb5b-ef8e-4b37-943f-7c9664f47aee,620,3006125,analogValue,Drive Temperature,EBU1.BASEMENT.RM-B565.P3-VFD.DRIVE-T,NAE-120/FC-2.P3-VFD-007.DRIVE-T,noUnits
+urn:uuid:1644ae41-aa8b-47fa-8eda-f2c00188aadc,620,3006127,analogValue,Revolutions Per Minute,EBU1.BASEMENT.RM-B565.P3-VFD.RPM,NAE-120/FC-2.P3-VFD-007.RPM,noUnits
+urn:uuid:cc575deb-c8cf-41b0-b76f-83fb37bc4368,620,3006130,analogValue,Frequency,EBU1.BASEMENT.RM-B565.P4-VFD.FREQ,NAE-120/FC-2.P4-VFD-008.FREQ,noUnits
+urn:uuid:56a5bc00-0d07-4c77-8f04-9812f0e7ec83,620,3006132,analogValue,Current,EBU1.BASEMENT.RM-B565.P4-VFD.VFD-AMP,NAE-120/FC-2.P4-VFD-008.VFD-AMP,noUnits
+urn:uuid:e58b178f-dce2-4a6c-b0c4-bf99cb3702d5,620,3006134,analogValue,Volts,EBU1.BASEMENT.RM-B565.P4-VFD.VOLTS,NAE-120/FC-2.P4-VFD-008.VOLTS,noUnits
+urn:uuid:80b48043-50eb-43dc-b613-38391d47ee46,620,3006145,analogValue,Power Kilowatts,EBU1.BASEMENT.RM-B565.P4-VFD.PWR-KW,NAE-120/FC-2.P4-VFD-008.PWR-KW,noUnits
+urn:uuid:10085c0b-ee8a-438e-a68b-dfdaad61e030,620,3006147,analogValue,Run Hours,EBU1.BASEMENT.RM-B565.P4-VFD.RUN-HRS,NAE-120/FC-2.P4-VFD-008.RUN-HRS,noUnits
+urn:uuid:32ee3a11-f1ac-4304-bff8-024eec9c9557,620,3006148,analogValue,Kilowatt Hours,EBU1.BASEMENT.RM-B565.P4-VFD.KW-HRS,NAE-120/FC-2.P4-VFD-008.KW-HRS,noUnits
+urn:uuid:5a20a71e-0729-42a2-aada-73920ddbe2d9,620,3006150,analogValue,Megawatt Hours,EBU1.BASEMENT.RM-B565.P4-VFD.MW-HRS,NAE-120/FC-2.P4-VFD-008.MW-HRS,noUnits
+urn:uuid:5a26b48d-68d0-4ab9-bd3b-76b891ebef60,620,3006152,analogValue,Drive Temperature,EBU1.BASEMENT.RM-B565.P4-VFD.DRIVE-T,NAE-120/FC-2.P4-VFD-008.DRIVE-T,noUnits
+urn:uuid:df9c5dbd-6b74-4ae3-a579-c26f6e452d35,620,3006154,analogValue,Revolutions Per Minute,EBU1.BASEMENT.RM-B565.P4-VFD.RPM,NAE-120/FC-2.P4-VFD-008.RPM,noUnits
+urn:uuid:6e847d79-4aa6-49c9-8a36-67e4421e507d,620,3000436,binaryInput,Occupancy Status,EBU1.EBASEMENT.RM-B912.VAV-10.OCC-STS,NAE-120/N2-1.AH4-VAV-10.OCC-STS,
+urn:uuid:260c989f-8d32-4f1a-90d3-cb232aefacba,620,3000437,binaryInput,Temporary Occupancy,EBU1.EBASEMENT.RM-B912.VAV-10.TOCC-STS,NAE-120/N2-1.AH4-VAV-10.TOCC-STS,
+urn:uuid:8e164754-e544-4126-b5e5-8c0f5ae508be,620,3000632,binaryInput,Occupancy Status,EBU1.E1STFLR.RM-1718.VAV-25.OCC-STS,NAE-120/N2-1.AH7-VAV-25.OCC-STS,
+urn:uuid:e9fbf84e-571e-4150-92f2-5d1717a8452c,620,3000633,binaryInput,Temporary Occupancy,EBU1.E1STFLR.RM-1718.VAV-25.TOCC-STS,NAE-120/N2-1.AH7-VAV-25.TOCC-STS,
+urn:uuid:864c9668-4c4b-4700-ae46-a694ded689ba,620,3000660,binaryInput,Occupancy Status,EBU1.E1STFLR.EHALL.VAV-27.OCC-STS,NAE-120/N2-1.AH22-VAV-27.OCC-STS,
+urn:uuid:26f4a1c6-8f9b-4be3-9c5d-e5ed0b3aa986,620,3000661,binaryInput,Temporary Occupancy,EBU1.E1STFLR.EHALL.VAV-27.TOCC-STS,NAE-120/N2-1.AH22-VAV-27.TOCC-STS,
+urn:uuid:1204299e-65c7-482e-b69d-0b6dae77b030,620,3000674,binaryInput,Occupancy Status,EBU1.E1STFLR.RM-1712.VAV-28.OCC-STS,NAE-120/N2-1.AH7-VAV-28.OCC-STS,
+urn:uuid:5573d18c-b636-4d07-8248-500c88d57ab1,620,3000675,binaryInput,Temporary Occupancy,EBU1.E1STFLR.RM-1712.VAV-28.TOCC-STS,NAE-120/N2-1.AH7-VAV-28.TOCC-STS,
+urn:uuid:4c31bfa7-b5e8-46bc-b186-25e58be554de,620,3000688,binaryInput,Occupancy Status,EBU1.E1STFLR.RM-1511.VAV-29.OCC-STS,NAE-120/N2-1.AH7-VAV-29.OCC-STS,
+urn:uuid:35221c42-aa89-4deb-9885-8787d95b436f,620,3000689,binaryInput,Temporary Occupancy,EBU1.E1STFLR.RM-1511.VAV-29.TOCC-STS,NAE-120/N2-1.AH7-VAV-29.TOCC-STS,
+urn:uuid:53101463-5b8d-4577-b3d2-c5433ab2adfa,620,3000716,binaryInput,Occupancy Status,EBU1.E1STFLR.SCORRIDOR.VAV-32.OCC-STS,NAE-120/N2-1.AH22-VAV-32.OCC-STS,
+urn:uuid:0d793448-88c6-4cfc-bb4c-d0eac408d472,620,3000717,binaryInput,Temporary Occupancy,EBU1.E1STFLR.SCORRIDOR.VAV-32.TOCC-STS,NAE-120/N2-1.AH22-VAV-32.TOCC-STS,
+urn:uuid:65729a0c-3302-4799-9915-5a13bdfb2078,620,3001463,binaryInput,Lab Chiller Alarm,EBU1.LBW.CHLR-A,NAE-120/N2-1.UNT-10.CHLR-A,
+urn:uuid:3740b694-badc-4064-ba6d-d6e24d3c4731,620,3001464,binaryInput,Lab CHW Flow Status,EBU1.LBW.CHWFL-STS,NAE-120/N2-1.UNT-10.CHWFL-STS,
+urn:uuid:938d106d-01cd-412a-a01c-ece3ecb17b9e,620,3002859,binaryInput,CHW Pump 1 Status,EBU1.EBASEMENT.RM-B565.EPLANT.CHWP1-STS,NAE-120/FC-2.FEC-004.CHWP1-STS,
+urn:uuid:14a43044-2646-4bea-a069-66a9b8c90660,620,3002866,binaryInput,CHW Pump 2 Status,EBU1.EBASEMENT.RM-B565.EPLANT.CHWP2-STS,NAE-120/FC-2.FEC-004.CHWP2-STS,
+urn:uuid:e71d368c-7fbc-4276-9c97-ee7942485e16,620,3002886,binaryInput,HW Pump 3 Status,EBU1.EBASEMENT.RM-B565.EPLANT.HWP3-STS,NAE-120/FC-2.FEC-004.HWP3-STS,
+urn:uuid:5df2d7ce-5b32-420f-a9a8-cb5ea4cdca01,620,3002893,binaryInput,HW Pump 4 Status,EBU1.EBASEMENT.RM-B565.EPLANT.HWP4-STS,NAE-120/FC-2.FEC-004.HWP4-STS,
+urn:uuid:bac0356a-ca43-45d3-930e-a72fa0f143db,620,3002914,binaryInput,HX-3 Vent Status,EBU1.EBASEMENT.RM-B565.EPLANT.VENT-STS,NAE-120/FC-2.FEC-004.VENT-STS,
+urn:uuid:9edae584-c183-44bc-8aff-0f378ed393f1,620,3002934,binaryInput,Air Handler 2 Filter Status,EBU1.EBASEMENT.RM-B565.EPLANT.AHU2FLT-STS,NAE-120/FC-2.FEC-004.AHU2FLT-STS,
+urn:uuid:90cd778e-3150-43cf-9864-53218d659279,620,3004443,binaryInput,Supply Fan Status,EBU1.BASEMENT.RM-B565.AH2.SF-STS,NAE-120/FC-2.AH2-FEC-015.SF-STS,
+urn:uuid:060682ee-319d-4e0c-9d13-b6ecf74ef009,620,3004444,binaryInput,PreFilter Status,EBU1.BASEMENT.RM-B565.AH2.PFILT-STS,NAE-120/FC-2.AH2-FEC-015.PFILT-STS,
+urn:uuid:c815c3ef-61b0-4feb-a16c-ca699f88c5a9,620,3006174,binaryInput,HX1 High Limit Alarm,EBU1.EASTPLANT.HX-1.HX1HILIMIT-ALM,NAE-120/N2-1.UNT-110.HX1HILIMIT-ALM,
+urn:uuid:c11c9a6a-b1a7-47d4-b14a-872b1577ae62,620,3000435,binaryOutput,Occupancy Mode,EBU1.EBASEMENT.RM-B912.VAV-10.OCC-CMD,NAE-120/N2-1.AH4-VAV-10.OCC-CMD,
+urn:uuid:e267817f-8a67-4fc1-8ec8-e1362ae9e669,620,3000631,binaryOutput,Occupancy Mode,EBU1.E1STFLR.RM-1718.VAV-25.OCC-CMD,NAE-120/N2-1.AH7-VAV-25.OCC-CMD,
+urn:uuid:73163e27-d060-41e6-b5a2-f6f075e2186a,620,3000659,binaryOutput,Occupancy Mode,EBU1.E1STFLR.EHALL.VAV-27.OCC-CMD,NAE-120/N2-1.AH22-VAV-27.OCC-CMD,
+urn:uuid:0be78f89-5135-404d-873f-239493f71133,620,3000673,binaryOutput,Occupancy Mode,EBU1.E1STFLR.RM-1712.VAV-28.OCC-CMD,NAE-120/N2-1.AH7-VAV-28.OCC-CMD,
+urn:uuid:d248a0d1-b50d-46f0-963d-01c5fa3ca245,620,3000687,binaryOutput,Occupancy Mode,EBU1.E1STFLR.RM-1511.VAV-29.OCC-CMD,NAE-120/N2-1.AH7-VAV-29.OCC-CMD,
+urn:uuid:432bdf16-d11a-4b35-aa8b-d8dd4aa22f5f,620,3000715,binaryOutput,Occupancy Mode,EBU1.E1STFLR.SCORRIDOR.VAV-32.OCC-CMD,NAE-120/N2-1.AH22-VAV-32.OCC-CMD,
+urn:uuid:41c2f9bb-6574-470e-accb-57a4432e59a8,620,3002857,binaryOutput,CHW Pump 1 Start/Stop,EBU1.EBASEMENT.RM-B565.EPLANT.CHWP1-SS,NAE-120/FC-2.FEC-004.CHWP1-SS,
+urn:uuid:93a42c9c-b73d-40a7-8072-f98875398632,620,3002864,binaryOutput,CHW Pump 2 Start/Stop,EBU1.EBASEMENT.RM-B565.EPLANT.CHWP2-SS,NAE-120/FC-2.FEC-004.CHWP2-SS,
+urn:uuid:311e688d-4354-48a9-896a-364137e28863,620,3002884,binaryOutput,HW Pump 3 Start/Stop,EBU1.EBASEMENT.RM-B565.EPLANT.HWP3-SS,NAE-120/FC-2.FEC-004.HWP3-SS,
+urn:uuid:ada1df77-2334-43de-aa78-21598363b493,620,3002891,binaryOutput,HW Pump 4 Start/Stop,EBU1.EBASEMENT.RM-B565.EPLANT.HWP4-SS,NAE-120/FC-2.FEC-004.HWP4-SS,
+urn:uuid:e0aa9e3a-69af-463f-8bbd-f85fcec02b8b,620,3004442,binaryOutput,Supply Fan Start/Stop,EBU1.BASEMENT.RM-B565.AH2.SF-SS,NAE-120/FC-2.AH2-FEC-015.SF-SS,
+urn:uuid:e5d52177-5b35-464f-aae4-3b4915d772e1,620,3000274,binaryValue,CHW PUMPS ENABLE,EBU1.CHW.PMPS-ENA,NAE-120/Programming.Binary Data.EBU1CHW PMPS-ENA,
+urn:uuid:5ba07dd3-27da-4ce9-9fe6-4fec0546f22d,620,3000276,binaryValue,LAB CHILLER PUMPS ENABLE,EBU1.LBW.PMPS-ENA,NAE-120/Programming.Binary Data.EBU1LBW PMPS-ENA,
+urn:uuid:ad3bfc7c-a19b-482c-8bd9-cfa85b4d8bfb,620,3001563,binaryValue,,HE1VLV600am,NAE-120/Programming.HE1VLV.HE1VLV600am,
+urn:uuid:409547a4-e150-4858-ae81-38d6bac45cce,620,3002848,binaryValue,Even Month,EBU1.EBASEMENT.RM-B565.EPLANT.EVEN MONTH,NAE-120/FC-2.FEC-004.EVEN MONTH,
+urn:uuid:b814b2f1-4863-4389-b486-694731b374d4,620,3002849,binaryValue,Lead Pumps,EBU1.EBASEMENT.RM-B565.EPLANT.CHWP2-HWP4-LEAD,NAE-120/FC-2.FEC-004.CHWP2-HWP4-LEAD,
+urn:uuid:4070c22a-4def-4ec2-aa95-bbaee2f82355,620,3002850,binaryValue,Chill Water System Enable,EBU1.EBASEMENT.RM-B810.EPLANT.CHWS-ENB,NAE-120/FC-2.FEC-004.CHWS-ENB,
+urn:uuid:75fd88a9-b09e-446d-acf4-490d0fccb65d,620,3002879,binaryValue,Hot Water System Enable,EBU1.EBASEMENT.RM-B565.EPLANT.HWS-ENB,NAE-120/FC-2.FEC-004.HWS-ENB,
+urn:uuid:927d6744-f653-4ce1-b1b9-71f92f1d11da,620,3002898,binaryValue,Heat Exhanger 3 Enable,EBU1.EBASEMENT.RM-B565.EPLANT.HX3-ENB,NAE-120/FC-2.FEC-004.HX3-ENB,
+urn:uuid:688f0468-5af6-481e-896c-16bd014a4ce4,620,3002922,binaryValue,Application Tuning Reset,EBU1.EBASEMENT.RM-B565.EPLANT.TUNING-RESET,NAE-120/FC-2.FEC-004.TUNING-RESET,
+urn:uuid:d46cd130-f167-473c-890e-0002453804e2,620,3004151,binaryValue,Run Enabled,EBU1.BASEMENT.RM-B565.P1-VFD.RUN-ENB,NAE-120/FC-2.P1-VDF-005.RUN-ENB,
+urn:uuid:70dc4318-87fd-4abc-91ee-71248b484cd8,620,3004152,binaryValue,VFD Status,EBU1.BASEMENT.RM-B565.P1-VFD.VFD-STS,NAE-120/FC-2.P1-VDF-005.VFD-STS,
+urn:uuid:a8334ed6-0026-4da9-840c-f4ba067b37ff,620,3004154,binaryValue,Hand/Auto,EBU1.BASEMENT.RM-B565.P1-VFD.HAND-AUTO,NAE-120/FC-2.P1-VDF-005.HAND-AUTO,
+urn:uuid:aa056604-95d2-4c6d-9d9c-37c371c4bb6e,620,3004156,binaryValue,Fault Status,EBU1.BASEMENT.RM-B565.P1-VFD.FLT-STS,NAE-120/FC-2.P1-VDF-005.FLT-STS,
+urn:uuid:9334d9aa-c174-4592-9033-09327c54f051,620,3004158,binaryValue,Alarm,EBU1.BASEMENT.RM-B565.P1-VFD.ALARM,NAE-120/FC-2.P1-VDF-005.ALARM,
+urn:uuid:055580df-b9d7-4b6e-bbe3-9f49e5dc955a,620,3004170,binaryValue,Maintenance Required,EBU1.BASEMENT.RM-B565.P1-VFD.MAIN-REQ,NAE-120/FC-2.P1-VDF-005.MAIN-REQ,
+urn:uuid:6bd2fcdd-9256-43fc-bc22-4de823a3212e,620,3004178,binaryValue,Run Enabled,EBU1.BASEMENT.RM-B565.P2-VFD.RUN-ENB,NAE-120/FC-2.P2-VFD-006.RUN-ENB,
+urn:uuid:39d54095-f30b-4eee-9454-a97984e972ee,620,3004179,binaryValue,VFD Status,EBU1.BASEMENT.RM-B565.P2-VFD.VFD-STS,NAE-120/FC-2.P2-VFD-006.VFD-STS,
+urn:uuid:fa29f946-b3a2-4777-9084-ba93c098e041,620,3004181,binaryValue,Hand/Auto,EBU1.BASEMENT.RM-B565.P2-VFD.HAND-AUTO,NAE-120/FC-2.P2-VFD-006.HAND-AUTO,
+urn:uuid:c0f75687-d15f-4ef6-92be-a30753ce07ab,620,3004183,binaryValue,Fault Status,EBU1.BASEMENT.RM-B565.P2-VFD.FLT-STS,NAE-120/FC-2.P2-VFD-006.FLT-STS,
+urn:uuid:fa902237-7b12-47ce-9b7b-56297de2f988,620,3004185,binaryValue,Alarm,EBU1.BASEMENT.RM-B565.P2-VFD.ALARM,NAE-120/FC-2.P2-VFD-006.ALARM,
+urn:uuid:5f2db494-d683-43b4-a0a1-559a6f635234,620,3004197,binaryValue,Maintenance Required,EBU1.BASEMENT.RM-B565.P2-VFD.MAIN-REQ,NAE-120/FC-2.P2-VFD-006.MAIN-REQ,
+urn:uuid:a685ad87-b950-4dd0-8023-ee51b487ffee,620,3004266,binaryValue,Occupied Command,EBU1.BASEMENT.RM-B902.VAV-B902-1.OCC-CMD,NAE-120/FC-2.AH4-SAV-009.OCC-CMD,
+urn:uuid:17e2c454-6349-4f14-b63f-44bc00683eae,620,3004268,binaryValue,Occupancy Status,EBU1.BASEMENT.RM-B902.VAV-B902-1.OCC-STS,NAE-120/FC-2.AH4-SAV-009.OCC-STS,
+urn:uuid:c69ef886-3dff-4493-a40e-c0ef8c0a07c3,620,3004296,binaryValue,Occupied Command,EBU1.BASEMENT.RM-B800.VAV-B800-1.OCC-CMD,NAE-120/FC-2.AH4-SAV-010.OCC-CMD,
+urn:uuid:2495c052-e88e-4d3d-bdc2-2524b83e8537,620,3004298,binaryValue,Occupancy Status,EBU1.BASEMENT.RM-B800.VAV-B800-1.OCC-STS,NAE-120/FC-2.AH4-SAV-010.OCC-STS,
+urn:uuid:f0b34bee-ab6a-4da6-940e-2c9ee793e525,620,3004354,binaryValue,Occupied Command,EBU1.BASEMENT.RM-B707.VAV-B707-1.OCC-CMD,NAE-120/FC-2.AH4-SAV-012.OCC-CMD,
+urn:uuid:27adabc1-b9ea-4aa4-af48-ba18d5ddf7aa,620,3004356,binaryValue,Occupancy Status,EBU1.BASEMENT.RM-B707.VAV-B707-1.OCC-STS,NAE-120/FC-2.AH4-SAV-012.OCC-STS,
+urn:uuid:6958bf2b-be08-4dd4-bf46-d32bb163999f,620,3004368,binaryValue,Emergency Push Button Command,EBU1.BASEMENT.RM-B707.VAV-B707-1.EMER-CMD,NAE-120/FC-2.AH4-SAV-012.EMER-CMD,
+urn:uuid:70a67d93-51dc-4374-917a-02de503def5d,620,3004369,binaryValue,Emergency Push Button Status,EBU1.BASEMENT.RM-B707.VAV-B707-1.EMER-STS,NAE-120/FC-2.AH4-SAV-012.EMER-STS,
+urn:uuid:1930ef8d-a70d-4213-96b6-be5e93a9ecd4,620,3004384,binaryValue,Occupied Command,EBU1.BASEMENT.RM-B703.VAV-B703-1.OCC-CMD,NAE-120/FC-2.AH4-SAV-013.OCC-CMD,
+urn:uuid:fa6d65a3-9fd7-4073-80e9-df45d7da9cb3,620,3004386,binaryValue,Occupancy Status,EBU1.BASEMENT.RM-B703.VAV-B703-1.OCC-STS,NAE-120/FC-2.AH4-SAV-013.OCC-STS,
+urn:uuid:ab42c789-4e3f-4862-99b9-c901076622fe,620,3004414,binaryValue,Occupied Command,EBU1.BASEMENT.RM-B912.VAV-B912-1.OCC-CMD,NAE-120/FC-2.AH4-SAV-014.OCC-CMD,
+urn:uuid:9968b3d8-a164-4038-a429-6ae3f5c769a6,620,3004416,binaryValue,Occupancy Status,EBU1.BASEMENT.RM-B912.VAV-B912-1.OCC-STS,NAE-120/FC-2.AH4-SAV-014.OCC-STS,
+urn:uuid:75b736f6-623f-44bb-8d18-9bc3da156fb1,620,3006100,binaryValue,,BV1,NAE-120/Programming.HE1VLV.BV1,
+urn:uuid:8fa47eb0-83c1-4c98-897f-2cd8903230ef,620,3006109,binaryValue,Run Enabled,EBU1.BASEMENT.RM-B565.P3-VFD.RUN-ENB,NAE-120/FC-2.P3-VFD-007.RUN-ENB,
+urn:uuid:a8c0f3aa-ece8-4124-9291-98241ebdd722,620,3006110,binaryValue,VFD Status,EBU1.BASEMENT.RM-B565.P3-VFD.VFD-STS,NAE-120/FC-2.P3-VFD-007.VFD-STS,
+urn:uuid:478b61ea-83e1-4011-8ced-09be570a43a1,620,3006112,binaryValue,Hand/Auto,EBU1.BASEMENT.RM-B565.P3-VFD.HAND-AUTO,NAE-120/FC-2.P3-VFD-007.HAND-AUTO,
+urn:uuid:1b82eb82-7f37-46d9-90f6-50e85fa1b921,620,3006114,binaryValue,Fault Status,EBU1.BASEMENT.RM-B565.P3-VFD.FLT-STS,NAE-120/FC-2.P3-VFD-007.FLT-STS,
+urn:uuid:1c72e75e-0a5a-45af-8578-235ec6445d61,620,3006116,binaryValue,Alarm,EBU1.BASEMENT.RM-B565.P3-VFD.ALARM,NAE-120/FC-2.P3-VFD-007.ALARM,
+urn:uuid:11063a64-e932-4e2c-aac7-37ab3ff4184e,620,3006128,binaryValue,Maintenance Required,EBU1.BASEMENT.RM-B565.P3-VFD.MAIN-REQ,NAE-120/FC-2.P3-VFD-007.MAIN-REQ,
+urn:uuid:b8754b66-9e64-4b52-a6b9-11eadcfa8521,620,3006136,binaryValue,Run Enabled,EBU1.BASEMENT.RM-B565.P4-VFD.RUN-ENB,NAE-120/FC-2.P4-VFD-008.RUN-ENB,
+urn:uuid:24157a9a-27d5-43e6-8144-11f550f1f2ce,620,3006137,binaryValue,VFD Status,EBU1.BASEMENT.RM-B565.P4-VFD.VFD-STS,NAE-120/FC-2.P4-VFD-008.VFD-STS,
+urn:uuid:f137cb5a-0792-46f9-94b2-cd9734ab5f80,620,3006139,binaryValue,Hand/Auto,EBU1.BASEMENT.RM-B565.P4-VFD.HAND-AUTO,NAE-120/FC-2.P4-VFD-008.HAND-AUTO,
+urn:uuid:9ba94367-981f-4592-a682-a4beca5e1664,620,3006141,binaryValue,Fault Status,EBU1.BASEMENT.RM-B565.P4-VFD.FLT-STS,NAE-120/FC-2.P4-VFD-008.FLT-STS,
+urn:uuid:ef384549-0955-42a9-b3c2-a3363159c677,620,3006143,binaryValue,Alarm,EBU1.BASEMENT.RM-B565.P4-VFD.ALARM,NAE-120/FC-2.P4-VFD-008.ALARM,
+urn:uuid:9f5ecafd-7021-4d8b-b9c1-d57a216e1a47,620,3006155,binaryValue,Maintenance Required,EBU1.BASEMENT.RM-B565.P4-VFD.MAIN-REQ,NAE-120/FC-2.P4-VFD-008.MAIN-REQ,
+urn:uuid:ade432ab-e5bc-465b-9c1e-b7e4660dd6c1,620,3000270,program,,CHW-PUMPS,NAE-120/Programming.CHW-PUMPS.CHW-PUMPS,
+urn:uuid:a33a500f-6d7b-47d0-81d8-0324f18ecffc,620,3002841,program,,ROTATE PUMPS,NAE-120/Programming.P1-2-3-4 ROTATE.ROTATE PUMPS,
+urn:uuid:3a23c631-3b5b-4540-9b8b-f1fd62d2b1c2,620,3002941,program,,CHWDP-SP-RESET,NAE-120/Programming.EPLANT-DP.CHWDP-SP-RESET.CHWDP-SP-RESET,
+urn:uuid:95d35349-772d-456b-8e95-2ce0640f7535,620,3003524,program,,HX-STPT RESET,NAE-120/Programming.EPLANT-DP.HW-SYS.HX-STPT RESET,
+urn:uuid:af9335e8-bd4f-4739-a9bd-0f7f0f901050,620,3003645,program,,HWSYS-ENB,NAE-120/Programming.EPLANT-DP.HW-SYS.HWSYS-ENB,
+urn:uuid:7da17716-846a-4132-88eb-9b43541cea5b,620,3006087,program,,HX1-ENB,NAE-120/Programming.EPLANT-DP.HW-SYS.HX1-ENB,
+urn:uuid:4c1bbe42-14f1-4ac7-bdb6-d54b54f17383,620,3000112,schedule,EBU1HTHW DP-STPT Regular,HTHW DP-STPT,NAE-120/Schedule.HTHW DP-STPT,
+urn:uuid:5a72c3e6-0247-4809-8fe1-0fc79b0fb78f,620,3000116,schedule,,HE1VLV0,NAE-120/Schedule.HE1VLV0,
+urn:uuid:f94476b3-a612-48ac-b7a7-62edf05823d7,620,3004320,multiStateValue,Occupied Command,EBU1.BASEMENT.RM-B561.VAV-B561-2.OCC-CMD,NAE-120/FC-2.AH22-VMA-011.OCC-CMD,
+urn:uuid:bb13a42b-edd7-42ad-9a0e-339f6b7145b8,620,3004322,multiStateValue,Occupied Status,EBU1.BASEMENT.RM-B561.VAV-B561-2.OCC-STS,NAE-120/FC-2.AH22-VMA-011.OCC-STS,
+urn:uuid:8a314c96-3dd8-4ca3-80e3-f9531a483646,620,3004435,multiStateValue,System Enable,EBU1.BASEMENT.RM-B565.AH2.SYS-ENB,NAE-120/FC-2.AH2-FEC-015.SYS-ENB,
+urn:uuid:c594f198-7ce5-4efd-8a93-3d8f9a58b064,620,3004436,multiStateValue,Occupancy Command,EBU1.BASEMENT.RM-B565.AH2.OCC-CMD,NAE-120/FC-2.AH2-FEC-015.OCC-CMD,
+urn:uuid:5504a456-f03a-416b-9e5f-d973b4da9d18,620,3000006,trendLog,,Memory Usage Trend Log,NAE-120/Memory Usage Trend Log,
+urn:uuid:12b1ba67-1e05-4cca-bdbd-ab4962f5db4c,620,3000007,trendLog,,Event Rate Trend Log,NAE-120/Event Rate Trend Log,
+urn:uuid:a126c67c-0eb5-4ff7-8a26-8f353edc8a37,620,3001730,trendLog,,PointHistory,NAE-120/Programming.Binary Data.EBU1CHW PMPS-ENA.PointHistory,
+urn:uuid:38548ab5-779d-400a-9e1f-a4bde45a0174,620,3001834,trendLog,,EBU1.EBASEMENT.RM-B912.VAV-10.ZN-T.Present Value,NAE-120/N2-1.AH4-VAV-10.ZN-T.Trend1,
+urn:uuid:bfebd346-47eb-4c32-a497-df8340167747,620,3001904,trendLog,,EBU1.E1STFLR.RM-1718.VAV-25.ZN-T.Present Value,NAE-120/N2-1.AH7-VAV-25.ZN-T.Trend1,
+urn:uuid:234cde07-e744-4c97-9622-905ec668ca48,620,3001914,trendLog,,EBU1.E1STFLR.EHALL.VAV-27.ZN-T.Present Value,NAE-120/N2-1.AH22-VAV-27.ZN-T.Trend1,
+urn:uuid:269710e7-72bc-499a-86b1-a8fecdd5bcd9,620,3001919,trendLog,,EBU1.E1STFLR.RM-1712.VAV-28.ZN-T.Present Value,NAE-120/N2-1.AH7-VAV-28.ZN-T.Trend1,
+urn:uuid:d404750a-9c40-4dd3-bf78-4f11932b2969,620,3001924,trendLog,,EBU1.E1STFLR.RM-1511.VAV-29.ZN-T.Present Value,NAE-120/N2-1.AH7-VAV-29.ZN-T.Trend1,
+urn:uuid:2cb375e2-f7f5-4fcf-9ea5-14f3b263d818,620,3001934,trendLog,,EBU1.E1STFLR.SCORRIDOR.VAV-32.ZN-T.Present Value,NAE-120/N2-1.AH22-VAV-32.ZN-T.Trend1,
+urn:uuid:58480d55-ae8d-4ff6-b8f2-ee45934a13bb,620,3002304,trendLog,,EBU1.EASTPLANT.HX-1.MTWR-T.Present Value,NAE-120/N2-1.UNT-110.MTWR-T.Trend1,
+urn:uuid:fb289c61-340f-45a3-81a2-4b8f6da29ab3,620,3002305,trendLog,,EBU1.EASTPLANT.HX-1.MTWS-T.Present Value,NAE-120/N2-1.UNT-110.MTWS-T.Trend1,
+urn:uuid:c687c42a-f9d4-400c-97eb-a1a9462093f4,620,3002306,trendLog,,EBU1.EASTPLANT.HX-1.MTWVLV-CMD.Present Value,NAE-120/N2-1.UNT-110.MTWVLV-CMD.Trend1,
+urn:uuid:d088ef1f-b93f-4031-b78b-c7c816aba8ad,620,3002307,trendLog,,EBU1.EASTPLANT.HX-1.MTWR-COM.Present Value,NAE-120/N2-1.UNT-110.MTWR-COM.Trend1,
+urn:uuid:a2942be4-3bb1-44dd-9bfd-be0a55a1268c,620,3002309,trendLog,,EBU1.BASEMENT.CLEANRM-B904.VAV-10.RM-H.Present Value,NAE-120/N2-1.AH4-VAV-10.RM-H.Trend1,
+urn:uuid:8d26b0ad-400b-44cf-8f0e-1f4131076155,620,3002310,trendLog,,EBU1.BASEMENT.CLEANRM-B904.VAV-10.RM-SP.Present Value,NAE-120/N2-1.AH4-VAV-10.RM-SP.Trend1,
+urn:uuid:f32eb93a-4c06-470f-96c9-0d259a102adb,620,3002311,trendLog,,EBU1.BASEMENT.CLEANRM-B904.VAV-10.RM-T.Present Value,NAE-120/N2-1.AH4-VAV-10.RM-T.Trend1,
+urn:uuid:967412ef-4180-428a-b632-8748c506b8aa,620,3002315,trendLog,,EBU1.1STFLR.CLEANRM-1515A.VAV-25.RM-H.Present Value,NAE-120/N2-1.AH7-VAV-25.RM-H.Trend1,
+urn:uuid:bda57883-07fd-484f-a057-dc62cac8436e,620,3002316,trendLog,,EBU1.1STFLR.CLEANRM-1515A.VAV-25.RM-SP.Present Value,NAE-120/N2-1.AH7-VAV-25.RM-SP.Trend1,
+urn:uuid:17c4d508-2303-4450-81c5-9b191fb5d739,620,3002317,trendLog,,EBU1.1STFLR.CLEANRM-1515A.VAV-25.RM-T.Present Value,NAE-120/N2-1.AH7-VAV-25.RM-T.Trend1,
+urn:uuid:5e1b7d8e-e16d-41a2-ba86-ea4224ee8683,620,3002321,trendLog,,EBU1.1STFLR.CLEANRM-1708.VAV-27.RM-H.Present Value,NAE-120/N2-1.AH22-VAV-27.RM-H.Trend1,
+urn:uuid:8896a668-07f1-4de5-a697-d96b518162da,620,3002322,trendLog,,EBU1.1STFLR.CLEANRM-1708.VAV-27.RM-SP.Present Value,NAE-120/N2-1.AH22-VAV-27.RM-SP.Trend1,
+urn:uuid:6fae4fa3-0a6a-4248-9a01-f0e405e327c6,620,3002323,trendLog,,EBU1.1STFLR.CLEANRM-1708.VAV-27.RM-T.Present Value,NAE-120/N2-1.AH22-VAV-27.RM-T.Trend1,
+urn:uuid:ac657677-37d7-44b7-a88a-191e22bdb999,620,3002324,trendLog,,EBU1.1STFLR.CLEANRM-1706.VAV-28.RM-H.Present Value,NAE-120/N2-1.AH7-VAV-28.RM-H.Trend1,
+urn:uuid:b0350f99-2933-4160-b853-f62a3843d78b,620,3002325,trendLog,,EBU1.1STFLR.CLEANRM-1706.VAV-28.RM-SP.Present Value,NAE-120/N2-1.AH7-VAV-28.RM-SP.Trend1,
+urn:uuid:0cb3aca1-bac6-400a-b3ed-c1214c3dc92f,620,3002326,trendLog,,EBU1.1STFLR.CLEANRM-1706.VAV-28.RM-T.Present Value,NAE-120/N2-1.AH7-VAV-28.RM-T.Trend1,
+urn:uuid:22c3e7c3-d2d7-4dcc-b954-6eac8e1e5f12,620,3002327,trendLog,,EBU1.1STFLR.CLEANRM-1704.VAV-29.RM-H.Present Value,NAE-120/N2-1.AH7-VAV-29.RM-H.Trend1,
+urn:uuid:7b4e43dc-f35d-450e-956f-5d329c94f60a,620,3002328,trendLog,,EBU1.1STFLR.CLEANRM-1704.VAV-29.RM-SP.Present Value,NAE-120/N2-1.AH7-VAV-29.RM-SP.Trend1,
+urn:uuid:93a8877b-a946-43c5-a64d-d551afd44546,620,3002329,trendLog,,EBU1.1STFLR.CLEANRM-1704.VAV-29.RM-T.Present Value,NAE-120/N2-1.AH7-VAV-29.RM-T.Trend1,
+urn:uuid:cf215c83-62a7-4f2e-b98f-847cc6b9bd17,620,3002339,trendLog,,EBU1.1STFLR.CLEANRM-1707.VAV-32.RM-H.Present Value,NAE-120/N2-1.AH22-VAV-32.RM-H.Trend1,
+urn:uuid:af1bfa13-4558-4e55-810a-2661caba33fc,620,3002340,trendLog,,EBU1.1STFLR.CLEANRM-1707.VAV-32.RM-SP.Present Value,NAE-120/N2-1.AH22-VAV-32.RM-SP.Trend1,
+urn:uuid:fc12e4d3-faa3-45d7-b875-152d19c30ca6,620,3002341,trendLog,,EBU1.1STFLR.CLEANRM-1707.VAV-32.RM-T.Present Value,NAE-120/N2-1.AH22-VAV-32.RM-T.Trend1,
+urn:uuid:e1c812dd-aed8-4baa-839e-d84f0d7c4600,620,3002852,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.BLDGCHW-DP.Trend - Present Value,NAE-120/FC-2.FEC-004.BLDGCHW-DP.Trend1,
+urn:uuid:d41383e7-cd81-461f-b149-57ff28a64e95,620,3002854,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.CHWDP-7THFLR.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWDP-7THFLR.Trend1,
+urn:uuid:c230a34c-b09a-441b-af2c-8bb7ffe1046e,620,3002856,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.CHWDP-STPT.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWDP-STPT.Trend1,
+urn:uuid:0a22bbff-b50f-46bb-b174-18bfa422bcc7,620,3002858,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.CHWP1-SS.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWP1-SS.Trend1,
+urn:uuid:bdac015b-af94-4bf8-bf06-60cef5a55157,620,3002861,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.CHWP1-STS.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWP1-STS.Trend1,
+urn:uuid:db2f3d6e-8bcf-400c-b7fc-8d95371223b7,620,3002863,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.CHWP1VFD-CMD.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWP1VFD-CMD.Trend1,
+urn:uuid:eb23cc8f-0747-4705-a310-97934595067d,620,3002865,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.CHWP2-SS.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWP2-SS.Trend1,
+urn:uuid:2291605e-7d49-4cbb-b905-8f7f0926568d,620,3002868,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.CHWP2-STS.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWP2-STS.Trend1,
+urn:uuid:f8e1ba6a-ba4a-4501-b95f-3503caaa6705,620,3002870,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.CHWP2VFD-CMD.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWP2VFD-CMD.Trend1,
+urn:uuid:a666af4d-b5fb-42eb-a7cc-c45338c78b3a,620,3002874,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.CHWS-T.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWS-T.Trend1,
+urn:uuid:f75c6216-de80-4132-8dab-03727c26e363,620,3002876,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.CHWR-T.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWR-T.Trend1,
+urn:uuid:bbd956e5-d23a-42d9-aacb-1354ef2edb69,620,3002881,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.MTWDP-7THFLR.Trend - Present Value,NAE-120/FC-2.FEC-004.MTWDP-7THFLR.Trend1,
+urn:uuid:9dda550b-071b-4fc7-a48a-85a6e863250b,620,3002883,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HWDP-STPT.Trend - Present Value,NAE-120/FC-2.FEC-004.HWDP-STPT.Trend1,
+urn:uuid:7d6d4196-ac7b-4a2d-98f9-78e513a6b83f,620,3002885,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HWP3-SS.Trend - Present Value,NAE-120/FC-2.FEC-004.HWP3-SS.Trend1,
+urn:uuid:988f8eae-e935-49d7-8126-e2414f6fab48,620,3002888,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HWP3-STS.Trend - Present Value,NAE-120/FC-2.FEC-004.HWP3-STS.Trend1,
+urn:uuid:2644cb99-8de0-409d-9e50-ec7b9bd90256,620,3002890,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HWP3VFD-CMD.Trend - Present Value,NAE-120/FC-2.FEC-004.HWP3VFD-CMD.Trend1,
+urn:uuid:65b0cd64-06c6-4aab-a08d-8f6642e9dc18,620,3002892,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HWP4-SS.Trend - Present Value,NAE-120/FC-2.FEC-004.HWP4-SS.Trend1,
+urn:uuid:83777c80-4df4-4fba-830d-b1a900c56485,620,3002895,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HWP4-STS.Trend - Present Value,NAE-120/FC-2.FEC-004.HWP4-STS.Trend1,
+urn:uuid:4a49fcae-d8d2-4c2a-b202-b4a3a5b9aabb,620,3002897,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HWP4VFD-CMD.Trend - Present Value,NAE-120/FC-2.FEC-004.HWP4VFD-CMD.Trend1,
+urn:uuid:01cf7505-53ed-4c1c-b5be-eb2dfaba8fcf,620,3002900,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HX3S-T.Trend - Present Value,NAE-120/FC-2.FEC-004.HX3S-T.Trend1,
+urn:uuid:fb6e3534-5cd3-49dc-9e8c-cb96500deb7f,620,3002902,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HX3MTWR-T.Trend - Present Value,NAE-120/FC-2.FEC-004.HX3MTWR-T.Trend1,
+urn:uuid:88685021-673c-4e07-8454-985997993829,620,3002904,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HX3T-STPT.Trend - Present Value,NAE-120/FC-2.FEC-004.HX3T-STPT.Trend1,
+urn:uuid:48a65cb2-882b-4f07-b469-24500beac837,620,3002906,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HX3-VLV.Trend - Present Value,NAE-120/FC-2.FEC-004.HX3-VLV.Trend1,
+urn:uuid:877ce4cf-6efe-4bd0-9875-2099e5f42fcb,620,3002908,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.MTWS-TMP.Trend - Present Value,NAE-120/FC-2.FEC-004.MTWS-TMP.Trend1,
+urn:uuid:c5cac767-a41b-4a5a-9a36-20fea5e60313,620,3002911,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HX3HTHWS-T.Trend - Present Value,NAE-120/FC-2.FEC-004.HX3HTHWS-T.Trend1,
+urn:uuid:e88f9b60-f06a-4488-b7fe-7e6c4590206c,620,3002913,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HX3HTHWR-T.Trend - Present Value,NAE-120/FC-2.FEC-004.HX3HTHWR-T.Trend1,
+urn:uuid:549eea99-45f8-452a-b837-6ff10e55176b,620,3002920,trendLog,,EBU1.EBASEMENT.RM-B565.PLANT.HTHW-FLOW.Trend - Present Value,NAE-120/FC-2.FEC-004.HTHW-FLOW.Trend1,
+urn:uuid:78e376f9-a7d8-476a-a871-0c7c674679f4,620,3004146,trendLog,,EBU1.BASEMENT.RM-B565.P1-VFD.FREQ.Trend - Present Value,NAE-120/FC-2.P1-VDF-005.FREQ.Trend1,
+urn:uuid:117efe40-030d-4721-9032-dbd5c14a2626,620,3004148,trendLog,,EBU1.BASEMENT.RM-B565.P1-VFD.VFD-AMP.Trend - Present Value,NAE-120/FC-2.P1-VDF-005.VFD-AMP.Trend1,
+urn:uuid:d3ae34b9-201d-4ad1-a81b-5b304b2940f3,620,3004150,trendLog,,EBU1.BASEMENT.RM-B565.P1-VFD.VOLTS.Trend - Present Value,NAE-120/FC-2.P1-VDF-005.VOLTS.Trend1,
+urn:uuid:e3f45caa-a3af-43fb-90b0-1fa630d4254d,620,3004153,trendLog,,EBU1.BASEMENT.RM-B565.P1-VFD.VFD-STS.Trend - Present Value,NAE-120/FC-2.P1-VDF-005.VFD-STS.Trend1,
+urn:uuid:51f840ff-3a7d-40a9-a976-881bc46b317f,620,3004155,trendLog,,EBU1.BASEMENT.RM-B565.P1-VFD.HAND-AUTO.Trend - Present Value,NAE-120/FC-2.P1-VDF-005.HAND-AUTO.Trend1,
+urn:uuid:05d83d3d-1cb0-4a0c-8944-9972bf5336d4,620,3004157,trendLog,,EBU1.BASEMENT.RM-B565.P1-VFD.FLT-STS.Trend - Present Value,NAE-120/FC-2.P1-VDF-005.FLT-STS.Trend1,
+urn:uuid:e4eb4bd3-8274-4b61-bdc4-264f8ec7c1f7,620,3004159,trendLog,,EBU1.BASEMENT.RM-B565.P1-VFD.ALARM.Trend - Present Value,NAE-120/FC-2.P1-VDF-005.ALARM.Trend1,
+urn:uuid:b0cfdb17-272c-4acb-a3c4-5590dd8a4b8f,620,3004161,trendLog,,EBU1.BASEMENT.RM-B565.P1-VFD.PWR-KW.Trend - Present Value,NAE-120/FC-2.P1-VDF-005.PWR-KW.Trend1,
+urn:uuid:29d0206b-1946-4340-bec0-697768a99750,620,3004164,trendLog,,EBU1.BASEMENT.RM-B565.P1-VFD.KW-HRS.Trend - Present Value,NAE-120/FC-2.P1-VDF-005.KW-HRS.Trend1,
+urn:uuid:adb11b55-9f83-42ee-9233-e378989d0354,620,3004166,trendLog,,EBU1.BASEMENT.RM-B565.P1-VFD.MW-HRS.Trend - Present Value,NAE-120/FC-2.P1-VDF-005.MW-HRS.Trend1,
+urn:uuid:8d68f83c-9495-40c7-9eb7-a20ab631ea0b,620,3004168,trendLog,,EBU1.BASEMENT.RM-B565.P1-VFD.DRIVE-T.Trend - Present Value,NAE-120/FC-2.P1-VDF-005.DRIVE-T.Trend1,
+urn:uuid:58dba304-0b35-419b-80f8-52dae400e2ae,620,3004173,trendLog,,EBU1.BASEMENT.RM-B565.P2-VFD.FREQ.Trend - Present Value,NAE-120/FC-2.P2-VFD-006.FREQ.Trend1,
+urn:uuid:91ca4e59-6d65-4f90-9617-76242665eb8d,620,3004175,trendLog,,EBU1.BASEMENT.RM-B565.P2-VFD.VFD-AMP.Trend - Present Value,NAE-120/FC-2.P2-VFD-006.VFD-AMP.Trend1,
+urn:uuid:46a311cb-fb4b-4aa7-8093-8c0657cb4fb9,620,3004177,trendLog,,EBU1.BASEMENT.RM-B565.P2-VFD.VOLTS.Trend - Present Value,NAE-120/FC-2.P2-VFD-006.VOLTS.Trend1,
+urn:uuid:3cfe8f98-54da-47a5-aa96-818613ab7370,620,3004180,trendLog,,EBU1.BASEMENT.RM-B565.P2-VFD.VFD-STS.Trend - Present Value,NAE-120/FC-2.P2-VFD-006.VFD-STS.Trend1,
+urn:uuid:0e49acbe-6414-4530-95d1-4cff96d4d6bd,620,3004182,trendLog,,EBU1.BASEMENT.RM-B565.P2-VFD.HAND-AUTO.Trend - Present Value,NAE-120/FC-2.P2-VFD-006.HAND-AUTO.Trend1,
+urn:uuid:164bf6b3-036a-4478-ab27-71377af3607d,620,3004184,trendLog,,EBU1.BASEMENT.RM-B565.P2-VFD.FLT-STS.Trend - Present Value,NAE-120/FC-2.P2-VFD-006.FLT-STS.Trend1,
+urn:uuid:0f52b4cd-788b-4d9a-9c0f-422f9ae4451f,620,3004186,trendLog,,EBU1.BASEMENT.RM-B565.P2-VFD.ALARM.Trend - Present Value,NAE-120/FC-2.P2-VFD-006.ALARM.Trend1,
+urn:uuid:fbf5f2b9-8787-4c6e-9848-b74062dbf158,620,3004188,trendLog,,EBU1.BASEMENT.RM-B565.P2-VFD.PWR-KW.Trend - Present Value,NAE-120/FC-2.P2-VFD-006.PWR-KW.Trend1,
+urn:uuid:8dcd0f27-d7ee-4fc2-8606-3769743bf64a,620,3004191,trendLog,,EBU1.BASEMENT.RM-B565.P2-VFD.KW-HRS.Trend - Present Value,NAE-120/FC-2.P2-VFD-006.KW-HRS.Trend1,
+urn:uuid:551f14a3-a952-4b55-a907-356066db466a,620,3004193,trendLog,,EBU1.BASEMENT.RM-B565.P2-VFD.MW-HRS.Trend - Present Value,NAE-120/FC-2.P2-VFD-006.MW-HRS.Trend1,
+urn:uuid:20ff6459-34ea-459c-976e-d9289c633ba5,620,3004195,trendLog,,EBU1.BASEMENT.RM-B565.P2-VFD.DRIVE-T.Trend - Present Value,NAE-120/FC-2.P2-VFD-006.DRIVE-T.Trend1,
+urn:uuid:22cbb876-0d83-4abc-a084-907f1191cbaa,620,3004254,trendLog,,EBU1.BASEMENT.RM-B902.VAV-B902-1.ZN-T.Trend - Present Value,NAE-120/FC-2.AH4-SAV-009.ZN-T.Trend1,
+urn:uuid:64a09469-8f3f-406c-943d-e4e784fd177d,620,3004257,trendLog,,EBU1.BASEMENT.RM-B902.VAV-B902-1.ACTCLG-STPT.Trend - Present Value,NAE-120/FC-2.AH4-SAV-009.ACTCLG-STPT.Trend1,
+urn:uuid:591b7888-d8c8-420b-aa76-0cda6024d3c3,620,3004259,trendLog,,EBU1.BASEMENT.RM-B902.VAV-B902-1.ACTHTG-STPT.Trend - Present Value,NAE-120/FC-2.AH4-SAV-009.ACTHTG-STPT.Trend1,
+urn:uuid:0e59b7ec-6f89-4c3e-a270-1510ea3d6ec4,620,3004263,trendLog,,EBU1.BASEMENT.RM-B902.VAV-B902-1.HTGVLV-CMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-009.HTGVLV-CMD.Trend1,
+urn:uuid:42afb278-6a5a-43a5-8b89-c879a4207f62,620,3004265,trendLog,,EBU1.BASEMENT.RM-B902.VAV-B902-1.CLG-DMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-009.CLG-DMD.Trend1,
+urn:uuid:09cdaf33-ae6e-4970-a45d-fd854dd3cb37,620,3004267,trendLog,,EBU1.BASEMENT.RM-B902.VAV-B902-1.OCC-CMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-009.OCC-CMD.Trend1,
+urn:uuid:983e0efa-0563-44ab-bfb2-f713e1af729d,620,3004269,trendLog,,EBU1.BASEMENT.RM-B902.VAV-B902-1.OCC-STS.Trend - Present Value,NAE-120/FC-2.AH4-SAV-009.OCC-STS.Trend1,
+urn:uuid:f9923f78-8e17-41ba-8f57-372059e344d8,620,3004272,trendLog,,EBU1.BASEMENT.RM-B902.VAV-B902-1.SUPFLOW-FEEDBACK.Trend - Present Value,NAE-120/FC-2.AH4-SAV-009.SUPFLOW-FEEDBACK.Trend1,
+urn:uuid:ea112bbf-60ef-4a1d-b664-f5a35d2c3793,620,3004275,trendLog,,EBU1.BASEMENT.RM-B902.VAV-B902-1.EXHFLOW-FEEDBACK.Trend - Present Value,NAE-120/FC-2.AH4-SAV-009.EXHFLOW-FEEDBACK.Trend1,
+urn:uuid:964f007e-e8a9-4e3e-85f3-95fa43389f35,620,3004284,trendLog,,EBU1.BASEMENT.RM-B800.VAV-B800-1.ZN-T.Trend - Present Value,NAE-120/FC-2.AH4-SAV-010.ZN-T.Trend1,
+urn:uuid:792f21c8-631f-40db-9b8b-8a3f8e156712,620,3004287,trendLog,,EBU1.BASEMENT.RM-B800.VAV-B800-1.ACTCLG-STPT.Trend - Present Value,NAE-120/FC-2.AH4-SAV-010.ACTCLG-STPT.Trend1,
+urn:uuid:e4e472a8-628b-4f66-8b0e-63f37bca82d5,620,3004289,trendLog,,EBU1.BASEMENT.RM-B800.VAV-B800-1.ACTHTG-STPT.Trend - Present Value,NAE-120/FC-2.AH4-SAV-010.ACTHTG-STPT.Trend1,
+urn:uuid:9768ac69-8138-4d00-a62e-d91eb117aba8,620,3004293,trendLog,,EBU1.BASEMENT.RM-B800.VAV-B800-1.HTGVLV-CMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-010.HTGVLV-CMD.Trend1,
+urn:uuid:0b9bcf0c-1fad-4d6c-af45-85ac8232ff4a,620,3004295,trendLog,,EBU1.BASEMENT.RM-B800.VAV-B800-1.CLG-DMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-010.CLG-DMD.Trend1,
+urn:uuid:0072c032-04da-4284-9a16-e8d4fd6a4051,620,3004297,trendLog,,EBU1.BASEMENT.RM-B800.VAV-B800-1.OCC-CMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-010.OCC-CMD.Trend1,
+urn:uuid:6851e733-a95b-4c34-9b68-89d96a245fcd,620,3004299,trendLog,,EBU1.BASEMENT.RM-B800.VAV-B800-1.OCC-STS.Trend - Present Value,NAE-120/FC-2.AH4-SAV-010.OCC-STS.Trend1,
+urn:uuid:6ff656af-ee52-4736-a5dd-a58aab4e92a7,620,3004302,trendLog,,EBU1.BASEMENT.RM-B800.VAV-B800-1.SUPFLOW-FEEDBACK.Trend - Present Value,NAE-120/FC-2.AH4-SAV-010.SUPFLOW-FEEDBACK.Trend1,
+urn:uuid:ab8db2d6-e71b-49d1-b292-3d5311409f29,620,3004305,trendLog,,EBU1.BASEMENT.RM-B800.VAV-B800-1.EXHFLOW-FEEDBACK.Trend - Present Value,NAE-120/FC-2.AH4-SAV-010.EXHFLOW-FEEDBACK.Trend1,
+urn:uuid:c6e51b2f-75ce-4b53-a745-a01befa07372,620,3004314,trendLog,,EBU1.BASEMENT.RM-B561.VAV-B561-2.ZN-T.Trend - Present Value,NAE-120/FC-2.AH22-VMA-011.ZN-T.Trend1,
+urn:uuid:0108cd7d-1c3d-4b42-9e70-5986084df1f6,620,3004317,trendLog,,EBU1.BASEMENT.RM-B561.VAV-B561-2.SA-T.Trend - Present Value,NAE-120/FC-2.AH22-VMA-011.SA-T.Trend1,
+urn:uuid:10769636-0836-44c1-b8ee-77eeb39648cb,620,3004321,trendLog,,EBU1.BASEMENT.RM-B561.VAV-B561-2.OCC-CMD.Trend - Present Value,NAE-120/FC-2.AH22-VMA-011.OCC-CMD.Trend1,
+urn:uuid:b7cf40ad-d48e-49aa-8818-e0375c4a1946,620,3004323,trendLog,,EBU1.BASEMENT.RM-B561.VAV-B561-2.OCC-STS.Trend - Present Value,NAE-120/FC-2.AH22-VMA-011.OCC-STS.Trend1,
+urn:uuid:761a6e0f-45c8-4e54-b5df-c0d44b11e90b,620,3004325,trendLog,,EBU1.BASEMENT.RM-B561.VAV-B561-2.DPR-CMD.Trend - Present Value,NAE-120/FC-2.AH22-VMA-011.DPR-CMD.Trend1,
+urn:uuid:87f79371-dd6e-4395-affa-1ba84c7a7984,620,3004327,trendLog,,EBU1.BASEMENT.RM-B561.VAV-B561-2.SA-FLOW.Trend - Present Value,NAE-120/FC-2.AH22-VMA-011.SA-FLOW.Trend1,
+urn:uuid:9c2a1840-b306-432b-83d4-821ee294d272,620,3004329,trendLog,,EBU1.BASEMENT.RM-B561.VAV-B561-2.SAFLOW-STPT.Trend - Present Value,NAE-120/FC-2.AH22-VMA-011.SAFLOW-STPT.Trend1,
+urn:uuid:ec04b2b4-7b5e-43b9-bfde-9c5a35f2ca84,620,3004331,trendLog,,EBU1.BASEMENT.RM-B561.VAV-B561-2.CLG-CMD.Trend - Present Value,NAE-120/FC-2.AH22-VMA-011.CLG-CMD.Trend1,
+urn:uuid:2bf65281-cdfd-4f43-8401-d7e089289214,620,3004333,trendLog,,EBU1.BASEMENT.RM-B561.VAV-B561-2.HTGVLV-CMD.Trend - Present Value,NAE-120/FC-2.AH22-VMA-011.HTGVLV-CMD.Trend1,
+urn:uuid:d89962f1-d55c-45c9-bb86-c5e12a7fa429,620,3004335,trendLog,,EBU1.BASEMENT.RM-B561.VAV-B561-2.COM-STPT.Trend - Present Value,NAE-120/FC-2.AH22-VMA-011.COM-STPT.Trend1,
+urn:uuid:1e70d278-8ac3-4042-943d-59597c1f4378,620,3004337,trendLog,,EBU1.BASEMENT.RM-B561.VAV-B561-2.ACTCLG-STPT.Trend - Present Value,NAE-120/FC-2.AH22-VMA-011.ACTCLG-STPT.Trend1,
+urn:uuid:ae5f761f-5f86-4a51-bdb7-27bbd424cc19,620,3004339,trendLog,,EBU1.BASEMENT.RM-B561.VAV-B561-2.ACTHTG-STPT.Trend - Present Value,NAE-120/FC-2.AH22-VMA-011.ACTHTG-STPT.Trend1,
+urn:uuid:c96d10cb-c21c-4d63-b520-c3517daa4af0,620,3004342,trendLog,,EBU1.BASEMENT.RM-B707.VAV-B707-1.ZN-T.Trend - Present Value,NAE-120/FC-2.AH4-SAV-012.ZN-T.Trend1,
+urn:uuid:a99292f8-db46-464c-8356-18c3cee35403,620,3004345,trendLog,,EBU1.BASEMENT.RM-B707.VAV-B707-1.ACTCLG-STPT.Trend - Present Value,NAE-120/FC-2.AH4-SAV-012.ACTCLG-STPT.Trend1,
+urn:uuid:63bcdc0e-a7be-483d-b01a-3c67bc60b017,620,3004347,trendLog,,EBU1.BASEMENT.RM-B707.VAV-B707-1.ACTHTG-STPT.Trend - Present Value,NAE-120/FC-2.AH4-SAV-012.ACTHTG-STPT.Trend1,
+urn:uuid:e7fe43dc-a0a9-4c01-b02a-534e58f28b10,620,3004351,trendLog,,EBU1.BASEMENT.RM-B707.VAV-B707-1.HTGVLV-CMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-012.HTGVLV-CMD.Trend1,
+urn:uuid:525c6a9b-2d3e-4d28-af45-a97b63ec4a03,620,3004353,trendLog,,EBU1.BASEMENT.RM-B707.VAV-B707-1.CLG-DMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-012.CLG-DMD.Trend1,
+urn:uuid:c0853033-712b-46c9-9099-c045e25e88c6,620,3004355,trendLog,,EBU1.BASEMENT.RM-B707.VAV-B707-1.OCC-CMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-012.OCC-CMD.Trend1,
+urn:uuid:e3a469b1-d9e2-4c20-a080-53e37c99078a,620,3004357,trendLog,,EBU1.BASEMENT.RM-B707.VAV-B707-1.OCC-STS.Trend - Present Value,NAE-120/FC-2.AH4-SAV-012.OCC-STS.Trend1,
+urn:uuid:7ca6103e-fa8e-4371-9b53-3570e11fe227,620,3004360,trendLog,,EBU1.BASEMENT.RM-B707.VAV-B707-1.SUPFLOW-FEEDBACK.Trend - Present Value,NAE-120/FC-2.AH4-SAV-012.SUPFLOW-FEEDBACK.Trend1,
+urn:uuid:93a86923-c6cd-4f08-a44e-6fd835e749f8,620,3004363,trendLog,,EBU1.BASEMENT.RM-B707.VAV-B707-1.EXHFLOW-FEEDBACK.Trend - Present Value,NAE-120/FC-2.AH4-SAV-012.EXHFLOW-FEEDBACK.Trend1,
+urn:uuid:45e0211e-f949-480d-bce6-147729b4eccb,620,3004372,trendLog,,EBU1.BASEMENT.RM-B703.VAV-B703-1.ZN-T.Trend - Present Value,NAE-120/FC-2.AH4-SAV-013.ZN-T.Trend1,
+urn:uuid:5c351004-aac1-4365-a0c7-5828c4443f0d,620,3004375,trendLog,,EBU1.BASEMENT.RM-B703.VAV-B703-1.ACTCLG-STPT.Trend - Present Value,NAE-120/FC-2.AH4-SAV-013.ACTCLG-STPT.Trend1,
+urn:uuid:f546ee6e-c1ed-4c3b-91a1-1005c87521af,620,3004377,trendLog,,EBU1.BASEMENT.RM-B703.VAV-B703-1.ACTHTG-STPT.Trend - Present Value,NAE-120/FC-2.AH4-SAV-013.ACTHTG-STPT.Trend1,
+urn:uuid:cdd22f11-ee14-436b-8c81-c0e744345786,620,3004381,trendLog,,EBU1.BASEMENT.RM-B703.VAV-B703-1.HTGVLV-CMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-013.HTGVLV-CMD.Trend1,
+urn:uuid:5554e9e7-260d-4c5c-b8f4-152af200678f,620,3004383,trendLog,,EBU1.BASEMENT.RM-B703.VAV-B703-1.CLG-DMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-013.CLG-DMD.Trend1,
+urn:uuid:5482094d-c4fc-48cf-811e-09d9c0a3a598,620,3004385,trendLog,,EBU1.BASEMENT.RM-B703.VAV-B703-1.OCC-CMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-013.OCC-CMD.Trend1,
+urn:uuid:2fb0142d-4609-4697-8ebc-907692b212fd,620,3004387,trendLog,,EBU1.BASEMENT.RM-B703.VAV-B703-1.OCC-STS.Trend - Present Value,NAE-120/FC-2.AH4-SAV-013.OCC-STS.Trend1,
+urn:uuid:07cc912c-0865-410c-8ce6-4d85a9a61b13,620,3004390,trendLog,,EBU1.BASEMENT.RM-B703.VAV-B703-1.SUPFLOW-FEEDBACK.Trend - Present Value,NAE-120/FC-2.AH4-SAV-013.SUPFLOW-FEEDBACK.Trend1,
+urn:uuid:164104bc-29bf-49a3-90db-671ab3cafc0d,620,3004393,trendLog,,EBU1.BASEMENT.RM-B703.VAV-B703-1.EXHFLOW-FEEDBACK.Trend - Present Value,NAE-120/FC-2.AH4-SAV-013.EXHFLOW-FEEDBACK.Trend1,
+urn:uuid:45521ee6-b3ee-40e5-b3a3-b2b7f34b375a,620,3004402,trendLog,,EBU1.BASEMENT.RM-B912.VAV-B912-1.ZN-T.Trend - Present Value,NAE-120/FC-2.AH4-SAV-014.ZN-T.Trend1,
+urn:uuid:3419a99a-d079-44e0-bead-cb9293efff40,620,3004405,trendLog,,EBU1.BASEMENT.RM-B912.VAV-B912-1.ACTCLG-STPT.Trend - Present Value,NAE-120/FC-2.AH4-SAV-014.ACTCLG-STPT.Trend1,
+urn:uuid:43a36219-0313-4a0f-a144-5f028193762e,620,3004407,trendLog,,EBU1.BASEMENT.RM-B912.VAV-B912-1.ACTHTG-STPT.Trend - Present Value,NAE-120/FC-2.AH4-SAV-014.ACTHTG-STPT.Trend1,
+urn:uuid:e9e572dc-198a-4f0f-8639-302f2049d327,620,3004411,trendLog,,EBU1.BASEMENT.RM-B912.VAV-B912-1.HTGVLV-CMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-014.HTGVLV-CMD.Trend1,
+urn:uuid:ef604e19-816a-4d82-9653-9197d452c79e,620,3004413,trendLog,,EBU1.BASEMENT.RM-B912.VAV-B912-1.CLG-DMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-014.CLG-DMD.Trend1,
+urn:uuid:d61598a4-f9aa-4ec0-987f-ca2fae7d87e5,620,3004415,trendLog,,EBU1.BASEMENT.RM-B912.VAV-B912-1.OCC-CMD.Trend - Present Value,NAE-120/FC-2.AH4-SAV-014.OCC-CMD.Trend1,
+urn:uuid:da4b1633-e9ef-4d8d-9fae-21d41159ec77,620,3004417,trendLog,,EBU1.BASEMENT.RM-B912.VAV-B912-1.OCC-STS.Trend - Present Value,NAE-120/FC-2.AH4-SAV-014.OCC-STS.Trend1,
+urn:uuid:32ec8fe0-e78d-4633-9859-6c48bfea9bba,620,3004420,trendLog,,EBU1.BASEMENT.RM-B912.VAV-B912-1.SUPFLOW-FEEDBACK.Trend - Present Value,NAE-120/FC-2.AH4-SAV-014.SUPFLOW-FEEDBACK.Trend1,
+urn:uuid:9c6658b7-2814-4e56-9757-3411082a5da2,620,3004423,trendLog,,EBU1.BASEMENT.RM-B912.VAV-B912-1.EXHFLOW-FEEDBACK.Trend - Present Value,NAE-120/FC-2.AH4-SAV-014.EXHFLOW-FEEDBACK.Trend1,
+urn:uuid:80e43054-37ff-4ea0-b08f-6dcba39df643,620,3004445,trendLog,,EBU1.BASEMENT.RM-B565.AH2.SYS-ENB.Trend - Present Value,NAE-120/FC-2.AH2-FEC-015.SYS-ENB.Trend1,
+urn:uuid:ca42ab07-6d79-4a8c-b9d6-77e659d099b1,620,3004449,trendLog,,EBU1.BASEMENT.RM-B565.AH2.CLGVLV-CMD.Trend - Present Value,NAE-120/FC-2.AH2-FEC-015.CLGVLV-CMD.Trend1,
+urn:uuid:07fc2410-6295-45c2-b913-339b543f0cf9,620,3004450,trendLog,,EBU1.BASEMENT.RM-B565.AH2.RAT-STPT.Trend - Present Value,NAE-120/FC-2.AH2-FEC-015.RAT-STPT.Trend1,
+urn:uuid:cdd9eace-03e7-4262-86ec-3fe7783019c0,620,3004451,trendLog,,EBU1.BASEMENT.RM-B565.AH2.SF-SS.Trend - Present Value,NAE-120/FC-2.AH2-FEC-015.SF-SS.Trend1,
+urn:uuid:8ee6e6f2-a3aa-4f4c-a59e-ab171143fa63,620,3004453,trendLog,,EBU1.BASEMENT.RM-B565.AH2.SF-STS.Trend - Present Value,NAE-120/FC-2.AH2-FEC-015.SF-STS.Trend1,
+urn:uuid:7975604e-d4ff-4ecd-a8b6-ea0e4beaa4f3,620,3004455,trendLog,,EBU1.BASEMENT.RM-B902.VAV-B902-1.SUPFLOW-COMMAND.Trend - Present Value,NAE-120/FC-2.AH4-SAV-009.SUPFLOW-COMMAND.Trend1,
+urn:uuid:2721431f-828e-4d88-9b6c-13b40c020f07,620,3004456,trendLog,,EBU1.BASEMENT.RM-B902.VAV-B902-1.EXHFLOW-COMMAND.Trend - Present Value,NAE-120/FC-2.AH4-SAV-009.EXHFLOW-COMMAND.Trend1,
+urn:uuid:bcd113e4-294b-4dd0-afea-4b822089b978,620,3004457,trendLog,,EBU1.BASEMENT.RM-B800.VAV-B800-1.SUPFLOW-COMMAND.Trend - Present Value,NAE-120/FC-2.AH4-SAV-010.SUPFLOW-COMMAND.Trend1,
+urn:uuid:8785bde5-858e-425f-b1cd-b865897757f0,620,3004458,trendLog,,EBU1.BASEMENT.RM-B800.VAV-B800-1.EXHFLOW-COMMAND.Trend - Present Value,NAE-120/FC-2.AH4-SAV-010.EXHFLOW-COMMAND.Trend1,
+urn:uuid:94982fd6-b14d-45ed-b4b9-207088d392fd,620,3004459,trendLog,,EBU1.BASEMENT.RM-B707.VAV-B707-1.EMER-STS.Trend - Present Value,NAE-120/FC-2.AH4-SAV-012.EMER-STS.Trend1,
+urn:uuid:d7502bf6-2a5d-4c2e-9c40-0ce1becbcebd,620,3004460,trendLog,,EBU1.BASEMENT.RM-B707.VAV-B707-1.SUPFLOW-COMMAND.Trend - Present Value,NAE-120/FC-2.AH4-SAV-012.SUPFLOW-COMMAND.Trend1,
+urn:uuid:5f26981a-2262-4a5c-9deb-b9d5ce790dc9,620,3004461,trendLog,,EBU1.BASEMENT.RM-B707.VAV-B707-1.EXHFLOW-COMMAND.Trend - Present Value,NAE-120/FC-2.AH4-SAV-012.EXHFLOW-COMMAND.Trend1,
+urn:uuid:af8356e1-1af0-4191-b91d-8d323a5415d4,620,3004462,trendLog,,EBU1.BASEMENT.RM-B703.VAV-B703-1.SUPFLOW-COMMAND.Trend - Present Value,NAE-120/FC-2.AH4-SAV-013.SUPFLOW-COMMAND.Trend1,
+urn:uuid:9abcba1e-50fa-4c0a-8ca9-698597d65920,620,3004463,trendLog,,EBU1.BASEMENT.RM-B703.VAV-B703-1.EXHFLOW-COMMAND.Trend - Present Value,NAE-120/FC-2.AH4-SAV-013.EXHFLOW-COMMAND.Trend1,
+urn:uuid:df460924-f0ca-4a78-b807-2e49602ea1e5,620,3004464,trendLog,,EBU1.BASEMENT.RM-B912.VAV-B912-1.SUPFLOW-COMMAND.Trend - Present Value,NAE-120/FC-2.AH4-SAV-014.SUPFLOW-COMMAND.Trend1,
+urn:uuid:eda17554-ba4c-467c-8fed-8ac1220b7627,620,3004465,trendLog,,EBU1.BASEMENT.RM-B912.VAV-B912-1.EXHFLOW-COMMAND.Trend - Present Value,NAE-120/FC-2.AH4-SAV-014.EXHFLOW-COMMAND.Trend1,
+urn:uuid:5d19b6cb-d1e1-4444-a36d-7b1633434d01,620,3004926,trendLog,,Trend - Present Value,NAE-120/N2-1.UNT-10.LCWS-T.Trend1,
+urn:uuid:8273027e-2221-4f85-87da-fd1a361a4e30,620,3004927,trendLog,,1min.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWDP-7THFLR.Trend2,
+urn:uuid:b8ea706f-42a0-43ba-b343-5e19d46c553d,620,3004928,trendLog,,1min.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWP2VFD-CMD.Trend2,
+urn:uuid:6f9c41cb-850d-496d-aaa0-cf95da08e706,620,3004929,trendLog,,1min.Trend - Present Value,NAE-120/FC-2.FEC-004.CHWP1VFD-CMD.Trend2,
+urn:uuid:fe168412-6625-4b40-9d8a-d5b606f31aac,620,3006104,trendLog,,EBU1.BASEMENT.RM-B565.P3-VFD.FREQ.Trend - Present Value,NAE-120/FC-2.P3-VFD-007.FREQ.Trend1,
+urn:uuid:441c9549-60d4-4961-9f09-342f331870ec,620,3006106,trendLog,,EBU1.BASEMENT.RM-B565.P3-VFD.VFD-AMP.Trend - Present Value,NAE-120/FC-2.P3-VFD-007.VFD-AMP.Trend1,
+urn:uuid:57f5a9bb-c24d-42bf-b15b-662735f29142,620,3006108,trendLog,,EBU1.BASEMENT.RM-B565.P3-VFD.VOLTS.Trend - Present Value,NAE-120/FC-2.P3-VFD-007.VOLTS.Trend1,
+urn:uuid:5f6365a7-38a4-4372-9132-77979bb25049,620,3006111,trendLog,,EBU1.BASEMENT.RM-B565.P3-VFD.VFD-STS.Trend - Present Value,NAE-120/FC-2.P3-VFD-007.VFD-STS.Trend1,
+urn:uuid:60904e22-be41-4f0a-8750-c76eb75a9668,620,3006113,trendLog,,EBU1.BASEMENT.RM-B565.P3-VFD.HAND-AUTO.Trend - Present Value,NAE-120/FC-2.P3-VFD-007.HAND-AUTO.Trend1,
+urn:uuid:410103fc-1993-4b69-adf4-5c90275aaa6e,620,3006115,trendLog,,EBU1.BASEMENT.RM-B565.P3-VFD.FLT-STS.Trend - Present Value,NAE-120/FC-2.P3-VFD-007.FLT-STS.Trend1,
+urn:uuid:c63de464-8192-43c5-bb5d-13e4a3684815,620,3006117,trendLog,,EBU1.BASEMENT.RM-B565.P3-VFD.ALARM.Trend - Present Value,NAE-120/FC-2.P3-VFD-007.ALARM.Trend1,
+urn:uuid:36e2c0f3-647a-4887-a09c-dbe94d2fb5bf,620,3006119,trendLog,,EBU1.BASEMENT.RM-B565.P3-VFD.PWR-KW.Trend - Present Value,NAE-120/FC-2.P3-VFD-007.PWR-KW.Trend1,
+urn:uuid:eafb117c-5b25-41f5-a7e7-a13db40bc1be,620,3006122,trendLog,,EBU1.BASEMENT.RM-B565.P3-VFD.KW-HRS.Trend - Present Value,NAE-120/FC-2.P3-VFD-007.KW-HRS.Trend1,
+urn:uuid:0233cabd-11bf-499f-8eab-b46e0b861037,620,3006124,trendLog,,EBU1.BASEMENT.RM-B565.P3-VFD.MW-HRS.Trend - Present Value,NAE-120/FC-2.P3-VFD-007.MW-HRS.Trend1,
+urn:uuid:84cd38b0-f956-46ef-9d27-6f348638eb78,620,3006126,trendLog,,EBU1.BASEMENT.RM-B565.P3-VFD.DRIVE-T.Trend - Present Value,NAE-120/FC-2.P3-VFD-007.DRIVE-T.Trend1,
+urn:uuid:ddbf69fa-da21-4542-bb52-95291c84e55a,620,3006131,trendLog,,EBU1.BASEMENT.RM-B565.P4-VFD.FREQ.Trend - Present Value,NAE-120/FC-2.P4-VFD-008.FREQ.Trend1,
+urn:uuid:c11ebece-4522-4cfb-aa5d-2dbbad2a2b74,620,3006133,trendLog,,EBU1.BASEMENT.RM-B565.P4-VFD.VFD-AMP.Trend - Present Value,NAE-120/FC-2.P4-VFD-008.VFD-AMP.Trend1,
+urn:uuid:ffd6a342-b447-4887-96f0-f23d93ab5bfd,620,3006135,trendLog,,EBU1.BASEMENT.RM-B565.P4-VFD.VOLTS.Trend - Present Value,NAE-120/FC-2.P4-VFD-008.VOLTS.Trend1,
+urn:uuid:0b1c968b-75b0-4dca-9440-0027c0a65f9b,620,3006138,trendLog,,EBU1.BASEMENT.RM-B565.P4-VFD.VFD-STS.Trend - Present Value,NAE-120/FC-2.P4-VFD-008.VFD-STS.Trend1,
+urn:uuid:0559754a-369e-4bdb-85f2-21a83d3bcdca,620,3006140,trendLog,,EBU1.BASEMENT.RM-B565.P4-VFD.HAND-AUTO.Trend - Present Value,NAE-120/FC-2.P4-VFD-008.HAND-AUTO.Trend1,
+urn:uuid:fac13252-5a57-41b4-839a-9cb99ae13c7b,620,3006142,trendLog,,EBU1.BASEMENT.RM-B565.P4-VFD.FLT-STS.Trend - Present Value,NAE-120/FC-2.P4-VFD-008.FLT-STS.Trend1,
+urn:uuid:64faa14b-2bd6-4657-8382-efef86ab25e9,620,3006144,trendLog,,EBU1.BASEMENT.RM-B565.P4-VFD.ALARM.Trend - Present Value,NAE-120/FC-2.P4-VFD-008.ALARM.Trend1,
+urn:uuid:5ac620b8-5ad7-4b3e-b848-2151bcac670f,620,3006146,trendLog,,EBU1.BASEMENT.RM-B565.P4-VFD.PWR-KW.Trend - Present Value,NAE-120/FC-2.P4-VFD-008.PWR-KW.Trend1,
+urn:uuid:f372f0f0-25d4-458c-96c9-255a8ebb0ba0,620,3006149,trendLog,,EBU1.BASEMENT.RM-B565.P4-VFD.KW-HRS.Trend - Present Value,NAE-120/FC-2.P4-VFD-008.KW-HRS.Trend1,
+urn:uuid:92093da7-ccb7-49e1-b296-280b067a9d7e,620,3006151,trendLog,,EBU1.BASEMENT.RM-B565.P4-VFD.MW-HRS.Trend - Present Value,NAE-120/FC-2.P4-VFD-008.MW-HRS.Trend1,
+urn:uuid:ae86a010-3eff-482b-ae4f-2c1ee67a03fe,620,3006153,trendLog,,EBU1.BASEMENT.RM-B565.P4-VFD.DRIVE-T.Trend - Present Value,NAE-120/FC-2.P4-VFD-008.DRIVE-T.Trend1,
+urn:uuid:7280a4d7-f783-41fb-8098-27d5be88922b,620,3006158,trendLog,,EBU1.EASTPLANT.HX-1.MTWST-STPT.Trend - Present Value,NAE-120/N2-1.UNT-110.MTWST-STPT.Trend1,
+urn:uuid:0c147eb7-66cb-4ebf-aacc-592f63bd7575,620,3006176,trendLog,,EBU1.EASTPLANT.HX-1.HX1HILIMIT-ALM.Trend - Present Value,NAE-120/N2-1.UNT-110.HX1HILIMIT-ALM.Trend1,
+urn:uuid:54296006-511d-467e-8615-177ed86b003d,620,3006178,trendLog,,EBU1.BASEMENT.RM-B565.AH2.CHWR-T.Trend - Present Value,NAE-120/FC-2.AH2-FEC-015.CHWR-T.Trend1,
+urn:uuid:5fbdc8e2-c021-4f91-b515-2ce4d0e3a41e,620,3006179,trendLog,,EBU1.BASEMENT.RM-B565.AH2.SA-T.Trend - Present Value,NAE-120/FC-2.AH2-FEC-015.SA-T.Trend1,
+urn:uuid:26ae0d17-998f-4998-9474-8a60c36db1f5,620,3006180,trendLog,,EBU1.BASEMENT.RM-B565.AH2.RA-T.Trend - Present Value,NAE-120/FC-2.AH2-FEC-015.RA-T.Trend1,
+urn:uuid:3d691ecc-cbac-4726-9d8b-f9533f98c66d,620,3006305,trendLog,,Trend - Present Value,NAE-120/FC-2.FEC-004.MTW-PRESS.Trend1,

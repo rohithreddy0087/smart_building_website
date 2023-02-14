@@ -1,0 +1,242 @@
+uuid,device_ref,instance,object_type,description,jci_name,name,unit
+urn:uuid:7cd9b7c1-2d61-4859-863f-fd964d8adc25,552,3000073,analogInput,,AI2 ACT,NAE-52/FCB.Device-18061.Analog Inputs.AI-1,percent
+urn:uuid:1d826f05-45b6-4790-9da2-93669267f921,552,3000074,analogInput,,AI1 ACT,NAE-52/FCB.Device-18061.Analog Inputs.AI-0,percent
+urn:uuid:7c8e2f76-fc6a-48bd-8c31-ed394e7618f9,552,3000128,analogInput,,VFD-FREQ,NAE-52/FCB.Device-18061.VFD-FREQ,percent
+urn:uuid:e2fed4d3-4283-4efd-9ffa-091ee08467a1,552,3000129,analogInput,,FRE,NAE-52/FCB.Device-18061.FRE,percent
+urn:uuid:544e2b1c-fac8-42f7-8025-eb9819161a79,552,3000176,analogInput,,AI2 ACT,NAE-52/FCB.Device-18063.Analog Inputs.AI-1,percent
+urn:uuid:3a8675ea-7866-433f-b47e-576216c5edb4,552,3000177,analogInput,,AI1 ACT,NAE-52/FCB.Device-18063.Analog Inputs.AI-0,percent
+urn:uuid:f977cb1c-bc16-4949-9854-12a3aede4c09,552,3000070,analogOutput,,AO2 CMD,NAE-52/FCB.Device-18061.Analog Outputs.AO-1,percent
+urn:uuid:94faf198-a1a5-41dd-87d3-82cdfd1e0aae,552,3000071,analogOutput,,AO1 CMD,NAE-52/FCB.Device-18061.Analog Outputs.AO-0,percent
+urn:uuid:795f9ae2-fd50-4dbd-a1f3-9281977dfc2c,552,3000173,analogOutput,,AO2 CMD,NAE-52/FCB.Device-18063.Analog Outputs.AO-1,percent
+urn:uuid:fe03ba48-8145-4580-85dc-e14b9c04a713,552,3000174,analogOutput,,AO1 CMD,NAE-52/FCB.Device-18063.Analog Outputs.AO-0,percent
+urn:uuid:cdde3af0-f691-4999-a306-3c616cf47618,552,3000229,analogOutput,P-1 SPEED COMMAND,Literature.CHW.CHWP1-SPD,NAE-52/FCB.Local Application.SCHWP1-O,percent
+urn:uuid:cbac2939-2631-42ad-a9fb-1403f103916e,552,3000230,analogOutput,P-2 SPEED COMMAND,Literature.CHW.CHWP2-SPD,NAE-52/FCB.Local Application.SCHWP2-O,percent
+urn:uuid:18a8d653-0d3f-4517-b6ca-475148a87c25,552,3000041,analogValue,,MOTOR TEMP,NAE-52/FCB.Device-18061.Analog Values.AV-15,degreesCelsius
+urn:uuid:d0cf0e65-ca48-4a93-9a39-62d27a3a1892,552,3000042,analogValue,,RUN TIME (R),NAE-52/FCB.Device-18061.Analog Values.AV-14,hours
+urn:uuid:7b31c42c-1ae2-464c-b4b9-5118c319e687,552,3000043,analogValue,,EXT PID DEV,NAE-52/FCB.Device-18061.Analog Values.AV-13,percent
+urn:uuid:a05c83ba-e09f-49cf-ac3f-b8a754066e0d,552,3000044,analogValue,,EXT PID FBCK,NAE-52/FCB.Device-18061.Analog Values.AV-12,percent
+urn:uuid:036f8ee7-0cb9-4926-b35d-9b71013028de,552,3000045,analogValue,,PRC PID DEV,NAE-52/FCB.Device-18061.Analog Values.AV-11,percent
+urn:uuid:c6b53c3b-2938-4415-8c2f-c14aa3dd67d0,552,3000046,analogValue,,PRC PID FBCK,NAE-52/FCB.Device-18061.Analog Values.AV-10,percent
+urn:uuid:d87a5cb4-063a-4d5c-ad83-3fc94853d8a6,552,3000047,analogValue,,MWH (NR),NAE-52/FCB.Device-18061.Analog Values.AV-9,megawattHours
+urn:uuid:04abf7bc-1006-4b7f-8b4b-843221441cdc,552,3000048,analogValue,,KWH (R),NAE-52/FCB.Device-18061.Analog Values.AV-8,kilowattHours
+urn:uuid:659df3a9-3496-465c-9b86-5cdfcc1920b5,552,3000049,analogValue,,DRIVE TEMP,NAE-52/FCB.Device-18061.Analog Values.AV-7,degreesCelsius
+urn:uuid:3b7d3417-0ada-4ced-b0b8-11faeae97607,552,3000050,analogValue,,POWER,NAE-52/FCB.Device-18061.Analog Values.AV-6,kilowatts
+urn:uuid:ff616b0c-d682-4cc0-8e00-511f6d0b6b21,552,3000051,analogValue,,TORQUE,NAE-52/FCB.Device-18061.Analog Values.AV-5,percent
+urn:uuid:5b761bca-4322-4a24-9307-f91a5aaf2a7e,552,3000052,analogValue,,CURRENT,NAE-52/FCB.Device-18061.Analog Values.AV-4,amperes
+urn:uuid:4a555d72-363c-4421-bb32-a4e3f0cebfff,552,3000053,analogValue,,OUTPUT VOLT,NAE-52/FCB.Device-18061.Analog Values.AV-3,volts
+urn:uuid:06e22b02-4825-4333-81f1-8f26fa046622,552,3000054,analogValue,,DC BUS VOLT,NAE-52/FCB.Device-18061.Analog Values.AV-2,volts
+urn:uuid:4a4eb87a-177b-4b49-aed7-cb84be661f6f,552,3000055,analogValue,,OUTPUT FREQ,NAE-52/FCB.Device-18061.Analog Values.AV-1,hertz
+urn:uuid:2dc8c8ce-f533-42b4-9c77-244c4305f342,552,3000056,analogValue,,OUTPUT SPEED,NAE-52/FCB.Device-18061.Analog Values.AV-0,revolutionsPerMinute
+urn:uuid:84a7a36e-bf1d-4785-a165-722fc4a57211,552,3000057,analogValue,,EXT PID STPT,NAE-52/FCB.Device-18061.Analog Values.AV-27,percent
+urn:uuid:0b129ed3-4ab5-4932-9242-29371503e4aa,552,3000058,analogValue,,MBOX DATA,NAE-52/FCB.Device-18061.Analog Values.AV-26,noUnits
+urn:uuid:fd4472e0-37bb-49cb-8d9c-479bc0be3c81,552,3000059,analogValue,,MBOX PARAM,NAE-52/FCB.Device-18061.Analog Values.AV-25,noUnits
+urn:uuid:42633808-3a2a-428c-86cb-6417f12aa2b1,552,3000060,analogValue,,DECEL1 TIME,NAE-52/FCB.Device-18061.Analog Values.AV-24,seconds
+urn:uuid:6c7074b5-7a15-4f14-9d5c-65f496880d1f,552,3000061,analogValue,,ACCEL1 TIME,NAE-52/FCB.Device-18061.Analog Values.AV-23,seconds
+urn:uuid:7718a671-5f49-4879-90d3-c312c018c329,552,3000062,analogValue,,AO2 ACT,NAE-52/FCB.Device-18061.Analog Values.AV-22,milliamperes
+urn:uuid:c47fd379-aa5e-4a1a-8381-a34ff87f813b,552,3000063,analogValue,,AO1 ACT,NAE-52/FCB.Device-18061.Analog Values.AV-21,milliamperes
+urn:uuid:46f2cf4a-a504-4035-af5e-db4df4b14c8f,552,3000064,analogValue,EXT PID STPT,noUnits,PREV FLT 2,NAE-52/FCB.Device-18061.Analog Values.AV-20
+urn:uuid:63abfdcd-7bf7-4f20-94a5-3a0fef74be6d,552,3000065,analogValue,,PREV FLT 1,NAE-52/FCB.Device-18061.Analog Values.AV-19,noUnits
+urn:uuid:a6bea5ea-98df-465e-ad28-ae3292cccccd,552,3000066,analogValue,,LAST FLT,NAE-52/FCB.Device-18061.Analog Values.AV-18,noUnits
+urn:uuid:9cd9299c-ad62-43d1-ab8f-ffffd2c7a096,552,3000067,analogValue,,INPUT REF2,NAE-52/FCB.Device-18061.Analog Values.AV-17,percent
+urn:uuid:b0a08fa9-b37a-43c3-b516-383291a7b0c2,552,3000068,analogValue,,INPUT REF1,NAE-52/FCB.Device-18061.Analog Values.AV-16,percent
+urn:uuid:7199cbe0-5cf5-4bf3-a76f-699f247a3773,552,3000144,analogValue,,MOTOR TEMP,NAE-52/FCB.Device-18063.Analog Values.AV-15,degreesCelsius
+urn:uuid:2b4b9744-eb8f-4787-9c74-61f3e4d745c1,552,3000145,analogValue,,RUN TIME (R),NAE-52/FCB.Device-18063.Analog Values.AV-14,hours
+urn:uuid:3c1a1378-5d27-4a65-a41b-4c8b3b911d73,552,3000146,analogValue,,EXT PID DEV,NAE-52/FCB.Device-18063.Analog Values.AV-13,percent
+urn:uuid:0e7d9507-c186-404b-82b2-144fb0ed90bf,552,3000147,analogValue,,EXT PID FBCK,NAE-52/FCB.Device-18063.Analog Values.AV-12,percent
+urn:uuid:f8e9bc3b-6bf2-4a57-b765-00c189ae9afa,552,3000148,analogValue,,PRC PID DEV,NAE-52/FCB.Device-18063.Analog Values.AV-11,percent
+urn:uuid:cd30973f-ed7f-4dd2-a4e7-0b040196997b,552,3000149,analogValue,,PRC PID FBCK,NAE-52/FCB.Device-18063.Analog Values.AV-10,percent
+urn:uuid:a745046f-b194-4338-aa02-d022fd380015,552,3000150,analogValue,,MWH (NR),NAE-52/FCB.Device-18063.Analog Values.AV-9,megawattHours
+urn:uuid:3b3e732a-303c-40e8-95ee-e012b2a7b5a8,552,3000151,analogValue,,KWH (R),NAE-52/FCB.Device-18063.Analog Values.AV-8,kilowattHours
+urn:uuid:7f9e39f4-aaf8-4e48-9d77-790f39d5163a,552,3000152,analogValue,,DRIVE TEMP,NAE-52/FCB.Device-18063.Analog Values.AV-7,degreesCelsius
+urn:uuid:5668d2c7-fc8f-406e-917d-8e7adc6da9e8,552,3000153,analogValue,,POWER,NAE-52/FCB.Device-18063.Analog Values.AV-6,kilowatts
+urn:uuid:b930503c-3f12-4e7d-8820-9f8fbc6645f8,552,3000154,analogValue,,TORQUE,NAE-52/FCB.Device-18063.Analog Values.AV-5,percent
+urn:uuid:de393934-4a5a-4c2d-86cb-4087be10e542,552,3000155,analogValue,,CURRENT,NAE-52/FCB.Device-18063.Analog Values.AV-4,amperes
+urn:uuid:645421c2-42f7-490d-98e1-64f6ff61c412,552,3000156,analogValue,,OUTPUT VOLT,NAE-52/FCB.Device-18063.Analog Values.AV-3,volts
+urn:uuid:bab66868-d54f-4d05-a3f4-b7a58c816e87,552,3000157,analogValue,,DC BUS VOLT,NAE-52/FCB.Device-18063.Analog Values.AV-2,volts
+urn:uuid:c597aa52-8c5a-4447-a686-34a8c3404bf5,552,3000158,analogValue,,OUTPUT FREQ,NAE-52/FCB.Device-18063.Analog Values.AV-1,hertz
+urn:uuid:1bedf6da-4364-4f3e-b95f-2e942c0e92e6,552,3000159,analogValue,,OUTPUT SPEED,NAE-52/FCB.Device-18063.Analog Values.AV-0,revolutionsPerMinute
+urn:uuid:82cbcc2c-39df-41df-9c28-73f99e7ab334,552,3000160,analogValue,,EXT PID STPT,NAE-52/FCB.Device-18063.Analog Values.AV-27,percent
+urn:uuid:89b4593d-b91f-43fd-88c3-0a29f2272ee4,552,3000161,analogValue,,MBOX DATA,NAE-52/FCB.Device-18063.Analog Values.AV-26,noUnits
+urn:uuid:2dbb6351-b494-40ac-924c-e2ba18be5d48,552,3000162,analogValue,,MBOX PARAM,NAE-52/FCB.Device-18063.Analog Values.AV-25,noUnits
+urn:uuid:a02ee4b6-0ae8-44ec-b070-954fb5cf7eea,552,3000163,analogValue,,DECEL1 TIME,NAE-52/FCB.Device-18063.Analog Values.AV-24,seconds
+urn:uuid:9b55dc4b-3b55-4a1f-bb93-080dd1569815,552,3000164,analogValue,,ACCEL1 TIME,NAE-52/FCB.Device-18063.Analog Values.AV-23,seconds
+urn:uuid:01dc4274-1b64-46bb-992b-91114b56a929,552,3000165,analogValue,,AO2 ACT,NAE-52/FCB.Device-18063.Analog Values.AV-22,milliamperes
+urn:uuid:ab29a8f8-6cd7-4a84-878d-0aa010a8e329,552,3000166,analogValue,,AO1 ACT,NAE-52/FCB.Device-18063.Analog Values.AV-21,milliamperes
+urn:uuid:8d7e9d66-9106-4f37-b228-5044c04c482c,552,3000167,analogValue,,PREV FLT 2,NAE-52/FCB.Device-18063.Analog Values.AV-20,noUnits
+urn:uuid:31f87f08-4748-4685-bc59-1105daf33de7,552,3000168,analogValue,,PREV FLT 1,NAE-52/FCB.Device-18063.Analog Values.AV-19,noUnits
+urn:uuid:4ee41431-88e9-4b69-9260-a9b521b14b68,552,3000169,analogValue,,LAST FLT,NAE-52/FCB.Device-18063.Analog Values.AV-18,noUnits
+urn:uuid:8c0aec45-6a15-41da-b7cd-6de91b755a06,552,3000170,analogValue,,INPUT REF2,NAE-52/FCB.Device-18063.Analog Values.AV-17,percent
+urn:uuid:99550530-00ab-4fbd-9909-78c12cc53480,552,3000171,analogValue,,INPUT REF1,NAE-52/FCB.Device-18063.Analog Values.AV-16,percent
+urn:uuid:ee527a1b-9345-45e8-b2af-5ef4c6289f1b,552,3000233,analogValue,CHILLED WATER DP SETPOINT,Literature.CHW.CHWDP-STPT,NAE-52/FCB.Local Application.CHWDP-SP,poundsForcePerSquareInch
+urn:uuid:d4c01c3a-6164-4545-99ac-e092ab17ff3d,552,3000244,analogValue,CHW DP FROM 4TH FLOOR RM 425,Literature.CHW.CHW-DP,NAE-52/FCB.Local Application.CHW-DP SHARE,noUnits
+urn:uuid:84099fdb-b04f-4259-92c4-dc59e76fbd0d,552,3000293,analogValue,Min CHW DP Setpoint,DPSTPT-MIN,NAE-52/Programming.CHW-DP.DPSTPT-MIN,poundsForcePerSquareInch
+urn:uuid:21de9b4a-9b2b-41aa-943d-3cd117b5f791,552,3000294,analogValue,MAx CHW DP Setpoint,DPSTPT-MAX,NAE-52/Programming.CHW-DP.DPSTPT-MAX,poundsForcePerSquareInch
+urn:uuid:5e2234f6-0024-43cb-a72f-ce7aef915aa5,552,3000295,analogValue,Min CHW Valve Open to Reset DP upwards,CHWVLV-OPEN,NAE-52/Programming.CHW-DP.CHWVLV-OPEN,noUnits
+urn:uuid:79a09690-8537-4882-84fa-850ec01372e3,552,3000296,analogValue,CHW DP Setpoint Increment,DP-DIFF,NAE-52/Programming.CHW-DP.DP-DIFF,poundsForcePerSquareInch
+urn:uuid:a519783c-e933-4b8c-8e73-ce4964a68162,552,3000981,analogValue,,Literature CHWDP-SP Load Shed,NAE-52/Programming.ZONE LOAD SHED.Literature CHWDP-SP Load Shed,poundsForcePerSquareInch
+urn:uuid:53b40e3b-a64e-47f0-b092-c2e42af17939,552,3001004,analogValue,,MBOX DATA,NAE-52/FCB.Device-18062.Analog Values.AV-14,noUnits
+urn:uuid:575ed01b-4857-495f-92cf-c4e2e278e4a4,552,3001005,analogValue,,MBOX PARAM,NAE-52/FCB.Device-18062.Analog Values.AV-13,noUnits
+urn:uuid:b78f7a79-b0a5-4c80-9776-260fa58cf4ca,552,3001006,analogValue,,C-A VOLT,NAE-52/FCB.Device-18062.Analog Values.AV-12,volts
+urn:uuid:a4c02760-26f5-4e9a-a01f-8b4fbe63f16d,552,3001007,analogValue,,B-C VOLT,NAE-52/FCB.Device-18062.Analog Values.AV-11,volts
+urn:uuid:80ce6dcf-3bb2-4db3-8ee9-ed2484bbca74,552,3001008,analogValue,,A-B VOLT,NAE-52/FCB.Device-18062.Analog Values.AV-10,volts
+urn:uuid:fa18e329-7250-4522-86eb-3a1d7429408b,552,3001009,analogValue,,RUN TIME (R),NAE-52/FCB.Device-18062.Analog Values.AV-9,hours
+urn:uuid:ac19f7ec-70ef-4f61-93f5-fd6f46f5d00d,552,3001010,analogValue,,KWH (R),NAE-52/FCB.Device-18062.Analog Values.AV-8,kilowattHours
+urn:uuid:32dee9b7-e581-4f58-8bae-bba3130088d3,552,3001011,analogValue,,PCB TEMP,NAE-52/FCB.Device-18062.Analog Values.AV-7,degreesCelsius
+urn:uuid:552a78a1-b69a-4533-b0eb-da921d588f81,552,3001012,analogValue,,INPUT VOLT,NAE-52/FCB.Device-18062.Analog Values.AV-6,volts
+urn:uuid:ec5b4487-fa45-492e-9491-66cd17cec8f3,552,3001013,analogValue,,ALARM W0RD 2,NAE-52/FCB.Device-18062.Analog Values.AV-5,noUnits
+urn:uuid:5b7c1092-76ee-4703-93ee-8241cb8e9b4a,552,3001014,analogValue,,ALARM W0RD 1,NAE-52/FCB.Device-18062.Analog Values.AV-4,noUnits
+urn:uuid:33dfd150-abbd-438d-87c8-a3ce605747cd,552,3001015,analogValue,,LAST FLT,NAE-52/FCB.Device-18062.Analog Values.AV-3,noUnits
+urn:uuid:f04a8d71-c502-446d-a9e7-ecadf975562a,552,3001016,analogValue,,BYP RUN DLY,NAE-52/FCB.Device-18062.Analog Values.AV-2,seconds
+urn:uuid:2b54c20d-59bb-4cd4-9f93-bd1c1cd53cea,552,3001017,analogValue,,BYPASS MODE,NAE-52/FCB.Device-18062.Analog Values.AV-1,noUnits
+urn:uuid:34d6085c-2fec-4b0f-b2d1-e91f9e7df2b6,552,3001018,analogValue,,CURRENT,NAE-52/FCB.Device-18062.Analog Values.AV-0,amperes
+urn:uuid:6a4132aa-7d79-49ba-bb6b-9a3c40983a15,552,3000106,binaryInput,,DI6 ACT,NAE-52/FCB.Device-18061.Binary Inputs.BI-11,
+urn:uuid:1ed63a9d-e490-4a32-b8e8-1fac5b68acae,552,3000107,binaryInput,,DI5 ACT,NAE-52/FCB.Device-18061.Binary Inputs.BI-10,
+urn:uuid:a95ce56f-967a-4743-bf09-d697640e6346,552,3000108,binaryInput,,DI4 ACT,NAE-52/FCB.Device-18061.Binary Inputs.BI-9,
+urn:uuid:eecec03d-698d-4a12-a6a8-00793bb23fba,552,3000109,binaryInput,,DI3 ACT,NAE-52/FCB.Device-18061.Binary Inputs.BI-8,
+urn:uuid:d46d8898-6882-460a-9fe9-767da1bf08d7,552,3000110,binaryInput,,DI2 ACT,NAE-52/FCB.Device-18061.Binary Inputs.BI-7,
+urn:uuid:841c23da-eedf-47aa-bb1f-74349895b2fc,552,3000111,binaryInput,,DI1 ACT,NAE-52/FCB.Device-18061.Binary Inputs.BI-6,
+urn:uuid:126c613f-93f5-4097-bcde-e67631ea1a7c,552,3000112,binaryInput,,RO6 ACT,NAE-52/FCB.Device-18061.Binary Inputs.BI-5,
+urn:uuid:d1207233-3743-4ab8-97f8-7e0bd2e47faa,552,3000113,binaryInput,,RO5 ACT,NAE-52/FCB.Device-18061.Binary Inputs.BI-4,
+urn:uuid:0719e04d-517f-41a5-8648-a9cf2c432ce4,552,3000114,binaryInput,,RO4 ACT,NAE-52/FCB.Device-18061.Binary Inputs.BI-3,
+urn:uuid:eacc2443-9bf7-4d2e-9e1a-fe4cd264333b,552,3000115,binaryInput,,RO3 ACT,NAE-52/FCB.Device-18061.Binary Inputs.BI-2,
+urn:uuid:2c2c3201-1823-44be-86af-914710068334,552,3000116,binaryInput,,RO2 ACT,NAE-52/FCB.Device-18061.Binary Inputs.BI-1,
+urn:uuid:102d2a1c-d0df-4ca8-b5d7-356f047bb206,552,3000117,binaryInput,,RO1 ACT,NAE-52/FCB.Device-18061.Binary Inputs.BI-0,
+urn:uuid:477f8785-73ca-44c8-9bd5-cfac084150a4,552,3000131,binaryInput,,DI6 ACT,NAE-52/FCB.Device-18063.Binary Inputs.BI-11,
+urn:uuid:4cd16261-c0b9-42cf-b3e2-8a1ed7a97cbb,552,3000132,binaryInput,,DI5 ACT,NAE-52/FCB.Device-18063.Binary Inputs.BI-10,
+urn:uuid:6a263dfb-f72b-42f2-b4a0-f4f96cb9fc18,552,3000133,binaryInput,,DI4 ACT,NAE-52/FCB.Device-18063.Binary Inputs.BI-9,
+urn:uuid:5e57eb78-fab4-4d10-be8c-80db3be93b4f,552,3000134,binaryInput,,DI3 ACT,NAE-52/FCB.Device-18063.Binary Inputs.BI-8,
+urn:uuid:744d0de6-aace-4b52-8c76-3efca21c9f1f,552,3000135,binaryInput,,DI2 ACT,NAE-52/FCB.Device-18063.Binary Inputs.BI-7,
+urn:uuid:7bb0cd8f-d336-48fa-acdb-fa5b122c9f65,552,3000136,binaryInput,,DI1 ACT,NAE-52/FCB.Device-18063.Binary Inputs.BI-6,
+urn:uuid:102b8300-ed1e-4c25-bac5-58865b665c79,552,3000137,binaryInput,,RO6 ACT,NAE-52/FCB.Device-18063.Binary Inputs.BI-5,
+urn:uuid:6b07daff-888e-45e9-8ecb-d2481d34b4f0,552,3000138,binaryInput,,RO5 ACT,NAE-52/FCB.Device-18063.Binary Inputs.BI-4,
+urn:uuid:3ebf1e50-998c-4ced-aead-325d4aa94595,552,3000139,binaryInput,,RO4 ACT,NAE-52/FCB.Device-18063.Binary Inputs.BI-3,
+urn:uuid:44cf012b-5be0-41d5-bce4-2fcfe5711840,552,3000140,binaryInput,,RO3 ACT,NAE-52/FCB.Device-18063.Binary Inputs.BI-2,
+urn:uuid:ca77a993-dbab-4d27-85d9-7bd4ecfd7cd2,552,3000141,binaryInput,,RO2 ACT,NAE-52/FCB.Device-18063.Binary Inputs.BI-1,
+urn:uuid:d0173bd8-abd2-4336-b10c-3e6195a17f04,552,3000142,binaryInput,,RO1 ACT,NAE-52/FCB.Device-18063.Binary Inputs.BI-0,
+urn:uuid:ca4161f2-dec4-4fad-a524-ac5a127f7b88,552,3000247,binaryInput,CHW P-1 STATUS,Literature.CHW.P1-STS,NAE-52/FCB.Local Application.P1-STS,
+urn:uuid:49903b63-7238-4156-a459-ef83fe37406a,552,3000248,binaryInput,CHW P-2 STATUS,Literature.CHW.P2-STS,NAE-52/FCB.Local Application.P2-STS,
+urn:uuid:ac44a032-125b-4fc8-8fa4-3ad7941fbb16,552,3001050,binaryInput,,DI6 ACT,NAE-52/FCB.Device-18062.Binary Inputs.BI-10,
+urn:uuid:153217e9-5de9-47c8-a252-61fedfbe7cc1,552,3001051,binaryInput,,DI5 ACT,NAE-52/FCB.Device-18062.Binary Inputs.BI-9,
+urn:uuid:7dbe7b3d-0f23-48da-bed0-b261a40f899e,552,3001052,binaryInput,,DI4 ACT,NAE-52/FCB.Device-18062.Binary Inputs.BI-8,
+urn:uuid:2333e64b-e556-4076-b258-df41d10a2085,552,3001053,binaryInput,,DI3 ACT,NAE-52/FCB.Device-18062.Binary Inputs.BI-7,
+urn:uuid:07a14e94-b05a-40c5-b1e7-668363b728bf,552,3001054,binaryInput,,DI2 ACT,NAE-52/FCB.Device-18062.Binary Inputs.BI-6,
+urn:uuid:acfc6193-affe-4cfc-b485-3c673d120bcb,552,3001055,binaryInput,,DI1 ACT,NAE-52/FCB.Device-18062.Binary Inputs.BI-5,
+urn:uuid:8391b0f9-607c-4df9-b005-2616038381d7,552,3001056,binaryInput,,RO5 ACT,NAE-52/FCB.Device-18062.Binary Inputs.BI-4,
+urn:uuid:a33d53b0-7b55-49bb-b152-4eca95a5a563,552,3001057,binaryInput,,RO4 ACT,NAE-52/FCB.Device-18062.Binary Inputs.BI-3,
+urn:uuid:50e27bc9-beb8-46cd-b085-59864ebb558d,552,3001058,binaryInput,,RO3 ACT,NAE-52/FCB.Device-18062.Binary Inputs.BI-2,
+urn:uuid:bc4f84dd-0478-471a-b39d-344237954c81,552,3001059,binaryInput,,RO2 ACT,NAE-52/FCB.Device-18062.Binary Inputs.BI-1,
+urn:uuid:29eca8b2-b07a-4797-80b4-22790755717a,552,3001060,binaryInput,,RO1 ACT,NAE-52/FCB.Device-18062.Binary Inputs.BI-0,
+urn:uuid:d86150b1-21fe-4114-81b8-bb71593b8910,552,3000099,binaryOutput,,RO6 CMD,NAE-52/FCB.Device-18061.Binary Outputs.BO-5,
+urn:uuid:1a364a6a-ce9b-45d3-a6bc-32ba28ac30e1,552,3000100,binaryOutput,,RO5 CMD,NAE-52/FCB.Device-18061.Binary Outputs.BO-4,
+urn:uuid:865ba7a4-bd45-473f-9d29-676dacbd310a,552,3000101,binaryOutput,,RO4 CMD,NAE-52/FCB.Device-18061.Binary Outputs.BO-3,
+urn:uuid:c97792ab-20f8-4098-94c5-6a7db9b9d681,552,3000102,binaryOutput,,RO3 CMD,NAE-52/FCB.Device-18061.Binary Outputs.BO-2,
+urn:uuid:a0050bcb-53c7-46b4-8087-d534916a09c3,552,3000103,binaryOutput,,RO2 CMD,NAE-52/FCB.Device-18061.Binary Outputs.BO-1,
+urn:uuid:74f6e355-b101-4029-96a8-324fe81bd909,552,3000104,binaryOutput,,RO1 CMD,NAE-52/FCB.Device-18061.Binary Outputs.BO-0,
+urn:uuid:ff4329dc-d1a1-4f3f-9fdc-d21009f3ba81,552,3000202,binaryOutput,,RO6 CMD,NAE-52/FCB.Device-18063.Binary Outputs.BO-5,
+urn:uuid:4e6456ad-fdc6-456c-9f08-3b4204df6173,552,3000203,binaryOutput,,RO5 CMD,NAE-52/FCB.Device-18063.Binary Outputs.BO-4,
+urn:uuid:db788686-38e9-4188-a9e6-592485fd0566,552,3000204,binaryOutput,,RO4 CMD,NAE-52/FCB.Device-18063.Binary Outputs.BO-3,
+urn:uuid:7813210d-9f6f-453e-9079-82bc794b97aa,552,3000205,binaryOutput,,RO3 CMD,NAE-52/FCB.Device-18063.Binary Outputs.BO-2,
+urn:uuid:367a57df-d818-4a12-9b9e-4cec38bbc88d,552,3000206,binaryOutput,,RO2 CMD,NAE-52/FCB.Device-18063.Binary Outputs.BO-1,
+urn:uuid:9de7c965-ec3c-493d-9ba5-91423d90fdd5,552,3000207,binaryOutput,,RO1 CMD,NAE-52/FCB.Device-18063.Binary Outputs.BO-0,
+urn:uuid:1e2b3823-6fd0-4b3e-9ea9-05a1a8d979e1,552,3000231,binaryOutput,P1-START/STOP,Literature.CHW.CHWP1-SS,NAE-52/FCB.Local Application.SCHWP1-C,
+urn:uuid:d1ae61ef-88af-4aa9-a095-14e5a2eb6ca9,552,3000232,binaryOutput,P-2 START STOP,Literature.CHW.CHWP2-SS,NAE-52/FCB.Local Application.SCHWP2-C,
+urn:uuid:0001dc1d-1dab-48c4-8d3e-193c5020015c,552,3001044,binaryOutput,,RO5 CMD,NAE-52/FCB.Device-18062.Binary Outputs.BO-4,
+urn:uuid:abfe8574-7cf8-4669-9ed2-346516fe0d17,552,3001045,binaryOutput,,RO4 CMD,NAE-52/FCB.Device-18062.Binary Outputs.BO-3,
+urn:uuid:c27c67c0-f45b-45f5-ae77-340a74b4ef87,552,3001046,binaryOutput,,RO3 CMD,NAE-52/FCB.Device-18062.Binary Outputs.BO-2,
+urn:uuid:d6a6b5e3-304d-4157-9ee4-7e2df583c9d6,552,3001047,binaryOutput,,RO2 CMD,NAE-52/FCB.Device-18062.Binary Outputs.BO-1,
+urn:uuid:b7278f08-08e3-44aa-bf8f-3b35646e7219,552,3001048,binaryOutput,,RO1 CMD,NAE-52/FCB.Device-18062.Binary Outputs.BO-0,
+urn:uuid:819cbde1-9d86-4532-9386-93e9c1d45197,552,3000076,binaryValue,,MBOX READ,NAE-52/FCB.Device-18061.Binary Values.BV-15,
+urn:uuid:8de9a334-5b2e-4d81-b1df-ed36652bdff0,552,3000077,binaryValue,,FAULT RESET,NAE-52/FCB.Device-18061.Binary Values.BV-14,
+urn:uuid:a9ab5eb7-9048-4499-a1cf-a9e9fc5d2965,552,3000078,binaryValue,,EXT 1/2 CMD,NAE-52/FCB.Device-18061.Binary Values.BV-13,
+urn:uuid:467a39ba-4f19-4543-a0eb-ee7b8d71cd0c,552,3000079,binaryValue,,RUN ENA CMD,NAE-52/FCB.Device-18061.Binary Values.BV-12,
+urn:uuid:45c3d9a8-90e1-4d4c-bdf8-7a0f59fffcce,552,3000080,binaryValue,,FWD/REV CMD,NAE-52/FCB.Device-18061.Binary Values.BV-11,
+urn:uuid:70e2f2aa-36f3-4a5c-8439-aa298e182fe9,552,3000081,binaryValue,,RUN/STOP CMD,NAE-52/FCB.Device-18061.Binary Values.BV-10,
+urn:uuid:155d3d62-cfed-4362-91c5-19ea9cad2e22,552,3000082,binaryValue,,RUN ENA ACT,NAE-52/FCB.Device-18061.Binary Values.BV-9,
+urn:uuid:d330a272-1b84-46b3-98ef-c598677e2b42,552,3000083,binaryValue,,AT SETPOINT,NAE-52/FCB.Device-18061.Binary Values.BV-8,
+urn:uuid:447e4b53-b18b-49b9-9dfe-d699d8217f3b,552,3000084,binaryValue,,READY TO RUN,NAE-52/FCB.Device-18061.Binary Values.BV-7,
+urn:uuid:7ad37fb5-a61a-4ab9-84ae-85cf51add9a1,552,3000085,binaryValue,,MAINT REQ,NAE-52/FCB.Device-18061.Binary Values.BV-6,
+urn:uuid:1361fce8-07b7-4478-9437-5d3cf8ca70a3,552,3000086,binaryValue,,ALARM ACT,NAE-52/FCB.Device-18061.Binary Values.BV-5,
+urn:uuid:46261d86-d35d-48b8-b3a7-28fe1f540a1f,552,3000087,binaryValue,,HAND/AUTO ACT,NAE-52/FCB.Device-18061.Binary Values.BV-4,
+urn:uuid:19a79da6-dc84-4e0c-9e81-a3b7609b1c2a,552,3000088,binaryValue,,EXT 1/2 ACT,NAE-52/FCB.Device-18061.Binary Values.BV-3,
+urn:uuid:361075b8-a155-403f-80f8-916f53f79b9e,552,3000089,binaryValue,,FAULT ACT,NAE-52/FCB.Device-18061.Binary Values.BV-2,
+urn:uuid:34a52613-0d03-47f9-a720-cc3ff3b04817,552,3000090,binaryValue,,FWD/REV ACT,NAE-52/FCB.Device-18061.Binary Values.BV-1,
+urn:uuid:65c5a585-e607-4cc8-a08b-48342e61527e,552,3000091,binaryValue,,RUN/STOP ACT,NAE-52/FCB.Device-18061.Binary Values.BV-0,
+urn:uuid:f47da224-7ae9-41a0-b34a-617351d6bef4,552,3000092,binaryValue,,START ENABLE 2,NAE-52/FCB.Device-18061.Binary Values.BV-21,
+urn:uuid:bde1502a-187b-41a3-a6e4-e10b7336714b,552,3000093,binaryValue,,START ENABLE 1,NAE-52/FCB.Device-18061.Binary Values.BV-20,
+urn:uuid:63f0e4a6-b81a-4679-9b14-af0a42194f48,552,3000094,binaryValue,,CTL OVERRIDE ACT,NAE-52/FCB.Device-18061.Binary Values.BV-19,
+urn:uuid:819701c7-f91b-440c-9791-632eccf2aeeb,552,3000095,binaryValue,,CTL OVERRIDE CMD,NAE-52/FCB.Device-18061.Binary Values.BV-18,
+urn:uuid:0c614343-ef35-47bb-9bae-47a34d800db6,552,3000096,binaryValue,,LOCK PANEL,NAE-52/FCB.Device-18061.Binary Values.BV-17,
+urn:uuid:06a3a6b2-33b4-4a29-94d7-85eb4f86a92c,552,3000097,binaryValue,,MBOX WRITE,NAE-52/FCB.Device-18061.Binary Values.BV-16,
+urn:uuid:5c287bff-89a4-468c-a099-24ac992deef1,552,3000179,binaryValue,,MBOX READ,NAE-52/FCB.Device-18063.Binary Values.BV-15,
+urn:uuid:2f240911-7619-4a2a-a887-285dc28e2730,552,3000180,binaryValue,,FAULT RESET,NAE-52/FCB.Device-18063.Binary Values.BV-14,
+urn:uuid:171971b8-7b55-476d-adcb-275a22acee23,552,3000181,binaryValue,,EXT 1/2 CMD,NAE-52/FCB.Device-18063.Binary Values.BV-13,
+urn:uuid:afa059e5-6a4c-4922-b5f5-cacd37021def,552,3000182,binaryValue,,RUN ENA CMD,NAE-52/FCB.Device-18063.Binary Values.BV-12,
+urn:uuid:67157196-f725-41f6-9f49-888c4b0627c4,552,3000183,binaryValue,,FWD/REV CMD,NAE-52/FCB.Device-18063.Binary Values.BV-11,
+urn:uuid:86a5f15b-dff3-4eeb-b4cd-bb4677911455,552,3000184,binaryValue,,RUN/STOP CMD,NAE-52/FCB.Device-18063.Binary Values.BV-10,
+urn:uuid:73830532-86b1-4a77-987c-2fcf200d3aa6,552,3000185,binaryValue,,RUN ENA ACT,NAE-52/FCB.Device-18063.Binary Values.BV-9,
+urn:uuid:432b1269-2595-46a2-bba8-992cc1630bb4,552,3000186,binaryValue,,AT SETPOINT,NAE-52/FCB.Device-18063.Binary Values.BV-8,
+urn:uuid:d0ff45d8-0e65-4528-a062-a612f410a8f1,552,3000187,binaryValue,,READY TO RUN,NAE-52/FCB.Device-18063.Binary Values.BV-7,
+urn:uuid:473adc00-3beb-4137-90a6-9c15676a0c61,552,3000188,binaryValue,,MAINT REQ,NAE-52/FCB.Device-18063.Binary Values.BV-6,
+urn:uuid:b08218d9-6e75-4dd6-a91a-41b97eb139f9,552,3000189,binaryValue,,ALARM ACT,NAE-52/FCB.Device-18063.Binary Values.BV-5,
+urn:uuid:42869b89-dd47-4891-9858-1bb49232fd67,552,3000190,binaryValue,,HAND/AUTO ACT,NAE-52/FCB.Device-18063.Binary Values.BV-4,
+urn:uuid:52b0a6f3-0e1f-4ef0-96cc-6056c2e0af93,552,3000191,binaryValue,,EXT 1/2 ACT,NAE-52/FCB.Device-18063.Binary Values.BV-3,
+urn:uuid:8247c4b8-6171-4dbe-92d0-fc7844ca6fb2,552,3000192,binaryValue,,FAULT ACT,NAE-52/FCB.Device-18063.Binary Values.BV-2,
+urn:uuid:7000a16e-8ad2-4335-bab2-0c9449ab33f4,552,3000193,binaryValue,,FWD/REV ACT,NAE-52/FCB.Device-18063.Binary Values.BV-1,
+urn:uuid:e5bc4cd7-3920-4832-a7f8-697d56f27c50,552,3000194,binaryValue,,RUN/STOP ACT,NAE-52/FCB.Device-18063.Binary Values.BV-0,
+urn:uuid:b7b6e4c2-3ffd-49f7-b94a-8497cac1c7a5,552,3000195,binaryValue,,START ENABLE 2,NAE-52/FCB.Device-18063.Binary Values.BV-21,
+urn:uuid:88de20bf-5e7e-440a-911b-c9ef341284ca,552,3000196,binaryValue,,START ENABLE 1,NAE-52/FCB.Device-18063.Binary Values.BV-20,
+urn:uuid:0a6ed51f-6533-4a19-b31e-1c68c5ec75cd,552,3000197,binaryValue,,CTL OVERRIDE ACT,NAE-52/FCB.Device-18063.Binary Values.BV-19,
+urn:uuid:7385843c-4e92-4062-be75-50c990d062e1,552,3000198,binaryValue,,CTL OVERRIDE CMD,NAE-52/FCB.Device-18063.Binary Values.BV-18,
+urn:uuid:d4c1ae5a-93df-4dc4-ad39-aeb391b87e72,552,3000199,binaryValue,,LOCK PANEL,NAE-52/FCB.Device-18063.Binary Values.BV-17,
+urn:uuid:193107bd-2909-4b2b-bb82-7f06dbec989e,552,3000200,binaryValue,,MBOX WRITE,NAE-52/FCB.Device-18063.Binary Values.BV-16,
+urn:uuid:dab85a82-b41e-44f8-a1b8-fddf75b40a59,552,3000235,binaryValue,ROTATION COMMAND,Literature.CHW.PUMP ROTATION,NAE-52/FCB.Local Application.SCHWP-ROT,
+urn:uuid:18c958f6-6a42-4bb5-87c9-4f024c40f353,552,3000236,binaryValue,CHW SYSTEM ENABLE,Literature.CHW.SYSTEM-ENABLE,NAE-52/FCB.Local Application.SYSTEM-EN,
+urn:uuid:e5d58995-267a-4272-a5ba-48a85901b6d6,552,3000237,binaryValue,State,Literature.CHW.CHWSYS-AVAIL,NAE-52/FCB.Local Application.CHWSYS-AVAIL,
+urn:uuid:1cc8378a-eca8-4cd0-a6fd-c298926dd90f,552,3000968,binaryValue,Application Tuning Reset,TUNING-RESET,NAE-52/FCB.Local Application.TUNING-RESET,
+urn:uuid:de8c67fd-ea5d-4073-9259-61dfdc879132,552,3000980,binaryValue,,Literature CHW-DP Load Shed,NAE-52/Programming.ZONE LOAD SHED.Literature CHW-DP Load Shed,
+urn:uuid:04211896-af59-4c70-806e-79c745669654,552,3001020,binaryValue,,START ENABLE 1,NAE-52/FCB.Device-18062.Binary Values.BV-15,
+urn:uuid:a3f69e7d-36cd-4742-94ee-b48fbc8e6dcc,552,3001021,binaryValue,,FAULT RESET,NAE-52/FCB.Device-18062.Binary Values.BV-14,
+urn:uuid:a47ea454-c464-4f06-a084-d8f0f5023077,552,3001022,binaryValue,,OVERRIDE ACT,NAE-52/FCB.Device-18062.Binary Values.BV-13,
+urn:uuid:3b17334b-f80d-4702-8ac4-cf5b2f770493,552,3001023,binaryValue,,RUN ENA CMD,NAE-52/FCB.Device-18062.Binary Values.BV-12,
+urn:uuid:251a1297-deaf-4c8a-8b81-fb086a8ffccc,552,3001024,binaryValue,,OVERRIDE CMD,NAE-52/FCB.Device-18062.Binary Values.BV-11,
+urn:uuid:0f51542d-0b0a-4711-a731-e6783a502898,552,3001025,binaryValue,,RUN/STOP CMD,NAE-52/FCB.Device-18062.Binary Values.BV-10,
+urn:uuid:91bf9be8-c6dc-4d33-b5cd-bda328140811,552,3001026,binaryValue,,RUN ENA ACT,NAE-52/FCB.Device-18062.Binary Values.BV-9,
+urn:uuid:8ad457c7-1ce3-48c5-9db2-25d5d2e8bfae,552,3001027,binaryValue,,UNDERLOAD,NAE-52/FCB.Device-18062.Binary Values.BV-8,
+urn:uuid:53e78b13-1ae5-4893-9e77-2aff560a78e6,552,3001028,binaryValue,,READY TO RUN,NAE-52/FCB.Device-18062.Binary Values.BV-7,
+urn:uuid:71d99134-0193-4f53-bf3c-ca63f9f17e5b,552,3001029,binaryValue,,BYP RUN ACT,NAE-52/FCB.Device-18062.Binary Values.BV-6,
+urn:uuid:d1966bdc-a075-4799-a74f-ef005ee03f8f,552,3001030,binaryValue,,ALARM ACT,NAE-52/FCB.Device-18062.Binary Values.BV-5,
+urn:uuid:3ed60c83-a831-4277-9486-9949ba8d640d,552,3001031,binaryValue,,SYSTEM MODE,NAE-52/FCB.Device-18062.Binary Values.BV-4,
+urn:uuid:d5a2c6b1-1844-40c9-ac18-9ae7bb765a51,552,3001032,binaryValue,,SYS FLT ACT,NAE-52/FCB.Device-18062.Binary Values.BV-3,
+urn:uuid:ea42dfcf-7ea0-4e3d-abb5-4c6602266a49,552,3001033,binaryValue,,BYP FLT ACT,NAE-52/FCB.Device-18062.Binary Values.BV-2,
+urn:uuid:f41efa55-bb95-4d70-abe5-f6bf7a8b75bf,552,3001034,binaryValue,,SYS START ACT,NAE-52/FCB.Device-18062.Binary Values.BV-1,
+urn:uuid:3a04c38e-145a-4583-8521-45a1f204ea88,552,3001035,binaryValue,,SYS RUN ACT,NAE-52/FCB.Device-18062.Binary Values.BV-0,
+urn:uuid:c749234b-6182-457d-9871-617577206658,552,3001036,binaryValue,,MBOX WRITE,NAE-52/FCB.Device-18062.Binary Values.BV-22,
+urn:uuid:e05fc0fc-f231-4eb1-9092-a3ca4109c7d4,552,3001037,binaryValue,,MBOX READ,NAE-52/FCB.Device-18062.Binary Values.BV-21,
+urn:uuid:5a8034cd-0ff1-431e-b056-6c686c7b85fe,552,3001038,binaryValue,,CTL OVERRIDE CMD,NAE-52/FCB.Device-18062.Binary Values.BV-20,
+urn:uuid:19d22ac2-40c2-424f-8cce-ed8a1d682b31,552,3001039,binaryValue,,PAR LOCK,NAE-52/FCB.Device-18062.Binary Values.BV-19,
+urn:uuid:80ee0e97-b291-4294-a672-ccf8b9f46746,552,3001040,binaryValue,,START ENABLE 4,NAE-52/FCB.Device-18062.Binary Values.BV-18,
+urn:uuid:7a65bac0-0986-4bb9-b8fb-7b19a97fd4ab,552,3001041,binaryValue,,START ENABLE 3,NAE-52/FCB.Device-18062.Binary Values.BV-17,
+urn:uuid:cfe1d3a8-15f4-484c-aab2-0ea625441db4,552,3001042,binaryValue,,START ENABLE 2,NAE-52/FCB.Device-18062.Binary Values.BV-16,
+urn:uuid:2d3d8e87-335d-4373-9218-37bfa8bd4769,552,3000276,program,,CHWDP_Setpoint_Reset,NAE-52/Programming.CHW-DP.CHWDP_Setpoint_Reset,
+urn:uuid:e4f40867-bf1f-4d02-82de-ab6fcac88a5c,552,3000982,program,,Literature CHW-DP Load Shed Cmd,NAE-52/Programming.ZONE LOAD SHED.Literature CHW-DP Load Shed Cmd,
+urn:uuid:aebcec7e-58b7-48b5-8165-fb9b9a6e5ef4,552,3000005,trendLog,,Memory Usage Trend Log,NAE-52/Memory Usage Trend Log,
+urn:uuid:ce4a0dba-b328-4a76-986b-266682878868,552,3000250,trendLog,,Trend - Present Value,NAE-52/FCB.Local Application.P2-STS.Trend1,
+urn:uuid:343eb7d7-5dcc-462e-87ef-1f00fdbaae7e,552,3000252,trendLog,,Trend - Present Value,NAE-52/FCB.Local Application.P1-STS.Trend1,
+urn:uuid:581adf1d-be9b-4224-8358-a195f5906710,552,3000254,trendLog,,Trend - Present Value,NAE-52/FCB.Local Application.CHW-DP SHARE.Trend1,
+urn:uuid:62a5e674-eab9-41af-bbb9-a92bd9cc3caa,552,3000255,trendLog,,Trend - Present Value,NAE-52/FCB.Local Application.SYSTEM-EN.Trend1,
+urn:uuid:c2045c29-8cfd-494d-86f5-c4bf0a4c6b88,552,3000257,trendLog,,Trend - Present Value,NAE-52/FCB.Local Application.CHWDP-SP.Trend1,
+urn:uuid:59a393db-f1eb-4a7a-bd17-15c22fbdd344,552,3000258,trendLog,,Trend - Present Value,NAE-52/FCB.Local Application.SCHWP2-C.Trend1,
+urn:uuid:7fc4d906-edb4-4012-a152-f504e669f3fb,552,3000259,trendLog,,Trend - Present Value,NAE-52/FCB.Local Application.SCHWP1-C.Trend1,
+urn:uuid:13682a8e-69a0-446a-ba7b-af376be9d9c7,552,3000260,trendLog,,Trend - Present Value,NAE-52/FCB.Local Application.SCHWP2-O.Trend1,
+urn:uuid:5ccc9ed8-592a-4073-ab6f-5d20fbf7e12b,552,3000261,trendLog,,Trend - Present Value,NAE-52/FCB.Local Application.SCHWP1-O.Trend1,
+urn:uuid:6ca58cad-8d5d-4091-bba3-2ae6e6efd1a5,552,3000266,trendLog,,Event Rate Trend Log,NAE-52/Event Rate Trend Log,
+urn:uuid:3513b1d3-f512-4ce5-9473-7c0cac5c58a4,552,3000993,trendLog,,WLH_CHWP2_VFD,NAE-52/FCB.Local Application.SCHWP2-O.Trend1.Trend1,
+urn:uuid:6109bb22-1cbc-44e4-9f66-70e1adfbae75,552,3000994,trendLog,,WLH_CHWP1_VFD,NAE-52/FCB.Local Application.SCHWP1-O.Trend1.Trend1,
+urn:uuid:7d47362d-2269-4e9d-b2af-5c39acf7001e,552,3000995,trendLog,,WLH_CHWP1,NAE-52/FCB.Local Application.SCHWP1-O.Trend1.Trend2,
+urn:uuid:827210ed-a235-4ce4-9ccc-4269b1324fca,552,3000996,trendLog,,WLH_CHWP2,NAE-52/FCB.Local Application.SCHWP2-O.Trend1.Trend2,
+urn:uuid:72fe98d8-204d-4df8-8b0d-29ff58297619,552,3000998,trendLog,,CHWP2,NAE-52/FCB.Local Application.SCHWP2-O.Trend1.Trend3,
+urn:uuid:2a818437-2f44-4832-a651-b2f2f3ab3c5b,552,3001000,trendLog,,CHW DP,NAE-52/FCB.Local Application.CHW-DP SHARE.Trend1.Trend1,
+urn:uuid:4a3e8857-7ece-47f8-9172-cad6e0221c59,552,3001001,trendLog,,CHW DP SPT,NAE-52/FCB.Local Application.CHWDP-SP.Trend1.Trend1,
+urn:uuid:f823f8c8-1878-4381-887d-d66ac792390c,552,3001062,trendLog,,Trend - Present Value,NAE-52/FCB.Local Application.CHWDP-SP.Trend2,
+urn:uuid:94ea913c-4c3c-4e67-ba42-2606e9f2534d,552,3001064,trendLog,,Trend - Present Value2,NAE-52/FCB.Local Application.CHW-DP SHARE.Trend2,
+urn:uuid:5b722c3e-bac0-4652-a1f1-a2c14adfee45,552,3001065,trendLog,,Trend - Present Value2,NAE-52/FCB.Local Application.CHWDP-SP.Trend3,

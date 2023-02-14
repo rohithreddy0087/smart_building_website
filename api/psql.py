@@ -32,12 +32,15 @@ class DataBase:
             psql_conn: database connection
             psql_cur: database cursor
         """
-        psql_conn = psycopg2.connect(user = self.config.db_user,
-                                password = self.config.db_pass,
-                                host = self.config.db_host,
-                                port = str(self.config.db_port),
-                                database = self.config.db_name)
-        psql_cur = psql_conn.cursor()
+        try:
+            psql_conn = psycopg2.connect(user = self.config.db_user,
+                                    password = self.config.db_pass,
+                                    host = self.config.db_host,
+                                    port = str(self.config.db_port),
+                                    database = self.config.db_name)
+            psql_cur = psql_conn.cursor()
+        except Exception as err:
+            self.config.logger.error(err)
         return psql_conn, psql_cur
 
     

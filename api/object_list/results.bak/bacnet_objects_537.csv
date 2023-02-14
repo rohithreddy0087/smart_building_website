@@ -1,0 +1,544 @@
+uuid,device_ref,instance,object_type,description,jci_name,name,unit
+urn:uuid:15d9406e-d1d3-443c-b792-315e46a422ef,537,3000139,analogInput,Discharge Air Temp,Cal IT.AH2-2.DA-T,NAE-37/N2 Trunk 1.DX-039.DA-T,degreesFahrenheit
+urn:uuid:0ef00108-1a49-4da8-961a-0a2acb007511,537,3000142,analogInput,Cooling Coil Disch Temp,Cal IT.AH2-2.CCDA-T,NAE-37/N2 Trunk 1.DX-039.CCDA-T,degreesFahrenheit
+urn:uuid:eb597548-81c4-49fc-9581-fd473dc033cd,537,3000191,analogInput,PreHeat Coil Disch Temp,Cal IT.AH2-2.PHCDA-T,NAE-37/N2 Trunk 1.DX-039.PHCDA-T,degreesFahrenheit
+urn:uuid:bdf51d26-9a75-4838-a4c3-dc143f0799a9,537,3000193,analogInput,Supply Air Humidity,Cal IT.AH2-2.SA-HUM,NAE-37/N2 Trunk 1.DX-039.SA-HUM,noUnits
+urn:uuid:9410aa4d-053c-44fd-a73f-8d62e6b72621,537,3000195,analogInput,Supply Air Static Press,Cal IT.AH2-2.SA-SP,NAE-37/N2 Trunk 1.DX-039.SA-SP,noUnits
+urn:uuid:9549f879-4139-4c8d-a303-f75b6ed04b0c,537,3000198,analogInput,Chilled Water Return Tmp,Cal IT.AH2-2.CHWR-T,NAE-37/N2 Trunk 1.DX-039.CHWR-T,degreesFahrenheit
+urn:uuid:6f759891-9ae8-4830-9507-047259eb8e62,537,3000200,analogInput,Zone 1 Humidity,Cal IT.AH2-2.ZN1-HUM,NAE-37/N2 Trunk 1.DX-039.ZN1-HUM,noUnits
+urn:uuid:4e4cdf6c-c920-4955-a564-8cbd91c6012b,537,3000203,analogInput,Zone 2 Humidity,Cal IT.AH2-2.ZN2-HUM,NAE-37/N2 Trunk 1.DX-039.ZN2-HUM,noUnits
+urn:uuid:d28e0056-2f78-4b08-8740-adca433cdf02,537,3000206,analogInput,Zone 3 Humidity,Cal IT.AH2-2.ZN3-HUM,NAE-37/N2 Trunk 1.DX-039.ZN3-HUM,noUnits
+urn:uuid:39bd841f-8a9b-4e84-be0c-762b1dcff091,537,3000234,analogInput,Frequency Output,Cal IT.VND041 (AH2-2-VFD).FREQ-OUTPUT,NAE-37/N2 Trunk 1.VND-041.FREQ-OUTPUT,hertz
+urn:uuid:4a91fbfe-efa3-48f9-bde7-d05143b96b76,537,3000235,analogInput,Current,Cal IT.VND041 (AH2-2-VFD).CURRENT,NAE-37/N2 Trunk 1.VND-041.CURRENT,amperes
+urn:uuid:f8dbcaea-9189-4e9d-93e2-311f21e7fed4,537,3000249,analogInput,Chilled Water Return Temp,CalIT.AH2-2A.CHWR-T,NAE-37/FCB.Local Application.CHWR-T,degreesFahrenheit
+urn:uuid:c2393c05-2338-4950-a86f-d325d30ed0ad,537,3000250,analogInput,Zone 1 Humidity,CalIT.AH2-2A.ZN-HUM1,NAE-37/FCB.Local Application.ZN-HUM1,percentRelativeHumidity
+urn:uuid:2e00d01f-382b-426a-b91f-8cc042898234,537,3000251,analogInput,Zone 3 Humidity,CalIT.AH2-2A.ZN-HUM3,NAE-37/FCB.Local Application.ZN-HUM3,percentRelativeHumidity
+urn:uuid:a85baf42-b611-447e-8efd-ba83e37e81a8,537,3000252,analogInput,Zone 2 Humidity,CalIT.AH2-2A.ZN-HUM2,NAE-37/FCB.Local Application.ZN-HUM2,percentRelativeHumidity
+urn:uuid:d091f0af-5515-4e40-9cda-db07ca7caa67,537,3000312,analogInput,Supply Air Humidity,CalIT.AH2-2A.SA-RH,NAE-37/FCB.Local Application.SA-RH,percentRelativeHumidity
+urn:uuid:c5fc6103-e843-46e2-90d4-4077a98258fa,537,3000313,analogInput,Supply Air Static Pressure,CalIT.AH2-2A.SA-SP,NAE-37/FCB.Local Application.SA-SP,inchesOfWater
+urn:uuid:89f318a5-0135-46ff-b53c-d1e11f383a91,537,3000314,analogInput,Discharge Air Temp,CalIT.AH2-2A.DA-T,NAE-37/FCB.Local Application.DA-T,degreesFahrenheit
+urn:uuid:6b3937c1-a0b6-4a68-bc11-006f04de7329,537,3000353,analogInput,Cooling Coil Discharge Air Temp,CalIT.AH2-2A.CCDA-T,NAE-37/FCB.Local Application.CCDA-T,degreesFahrenheit
+urn:uuid:4e2280e9-b444-4e87-bd28-660c8fa4ad8e,537,3005262,analogInput,Disch Air Temp,Cal IT.AH2-1.DA-T,NAE-37/N2 Trunk 1.AHU-024.DA-T,degreesFahrenheit
+urn:uuid:5818e434-8612-400b-a14a-b3db4d6097d6,537,3005264,analogInput,Static Press,Cal IT.AH2-1.SA-SP,NAE-37/N2 Trunk 1.AHU-024.S-SP,inchesOfWater
+urn:uuid:96d1e3a1-c555-4736-b4e7-aa6d5e8cfb75,537,3005267,analogInput,CHWR-T,Cal IT.AH2-1.CHWR-T,NAE-37/N2 Trunk 1.AHU-024.CHWR-T,degreesFahrenheit
+urn:uuid:0cb6653c-0563-42ee-ba8d-4c4ece3f6d31,537,3005300,analogInput,Frequency Output,Cal IT.VND025 (AH2-1-VFD).FREQ-OUTPUT,NAE-37/N2 Trunk 1.VND-025.FREQ-OUTPUT,hertz
+urn:uuid:a4afb603-9d67-4d0b-b47e-4f4a6534f1f0,537,3005301,analogInput,Current,Cal IT.VND025 (AH2-1-VFD).CURRENT,NAE-37/N2 Trunk 1.VND-025.CURRENT,amperes
+urn:uuid:ee0d82e8-dbe5-4cff-a090-6abeacf6d0b2,537,3006199,analogInput,Output Frequency,OTTERSON.AH2ASF-VFD.FREQ,NAE-37/N2 Trunk 1.VND-11.FREQ,hertz
+urn:uuid:7f07254b-7371-48bd-b3ea-eecc15ec7825,537,3006201,analogInput,Rated Speed,OTTERSON.AH2ASF-VFD.RATE-SPD,NAE-37/N2 Trunk 1.VND-11.RATE-SPD,percent
+urn:uuid:682c56cd-1db3-40d5-8319-daa60d776ff7,537,3006202,analogInput,Motor Speed,OTTERSON.AH2ASF-VFD.MTR-SPD,NAE-37/N2 Trunk 1.VND-11.MTR-SPD,revolutionsPerMinute
+urn:uuid:cfec3994-d320-461c-be32-72233d51c687,537,3006203,analogInput,Motor Current,OTTERSON.AH2ASF-VFD.CURRENT,NAE-37/N2 Trunk 1.VND-11.CURRENT,amperes
+urn:uuid:d91f2022-46d5-4148-859e-0d560e310b86,537,3006204,analogInput,Motor Torque,OTTERSON.AH2ASF-VFD.TORQUE,NAE-37/N2 Trunk 1.VND-11.TORQUE,percent
+urn:uuid:29698353-0260-4d4b-9136-2f92940fecd2,537,3006205,analogInput,Power,OTTERSON.AH2ASF-VFD.POWER,NAE-37/N2 Trunk 1.VND-11.POWER,kilowatts
+urn:uuid:6bbc34a4-98a5-478a-8e91-2176ccca04c8,537,3006207,analogInput,Drive Temperature,OTTERSON.AH2ASF-VFD.DRV-TEMP,NAE-37/N2 Trunk 1.VND-11.DRV-TEMP,degreesCelsius
+urn:uuid:5a600b94-d708-4159-b856-7ac7ed417163,537,3006209,analogInput,Energy (kWh),OTTERSON.AH2ASF-VFD.K-ENERGY,NAE-37/N2 Trunk 1.VND-11.K-ENERGY,kilowattHours
+urn:uuid:5486381c-8376-4378-a0a5-993f672a5792,537,3006211,analogInput,Energy (MWh),OTTERSON.AH2ASF-VFD.M-ENERGY,NAE-37/N2 Trunk 1.VND-11.M-ENERGY,megawatts
+urn:uuid:6687b380-0664-498a-869b-749f2163d19b,537,3006213,analogInput,Run Time Hours,OTTERSON.AH2ASF-VFD.RUN-TIME,NAE-37/N2 Trunk 1.VND-11.RUN-TIME,hours
+urn:uuid:7988cd28-5ef2-428b-8b01-60493b1a77e4,537,3006214,analogInput,DC Bus Voltage,OTTERSON.AH2ASF-VFD.DC-BUS,NAE-37/N2 Trunk 1.VND-11.DC-BUS,volts
+urn:uuid:d240963f-025a-440c-8fc4-2bbab3d48939,537,3006215,analogInput,Output Voltage,OTTERSON.AH2ASF-VFD.VOLTAGE,NAE-37/N2 Trunk 1.VND-11.VOLTAGE,volts
+urn:uuid:339bee25-72ad-4b94-a541-e2575c2e9e18,537,3006217,analogInput,Last Fault,OTTERSON.AH2ASF-VFD.FAULT,NAE-37/N2 Trunk 1.VND-11.FAULT,noUnits
+urn:uuid:576a41e0-ba8b-4993-9bd6-f3b3370412f2,537,3006218,analogInput,Reference Input AI-1,OTTERSON.AH2ASF-VFD.REF-IN,NAE-37/N2 Trunk 1.VND-11.REF-IN,percent
+urn:uuid:7446ffa8-6b7e-40a0-b658-fd7166a19251,537,3006235,analogInput,Output Frequency,OTTERSON.AH2ASF-VFD.FREQ,NAE-37/N2 Trunk 1.VND-12.FREQ,hertz
+urn:uuid:10d1ed75-2004-4c28-b28c-b81f6a92b608,537,3006237,analogInput,Rated Speed,OTTERSON.AH2ASF-VFD.RATE-SPD,NAE-37/N2 Trunk 1.VND-12.RATE-SPD,percent
+urn:uuid:828fb4c8-4fe8-4732-ab2f-04186b254d0b,537,3006238,analogInput,Motor Speed,OTTERSON.AH2ASF-VFD.MTR-SPD,NAE-37/N2 Trunk 1.VND-12.MTR-SPD,revolutionsPerMinute
+urn:uuid:b318d848-dd4d-4200-a9bc-00a3224a73f4,537,3006239,analogInput,Motor Current,OTTERSON.AH2ASF-VFD.CURRENT,NAE-37/N2 Trunk 1.VND-12.CURRENT,amperes
+urn:uuid:b67d36f9-7510-482d-bad2-ccb6ceebb5ea,537,3006240,analogInput,Motor Torque,OTTERSON.AH2ASF-VFD.TORQUE,NAE-37/N2 Trunk 1.VND-12.TORQUE,percent
+urn:uuid:51060d36-0150-46e6-a737-b36f7f38f80a,537,3006241,analogInput,Power,OTTERSON.AH2ASF-VFD.POWER,NAE-37/N2 Trunk 1.VND-12.POWER,kilowatts
+urn:uuid:7c74b29c-da54-4cca-9fdd-0a678801fd0a,537,3006243,analogInput,Drive Temperature,OTTERSON.AH2ASF-VFD.DRV-TEMP,NAE-37/N2 Trunk 1.VND-12.DRV-TEMP,degreesCelsius
+urn:uuid:3bc44de4-172b-4898-9240-d837df01a176,537,3006245,analogInput,Energy (kWh),OTTERSON.AH2ASF-VFD.K-ENERGY,NAE-37/N2 Trunk 1.VND-12.K-ENERGY,kilowattHours
+urn:uuid:9601520f-95c3-4bbb-a0b9-aa8e3690330c,537,3006247,analogInput,Energy (MWh),OTTERSON.AH2ASF-VFD.M-ENERGY,NAE-37/N2 Trunk 1.VND-12.M-ENERGY,megawatts
+urn:uuid:2ce90514-bf4a-425c-8b34-07ca5b2814fd,537,3006249,analogInput,Run Time Hours,OTTERSON.AH2ASF-VFD.RUN-TIME,NAE-37/N2 Trunk 1.VND-12.RUN-TIME,hours
+urn:uuid:f8c79c22-f954-4c73-8701-c25165e56e8f,537,3006250,analogInput,DC Bus Voltage,OTTERSON.AH2ASF-VFD.DC-BUS,NAE-37/N2 Trunk 1.VND-12.DC-BUS,volts
+urn:uuid:6b88f9ee-8adc-4009-b33f-4e01f129c573,537,3006251,analogInput,Output Voltage,OTTERSON.AH2ASF-VFD.VOLTAGE,NAE-37/N2 Trunk 1.VND-12.VOLTAGE,volts
+urn:uuid:287b74cb-5390-4419-9984-dc12fc4fe783,537,3006253,analogInput,Last Fault,OTTERSON.AH2ASF-VFD.FAULT,NAE-37/N2 Trunk 1.VND-12.FAULT,noUnits
+urn:uuid:03db0658-53cc-46bc-b404-9cd74aa493b5,537,3006254,analogInput,Reference Input AI-1,OTTERSON.AH2ASF-VFD.REF-IN,NAE-37/N2 Trunk 1.VND-12.REF-IN,percent
+urn:uuid:0236703a-5eb2-495c-8931-9912cb95f1ba,537,3009865,analogInput,Discharge Air Temperature,DA-T2,NAE-37/FCB.Local Application.DA-T2,degreesFahrenheit
+urn:uuid:dbc5e804-0330-42d1-b3eb-60f0f8c57f73,537,3000144,analogOutput,,Cal IT.AH2-2.Parameters.HUM-DB,NAE-37/N2 Trunk 1.DX-039.HUM-DB,noUnits
+urn:uuid:6d4a6597-9867-4dc9-a72e-4d2f7debe489,537,3000145,analogOutput,Heating Valve Command,Cal IT.AH2-2.HTG-VLV,NAE-37/N2 Trunk 1.DX-039.HTG-VLV,percent
+urn:uuid:13a37ca6-ea9a-4d66-90e3-f0589e1d69db,537,3000147,analogOutput,Pre Heating Vlv Command,Cal IT.AH2-2.PHTG-VLV,NAE-37/N2 Trunk 1.DX-039.PHTG-VLV,percent
+urn:uuid:984b70b3-871e-4965-9974-0de82baf2a98,537,3000149,analogOutput,Cooling Valve Command,Cal IT.AH2-2.CLG-VLV,NAE-37/N2 Trunk 1.DX-039.CLG-VLV,percent
+urn:uuid:f9068eb5-918c-4e72-8938-7aea6cd66e10,537,3000151,analogOutput,,Cal IT.AH2-2.Parameters.DAT-SP,NAE-37/N2 Trunk 1.DX-039.DAT-SP,degreesFahrenheit
+urn:uuid:810c685f-4282-448f-83b4-49cc536ace7b,537,3000153,analogOutput,,Cal IT.AH2-2.Parameters.DWPTPIDO,NAE-37/N2 Trunk 1.DX-039.DWPTPIDO,noUnits
+urn:uuid:f2bdd051-3c72-42a4-9f10-ae3d1c5f5c9a,537,3000155,analogOutput,,Cal IT.AH2-2.Parameters.HUMPID-O,NAE-37/N2 Trunk 1.DX-039.HUMPID-O,noUnits
+urn:uuid:2d861026-9c61-4e12-bd11-f865396972c1,537,3000157,analogOutput,Average Zone Humidity,Cal IT.AH2-2.AVG-ZHUM,NAE-37/N2 Trunk 1.DX-039.AVG-ZHUM,noUnits
+urn:uuid:b39a0f84-8640-4e03-830d-44c04f209d2a,537,3000159,analogOutput,Supply Air Dewpoint,Cal IT.AH2-2.SA-DWPT,NAE-37/N2 Trunk 1.DX-039.SA-DWPT,noUnits
+urn:uuid:8633b44d-b8ad-4c8f-912a-63f55297709d,537,3000161,analogOutput,Supply Fan VFD Speed,Cal IT.AH2-2.SF-SPD,NAE-37/N2 Trunk 1.DX-039.SF-SPD,percent
+urn:uuid:f889e916-df62-4216-8f6e-f290dc3a4a7f,537,3000163,analogOutput,,Cal IT.AH2-2.Parameters.SASP-SP,NAE-37/N2 Trunk 1.DX-039.SASP-SP,inchesOfWater
+urn:uuid:b8c6a8f2-2166-48cf-a4da-47c37cc268f4,537,3000165,analogOutput,Humidifer Command,Cal IT.AH2-2.HUM-CMD,NAE-37/N2 Trunk 1.DX-039.HUM-CMD,percentRelativeHumidity
+urn:uuid:61fac067-754d-4e57-aaf2-8edd39fe4a9c,537,3000167,analogOutput,,Cal IT.AH2-2.Parameters.ACT-HSP,NAE-37/N2 Trunk 1.DX-039.ACT-HSP,percent
+urn:uuid:779484c2-7586-4bcb-8695-f3f419247b4b,537,3000169,analogOutput,,Cal IT.AH2-2.Parameters.ACT-CSP,NAE-37/N2 Trunk 1.DX-039.ACT-CSP,percent
+urn:uuid:2df20567-8e41-492f-aec3-f8399871f00c,537,3000171,analogOutput,,Cal IT.AH2-2.Parameters.DH-PB,NAE-37/N2 Trunk 1.DX-039.DH-PB,percent
+urn:uuid:a7237d4f-1f3a-4248-b2dd-edf4974f7063,537,3000209,analogOutput,,Cal IT.AH2-2.Parameters.DH-DB,NAE-37/N2 Trunk 1.DX-039.DH-DB,percent
+urn:uuid:7061d283-d38b-42aa-9f0c-8958a5b02193,537,3000210,analogOutput,,Cal IT.AH2-2.Parameters.DC-PB,NAE-37/N2 Trunk 1.DX-039.DC-PB,percent
+urn:uuid:b7f401de-41c8-4e5f-b6f5-3f7c2d44f03c,537,3000211,analogOutput,,Cal IT.AH2-2.Parameters.DATPID-O,NAE-37/N2 Trunk 1.DX-039.DATPID-O,noUnits
+urn:uuid:c488d76f-d39b-4b8b-ab7c-3f9d859b464f,537,3000212,analogOutput,,Cal IT.AH2-2.Parameters.SP-PB,NAE-37/N2 Trunk 1.DX-039.SP-PB,264
+urn:uuid:c122a2d9-b99c-4fe7-abdd-afc915a15df9,537,3000213,analogOutput,,Cal IT.AH2-2.Parameters.SP-DB,NAE-37/N2 Trunk 1.DX-039.SP-DB,inchesOfWater
+urn:uuid:39f63ccb-d11c-4e0f-b9f6-e9ab33353041,537,3000214,analogOutput,,Cal IT.AH2-2.Parameters.SPPID-O,NAE-37/N2 Trunk 1.DX-039.SPPID-O,percent
+urn:uuid:0121b5d0-c444-411d-9063-2153ec5b91a3,537,3000215,analogOutput,,Cal IT.AH2-2.Parameters.DEWP-PB,NAE-37/N2 Trunk 1.DX-039.DEWP-PB,noUnits
+urn:uuid:4e1949e7-f2a2-4dd6-a084-17f311f7be0a,537,3000216,analogOutput,,Cal IT.AH2-2.Parameters.DEWP-TI,NAE-37/N2 Trunk 1.DX-039.DEWP-TI,noUnits
+urn:uuid:c156c647-6291-47b0-b4ac-27660ef45d20,537,3000217,analogOutput,,Cal IT.AH2-2.Parameters.DEWP-DB,NAE-37/N2 Trunk 1.DX-039.DEWP-DB,noUnits
+urn:uuid:2d99c27e-615e-40cc-986c-295250afa3ce,537,3000218,analogOutput,,Cal IT.AH2-2.Parameters.HUMFY-SP,NAE-37/N2 Trunk 1.DX-039.HUMFY-SP,noUnits
+urn:uuid:cc469209-41f6-4c69-9504-54bce77eb3ac,537,3000219,analogOutput,,Cal IT.AH2-2.Parameters.DEHUM-SP,NAE-37/N2 Trunk 1.DX-039.DEHUM-SP,noUnits
+urn:uuid:a7374bd3-2677-442d-989a-f87b7e31cd1a,537,3000220,analogOutput,,Cal IT.AH2-2.Parameters.HUMSP-OS,NAE-37/N2 Trunk 1.DX-039.HUMSP-OS,noUnits
+urn:uuid:7d671b2c-0db3-4361-82de-591ab2b3fc8a,537,3000221,analogOutput,,Cal IT.AH2-2.Parameters.DEWPT-SP,NAE-37/N2 Trunk 1.DX-039.DEWPT-SP,noUnits
+urn:uuid:13823c31-777d-4ab5-85c0-e16a3bc4f16b,537,3000222,analogOutput,,Cal IT.AH2-2.Parameters.DHIT,NAE-37/N2 Trunk 1.DX-039.DHIT,noUnits
+urn:uuid:42346d7e-90ed-4ca7-8542-3278c8d8ccaf,537,3000223,analogOutput,,Cal IT.AH2-2.Parameters.DCIT,NAE-37/N2 Trunk 1.DX-039.DCIT,noUnits
+urn:uuid:892d95ac-6b3b-45a3-92da-001355e59acc,537,3000224,analogOutput,,Cal IT.AH2-2.Parameters.HUM-PB,NAE-37/N2 Trunk 1.DX-039.HUM-PB,noUnits
+urn:uuid:f1623575-c378-4600-a54b-3df7c057dde9,537,3000225,analogOutput,,Cal IT.AH2-2.Parameters.HUM-TI,NAE-37/N2 Trunk 1.DX-039.HUM-TI,noUnits
+urn:uuid:4b47442e-52fd-43a9-bc7f-cbec25fd3727,537,3000226,analogOutput,Static Pressure Int Time,Cal IT.AH2-2.Parameters.SP-INT,NAE-37/N2 Trunk 1.DX-039.PM5TI,seconds
+urn:uuid:93d3bd81-bdcd-464d-96ad-552762db8061,537,3000231,analogOutput,Supply Fan Speed Override Command,Cal IT.AH2-2.SPD-OVD,NAE-37/N2 Trunk 1.DX-039.SPD-OVD,percent
+urn:uuid:d65aa07b-a4ee-4acf-9b59-2486d719afbf,537,3000311,analogOutput,Cooling Valve Command,CalIT.AH2-2A.CLG-VLV,NAE-37/FCB.Local Application.CLGVLV-CMD,percent
+urn:uuid:e2a94b44-6812-47d1-8ecd-791348b5b6f2,537,3000315,analogOutput,Output Avg Hum To Humidifier input,CalIT.AH2-2A.HUM-CMD,NAE-37/FCB.Local Application.HUM-CMD,percentRelativeHumidity
+urn:uuid:58505f81-5cc3-4590-89dc-7ea7288ec9cd,537,3000316,analogOutput,Heating Valve Command,CalIT.AH2-2A.HTG-VLV,NAE-37/FCB.Local Application.HTGVLV-CMD,percent
+urn:uuid:e6a8ec61-fb4e-44a8-b9ea-ed75efce30b9,537,3000317,analogOutput,Supply Fan VFD 2 Speed Command,CalIT.AH2-2A.SF-SPD-2,NAE-37/FCB.Local Application.SFVFD-CMD,percent
+urn:uuid:56153cff-bc9b-49fc-9da2-ca86a68b5baf,537,3005269,analogOutput,Discharge Air Temp Setpoint,Cal IT.AH2-1.DA-SP,NAE-37/N2 Trunk 1.AHU-024.DA-SP,degreesFahrenheit
+urn:uuid:0b74a7f1-e4de-416c-b8cc-613662692958,537,3005271,analogOutput,Cooling Valve,Cal IT.AH2-1.CLG-VLV,NAE-37/N2 Trunk 1.AHU-024.CLG-VLV,percent
+urn:uuid:6f853948-c560-41e7-9c20-9a26d268dee9,537,3005273,analogOutput,Heating Valve,Cal IT.AH2-1.HTG-VLV,NAE-37/N2 Trunk 1.AHU-024.HTG-VLV,percent
+urn:uuid:44b82401-a33f-4b7f-a06d-122d4a18bc05,537,3005275,analogOutput,Supply Fan Speed,Cal IT.AH2-1.SF-SPD,NAE-37/N2 Trunk 1.AHU-024.SF-O,percent
+urn:uuid:4f74975c-b1de-4b0c-9344-6b408725e76a,537,3005277,analogOutput,Disch Htg DBand,Cal IT.AH2-1.Parameters.DHDB,NAE-37/N2 Trunk 1.AHU-024.DHDB,percent
+urn:uuid:3e92d702-c364-476b-8e68-4d004946a630,537,3005278,analogOutput,Disch Htg PBand,Cal IT.AH2-1.Parameters.DHPB,NAE-37/N2 Trunk 1.AHU-024.DHPB,percent
+urn:uuid:aa4d678e-8c45-4d52-abbd-315e9526a67e,537,3005279,analogOutput,Disch Clg PBand,Cal IT.AH2-1.Parameters.DCPB,NAE-37/N2 Trunk 1.AHU-024.DCPB,percent
+urn:uuid:a2a67c5b-ad70-4e25-9ae4-8e48d6f3f274,537,3005280,analogOutput,Static Setpoint,Cal IT.AH2-1.Parameters.SP-SP,NAE-37/N2 Trunk 1.AHU-024.SP-SP,inchesOfWater
+urn:uuid:4c3bf79e-2bec-4f82-8fab-fbc2b8462796,537,3005282,analogOutput,Static Prop Band,Cal IT.AH2-1.Parameters.SP-PB,NAE-37/N2 Trunk 1.AHU-024.SP-PB,inchesOfWater
+urn:uuid:be5c48f8-c966-4ecb-b54f-4327316c1d01,537,3005283,analogOutput,Static Deadband,Cal IT.AH2-1.Parameters.SP-DB,NAE-37/N2 Trunk 1.AHU-024.SP-DB,inchesOfWater
+urn:uuid:8d9fb79a-6477-4866-ba84-9f63d6e5eb03,537,3005284,analogOutput,,Cal IT.AH2-1.Parameters.DHIT,NAE-37/N2 Trunk 1.AHU-024.DHIT,seconds
+urn:uuid:fd157efc-9739-4248-b931-e982bb06a27a,537,3005285,analogOutput,Disch Clg INTegration,Cal IT.AH2-1.Parameters.DCIT,NAE-37/N2 Trunk 1.AHU-024.DCIT,noUnits
+urn:uuid:fb6cdb96-0b6d-4dc2-9edf-7021860310f7,537,3005749,analogOutput,Supplty Fan VFD 1 Speed Control,CalIT.AH2-2A.SF-SPD-1,NAE-37/FCB.Local Application.SF-SPD-1,percent
+urn:uuid:07627f2a-98a8-4353-b90c-a990e77cd5e1,537,3006227,analogOutput,Acceleration Time,OTTERSON.AH2ASF-VFD.ACC-TIME,NAE-37/N2 Trunk 1.VND-11.ACC-TIME,seconds
+urn:uuid:e60655bd-204c-4800-bf1c-3c2f47faec65,537,3006228,analogOutput,Deceleration Time,OTTERSON.AH2ASF-VFD.DEC-TIME,NAE-37/N2 Trunk 1.VND-11.DEC-TIME,seconds
+urn:uuid:cf22bf1e-145b-4738-8217-18aabbfae926,537,3006229,analogOutput,Current Limit,OTTERSON.AH2ASF-VFD.CUR-LMT,NAE-37/N2 Trunk 1.VND-11.CUR-LMT,amperes
+urn:uuid:5bf6fa84-3910-48a8-bfa8-10106159d870,537,3006263,analogOutput,Acceleration Time,OTTERSON.AH2ASF-VFD.ACC-TIME,NAE-37/N2 Trunk 1.VND-12.ACC-TIME,seconds
+urn:uuid:fcd1bb43-90b4-4402-b352-8df89e6829ae,537,3006264,analogOutput,Deceleration Time,OTTERSON.AH2ASF-VFD.DEC-TIME,NAE-37/N2 Trunk 1.VND-12.DEC-TIME,seconds
+urn:uuid:2adf7777-db89-4216-b33a-f8dfd7dfd98b,537,3006265,analogOutput,Current Limit,OTTERSON.AH2ASF-VFD.CUR-LMT,NAE-37/N2 Trunk 1.VND-12.CUR-LMT,amperes
+urn:uuid:1484d943-90e9-4091-b519-d6d5eb7b764c,537,3009874,analogOutput,,thisis,NAE-37/N2 Trunk 1.DX-039.thisis,noUnits
+urn:uuid:0cbc3b0c-7491-4f13-8e03-e53dfd5634ef,537,3000136,analogValue,,AH2-2 Speed Override Command,NAE-37/Programming.Clean Room AH Swap Over Control.AH2-2 Speed Override Command,percent
+urn:uuid:d4a22f50-978b-42cc-9eea-4f28e3b77527,537,3000273,analogValue,Damper 8 Delay on Break,CalIT.AH2-2A.Parameters.DOB-8,NAE-37/FCB.Local Application.DOB-8,seconds
+urn:uuid:c4258fe1-0829-4fa1-b005-22fea0ac8277,537,3000274,analogValue,Damper 5 Delay on Make,CalIT.AH2-2A.Parameters.DOM-5,NAE-37/FCB.Local Application.DOM-5,seconds
+urn:uuid:0e4b0683-0122-4bdb-8a41-39cb3ffa0c11,537,3000275,analogValue,Damper 6 Delay on Break,CalIT.AH2-2A.Parameters.DOB-6,NAE-37/FCB.Local Application.DOB-6,seconds
+urn:uuid:c58e28ae-98b5-49de-b2ea-b60e697d6454,537,3000276,analogValue,Damper 2 Delay on Make,CalIT.AH2-2A.Parameters.DOM-2,NAE-37/FCB.Local Application.DOM-2,seconds
+urn:uuid:523adf84-b3cc-4c17-ba7b-9bddad509a3a,537,3000277,analogValue,Phoenix Valve 2 Delay on Make,CalIT.AH2-2A.Parameters.DOM-P2,NAE-37/FCB.Local Application.DOM-P2,seconds
+urn:uuid:fac1cb07-60d3-4dd5-b3c0-04a8d225d2e6,537,3000278,analogValue,Damper 9 Delay on Break,CalIT.AH2-2A.Parameters.DOB-9,NAE-37/FCB.Local Application.DOB-9,seconds
+urn:uuid:e2b274c2-013f-4b3d-8d1a-f713f5a71b55,537,3000279,analogValue,Phoenix Valve 1 Delay on Make,CalIT.AH2-2A.Parameters.DOM-P1,NAE-37/FCB.Local Application.DOM-P1,seconds
+urn:uuid:802cbcda-6bf7-4e16-93d6-ce3b66eae47f,537,3000280,analogValue,Damper 9 Delay on Make,CalIT.AH2-2A.Parameters.DOM-9,NAE-37/FCB.Local Application.DOM-9,seconds
+urn:uuid:179b7d54-5550-44f4-910f-8da1c40c82e5,537,3000281,analogValue,Phoenix Valve 1 Delay on Break,CalIT.AH2-2A.Parameters.DOB-P1,NAE-37/FCB.Local Application.DOB-P1,seconds
+urn:uuid:56b7ce5d-9a98-4fda-a488-b9066e4e9c99,537,3000282,analogValue,Effective Static Pressure Setpoint,CalIT.AH2-2A.Parameters.EFFSASP-SP,NAE-37/FCB.Local Application.EFFECTIVE-DAP-SP,inchesOfWater
+urn:uuid:1ef77b5f-5a0a-41b3-beb9-46c066beffe6,537,3000284,analogValue,Damper 8 Delay on Make,CalIT.AH2-2A.Parameters.DOM-8,NAE-37/FCB.Local Application.DOM-8,seconds
+urn:uuid:d8ed833f-3502-43a5-8c5d-ade54a30b476,537,3000285,analogValue,Damper 3 Delay on Break,CalIT.AH2-2A.Parameters.DOB-3,NAE-37/FCB.Local Application.DOB-3,seconds
+urn:uuid:1035c694-bd49-486c-9323-8eb45277ed61,537,3000286,analogValue,Damper 3 Delay on Make,CalIT.AH2-2A.Parameters.DOM-3,NAE-37/FCB.Local Application.DOM-3,seconds
+urn:uuid:e12befe4-0f27-44c5-8199-aad3a89e492d,537,3000287,analogValue,Static Setpoint When AH2-2A is Off,CalIT.AH2-2A.Parameters.SASP-SP-MODE-3,NAE-37/FCB.Local Application.DAP-SP-MODE-3,inchesOfWater
+urn:uuid:12d3c2f3-2b2d-45bb-bbfc-5d0b60f17c91,537,3000288,analogValue,Damper 4 Delay on Break,CalIT.AH2-2A.Parameters.DOB-4,NAE-37/FCB.Local Application.DOB-4,seconds
+urn:uuid:044f7247-aa6e-4598-b4b9-8a19f4b57cb2,537,3000289,analogValue,Damper 7 Delay on Make,CalIT.AH2-2A.Parameters.DOM-7,NAE-37/FCB.Local Application.DOM-7,seconds
+urn:uuid:f86b1509-f21e-4a36-bf68-108827538998,537,3000290,analogValue,Static Setpoint When AH2-2 is Off,CalIT.AH2-2A.Parameters.SASP-SP-MODE-2,NAE-37/FCB.Local Application.DAP-SP-MODE-2,inchesOfWater
+urn:uuid:d805900f-1ce8-4006-9250-079c1ea4b3c5,537,3000291,analogValue,Damper 4 Delay on Make,CalIT.AH2-2A.Parameters.DOM-4,NAE-37/FCB.Local Application.DOM-4,seconds
+urn:uuid:71558bce-f191-4759-b163-8c12784b0dc5,537,3000292,analogValue,Damper 5 Delay on Break,CalIT.AH2-2A.Parameters.DOB-5,NAE-37/FCB.Local Application.DOB-5,seconds
+urn:uuid:f58cad3e-7132-4a66-97af-36cfdc1563f7,537,3000293,analogValue,Damper 7 Delay on Break,CalIT.AH2-2A.Parameters.DOB-7,NAE-37/FCB.Local Application.DOB-7,seconds
+urn:uuid:36949a82-8303-4812-bc93-dfb33a835435,537,3000294,analogValue,Damper 6 Delay on Make,CalIT.AH2-2A.Parameters.DOM-6,NAE-37/FCB.Local Application.DOM-6,seconds
+urn:uuid:9e66f0e7-2f45-4384-853d-590c7cdef819,537,3000295,analogValue,Damper 2 Delay on Break,CalIT.AH2-2A.Parameters.DOB-2,NAE-37/FCB.Local Application.DOB-2,seconds
+urn:uuid:4907aa45-8ec9-42d1-9a20-7491a7430ca0,537,3000296,analogValue,Phoenix Valve 2 Delay on Break,CalIT.AH2-2A.Parameters.DOB-P2,NAE-37/FCB.Local Application.DOB-P2,seconds
+urn:uuid:f16ce0ad-f5c5-44d3-b08d-2bdae8930e75,537,3000297,analogValue,VFD Command When Static Sensor Failed,CalIT.AH2-2A.Parameters.Default VFD-CMD,NAE-37/FCB.Local Application.DAP-FAILED-VFD-CMD,percent
+urn:uuid:d0c85a80-bde7-43a2-b1a4-127b8e5721a5,537,3000298,analogValue,Supply Air Static Pressure,CalIT.AH2-2A.Parameters.SF2-2 SA-SP,NAE-37/FCB.Local Application.SF2-2 SA-SP,inchesOfWater
+urn:uuid:12a901e7-fa85-46ac-a5fa-f3fe20e52b74,537,3000300,analogValue,Static Pressure Required to Open Dpr 6,CalIT.AH2-2A.Parameters.SASP-SP-D6,NAE-37/FCB.Local Application.DAP-SP-D6,inchesOfWater
+urn:uuid:c942be23-ea49-492a-8b06-c277b4a8088a,537,3000302,analogValue,Static Pressure Required to Open Dpr 5,CalIT.AH2-2A.Parameters.SASP-SP-D5,NAE-37/FCB.Local Application.DAP-SP-D5,inchesOfWater
+urn:uuid:135eb515-5eeb-4650-8c8d-60957d97d3af,537,3000303,analogValue,Static Pressure Required to Open Dpr 4,CalIT.AH2-2A.Parameters.SASP-SP-D4,NAE-37/FCB.Local Application.DAP-SP-D4,inchesOfWater
+urn:uuid:4d62481d-23cf-4644-a937-77ebe18bdeb6,537,3000304,analogValue,Startup Failure Delay,CalIT.AH2-2A.Parameters.FAIL-DELAY,NAE-37/FCB.Local Application.FAIL-DELAY,noUnits
+urn:uuid:95fbee12-15d2-46a2-acd1-84433d5aa139,537,3000306,analogValue,"1=Normal, 2=AH2-2 Off, 3=AH2-2A Off",CalIT.AH2-2A.Parameters.DPR-MODE,NAE-37/FCB.Local Application.DPR-MODE,noUnits
+urn:uuid:6f7f2234-99ac-411e-b68b-9b8f55ed0da6,537,3000327,analogValue,Dehumidify Setpoint,CalIT.AH2-2A.Parameters.DEHUM-SP,NAE-37/FCB.Local Application.DEHUM-SP,percentRelativeHumidity
+urn:uuid:58fd6ff1-73ce-4a42-b224-abfe18867820,537,3000328,analogValue,Supply Air Humidity High Limit,CalIT.AH2-2A.Parameters.SARH-HL,NAE-37/FCB.Local Application.DAH-SP,percentRelativeHumidity
+urn:uuid:0b27a454-f572-4628-9fab-e117b94d6886,537,3000331,analogValue,Effective Discharge Air Temp Setpoint,CalIT.AH2-2A.Parameters.EFFDAT-SP,NAE-37/FCB.Local Application.EFFDAT-SP,degreesFahrenheit
+urn:uuid:8c9cd32e-73a2-44f3-829a-b6b5f709f7c1,537,3000332,analogValue,Discharge Air Temp Setpoint,CalIT.AH2-2A.Parameters.DAT-SP,NAE-37/FCB.Local Application.DAT-SP,degreesFahrenheit
+urn:uuid:24fa43c6-2a17-4393-9c2a-05bdb21d3266,537,3000333,analogValue,Supply Air Static Pressure Setpoint,CalIT.AH2-2A.Parameters.SASP-SP,NAE-37/FCB.Local Application.DAP-SP,inchesOfWater
+urn:uuid:78406840-2006-4e1a-9120-7b4cf0d2925f,537,3004462,analogValue,,Control Mode,NAE-37/Folder1.AV1,noUnits
+urn:uuid:fc458307-f207-46cb-a135-4ebff1853cc6,537,3005311,analogValue,,Avg Clg High Span,NAE-37/Programming.Air Handler Resets.AH2-1.Avg Clg High Span,percent
+urn:uuid:f1facafc-54b8-4c0d-a9df-9cf6ba5df813,537,3005312,analogValue,,Avg Clg Low Span,NAE-37/Programming.Air Handler Resets.AH2-1.Avg Clg Low Span,percent
+urn:uuid:95f1cbea-2237-42c2-bb7f-292a5875ff51,537,3005313,analogValue,,DA-T High Setpoint,NAE-37/Programming.Air Handler Resets.AH2-1.DA-T High Setpoint,degreesFahrenheit
+urn:uuid:bf09185b-dc2d-474a-be4f-998532c73588,537,3005314,analogValue,,DA-T Low Setpoint,NAE-37/Programming.Air Handler Resets.AH2-1.DA-T Low Setpoint,degreesFahrenheit
+urn:uuid:86de4e66-9558-4fa9-ac87-7d7cec571646,537,3005520,analogValue,Room 1412 Forced Signal,RM 1412 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV1,percent
+urn:uuid:1cfc6905-0ab6-4822-88ec-358479991a38,537,3005521,analogValue,Room 1414 Forced Signal,RM 1414 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV2,percent
+urn:uuid:22dac84d-a67c-4d32-ad18-fb15e8e93c66,537,3005522,analogValue,Room 1416 Forced Signal,RM 1416 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV3,percent
+urn:uuid:395942a0-e299-4145-8e02-d5573621f77d,537,3005523,analogValue,Room 1418 Forced Signal,RM 1418 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV4,percent
+urn:uuid:7cc09a59-89a1-4119-b6e5-f9151f977c6f,537,3005524,analogValue,Room 1422 Forced Signal,RM 1422 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV5,percent
+urn:uuid:a46d6e78-d4bb-422d-bb10-50d4edda69fd,537,3005525,analogValue,Room 1407 Forced Signal,RM 1407 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV6,percent
+urn:uuid:444b152c-7357-49ec-8fd7-93a814d4dd5a,537,3005526,analogValue,Room 1411 Forced Signal,RM 1411 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV7,percent
+urn:uuid:bca16f9a-f146-4e00-8e3e-66ddb16d6232,537,3005527,analogValue,Room 1415 Forced Signal,RM 1415 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV8,percent
+urn:uuid:0c631bd6-a1b9-456c-b6fd-b89ce114d75c,537,3005528,analogValue,Room 1421 Forced Signal,RM 1421 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV9,percent
+urn:uuid:1c00d19f-2c65-4404-80ed-ff6114410145,537,3005529,analogValue,Room 1427 Forced Signal,RM 1427 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV10,percent
+urn:uuid:76f8c898-016d-4121-ac12-c91d216d6621,537,3005530,analogValue,Room 1433 Forced Signal,RM 1433 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV11,percent
+urn:uuid:e17eab76-76cf-4100-94a0-43ae6d65eaab,537,3005531,analogValue,Room 1437 Forced Signal,RM 1437 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV12,percent
+urn:uuid:d4fc92d1-09ee-466b-a0c9-26214c311ba6,537,3005532,analogValue,Room 1441 Forced Signal,RM 1441 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV13,percent
+urn:uuid:8c57f1cf-7992-4d67-bf21-a1fa23965475,537,3005533,analogValue,Room 1404 Forced Signal,RM 1404 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV14,percent
+urn:uuid:2c344f0d-fd2f-4c9e-b5af-addddf52176e,537,3005534,analogValue,Room 1408 Forced Signal,RM 1408 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV15,percent
+urn:uuid:09b40368-dc7e-48a1-b0d4-9ecb0976322e,537,3005535,analogValue,Room 1410 Forced Signal,RM 1410 Forced Signal,NAE-37/Programming.Clean Room AH Swap Over Control.AV16,percent
+urn:uuid:bbe119d7-efa5-40ce-bdeb-7a2fd3d211bb,537,3009829,analogValue,,Avg Rm Hum,NAE-37/FCB.Local Application.Avg Rm Hum,noUnits
+urn:uuid:e6033ed9-4b73-41f2-aa53-f405d3881a5d,537,3009841,analogValue,,Eff Proportional Band,NAE-37/FCB.Local Application.AV-13007,noUnits
+urn:uuid:fe035c3b-29f2-47ba-936f-d0246ef5d4c4,537,3009845,analogValue,,Eff Integral Time,NAE-37/FCB.Local Application.AV-13009,seconds
+urn:uuid:faa804ea-8834-42af-ba1d-370df5037478,537,3009853,analogValue,,PREFILTERAVG-HUM,NAE-37/Programming.AV1,percentRelativeHumidity
+urn:uuid:40a37b44-471e-486a-b0bc-3db39437f95e,537,3009863,analogValue,Output (Float),Process Variable da-t,NAE-37/FCB.Local Application.da-t,degreesFahrenheit
+urn:uuid:f4e7672e-eeb9-4570-9276-23a2c4a08dc5,537,3009938,analogValue,Current Humidification Demand,CalIT.AH2-2A Hum.HUM_RAMP,NAE-37/IP-1.N37-IP1-VND-77002.AV-4,percent
+urn:uuid:3fa41717-60cb-490d-a7fb-78041a51ea81,537,3009939,analogValue,Current DDC Input,CalIT.AH2-2A Hum.DDC_SIGNAL,NAE-37/IP-1.N37-IP1-VND-77002.AV-3,volts
+urn:uuid:9bb79d09-3f23-4324-9311-555f8233c949,537,3009940,analogValue,Room Humidity High Warning Setpoint,CalIT.AH2-2A Hum.ROOM_HI_SET,NAE-37/IP-1.N37-IP1-VND-77002.AV-31,percent
+urn:uuid:f501bc36-f80c-4e39-9a39-58ab2a5d2edc,537,3009941,analogValue,Prop Band for Room Humidity Control,CalIT.AH2-2A Hum.ROOM_BAND,NAE-37/IP-1.N37-IP1-VND-77002.AV-30,percent
+urn:uuid:abe815e1-00f3-48aa-b157-82c6ac9d8c62,537,3009949,analogValue,Current Supply Humidity,CalIT.AH2-2A Hum.SUPPLY_HUMIDITY,NAE-37/IP-1.N37-IP1-VND-77002.AV-38,percent
+urn:uuid:9459d534-25cf-4aa3-a057-62ec117317b8,537,3009950,analogValue,Supply Humidity Low Warning Setpoint,CalIT.AH2-2A Hum.SUPHUM_LO_SET,NAE-37/IP-1.N37-IP1-VND-77002.AV-36,percent
+urn:uuid:602e9a28-f8b0-4e89-b15b-b34bf606c4b9,537,3009951,analogValue,Supply Humidity High Warning Setpoint,CalIT.AH2-2A Hum.SUPHUM_HI_SET,NAE-37/IP-1.N37-IP1-VND-77002.AV-35,percent
+urn:uuid:77e152ae-e9a4-44e6-a0d5-99c3d0532fec,537,3009952,analogValue,Prop Setpoint for Room Humidity Control,CalIT.AH2-2A Hum.ROOM_SET_KB,NAE-37/IP-1.N37-IP1-VND-77002.AV-34,percent
+urn:uuid:6f26e15e-c18c-4faa-aca4-b1044fd469a5,537,3009953,analogValue,Room Humidity Low Warning Setpoint,CalIT.AH2-2A Hum.ROOM_LO_SET,NAE-37/IP-1.N37-IP1-VND-77002.AV-33,percent
+urn:uuid:e68d3722-4d78-4fe7-8f41-7281148bcbbf,537,3009954,analogValue,Current Room Humidity,CalIT.AH2-2A Hum.ROOM_HUMIDITY,NAE-37/IP-1.N37-IP1-VND-77002.AV-32,percent
+urn:uuid:82c66096-4fba-4ad4-8b27-44fe8aebb1f9,537,3009972,analogValue,Current DDC Input,CalIT.AH2-2 Hum.DDC_SIGNAL,NAE-37/IP-1.N37-IP1-VND-77001.AV-3,volts
+urn:uuid:3a92e396-6354-43ac-a0c5-c4b339d12783,537,3009973,analogValue,Current Humidification Demand,CalIT.AH2-2 Hum.HUM_RAMP,NAE-37/IP-1.N37-IP1-VND-77001.AV-4,percent
+urn:uuid:71490d62-bfb1-45fa-8fcf-d9f506c96a5f,537,3009974,analogValue,Prop Band for Room Humidity Control,CalIT.AH2-2 Hum.ROOM_BAND,NAE-37/IP-1.N37-IP1-VND-77001.AV-30,percent
+urn:uuid:596c062f-48ff-499c-b4a4-9bea057a0467,537,3009975,analogValue,Room Humidity High Warning Setpoint,CalIT.AH2-2 Hum.ROOM_HI_SET,NAE-37/IP-1.N37-IP1-VND-77001.AV-31,percent
+urn:uuid:fb5b5dea-ddb3-4c62-a679-6235259a0d21,537,3009976,analogValue,Current Supply Humidity,CalIT.AH2-2 Hum.SUPPLY_HUMIDITY,NAE-37/IP-1.N37-IP1-VND-77001.AV-38,percent
+urn:uuid:85adfc34-b226-4cfa-b259-52b6a078da39,537,3009977,analogValue,Current Room Humidity,CalIT.AH2-2 Hum.ROOM_HUMIDITY,NAE-37/IP-1.N37-IP1-VND-77001.AV-32,percent
+urn:uuid:79f65c5f-af6b-4920-9edb-41852bf3d3f5,537,3009978,analogValue,Room Humidity Low Warning Setpoint,CalIT.AH2-2 Hum.ROOM_LO_SET,NAE-37/IP-1.N37-IP1-VND-77001.AV-33,percent
+urn:uuid:f560344e-ae71-4318-8262-c125086e02cb,537,3009979,analogValue,Prop Setpoint for Room Humidity Control,CalIT.AH2-2 Hum.ROOM_SET_KB,NAE-37/IP-1.N37-IP1-VND-77001.AV-34,percent
+urn:uuid:f0d32cc9-ea35-4ba8-a0a1-2875c8dffbd1,537,3009980,analogValue,Supply Humidity High Warning Setpoint,CalIT.AH2-2 Hum.SUPHUM_HI_SET,NAE-37/IP-1.N37-IP1-VND-77001.AV-35,percent
+urn:uuid:c0e47051-c6d3-4ba7-affb-07308333db79,537,3009983,analogValue,Supply Humidity Low Warning Setpoint,CalIT.AH2-2 Hum.SUPHUM_LO_SET,NAE-37/IP-1.N37-IP1-VND-77001.AV-36,percent
+urn:uuid:806ec5e3-d7eb-4803-ad6d-60699fa81f2a,537,3000172,binaryInput,Supply Fan Status,Cal IT.AH2-2.SF-STS,NAE-37/N2 Trunk 1.DX-039.SF-STS,
+urn:uuid:b125f48e-68fe-48a7-a1e4-67fd113eddf3,537,3000177,binaryInput,Supply Air High Limit CO,Cal IT.AH2-2.SA-HL,NAE-37/N2 Trunk 1.DX-039.SA-HL,
+urn:uuid:1511a92e-1cf4-4d87-9d7f-1696446233fa,537,3000179,binaryInput,Humidifier Alarm,Cal IT.AH2-2.HUM-ALM,NAE-37/N2 Trunk 1.DX-039.HUM-ALM,
+urn:uuid:9012c731-23bc-4c90-a24f-6e7458dfa497,537,3000181,binaryInput,Filter Status,Cal IT.AH2-2.FLTR-STS,NAE-37/N2 Trunk 1.DX-039.FLTR-STS,
+urn:uuid:028f0941-0930-47fd-bd5b-a1414c1e33a8,537,3000182,binaryInput,,Cal IT.AH2-2.Parameters.NO-MODE,NAE-37/N2 Trunk 1.DX-039.NO-MODE,
+urn:uuid:6a39acf3-32bc-41d9-994f-8ecdb55cdf12,537,3000236,binaryInput,Run Status,Cal IT.VND041 (AH2-2-VFD).STATUS,NAE-37/N2 Trunk 1.VND-041.STATUS,
+urn:uuid:0d583923-4316-46b5-b7be-124aae5ecb4a,537,3000237,binaryInput,Fault Indicator,Cal IT.VND041 (AH2-2-VFD).FAULT,NAE-37/N2 Trunk 1.VND-041.FAULT,
+urn:uuid:16d9f037-f291-4876-b32b-5529fba518fe,537,3000243,binaryInput,Damper 9 Closed Status,CalIT.AH2-2A.DMPR9-CL,NAE-37/FCB.Local Application.DMPR9-CL,
+urn:uuid:1e2c6cb2-dc8d-47e7-8bbf-30b2bd985d28,537,3000244,binaryInput,Damper 7 Open Status,CalIT.AH2-2A.DMPR7-OP,NAE-37/FCB.Local Application.DMPR7-OP,
+urn:uuid:81934b27-ca03-42e6-b561-c5090440a14a,537,3000245,binaryInput,Damper 9 Open Status,CalIT.AH2-2A.DMPR9-OP,NAE-37/FCB.Local Application.DMPR9-OP,
+urn:uuid:dcfea6e7-dc4d-4f1d-a252-c1d914b05336,537,3000246,binaryInput,Damper 8 Open Status,CalIT.AH2-2A.DMPR8-OP,NAE-37/FCB.Local Application.DMPR8-OP,
+urn:uuid:0d3b6d60-8170-438e-9f91-3a1b89c69487,537,3000247,binaryInput,Damper 7 Closed Status,CalIT.AH2-2A.DMPR7-CL,NAE-37/FCB.Local Application.DMPR7-CL,
+urn:uuid:4e80f503-2a60-4b99-8211-fb5323b59dc2,537,3000248,binaryInput,Damper 8 Closed Status,CalIT.AH2-2A.DMPR8-CL,NAE-37/FCB.Local Application.DMPR8-CL,
+urn:uuid:8c441d4d-3b8c-41c8-808e-c2e4256c1acf,537,3000255,binaryInput,Damper 5 Open Status,CalIT.AH2-2A.DMPR5-OP,NAE-37/FCB.Local Application.DMPR5-OP,
+urn:uuid:45ff8392-5200-48a9-a089-0db512870f62,537,3000256,binaryInput,Damper 5 Closed Status,CalIT.AH2-2A.DMPR5-CL,NAE-37/FCB.Local Application.DMPR5-CL,
+urn:uuid:d95ccf52-7cae-42c9-b1e8-f76d56923748,537,3000257,binaryInput,Damper 6 Closed Status,CalIT.AH2-2A.DMPR6-CL,NAE-37/FCB.Local Application.DMPR6-CL,
+urn:uuid:0e479632-3367-4817-a34f-e386dcceca62,537,3000258,binaryInput,Damper 3 Open Status,CalIT.AH2-2A.DMPR3-OP,NAE-37/FCB.Local Application.DMPR3-OP,
+urn:uuid:738f5a76-d6fd-4ee8-8d3e-1da8244d8b73,537,3000259,binaryInput,Damper 6 Open Status,CalIT.AH2-2A.DMPR6-OP,NAE-37/FCB.Local Application.DMPR6-OP,
+urn:uuid:ea876c11-1738-4aff-a0ab-2142759aa494,537,3000260,binaryInput,Damper 3 Closed Status,CalIT.AH2-2A.DMPR3-CL,NAE-37/FCB.Local Application.DMPR3-CL,
+urn:uuid:f5238e34-0613-43a7-9bfb-868c732bd1bb,537,3000261,binaryInput,Damper 4 Closed Status,CalIT.AH2-2A.DMPR4-CL,NAE-37/FCB.Local Application.DMPR4-CL,
+urn:uuid:cdd127dc-c03b-4491-a99c-95c729ed742a,537,3000262,binaryInput,Damper 4 Open Status,CalIT.AH2-2A.DMPR4-OP,NAE-37/FCB.Local Application.DMPR4-OP,
+urn:uuid:a0dcbd66-dc67-4d63-b414-476bed411d88,537,3000318,binaryInput,Filter Status,CalIT.AH2-2A.FLTR-STS,NAE-37/FCB.Local Application.FFILT-S,
+urn:uuid:a8a78bb6-c192-40a7-acea-6a3a14367f54,537,3000319,binaryInput,Humidifier Alarm,CalIT.AH2-2A.HUM-ALM,NAE-37/FCB.Local Application.HUM-ALM,
+urn:uuid:3f90eedf-d187-4e9f-b93a-7cffaa193d18,537,3000320,binaryInput,Supply Air High Static Switch,CalIT.AH2-2A.SA-HL,NAE-37/FCB.Local Application.SA-HL,
+urn:uuid:0061ac0a-a693-44b1-9adb-ef3209826548,537,3000323,binaryInput,Air Flow Status,CalIT.AH2-2A.FLOW-STS,NAE-37/FCB.Local Application.FLOW-STS,
+urn:uuid:5ded6542-c319-411a-9295-089416505bda,537,3000354,binaryInput,Damper 2 Closed Status,CalIT.AH2-2A.DMPR2-CL,NAE-37/FCB.Local Application.DMPR2-CL,
+urn:uuid:650f9d9b-6ed0-4f88-9cec-b3212b2bbcb0,537,3000355,binaryInput,Damper 2 Open Status,CalIT.AH2-2A.DMPR2-OP,NAE-37/FCB.Local Application.DMPR2-OP,
+urn:uuid:7348c278-f719-4791-85c5-bf8503c8674b,537,3000357,binaryInput,Supply Fan VFD Current Status Relay,CalIT.AH2-2A.SFVFD-STS,NAE-37/FCB.Local Application.SF-CSR,
+urn:uuid:6075d879-0e34-4225-8c0e-b1589ad9671a,537,3000358,binaryInput,Supply Fan 1 Current Status Relay,CalIT.AH2-2A.SF1-STS,NAE-37/FCB.Local Application.SF1-STS,
+urn:uuid:dd7f51e6-3251-4d12-b3c2-30f30eadd051,537,3000359,binaryInput,Supply Fan 2 Current Status Relay,CalIT.AH2-2A.SF2-STS,NAE-37/FCB.Local Application.SF2-STS,
+urn:uuid:b6e188bc-2c14-4733-8ba0-43a96f4d027f,537,3000360,binaryInput,Supply Fan 4 Current Status Relay,CalIT.AH2-2A.SF4-STS,NAE-37/FCB.Local Application.SF4-STS,
+urn:uuid:1efd89dd-e659-46ac-b1c1-3ebb572d383b,537,3000361,binaryInput,Supply Fan 3 Current Status Relay,CalIT.AH2-2A.SF3-STS,NAE-37/FCB.Local Application.SF3-STS,
+urn:uuid:c34012ec-197e-4044-8164-7444f688694f,537,3005286,binaryInput,Supply Fan Status,Cal IT.AH2-1.SF-STS,NAE-37/N2 Trunk 1.AHU-024.SF-S,
+urn:uuid:16a9a559-f867-4221-bf50-00687c0bf3d5,537,3005290,binaryInput,Filter Status,Cal IT.AH2-1.FILT-STS,NAE-37/N2 Trunk 1.AHU-024.FILT-STS,
+urn:uuid:5fd53ca0-bdb2-477d-9b6c-b349d42da2f8,537,3005291,binaryInput,VFD Interlock,Cal IT.AH2-1.SA-HL,NAE-37/N2 Trunk 1.AHU-024.VFD-IRLK,
+urn:uuid:811bd075-80f5-42e6-bfb5-1a45702ce5fb,537,3005293,binaryInput,Occupied Status,Cal IT.AH2-1.Parameters.UNOCSTS,NAE-37/N2 Trunk 1.AHU-024.UNOCSTS,
+urn:uuid:44d46ebd-7aeb-41c2-9cc9-53a693a5afce,537,3005294,binaryInput,Shutdown Status,Cal IT.AH2-1.Parameters.SHUTSTS,NAE-37/N2 Trunk 1.AHU-024.SHUTSTS,
+urn:uuid:0007f964-7f4c-464a-854c-7743204ad6cf,537,3005302,binaryInput,Run Status,Cal IT.VND025 (AH2-1-VFD).STATUS,NAE-37/N2 Trunk 1.VND-025.STATUS,
+urn:uuid:e86a1418-55b3-4f32-8308-981920707586,537,3005303,binaryInput,Fault Indicator,Cal IT.VND025 (AH2-1-VFD).FAULT,NAE-37/N2 Trunk 1.VND-025.FAULT,
+urn:uuid:c600c710-b99a-4ffb-85b9-0c12c0f6b393,537,3005747,binaryInput,Supply Fan VFD Alarm,CalIT.AH2-2A.SFVFD-ALM,NAE-37/FCB.Local Application.SFVFD-ALM,
+urn:uuid:1856b268-ed1a-491c-9dde-d59402aacd7d,537,3005748,binaryInput,Supply Air Smoke Detector,CalIT.AH2-2A.SA-SD,NAE-37/FCB.Local Application.SA-SD,
+urn:uuid:3189a4cb-2ddd-428a-83e8-0393f5efb598,537,3005754,binaryInput,Air Flow Status,CalIT.AH2-2.FLOW-STS,NAE-37/N2 Trunk 1.DX-039.FLOW-STS,
+urn:uuid:4ec6178c-908f-4a88-a65e-c9a5edde3fd9,537,3006219,binaryInput,Motor Start/Stop Status,OTTERSON.AH2ASF-VFD.VFD-STS,,
+urn:uuid:4162c509-108b-48fa-a76a-efa7ffff14e8,537,3006220,binaryInput,Motor Direction Status,OTTERSON.AH2ASF-VFD.DIR-STS,NAE-37/N2 Trunk 1.VND-11.DIR-STS,
+urn:uuid:e59ed529-2adb-4d10-b943-5f38d0cab42e,537,3006221,binaryInput,Fault Status,OTTERSON.AH2ASF-VFD.FLT-STS,NAE-37/N2 Trunk 1.VND-11.FLT-STS,
+urn:uuid:cd8bd355-fe00-4bd2-ad95-69269ed845e3,537,3006222,binaryInput,Hand/Auto Status,OTTERSON.AH2ASF-VFD.HOA-STS,NAE-37/N2 Trunk 1.VND-11.HOA-STS,
+urn:uuid:00641f90-db71-4e2b-9f29-cc7763793b9e,537,3006223,binaryInput,VFD Alarm,OTTERSON.AH2ASF-VFD.VFD-ALM,NAE-37/N2 Trunk 1.VND-11.VFD-ALM,
+urn:uuid:f77c7a82-a659-4a9d-8930-05f6e09c82df,537,3006224,binaryInput,Maintenance Required,OTTERSON.AH2ASF-VFD.MAIN-REQ,NAE-37/N2 Trunk 1.VND-11.MAIN-REQ,
+urn:uuid:a78a1928-7249-4cfc-abac-6061421cd299,537,3006225,binaryInput,Drive Ready,OTTERSON.AH2ASF-VFD.DRV-RDY,NAE-37/N2 Trunk 1.VND-11.DRV-RDY,
+urn:uuid:7a239054-685a-48a6-bc01-5831e443d9fb,537,3006226,binaryInput,Run Enable Status,OTTERSON.AH2ASF-VFD.ENA-STS,NAE-37/N2 Trunk 1.VND-11.ENA-STS,
+urn:uuid:cd04a3ac-4d73-4902-a53e-6d0af3dff94b,537,3006255,binaryInput,Motor Start/Stop Status,OTTERSON.AH2ASF-VFD.VFD-STS,NAE-37/N2 Trunk 1.VND-12.VFD-STS,
+urn:uuid:3714c242-a00b-4d94-aaca-18efcc351c96,537,3006256,binaryInput,Motor Direction Status,OTTERSON.AH2ASF-VFD.DIR-STS,NAE-37/N2 Trunk 1.VND-12.DIR-STS,
+urn:uuid:0efe59d1-dad8-49a2-8707-38c5eb8cd530,537,3006257,binaryInput,Fault Status,OTTERSON.AH2ASF-VFD.FLT-STS,NAE-37/N2 Trunk 1.VND-12.FLT-STS,
+urn:uuid:e87bf7f3-28de-470c-914f-aca8577e65a1,537,3006258,binaryInput,Hand/Auto Status,OTTERSON.AH2ASF-VFD.HOA-STS,NAE-37/N2 Trunk 1.VND-12.HOA-STS,
+urn:uuid:bf3b6172-ad93-4dc1-b9fa-dba282f21fb2,537,3006259,binaryInput,VFD Alarm,OTTERSON.AH2ASF-VFD.VFD-ALM,NAE-37/N2 Trunk 1.VND-12.VFD-ALM,
+urn:uuid:d66f6fd3-d321-4304-aed0-521fd3e7ffa7,537,3006260,binaryInput,Maintenance Required,OTTERSON.AH2ASF-VFD.MAIN-REQ,NAE-37/N2 Trunk 1.VND-12.MAIN-REQ,
+urn:uuid:05c4db75-d93a-41e8-ba95-fcfbf2bd98a5,537,3006261,binaryInput,Drive Ready,OTTERSON.AH2ASF-VFD.DRV-RDY,NAE-37/N2 Trunk 1.VND-12.DRV-RDY,
+urn:uuid:b80de488-51c7-4d89-ac90-00162c36bfd0,537,3006262,binaryInput,Run Enable Status,OTTERSON.AH2ASF-VFD.ENA-STS,NAE-37/N2 Trunk 1.VND-12.ENA-STS,
+urn:uuid:2ccffef3-ae13-4817-9a21-f35ebf462813,537,3000175,binaryOutput,Supply Fan Start Stop,Cal IT.AH2-2.SF-SS,NAE-37/N2 Trunk 1.DX-039.SF-SS,
+urn:uuid:5e6f65f0-3562-4228-8cc5-269dc48a9d3e,537,3000184,binaryOutput,Humidifier Enable,Cal IT.AH2-2.HUM-ENA,NAE-37/N2 Trunk 1.DX-039.HUM-ENA,
+urn:uuid:eeb9680d-26bd-46f2-b776-d7948e0e5049,537,3000186,binaryOutput,Supply Fan Bypass Cmd,Cal IT.AH2-2.SF-BP,NAE-37/N2 Trunk 1.DX-039.SF-BP,
+urn:uuid:509d6f36-05b0-469a-b594-06825ea0f2df,537,3000187,binaryOutput,Supply Fan Shutdown Cmd,Cal IT.AH2-2.SF-SD,NAE-37/N2 Trunk 1.DX-039.SF-SD,
+urn:uuid:a9a1c56c-ce17-4a65-9215-dfd45020356c,537,3000188,binaryOutput,System Enable,Cal IT.AH2-2.Parameters.SYS-ENA,NAE-37/N2 Trunk 1.DX-039.SYS-ENA,
+urn:uuid:fc566f20-dd53-4063-9c6f-8bbb91290912,537,3000189,binaryOutput,,Cal IT.AH2-2.Parameters.SF-BYP,NAE-37/N2 Trunk 1.DX-039.SF-BYP,
+urn:uuid:3b7ea406-5592-4808-bdfa-027b769161e9,537,3000190,binaryOutput,,Cal IT.AH2-2.Parameters.SF-SDN,NAE-37/N2 Trunk 1.DX-039.SF-SDN,
+urn:uuid:68d952ca-b26f-44ba-bad0-71c45cda1efa,537,3000228,binaryOutput,Supply Fan Speed Override Enable Switch,Cal IT.AH2-2.SFovdENA,NAE-37/N2 Trunk 1.DX-039.SFovdENA,
+urn:uuid:4c7bb37c-6dcc-468d-af1e-8166f0cd1f6f,537,3000239,binaryOutput,Run Direction Command,Cal IT.VND041 (AH2-2-VFD).DIRECT-CMD,NAE-37/N2 Trunk 1.VND-041.DIRECT-CMD,
+urn:uuid:b40301ac-1efc-4731-adb7-720de9393f56,537,3000240,binaryOutput,Run Enable,Cal IT.VND041 (AH2-2-VFD).RUN ENABLE,NAE-37/N2 Trunk 1.VND-041.RUN ENABLE,
+urn:uuid:884d5d1c-6150-456d-8a30-7541f94dcf6e,537,3000253,binaryOutput,Phoenix Valve 1 Command,CalIT.AH2-2A.PHX-1,NAE-37/FCB.Local Application.PHX-1,
+urn:uuid:ab1b84a6-86c0-49c2-8421-d71b7cc41eb7,537,3000254,binaryOutput,Phoenix Valve 2 Command,CalIT.AH2-2A.PHX-2,NAE-37/FCB.Local Application.PHX-2,
+urn:uuid:83747af5-8682-4861-ac51-8179ce354012,537,3000321,binaryOutput,Humidifier Enable Command,CalIT.AH2-2A.HUM-ENA,NAE-37/FCB.Local Application.HUM-ENA,
+urn:uuid:adf8dd1c-f489-415c-8897-30224561886f,537,3000322,binaryOutput,Supply Fan Start/Stop Command,CalIT.AH2-2A.SF-SS,NAE-37/FCB.Local Application.SF-SS,
+urn:uuid:379ef788-e4be-4506-bdfe-11815aa4e20f,537,3000362,binaryOutput,Damper 8 Command,CalIT.AH2-2A.DMPR8-CMD,NAE-37/FCB.Local Application.DMPR8-CMD,
+urn:uuid:d70a41d7-6e48-4987-9f5e-883943904187,537,3000363,binaryOutput,Damper 2 Command,CalIT.AH2-2A.DMPR2-CMD,NAE-37/FCB.Local Application.DMPR2-CMD,
+urn:uuid:8f288ea0-71b5-4638-ad41-c394bf35c9b0,537,3000364,binaryOutput,Damper 7 Command,CalIT.AH2-2A.DMPR7-CMD,NAE-37/FCB.Local Application.DMPR7-CMD,
+urn:uuid:9aec5551-1e35-4b6c-8795-767a152d65c6,537,3000365,binaryOutput,Damper 6 Command,CalIT.AH2-2A.DMPR6-CMD,NAE-37/FCB.Local Application.DMPR6-CMD,
+urn:uuid:2741cafa-7189-4087-86b6-d84c39e3043f,537,3000366,binaryOutput,Damper 5 Command,CalIT.AH2-2A.DMPR5-CMD,NAE-37/FCB.Local Application.DMPR5-CMD,
+urn:uuid:71aaaf3f-a178-46af-a254-73d9b93989f3,537,3000367,binaryOutput,Damper 3 Command,CalIT.AH2-2A.DMPR3-CMD,NAE-37/FCB.Local Application.DMPR3-CMD,
+urn:uuid:d4ce56a6-449f-45ec-958d-eb420e2234c3,537,3000368,binaryOutput,Damper 4 Command,CalIT.AH2-2A.DMPR4-CMD,NAE-37/FCB.Local Application.DMPR4-CMD,
+urn:uuid:e1336e45-9198-4cee-b03a-4306bbde1a96,537,3000369,binaryOutput,Damper 9 Command,CalIT.AH2-2A.DMPR9-CMD,NAE-37/FCB.Local Application.DMPR9-CMD,
+urn:uuid:484839e0-b969-4656-b68d-1f808dc3c5ba,537,3005289,binaryOutput,Supply Fan Start/Stop,Cal IT.AH2-1.SF-SS,NAE-37/N2 Trunk 1.AHU-024.SF-C,
+urn:uuid:46bd11d5-9ab1-469e-9423-07422139c7f0,537,3005295,binaryOutput,SF-BYP,Cal IT.AH2-1.SF-BYP,NAE-37/N2 Trunk 1.AHU-024.SF-BYP,
+urn:uuid:9851a58e-78e3-46a3-8e68-a38e9eda190a,537,3005296,binaryOutput,SF-SDN,Cal IT.AH2-1.SF-SDN,NAE-37/N2 Trunk 1.AHU-024.SF-SDN,
+urn:uuid:3b6030bf-e6b8-4f33-b763-77de49f92408,537,3005297,binaryOutput,Shutdown Command,Cal IT.AH2-1.SDMODE,NAE-37/N2 Trunk 1.AHU-024.SDMODE,
+urn:uuid:3c931e6c-4881-4faf-a7f3-2224f96d3874,537,3005305,binaryOutput,Run Direction Command,Cal IT.VND025 (AH2-1-VFD).DIRECT-CMD,NAE-37/N2 Trunk 1.VND-025.DIRECT-CMD,
+urn:uuid:33e8fb55-180e-444b-bf4c-9a2b44ea31c1,537,3005306,binaryOutput,Run Enable,Cal IT.VND025 (AH2-1-VFD).RUN ENABLE,NAE-37/N2 Trunk 1.VND-025.RUN ENABLE,
+urn:uuid:c102cd3e-b12c-40bc-80c0-959818677933,537,3006230,binaryOutput,VFD Start/Stop,OTTERSON.AH2ASF-VFD.VFD-SS,NAE-37/N2 Trunk 1.VND-11.VFD-SS,
+urn:uuid:37c0e3af-03a8-494b-a0d6-a7c5d79c09a5,537,3006231,binaryOutput,Motor Direction Command,OTTERSON.AH2ASF-VFD.DIR-CMD,NAE-37/N2 Trunk 1.VND-11.DIR-CMD,
+urn:uuid:1adb63e8-5f0b-41bd-b849-ca5b0a0d11e9,537,3006232,binaryOutput,VFD Enable,OTTERSON.AH2ASF-VFD.VFD-ENA,NAE-37/N2 Trunk 1.VND-11.VFD-ENA,
+urn:uuid:52bc13f6-9daa-4139-95e2-d67ca6161ea7,537,3006233,binaryOutput,Fault Reset,OTTERSON.AH2ASF-VFD.FLT-RST,NAE-37/N2 Trunk 1.VND-11.FLT-RST,
+urn:uuid:65af4ed0-4c28-4f32-bbcd-49679849c342,537,3006266,binaryOutput,VFD Start/Stop,OTTERSON.AH2ASF-VFD.VFD-SS,NAE-37/N2 Trunk 1.VND-12.VFD-SS,
+urn:uuid:7b2bf99c-7956-45a6-a758-9cf208afe86d,537,3006267,binaryOutput,Motor Direction Command,OTTERSON.AH2ASF-VFD.DIR-CMD,NAE-37/N2 Trunk 1.VND-12.DIR-CMD,
+urn:uuid:5723b5ba-208f-4e0a-8104-8c76041bec06,537,3006268,binaryOutput,VFD Enable,OTTERSON.AH2ASF-VFD.VFD-ENA,NAE-37/N2 Trunk 1.VND-12.VFD-ENA,
+urn:uuid:5eff0089-9136-417d-9c66-71128e599522,537,3006269,binaryOutput,Fault Reset,OTTERSON.AH2ASF-VFD.FLT-RST,NAE-37/N2 Trunk 1.VND-12.FLT-RST,
+urn:uuid:f283e4ad-6456-4834-affa-6ee8f0698ee3,537,3000308,binaryValue,Supply Fan 2-2 Run Failure,CalIT.AH2-2A.Parameters.SF2-2-FAIL,NAE-37/FCB.Local Application.SF2-2-FAIL,
+urn:uuid:74bacc0b-8217-4d0e-bc05-2c9cf2c6f054,537,3000309,binaryValue,Supply Fan 2-2A Run Failure,CalIT.AH2-2A.Parameters.SF2-2A-FAIL,NAE-37/FCB.Local Application.SF2-2A-FAIL,
+urn:uuid:91532c39-7f99-42f9-89b8-0da2fdecf143,537,3005537,binaryValue,Include in Failure Sequence,RM 1412 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV1,
+urn:uuid:eba8718d-1f1f-4fca-afa1-5552994847e7,537,3005538,binaryValue,Include in Failure Sequence,RM 1414 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV2,
+urn:uuid:f37ae799-91cc-4ae4-a506-7e84279ae1c0,537,3005539,binaryValue,Include in Failure Sequence,RM 1416 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV3,
+urn:uuid:d9e71952-22eb-4653-b236-8fa8b0c2fac5,537,3005540,binaryValue,Include in Failure Sequence,RM 1418 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV4,
+urn:uuid:1259a21a-4e89-46eb-bf5d-aa1db4249cf6,537,3005541,binaryValue,Include in Failure Sequence,RM 1422 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV5,
+urn:uuid:993e5578-6531-4710-9b7e-a2122125367c,537,3005542,binaryValue,Include in Failure Sequence,RM 1407 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV6,
+urn:uuid:ff6c7aeb-2cc4-4b6e-80cb-86eb38463cc7,537,3005543,binaryValue,Include in Failure Sequence,RM 1411 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV7,
+urn:uuid:c3d87ee3-5ed6-4d6b-a489-c1302336e444,537,3005544,binaryValue,Include in Failure Sequence,RM 1415 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV8,
+urn:uuid:f1b3bfbe-37ad-49f5-9aa4-c820e1235831,537,3005545,binaryValue,Include in Failure Sequence,RM 1421 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV9,
+urn:uuid:d86090b7-67b1-4cf5-8422-4ede84e64e36,537,3005546,binaryValue,Include in Failure Sequence,RM 1427 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV10,
+urn:uuid:0bc69019-2eb8-47f4-a036-d1622b264e63,537,3005547,binaryValue,Include in Failure Sequence,RM 1433 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV11,
+urn:uuid:a21d5577-4437-439a-83f8-7b1ef89b2ebc,537,3005548,binaryValue,Include in Failure Sequence,RM 1437 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV12,
+urn:uuid:015593a7-9f61-4404-bcf7-98b1b71bd8ab,537,3005549,binaryValue,Include in Failure Sequence,RM 1441 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV13,
+urn:uuid:3cdd4d28-18b0-4442-ac93-c495f909d540,537,3005550,binaryValue,Include in Failure Sequence,RM 1404 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV14,
+urn:uuid:bde81d25-0d44-4648-b13e-9e774a72fbb9,537,3005551,binaryValue,Include in Failure Sequence,RM 1408 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV15,
+urn:uuid:1831e547-6614-4122-baed-6a2a1d684ce6,537,3005552,binaryValue,Include in Failure Sequence,RM 1410 Include,NAE-37/Programming.Clean Room AH Swap Over Control.BV16,
+urn:uuid:b0f220e7-6fb3-474f-a2ba-43999107e086,537,3005759,binaryValue,Include CSR in AH2-2 Status Calc,INCLUDE-CSR,NAE-37/Programming.Clean Room AH Swap Over Control.Programs.BV1,
+urn:uuid:05c059a7-69e5-45a0-9cde-c51388bb87f7,537,3005760,binaryValue,Include Static in AH2-2 Status Calc,INCLUDE-SP,NAE-37/Programming.Clean Room AH Swap Over Control.Programs.BV2,
+urn:uuid:63568b10-c6d2-401b-9d59-6f9db55f4e6d,537,3005761,binaryValue,Include Flow in AH2-2 Status Calc,INCLUDE-FLO,NAE-37/Programming.Clean Room AH Swap Over Control.Programs.BV3,
+urn:uuid:f24b6dd5-fcf5-440d-923d-ef9185584a33,537,3005782,binaryValue,AH2-2 Calculated Run Status,AH2-2-STS,NAE-37/Programming.Clean Room AH Swap Over Control.Programs.BV4,
+urn:uuid:42a6b040-0d3a-4504-91bd-bd473aeffd93,537,3006364,binaryValue,Include Zone 1 RH in Avg Calc,INCLUDE-RH1,NAE-37/Programming.Clean Room AH Swap Over Control.Programs.BV5,
+urn:uuid:6082456c-3e42-46bd-9ce8-f6e2cfcf0494,537,3006365,binaryValue,Include Zone 2 RH in Avg Calc,INCLUDE-RH2,NAE-37/Programming.Clean Room AH Swap Over Control.Programs.BV6,
+urn:uuid:d59a0e82-2884-4316-9127-cb3ab094bf53,537,3006366,binaryValue,Include Zone 3 RH in Avg Calc,INCLUDE-RH3,NAE-37/Programming.Clean Room AH Swap Over Control.Programs.BV7,
+urn:uuid:40aaee90-4ea3-4f24-912e-317a229a8c12,537,3009842,binaryValue,,Reset Tuning,NAE-37/FCB.Local Application.BV-13034,
+urn:uuid:bd1a0b11-a39c-47e7-8bd7-e29f18770ca0,537,3009864,binaryValue,CS Input (Boolean),DA-T2 Active,NAE-37/FCB.Local Application.DA-T2 Active,
+urn:uuid:d29fb556-3a34-4553-accf-480bdd3c3a69,537,3009957,binaryValue,Remote On/Off Switch Status (ID1),CalIT.AH2-2A Hum.DIN1,NAE-37/IP-1.N37-IP1-VND-77002.BV-4,
+urn:uuid:8663c826-a03b-4bcb-8f4a-52844bd592bb,537,3009958,binaryValue,Analog Outputs in Manual Mode,CalIT.AH2-2A Hum.Y_MARK,NAE-37/IP-1.N37-IP1-VND-77002.BV-46,
+urn:uuid:95ef7d76-5e8b-46ac-a3c4-c92f928f4b78,537,3009959,binaryValue,Digital Outputs in Manual Mode,CalIT.AH2-2A Hum.NO_MARK,NAE-37/IP-1.N37-IP1-VND-77002.BV-45,
+urn:uuid:b9f94581-c8a4-4f23-8299-f6326404679d,537,3009960,binaryValue,Analog Inputs in Manual Mode,CalIT.AH2-2A Hum.B_MARK,NAE-37/IP-1.N37-IP1-VND-77002.BV-44,
+urn:uuid:b0960822-0a6e-4b6a-89e5-f0b07ca1726d,537,3009961,binaryValue,Digital Inputs in Manual Mode,CalIT.AH2-2A Hum.ID_MARK,NAE-37/IP-1.N37-IP1-VND-77002.BV-43,
+urn:uuid:68c9e43f-025b-4173-a0ea-aeb60e5bcbfc,537,3009962,binaryValue,Local System Status,CalIT.AH2-2A Hum.SYS_ON,NAE-37/IP-1.N37-IP1-VND-77002.BV-42,
+urn:uuid:42d5046a-8475-4075-bf36-9db071470477,537,3009969,binaryValue,Fatal Alarm Detection,CalIT.AH2-2A Hum.FATAL_ALARM,NAE-37/IP-1.N37-IP1-VND-77002.BV-13,
+urn:uuid:96e0a024-de3c-4217-bcd9-d6903f21bea2,537,3009970,binaryValue,Alarm Relay Status (NO8),CalIT.AH2-2A Hum.NO8,NAE-37/IP-1.N37-IP1-VND-77002.BV-1,
+urn:uuid:90b1981c-3a33-4131-aaf3-69bdf0f04747,537,3009971,binaryValue,Reset Alarms,CalIT.AH2-2A Hum.RES_AL,NAE-37/IP-1.N37-IP1-VND-77002.BV-41,
+urn:uuid:4de9cbd9-2af4-45af-948e-f5c3920d6302,537,3009984,binaryValue,Alarm Relay Status (NO8),CalIT.AH2-2 Hum.NO8,NAE-37/IP-1.N37-IP1-VND-77001.BV-1,
+urn:uuid:0863f488-1dd9-449a-9112-c06b37dea343,537,3009985,binaryValue,Remote On/Off Switch Status (ID1),CalIT.AH2-2 Hum.DIN1,NAE-37/IP-1.N37-IP1-VND-77001.BV-4,
+urn:uuid:6e2bd76e-04bc-4754-ade3-f1992ec5f32d,537,3009986,binaryValue,Fatal Alarm Detection,CalIT.AH2-2 Hum.FATAL_ALARM,NAE-37/IP-1.N37-IP1-VND-77001.BV-13,
+urn:uuid:2ad0b0ea-be08-49b5-9de9-3725576b3ed0,537,3009987,binaryValue,Reset Alarms,CalIT.AH2-2 Hum.RES_AL,NAE-37/IP-1.N37-IP1-VND-77001.BV-41,
+urn:uuid:ae2090c2-8457-42e5-a324-18d9930e678d,537,3009988,binaryValue,Local System Status,CalIT.AH2-2 Hum.SYS_ON,NAE-37/IP-1.N37-IP1-VND-77001.BV-42,
+urn:uuid:73183a66-414c-4498-8b83-9cd40d561972,537,3009989,binaryValue,Digital Inputs in Manual Mode,CalIT.AH2-2 Hum.ID_MARK,NAE-37/IP-1.N37-IP1-VND-77001.BV-43,
+urn:uuid:f3b25758-8f91-42aa-90ff-1c950d5b9f1d,537,3009990,binaryValue,Analog Inputs in Manual Mode,CalIT.AH2-2 Hum.B_MARK,NAE-37/IP-1.N37-IP1-VND-77001.BV-44,
+urn:uuid:56afd09b-3a6a-45ed-98c1-738291c6b5fd,537,3009991,binaryValue,Digital Outputs in Manual Mode,CalIT.AH2-2 Hum.NO_MARK,NAE-37/IP-1.N37-IP1-VND-77001.BV-45,
+urn:uuid:01476a75-e5f5-4fbe-974f-f6ca40c2d1ef,537,3009992,binaryValue,Analog Outputs in Manual Mode,CalIT.AH2-2 Hum.Y_MARK,NAE-37/IP-1.N37-IP1-VND-77001.BV-46,
+urn:uuid:6dae3f70-3971-43e2-bb37-0d8db921d84f,537,3005315,program,,DA Reset,NAE-37/Programming.Air Handler Resets.AH2-1.DA Reset,
+urn:uuid:dcd32c0e-ebea-472f-bb25-d6f47b6426a8,537,3005342,program,,AH2-2 AH2-2A Failure Reset,NAE-37/Programming.Clean Room AH Swap Over Control.Programs.System2,
+urn:uuid:e18994ca-5441-4143-be10-ae5b5e35be62,537,3005362,program,,Clean Room Mode Control,NAE-37/Programming.Clean Room AH Swap Over Control.Programs.System3,
+urn:uuid:1801bc31-5530-4f97-9a8b-76df73ab367e,537,3005536,program,,Forced Cooling Signals,NAE-37/Programming.Clean Room AH Swap Over Control.Folder1.System1,
+urn:uuid:d6a7a6be-fcc0-4803-9dcc-d2cffbb5847d,537,3005762,program,,AH2-2 Run Status Determination,NAE-37/Programming.Clean Room AH Swap Over Control.Programs.System1,
+urn:uuid:8c09ccb8-ff12-4f53-9cd2-72bf941615e6,537,3006286,program,,Alarms,NAE-37/Programming.Clean Room AH Swap Over Control.Programs.System4,
+urn:uuid:7c52be81-9f29-4a65-af1e-229b37331753,537,3008807,program,,AH2-2 Zone Humidity,NAE-37/Programming.Clean Room AH Swap Over Control.Programs.AH2-2 Zone Humidity,
+urn:uuid:81ebaa92-3e3d-4355-a6ad-abb2b620a50e,537,3010002,averaging,1 Day Average,CalIT.AH2-2A Hum.SUPPLY_HUMIDITY.Averaging - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.AV-38.Averaging1,
+urn:uuid:ca92f269-f7b1-4446-963a-6b47a09d9ef5,537,3010003,averaging,1 Day Average,CalIT.AH2-2A Hum.ROOM_HUMIDITY.Averaging - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.AV-32.Averaging1,
+urn:uuid:4bf20a18-cd97-4925-bb9d-d93279d92f9e,537,3010005,averaging,,CalIT.AH2-2 Hum.SUPPLY_HUMIDITY.Averaging - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.AV-38.Averaging1,
+urn:uuid:244ff9fd-cae9-48ca-9629-3bc0f56146a8,537,3010008,averaging,,CalIT.AH2-2 Hum.ROOM_HUMIDITY.Averaging - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.AV-32.Averaging1,
+urn:uuid:fd2e1c12-93d3-42a9-b78d-d3fbe62cd612,537,3000263,multiStateValue,Include CSR In AH2-2A Status Calc,CalIT.AH2-2A.Parameters.INCLUDE-CSR,NAE-37/FCB.Local Application.INCLUDE-CSR,
+urn:uuid:04936e28-8c0f-4089-a568-c0e46a0082a6,537,3000264,multiStateValue,"1=Off, 2=AH2-2 Only,3=AH2-2A Only,4=Both",CalIT.AH2-2A.Parameters.CTRL-MODE,"NAE-37/FCB.Local Application.CTRL-MODE 1=Off, 2=AH2-2, 3=AH2",
+urn:uuid:b1036ff5-8c7f-4093-8ee8-2ec816cdefa4,537,3000265,multiStateValue,"1=Off, 2=Starting, 3=Running, 4=Failed",CalIT.AH2-2A.Parameters.AH2-2-STS,"NAE-37/FCB.Local Application.AH2-2-STATUS 1=Off, 2=Starting,",
+urn:uuid:fd7bf08d-5ab4-43db-a1c7-1cc64115e5ec,537,3000266,multiStateValue,"1=Off, 2=Starting, 3=Running, 4=Failed",CalIT.AH2-2A.Parameters.AH2-2A-STS,"NAE-37/FCB.Local Application.AH2-2A-STATUS 1=Off, 2=Starting",
+urn:uuid:f7b46e98-bb23-49b7-aaf0-1405b701b1b1,537,3000267,multiStateValue,Include Flow In AH2-2A Status Calc,CalIT.AH2-2A.Parameters.INCLUDE-FLO,NAE-37/FCB.Local Application.INCLUDE-FLO,
+urn:uuid:2020ff45-5203-457e-b6dc-4dd6cf64f65f,537,3000268,multiStateValue,Include Zone 3 In AH2-2A Avg %RH Calc,CalIT.AH2-2A.Parameters.INCLUDE-RH3,NAE-37/FCB.Local Application.INCLUDE-RH3,
+urn:uuid:bf2b0110-9e05-4772-b02c-0810b261b8b1,537,3000269,multiStateValue,Include Static In AH2-2A Status Calc,CalIT.AH2-2A.Parameters.INCLUDE-SP,NAE-37/FCB.Local Application.INCLUDE-DP,
+urn:uuid:6c3fae01-52b6-424b-a306-ccbcd3578d4a,537,3000270,multiStateValue,Include Zone 1 In AH2-2A Avg %RH Calc,CalIT.AH2-2A.Parameters.INCLUDE-RH1,NAE-37/FCB.Local Application.INCLUDE-RH1,
+urn:uuid:ccf882ba-f1f8-4577-82c5-ec794f35c772,537,3000271,multiStateValue,Include Zone 2 In AH2-2A Avg %RH Calc,CalIT.AH2-2A.Parameters.INCLUDE-RH2,NAE-37/FCB.Local Application.INCLUDE-RH2,
+urn:uuid:b10f6570-3930-4bf9-8b2b-9d6b15831a15,537,3000301,multiStateValue,Supply Fan 2-2 Start/Stop,CalIT.AH2-2A.Parameters.SF2-2-SS,NAE-37/FCB.Local Application.SF2-2-SS,
+urn:uuid:b3c3eab5-7eba-45d0-bacc-a13ace9a880d,537,3000305,multiStateValue,Supply Fan 2-2 Run Status,CalIT.AH2-2A.Parameters.SF2-2-STS,NAE-37/FCB.Local Application.SF2-2-ST,
+urn:uuid:13ccdbd5-a987-472c-94f2-42200bd7a877,537,3000307,multiStateValue,Supply Fan 2-2A Calculated Run Status,CalIT.AH2-2A.Parameters.SF2-2A-STS,NAE-37/FCB.Local Application.SF2-2A-ST,
+urn:uuid:5f0ead6c-b9a2-4a18-b801-c82361f4bc15,537,3000345,multiStateValue,Resets AH2-2 Run Failure,CalIT.AH2-2A.Parameters.RESET-AH2-2,NAE-37/FCB.Local Application.UNIT-RESET,
+urn:uuid:e1c8b7d9-fee2-42a4-970d-465b58759d17,537,3003744,multiStateValue,Air Handler Control Mode,CalIT.AH2-2A.Parameters.CTRL-MODE,NAE-37/FCB.Local Application.Control Mode,
+urn:uuid:d986e43b-6dc7-4b73-ab96-713a2a8f1355,537,3004043,multiStateValue,Resets AH2-2A Run Failure,CalIT.AH2-2A.Parameters.RESET-AH2-2A,NAE-37/FCB.Local Application.RESET AH2-2A,
+urn:uuid:adfd1b74-b963-448a-9dd6-5b4152ae5df2,537,3009843,multiStateValue,State,AHU-STATE,NAE-37/FCB.Local Application.AHU-STATE,
+urn:uuid:c7cf5b04-610a-4cfe-925e-f5564553ed7e,537,3009844,multiStateValue,,PRAC Status,NAE-37/FCB.Local Application.MV-13036,
+urn:uuid:21ec56fe-493c-4f26-868a-3189f247ac66,537,3000005,trendLog,,Memory Usage Trend Log,NAE-37/Memory Usage Trend Log,
+urn:uuid:355cd14d-5da9-458a-bee4-15d44da3edc7,537,3000137,trendLog,,Present Value,NAE-37/Programming.Clean Room AH Swap Over Control.AH2-2 Speed Override Command.Trend1,
+urn:uuid:e04b2966-3e2b-4fd8-9749-d09bca1141c7,537,3000140,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.DA-T.Trend1,
+urn:uuid:a2be7db7-b3fb-4d36-8a46-aedf7e2361f9,537,3000143,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.CCDA-T.Trend1,
+urn:uuid:d13420aa-7a0c-4fdd-9ec7-1c5bc6ded4aa,537,3000146,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.HTG-VLV.Trend1,
+urn:uuid:7dcf4c81-7672-46b9-b74c-b91818bb2392,537,3000148,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.PHTG-VLV.Trend1,
+urn:uuid:11f37743-4375-4b61-98e4-c36f87e18d92,537,3000150,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.CLG-VLV.Trend1,
+urn:uuid:a4f323ca-bf9f-4294-8c10-1f508054a2d3,537,3000152,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.DAT-SP.Trend1,
+urn:uuid:a0d66524-d0f4-4a24-b9f6-dbf60d4f0fc0,537,3000154,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.DWPTPIDO.Trend1,
+urn:uuid:dd30d06b-96a1-4b64-8237-984ef30fc6c2,537,3000156,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.HUMPID-O.Trend1,
+urn:uuid:972d79e2-3202-452f-b071-b0bfa2208953,537,3000158,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.AVG-ZHUM.Trend1,
+urn:uuid:1f2bdc21-b117-4779-ba86-2a3148a0a827,537,3000160,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.SA-DWPT.Trend1,
+urn:uuid:481d953e-5eab-4a18-b072-0a703ebd7675,537,3000162,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.SF-SPD.Trend1,
+urn:uuid:b3a973f5-6b28-4947-8110-83f4bdb4e625,537,3000164,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.SASP-SP.Trend1,
+urn:uuid:fce4fee9-f788-4edc-8483-feee36873dfb,537,3000166,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.HUM-CMD.Trend1,
+urn:uuid:4f2cdddb-0181-4dab-9ca1-8cd4d3af0b4a,537,3000168,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.ACT-HSP.Trend1,
+urn:uuid:86b12969-6337-491a-9d3b-a5715cfeeafc,537,3000170,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.ACT-CSP.Trend1,
+urn:uuid:609b7df2-eb0a-4abe-b06a-c84fbd3b3679,537,3000173,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.SF-STS.Trend1,
+urn:uuid:3d46151c-edab-4675-b50f-de512e67d6cc,537,3000183,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.NO-MODE.Trend1,
+urn:uuid:43d226eb-2f75-43fb-a4ca-6a6d84a932fc,537,3000185,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.HUM-ENA.Trend1,
+urn:uuid:b1078f93-25ee-4019-a1ee-80caf5874da0,537,3000192,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.PHCDA-T.Trend1,
+urn:uuid:f6412976-ed62-44f2-b83d-862243e7ac96,537,3000194,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.SA-HUM.Trend1,
+urn:uuid:116a925f-076c-40e5-9083-7648daf7e6b7,537,3000196,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.SA-SP.Trend1,
+urn:uuid:80cd184e-e03e-4b03-83fe-286ef3cb6269,537,3000199,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.CHWR-T.Trend1,
+urn:uuid:5fe6357f-ebd8-44ef-a7bd-e12662c53f88,537,3000201,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.ZN1-HUM.Trend1,
+urn:uuid:fda2f646-8597-4fe0-bfb6-0eae827c04af,537,3000204,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.ZN2-HUM.Trend1,
+urn:uuid:5f3d5086-6b96-4e77-bd0b-0a8d34b16423,537,3000207,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.ZN3-HUM.Trend1,
+urn:uuid:d4ed1e7b-eed2-4500-86ee-e9894f905f52,537,3000230,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.SFovdENA.Trend1,
+urn:uuid:f6c9c49d-46e5-4047-9527-b83530104527,537,3000232,trendLog,,Present Value,NAE-37/N2 Trunk 1.DX-039.SPD-OVD.Trend1,
+urn:uuid:d7a3a67b-a7ce-49b7-aba9-ad8f66bf5f11,537,3005263,trendLog,,Present Value,NAE-37/N2 Trunk 1.AHU-024.DA-T.Trend1,
+urn:uuid:3fc302cf-209d-4c0e-86a3-429bb2341d7b,537,3005265,trendLog,,Present Value,NAE-37/N2 Trunk 1.AHU-024.S-SP.Trend1,
+urn:uuid:7bcd1eea-6ceb-47ba-822a-d5cb7df34b05,537,3005268,trendLog,,Present Value,NAE-37/N2 Trunk 1.AHU-024.CHWR-T.Trend1,
+urn:uuid:10b2e412-827d-459f-9ec5-38312784345c,537,3005270,trendLog,,Present Value,NAE-37/N2 Trunk 1.AHU-024.DA-SP.Trend1,
+urn:uuid:9eeefc12-bec0-4b25-a8b4-28c00589c0f2,537,3005272,trendLog,,Present Value,NAE-37/N2 Trunk 1.AHU-024.CLG-VLV.Trend1,
+urn:uuid:82e81fae-0e2d-4ebc-a919-1bd436ae6c89,537,3005274,trendLog,,Present Value,NAE-37/N2 Trunk 1.AHU-024.HTG-VLV.Trend1,
+urn:uuid:cc1dabf2-9ee0-4400-bcaa-db2b5e917894,537,3005276,trendLog,,Present Value,NAE-37/N2 Trunk 1.AHU-024.SF-O.Trend1,
+urn:uuid:ef6d031d-2260-410f-8d90-1e079e35630b,537,3005281,trendLog,,Trend Log,NAE-37/N2 Trunk 1.AHU-024.SP-SP.Trend,
+urn:uuid:5df5a764-29fd-4aa5-b0c3-06026d648f59,537,3005287,trendLog,,Present Value,NAE-37/N2 Trunk 1.AHU-024.SF-S.Trend1,
+urn:uuid:73388065-1cd5-4d90-914a-06bc94a7aa69,537,3006200,trendLog,,OTTERSON.AH2ASF-VFD.FREQ.Present Value,NAE-37/N2 Trunk 1.VND-11.FREQ.Trend1,
+urn:uuid:7ba1f745-3185-40fc-9408-c85af20259e6,537,3006206,trendLog,,OTTERSON.AH2ASF-VFD.POWER.Present Value,NAE-37/N2 Trunk 1.VND-11.POWER.Trend1,
+urn:uuid:78ab08d9-6569-45b2-99f1-aa9c11f92b4b,537,3006208,trendLog,,OTTERSON.AH2ASF-VFD.DRV-TEMP.Present Value,NAE-37/N2 Trunk 1.VND-11.DRV-TEMP.Trend1,
+urn:uuid:1026e1a4-f555-49b7-9759-0dba053acf65,537,3006210,trendLog,,OTTERSON.AH2ASF-VFD.K-ENERGY.Present Value,NAE-37/N2 Trunk 1.VND-11.K-ENERGY.Trend1,
+urn:uuid:6caf0261-042a-4530-8697-cf372e1682fd,537,3006212,trendLog,,OTTERSON.AH2ASF-VFD.M-ENERGY.Present Value,NAE-37/N2 Trunk 1.VND-11.M-ENERGY.Trend1,
+urn:uuid:1f2e48ea-6e46-4218-a8d9-7921d14cb61a,537,3006216,trendLog,,OTTERSON.AH2ASF-VFD.VOLTAGE.Present Value,NAE-37/N2 Trunk 1.VND-11.VOLTAGE.Trend1,
+urn:uuid:451be1ab-3fd7-47c3-bcc8-921eb5abe0be,537,3006236,trendLog,,OTTERSON.AH2ASF-VFD.FREQ.Present Value,NAE-37/N2 Trunk 1.VND-12.FREQ.Trend1,
+urn:uuid:0f1d9038-01a3-40e2-be1b-c9c88c765050,537,3006242,trendLog,,OTTERSON.AH2ASF-VFD.POWER.Present Value,NAE-37/N2 Trunk 1.VND-12.POWER.Trend1,
+urn:uuid:ab13ac45-4242-4380-965b-86ae41024290,537,3006244,trendLog,,OTTERSON.AH2ASF-VFD.DRV-TEMP.Present Value,NAE-37/N2 Trunk 1.VND-12.DRV-TEMP.Trend1,
+urn:uuid:c48fa9bc-79e1-41c1-9d7e-636a758af872,537,3006246,trendLog,,OTTERSON.AH2ASF-VFD.K-ENERGY.Present Value,NAE-37/N2 Trunk 1.VND-12.K-ENERGY.Trend1,
+urn:uuid:3f0f545a-274d-4ae5-9731-ddf25c11bc3d,537,3006248,trendLog,,OTTERSON.AH2ASF-VFD.M-ENERGY.Present Value,NAE-37/N2 Trunk 1.VND-12.M-ENERGY.Trend1,
+urn:uuid:9a067ca9-8976-475a-aad0-40db581f7c4f,537,3006252,trendLog,,OTTERSON.AH2ASF-VFD.VOLTAGE.Present Value,NAE-37/N2 Trunk 1.VND-12.VOLTAGE.Trend1,
+urn:uuid:d85e800e-e5b5-40c9-a750-ecf6967eec28,537,3006399,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.Control Mode.Trend1,
+urn:uuid:618eebec-fb22-4ff3-9f30-1cd302c71cd6,537,3006400,trendLog,,Trend - Present Value,"NAE-37/FCB.Local Application.CTRL-MODE 1=Off, 2=AH2-2, 3=AH2.Trend1",
+urn:uuid:88af8112-1c83-4b80-92a4-3ff1e8f70256,537,3006401,trendLog,,Trend - Present Value,"NAE-37/FCB.Local Application.AH2-2-STATUS 1=Off, 2=Starting,.Trend1",
+urn:uuid:0f6df49e-8279-4ee7-a4f1-c3fd68160caa,537,3006402,trendLog,,Trend - Present Value,"NAE-37/FCB.Local Application.AH2-2A-STATUS 1=Off, 2=Starting.Trend1",
+urn:uuid:a88e9056-6fec-45cd-8c74-188191936eee,537,3006403,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DAP-SP-MODE-3.Trend1,
+urn:uuid:88863e79-9c17-4133-a691-e4ea7809bd23,537,3006404,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SF2-2 SA-SP.Trend1,
+urn:uuid:629856b8-52be-4f5a-ae43-7509929a3368,537,3006406,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.EFFECTIVE-DAP-SP.Trend1,
+urn:uuid:c1ff55df-3982-4f82-b50e-2d35155002c4,537,3006407,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DAP-SP-MODE-2.Trend1,
+urn:uuid:2e0098da-e92d-4fe0-8419-7701a4129964,537,3006408,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DPR-MODE.Trend1,
+urn:uuid:4e583037-94aa-4b7b-8eab-09b935700386,537,3006409,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DEHUM-SP.Trend1,
+urn:uuid:995657cd-2315-4186-b7e9-96b4cb860712,537,3006410,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DAH-SP.Trend1,
+urn:uuid:d8a67856-c7b4-42a1-9b65-c9814463d8fd,537,3006411,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.EFFDAT-SP.Trend1,
+urn:uuid:53173c63-0cc9-4b68-84ac-8c220fb18fee,537,3006412,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DAT-SP.Trend1,
+urn:uuid:0b94cf9e-bff1-4648-ada3-b2f73cfbd5dd,537,3006413,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DAP-SP.Trend1,
+urn:uuid:949c1df8-7618-4846-afbf-06fb1c696c4e,537,3006414,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR2-CMD.Trend1,
+urn:uuid:7bf13572-c57d-4fc1-8bdb-856b1745588c,537,3006415,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR3-CMD.Trend1,
+urn:uuid:a2628aca-b2cd-472d-ba44-f978c204f7e7,537,3006416,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR4-CMD.Trend1,
+urn:uuid:a22951e0-7a2b-48a0-a824-761deb27d84b,537,3006417,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR5-CMD.Trend1,
+urn:uuid:acb1ab57-ff12-4395-903a-1239540d11e4,537,3006418,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR6-CMD.Trend1,
+urn:uuid:f1f70dab-5af5-4a07-b9ce-bbe364e8fa09,537,3006419,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR7-CMD.Trend1,
+urn:uuid:24ccb894-ad3b-4058-a55a-9215578b726a,537,3006420,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR8-CMD.Trend1,
+urn:uuid:1644aaad-b5ae-4fe5-bb9c-4b6e8903719e,537,3006421,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR9-CMD.Trend1,
+urn:uuid:cebeba5f-8219-4498-85cb-34f4c429b5ac,537,3006422,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.HUM-ENA.Trend1,
+urn:uuid:6d2bda75-ae22-4335-9ca4-8a61740ec8bd,537,3006423,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SF-SS.Trend1,
+urn:uuid:c03e7701-bbe3-4a79-907a-fcf481cab336,537,3006424,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR2-CL.Trend1,
+urn:uuid:c6e88eef-c4a1-48c4-bf24-8febfbf9aa32,537,3006425,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR3-CL.Trend1,
+urn:uuid:5d4b4e1b-5912-4c7b-9de2-fc1622c50c69,537,3006426,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR4-CL.Trend1,
+urn:uuid:5e9ed17a-cb98-4f01-9e3e-6ff829fc7eb0,537,3006427,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR5-CL.Trend1,
+urn:uuid:77b3fd32-0fc8-4204-bd9f-34eaacf688ed,537,3006428,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR6-CL.Trend1,
+urn:uuid:b9516358-665d-4422-b0d6-b7473db85981,537,3006429,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR7-CL.Trend1,
+urn:uuid:286e1884-51f0-4898-921c-593765ce956a,537,3006430,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR8-CL.Trend1,
+urn:uuid:1949bb2e-4add-414d-ae96-e88a8c6f8091,537,3006431,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR9-CL.Trend1,
+urn:uuid:f5e76155-3dba-4089-8a26-30b016ee46a9,537,3006432,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR7-OP.Trend1,
+urn:uuid:e43b9bdc-04df-4d7b-b881-2229ea0cc7ec,537,3006433,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR9-OP.Trend1,
+urn:uuid:d7b286a3-fa79-43f4-ae6d-d35b2694b46b,537,3006434,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR8-OP.Trend1,
+urn:uuid:77e0284a-df3f-48c3-a651-8c90786dda8b,537,3006435,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.PHX-1.Trend1,
+urn:uuid:68f163fb-4785-436e-ae0d-e541503981a2,537,3006436,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.PHX-2.Trend1,
+urn:uuid:ad3b998b-17cd-49c8-b022-e01c9f0c3d92,537,3006437,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR5-OP.Trend1,
+urn:uuid:fc30a4b1-d7b1-4d7e-b1b7-3d486b5b6fd3,537,3006438,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR3-OP.Trend1,
+urn:uuid:21d5923b-7702-472d-9d8c-693c8956c32d,537,3006439,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR6-OP.Trend1,
+urn:uuid:f7119ff3-668a-4345-aa46-fd6ff60d4856,537,3006440,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR4-OP.Trend1,
+urn:uuid:36a06d8b-7b45-4fd5-8789-2ee23a56017f,537,3006441,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.CHWR-T.Trend1,
+urn:uuid:0ccb2ff8-d255-4834-82c7-5831d9874554,537,3006442,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SF2-2A-ST.Trend1,
+urn:uuid:ed7a847f-df68-4b69-bdf4-6ae4672166f3,537,3006443,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.CLGVLV-CMD.Trend1,
+urn:uuid:5399e3e4-a1a6-4d11-b9cf-363e1aed64ff,537,3006444,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.HUM-CMD.Trend1,
+urn:uuid:e637503b-535a-4896-9f22-51b165293ef1,537,3006445,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.HTGVLV-CMD.Trend1,
+urn:uuid:4dc9a47a-8aa9-4d81-9eb4-b51cd55a7ccd,537,3006446,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SFVFD-CMD.Trend1,
+urn:uuid:4fb2eeaa-3e15-4d55-a34e-08c64f1a94b7,537,3006447,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SA-HL.Trend1,
+urn:uuid:bc965d9a-4e92-44bc-b6c7-910aa832931a,537,3006448,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SA-SP.Trend1,
+urn:uuid:53c71968-0939-46cc-ba0b-f8cfaea7c10f,537,3006449,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SA-RH.Trend1,
+urn:uuid:6b8f54ff-8416-491c-9715-6ba37f8fb558,537,3006450,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.CCDA-T.Trend1,
+urn:uuid:3a24429f-119e-4d3a-806a-97511555c504,537,3006451,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DMPR2-OP.Trend1,
+urn:uuid:657cfb7e-86eb-462b-8dec-92cb6ea6c06d,537,3007522,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.ZN-HUM3.Trend1,
+urn:uuid:0fdb3c28-b21c-4b4c-b4c3-e83e8a2118fb,537,3007523,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.ZN-HUM2.Trend1,
+urn:uuid:3964b757-74de-450a-85ac-d03ab9987e13,537,3007584,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SF-CSR.Trend1,
+urn:uuid:d6f61db8-08d8-4be6-9f8d-6cc0127e86dd,537,3007585,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SF1-STS.Trend1,
+urn:uuid:2ea3019f-6941-40d5-839b-b95ef6bee1cd,537,3007586,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SF2-STS.Trend1,
+urn:uuid:c77aef27-e983-4c83-afff-1ded1ec2a82a,537,3007587,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SF3-STS.Trend1,
+urn:uuid:fb5d0577-5295-4e7b-88c0-57ac415f9115,537,3007588,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SF4-STS.Trend1,
+urn:uuid:2664a14a-bb06-4e64-a7f2-f5a628402846,537,3007589,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.FLOW-STS.Trend1,
+urn:uuid:a459cfa0-28b6-46f8-8413-c637d241ad88,537,3007590,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SF-SPD-1.Trend1,
+urn:uuid:f03a06a3-7ab3-4feb-ac54-222a553a48b2,537,3007591,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SFVFD-ALM.Trend1,
+urn:uuid:16278c78-789d-4122-ab1f-637f15261961,537,3007592,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DA-T.Trend1,
+urn:uuid:60c51f6e-8859-473c-918f-725b2a91b0e0,537,3007593,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.HUM-ALM.Trend1,
+urn:uuid:566ab580-8ed7-400c-b20e-483fe7be2a6e,537,3007594,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SA-SD.Trend1,
+urn:uuid:a70dfa5e-5e69-4ef1-8c18-e6ade8e42e33,537,3007595,trendLog,,Trend - Present Value,NAE-37/N2 Trunk 1.AHU-024.VFD-IRLK.Trend1,
+urn:uuid:b6e19f1e-31ba-45f5-9707-8e69dc512a6c,537,3007596,trendLog,,Trend - Present Value,NAE-37/N2 Trunk 1.DX-039.SA-HL.Trend1,
+urn:uuid:89cc9264-4c9c-449f-8c81-97cc167e21d5,537,3007597,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SF2-2-FAIL.Trend1,
+urn:uuid:6902f022-03eb-483f-b0db-e7c6602a3800,537,3007598,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SF2-2A-FAIL.Trend1,
+urn:uuid:1dd670cb-eb50-448e-a325-48f9aeafa05c,537,3007599,trendLog,,Trend - Present Value,NAE-37/N2 Trunk 1.DX-039.FLOW-STS.Trend1,
+urn:uuid:30f8ca1b-c17a-4c1b-a2f2-51bbc14951ed,537,3007606,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.ZN-HUM1.Trend1,
+urn:uuid:704c8676-eedd-4aa2-bf8e-2d2d031cc8ef,537,3009770,trendLog,,Trend - 1 min,NAE-37/FCB.Local Application.CLGVLV-CMD.Trend2,
+urn:uuid:770c09f5-311b-4283-9226-090cdd31f8cd,537,3009771,trendLog,,Trend - 1 min,NAE-37/FCB.Local Application.HTGVLV-CMD.Trend2,
+urn:uuid:15118946-69ac-4062-bbd3-156c7b6f205e,537,3009772,trendLog,,Trend - 1 Min,NAE-37/FCB.Local Application.DA-T.Trend2,
+urn:uuid:6de5a577-ac6f-4cc5-aa00-d4640f9e71e0,537,3009773,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.CCDA-T.Trend2,
+urn:uuid:7f97805b-87d1-4f99-a18c-a23bbf9787b2,537,3009774,trendLog,,Trend - 1 min,NAE-37/FCB.Local Application.HUM-CMD.Trend2,
+urn:uuid:a9aa6457-9bbf-4186-accc-a8195d4593e2,537,3009775,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.SA-RH.Trend2,
+urn:uuid:eb28f8b5-7896-4135-937b-613933e4977e,537,3009830,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.Avg Rm Hum.Trend1,
+urn:uuid:dc1b6af9-7388-45e2-b4d1-59c0067cd1a7,537,3009834,trendLog,,Event Rate Trend Log,NAE-37/Event Rate Trend Log,
+urn:uuid:1b91f42f-ed18-40e6-8bb5-626dfe296d03,537,3009846,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.AV-13007.Trend1,
+urn:uuid:065bb16e-53ec-48ee-8f08-d2bf3b5a813c,537,3009847,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.MV-13036.Trend1,
+urn:uuid:e746523d-fb61-45e7-9fa5-4b15461a89fe,537,3009848,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.AV-13009.Trend1,
+urn:uuid:9aa2e1ec-c22e-440a-819a-30cd36e1d2e0,537,3009855,trendLog,,Trend - Present Value 1 MIN,NAE-37/Programming.AV1.Trend1,
+urn:uuid:880923ba-9ace-4ea5-af02-33cdb759cbe6,537,3009856,trendLog,,Trend - Present Value,NAE-37/Programming.AV1.Trend2,
+urn:uuid:2c612bf7-085b-47c3-9004-6bf95c253aee,537,3009866,trendLog,,Trend - Present Value,NAE-37/FCB.Local Application.DA-T2.Trend1,
+urn:uuid:f2587b84-d8bf-4cfa-a0f2-fd52f8b6e4fe,537,3009994,trendLog,,CalIT.AH2-2A Hum.NO8.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.BV-1.Trend1,
+urn:uuid:1adfa517-518d-43a8-ba20-475ed4c64671,537,3009996,trendLog,,CalIT.AH2-2A Hum.FATAL_ALARM.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.BV-13.Trend1,
+urn:uuid:4998c7c3-0b4c-4ffd-b8bf-fdee953992e4,537,3009998,trendLog,,CalIT.AH2-2A Hum.RES_AL.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.BV-41.Trend1,
+urn:uuid:b6bb2942-e98d-429a-8260-5045c584b37c,537,3009999,trendLog,,CalIT.AH2-2A Hum.DDC_SIGNAL.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.AV-3.Trend1,
+urn:uuid:f21c8406-7b61-4441-a802-129e62d4aeb4,537,3010000,trendLog,,CalIT.AH2-2A Hum.HUM_RAMP.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.AV-4.Trend1,
+urn:uuid:2f248612-4b67-4f31-8b4f-fd0bfadf8cdb,537,3010001,trendLog,,CalIT.AH2-2A Hum.SUPPLY_HUMIDITY.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.AV-38.Trend1,
+urn:uuid:455148c0-ceeb-46e4-b2bc-526cbbe59767,537,3010004,trendLog,,CalIT.AH2-2A Hum.ROOM_HUMIDITY.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.AV-32.Trend1,
+urn:uuid:5a4b9e03-adfb-422a-9935-789d7b4508ee,537,3010006,trendLog,,CalIT.AH2-2 Hum.SUPPLY_HUMIDITY.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.AV-38.Trend1,
+urn:uuid:7dc13317-277f-47e2-88ea-6c32ff7d5045,537,3010007,trendLog,,CalIT.AH2-2 Hum.ROOM_HUMIDITY.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.AV-32.Trend1,
+urn:uuid:91b87812-077a-4c8e-bd24-86b3d5ff612c,537,3010009,trendLog,,CalIT.AH2-2A Hum.ROOM_BAND.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.AV-30.Trend1,
+urn:uuid:e1a2658c-4ce3-473c-a2c4-f2619df3e624,537,3010010,trendLog,,CalIT.AH2-2A Hum.ROOM_SET_KB.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.AV-34.Trend1,
+urn:uuid:baa27362-cfea-4b3d-9e41-ba3de1033fb4,537,3010011,trendLog,,CalIT.AH2-2A Hum.ROOM_HI_SET.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.AV-31.Trend1,
+urn:uuid:781d5ec8-14e9-4068-8e32-38b3c2a3a4b0,537,3010012,trendLog,,Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.AV-33.Trend1,
+urn:uuid:c1f305f7-19de-416f-8189-aefc2d1b252a,537,3010013,trendLog,,CalIT.AH2-2A Hum.SUPHUM_HI_SET.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.AV-35.Trend1,
+urn:uuid:cf18496e-e0df-4fc9-bb4f-1b60840a7586,537,3010014,trendLog,,CalIT.AH2-2A Hum.SUPHUM_LO_SET.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.AV-36.Trend1,
+urn:uuid:ac5a9b01-0c1f-4319-9d54-63fd1173b819,537,3010015,trendLog,,CalIT.AH2-2A Hum.DIN1.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.BV-4.Trend1,
+urn:uuid:a7fc6d75-d4e1-4f81-ba2e-c6dfe6c32833,537,3010016,trendLog,,CalIT.AH2-2A Hum.SYS_ON.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.BV-42.Trend1,
+urn:uuid:0e3d01de-9069-46f5-93ab-fa1bfe03464f,537,3010017,trendLog,,CalIT.AH2-2A Hum.ID_MARK.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.BV-43.Trend1,
+urn:uuid:4efae412-1f70-435e-ab4f-876cddd02015,537,3010018,trendLog,,CalIT.AH2-2A Hum.B_MARK.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.BV-44.Trend1,
+urn:uuid:84535d30-5501-4b84-b7c1-b5d51da3399b,537,3010019,trendLog,,CalIT.AH2-2A Hum.NO_MARK.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.BV-45.Trend1,
+urn:uuid:c1c55d0f-2059-4ecf-8017-b91773a32837,537,3010020,trendLog,,CalIT.AH2-2A Hum.Y_MARK.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77002.BV-46.Trend1,
+urn:uuid:bad7c9e2-dbd0-47da-9e3a-bb25a091bd05,537,3010021,trendLog,,CalIT.AH2-2 Hum.NO8.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.BV-1.Trend1,
+urn:uuid:3cb86af8-3dae-4835-ad02-5a21895e41d4,537,3010024,trendLog,,CalIT.AH2-2 Hum.FATAL_ALARM.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.BV-13.Trend1,
+urn:uuid:6fb350bc-5b14-4ca9-9170-aaf242ca58a9,537,3010025,trendLog,,CalIT.AH2-2 Hum.RES_AL.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.BV-41.Trend1,
+urn:uuid:2252be96-9310-4aeb-b0c4-566cb941a0bc,537,3010026,trendLog,,Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.AV-3.Trend1,
+urn:uuid:d2be34cb-bd58-4837-b26e-f9636a83de80,537,3010027,trendLog,,CalIT.AH2-2 Hum.HUM_RAMP.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.AV-4.Trend1,
+urn:uuid:a54a40e5-d22e-4a32-9a45-eb20616a8608,537,3010028,trendLog,,CalIT.AH2-2 Hum.ROOM_BAND.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.AV-30.Trend1,
+urn:uuid:9726383a-034e-4cc4-9e43-b25ff3bd354c,537,3010029,trendLog,,CalIT.AH2-2 Hum.ROOM_SET_KB.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.AV-34.Trend1,
+urn:uuid:ee689892-f60f-4a34-beab-1bdb1ad5db79,537,3010030,trendLog,,CalIT.AH2-2 Hum.ROOM_HI_SET.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.AV-31.Trend1,
+urn:uuid:31df82be-3941-4f42-aa45-f4096e7b1334,537,3010034,trendLog,,CalIT.AH2-2 Hum.ROOM_LO_SET.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.AV-33.Trend1,
+urn:uuid:fa344d21-a53c-4e3d-89ab-a279e0b617a7,537,3010035,trendLog,,CalIT.AH2-2 Hum.SUPHUM_HI_SET.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.AV-35.Trend1,
+urn:uuid:433f5df5-e346-4235-b632-c4c4672cdff0,537,3010036,trendLog,,CalIT.AH2-2 Hum.SUPHUM_LO_SET.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.AV-36.Trend1,
+urn:uuid:dfa6c1e6-9bb2-4ad0-a41a-4e8b9c55949e,537,3010037,trendLog,,CalIT.AH2-2 Hum.DIN1.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.BV-4.Trend1,
+urn:uuid:394bb36b-eae4-4315-8a25-f77fc31c80ee,537,3010038,trendLog,,CalIT.AH2-2 Hum.SYS_ON.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.BV-42.Trend1,
+urn:uuid:9856f6be-f369-439f-8008-042a56569a92,537,3010039,trendLog,,CalIT.AH2-2 Hum.ID_MARK.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.BV-43.Trend1,
+urn:uuid:8087f773-dc3b-45cf-ab83-b1323da49898,537,3010040,trendLog,,CalIT.AH2-2 Hum.B_MARK.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.BV-44.Trend1,
+urn:uuid:923930f1-9bc9-4ad9-a48a-464b412fed8c,537,3010041,trendLog,,CalIT.AH2-2 Hum.NO_MARK.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.BV-45.Trend1,
+urn:uuid:d44bbb2b-77ec-4cff-9731-59ccd58fc7f2,537,3010042,trendLog,,CalIT.AH2-2 Hum.Y_MARK.Trend - Present Value,NAE-37/IP-1.N37-IP1-VND-77001.BV-46.Trend1,
+urn:uuid:36acb4c4-9564-419c-be87-b5d3984277e0,537,3010050,trendLog,,Trend - Present Value,NAE-37/N2 Trunk 1.AHU-024.DA-T.Trend2,
+urn:uuid:56fc989c-2dd9-4022-9024-6c79b1f71f38,537,3010051,trendLog,,Trend - Present Value,NAE-37/N2 Trunk 1.AHU-024.S-SP.Trend2,
+urn:uuid:15c26c85-b34c-4389-b668-4481d94287a4,537,3010052,trendLog,,Trend - Present Value,NAE-37/N2 Trunk 1.AHU-024.CHWR-T.Trend2,
+urn:uuid:c9ca4780-610a-4d54-a16d-9aabdf55c755,537,3010053,trendLog,,Trend - Present Value,NAE-37/N2 Trunk 1.AHU-024.DA-SP.Trend2,
+urn:uuid:cd7a2287-7163-4ebf-b286-f0aa7b337934,537,3010054,trendLog,,Trend - Present Value,NAE-37/N2 Trunk 1.AHU-024.CLG-VLV.Trend2,
+urn:uuid:c8779027-99b8-4562-82eb-3f010c9d4de0,537,3010055,trendLog,,Trend - Present Value,NAE-37/N2 Trunk 1.AHU-024.HTG-VLV.Trend2,
+urn:uuid:50888ea8-caa8-40ce-a29d-ad793a462a99,537,3010056,trendLog,,Trend - Present Value,NAE-37/N2 Trunk 1.AHU-024.SF-O.Trend2,
+urn:uuid:1debc5c7-f385-4b44-9559-9241bcc46d53,537,3010057,trendLog,,Trend - Present Value,NAE-37/N2 Trunk 1.AHU-024.SF-S.Trend2,
+urn:uuid:d80abcf3-e098-4f65-848f-11f9a2d7050f,537,3010058,trendLog,,Trend - Present Value,NAE-37/N2 Trunk 1.AHU-024.SF-C.Trend1,
+urn:uuid:3c0e1445-a306-43e6-9507-9e68a106b4ce,537,3010580,trendLog,,Event Lost Trend Log,NAE-37/Event Lost Trend Log,

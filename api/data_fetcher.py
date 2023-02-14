@@ -21,7 +21,6 @@ class DataFetcher:
         config (ConfigFileparser): Config file parser Instance
         psql_conn (): Postgres connection
         psql_cur (): Postgres cursor
-        uuids (Dict): dict of uuids
     """
     def __init__(self,
         config: ConfigFileparser,
@@ -29,8 +28,16 @@ class DataFetcher:
         psql_cur
     ) -> None:
         self.config = config
+        self.logger = config.logger
         self.psql_conn,self.psql_cur = psql_conn, psql_cur
-        self.uuids = {}
+
+    def check_table_exists(self,table_name):
+        query = "select exists(select * from information_schema.tables where table_name='%s')"%(table_name)
+        self.psql_cur.execute(query)
+        rows = self.psql_cur.fetchone()
+        if rows[0] is True:
+            return True
+        return False
 
     def fetch_data(self,query: str)->List[Tuple]:
         """ fetches data from database
@@ -45,67 +52,73 @@ class DataFetcher:
         rows = self.psql_cur.fetchall()
         return rows
 
-    def fetch_data_between_interval(self,uuid: str, start_time: str, end_time: str)->List[Tuple]:
-        """Fetches data between a time interval for a given uuid
+    def fetch_data_between_interval(self,table_name: str, start_time: str, end_time: str)->List[Tuple]:
+        """Fetches data between a time interval for a given table_name
 
         Args:
-            uuid (str): Unique ID
+            table_name (str): Unique ID
             start_time (str): start time
             end_time (str): end time
 
         Returns:
             List[Tuple]: data fetched between interval
         """
-        query = "select time,number from %s where uuid::text = '%s' and \
-                    time between '%s' and '%s'"%(self.config.db_table, uuid, start_time, end_time)
+        if not self.check_table_exists(table_name):
+            return None
+        query = "select time,number from %s where time between '%s' and '%s' order by time desc"%(table_name, start_time, end_time)
+        self.logger.debug('%s',query)
         data = self.fetch_data(query)
         return data
 
-    def fetch_latest_data(self,uuid: str, limit : int = 100)->List[Tuple]:
+    def fetch_latest_data(self,table_name: str, limit : int = 100)->List[Tuple]:
         """Fetches latest data with limit
 
         Args:
-            uuid (str): Unique ID
+            table_name (str): Unique ID
             limit (int, optional): Number of latest lines. Defaults to 10.
 
         Returns:
             List[Tuple]: latest data fetched
         """
-        query = "select time,number from %s where uuid::text = '%s' limit %s"%(self.config.db_table, uuid, limit)
+        if not self.check_table_exists(table_name):
+            return None
+        query = "select time,number from %s limit %s"%(table_name, limit)
+        self.logger.debug('%s',query)
         data = self.fetch_data(query)
         return data
 
-    def fetch_latest_entry(self,uuid: str)->List[Tuple]:
-        """Fetches latest entry of an uuid
+    def fetch_latest_entry(self,table_name: str)->List[Tuple]:
+        """Fetches latest entry of an table_name
 
         Args:
-            uuid (str): Unique ID
+            table_name (str): Unique ID
 
         Returns:
             List[Tuple]: latest entry
         """
-        query = "select time,number from %s where uuid::text = '%s' order by time desc limit 1"%(self.config.db_table, uuid)
-        print(query)
+        if not self.check_table_exists(table_name):
+            return None
+        query = "select time,number from %s order by time desc limit 1"%(table_name)
         data = self.fetch_data(query)
         if len(data)>0:
             return data[0][0]
         else:
             return None
 
-    def fetch_first_entry(self,uuid: str)->List[Tuple]:
-        """Fetches initial entry of an uuid
+    def fetch_first_entry(self,table_name: str)->List[Tuple]:
+        """Fetches initial entry of an table_name
 
         Args:
-            uuid (str): Unique ID
+            table_name (str): Unique ID
 
         Returns:
             List[Tuple]: latest entry
         """
-        query = "select time,number from %s where uuid::text = '%s' order by time asc limit 1"%(self.config.db_table, uuid)
-        print(query)
+        if not self.check_table_exists(table_name):
+            return None
+        query = "select time,number from %s order by time asc limit 1"%(table_name)
         data = self.fetch_data(query)
         if len(data)>0:
             return data[0][0]
         else:
             return None
-

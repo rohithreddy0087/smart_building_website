@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import { default as ReactSelect } from "react-select";
 import { components } from "react-select";
+import CircularProgress from "@mui/material/CircularProgress";
 
 import MenuItem from '@mui/material/MenuItem';
 import dayjs from 'dayjs';
@@ -42,21 +43,24 @@ class Web extends Component {
     this.handleFromChange = this.handleFromChange.bind(this)
     this.handleToChange = this.handleToChange.bind(this)
     this.handleLineChange = this.handleLineChange.bind(this)
+    this.handleFileTypeChange = this.handleFileTypeChange.bind(this)
     this.handleOptionChange = this.handleOptionChange.bind(this)
     this.Form = this.Form.bind(this)
     this.Dropdown = this.Dropdown.bind(this)
     this.allTrue = this.allTrue.bind(this)
     this.AlertItem = this.AlertItem.bind(this)
     this.download = this.download.bind(this)
+    this.getData = this.getData.bind(this)
     // this.Option = this.Option.bind(this)
     this.state = {
-        usermail : '',
-        password : '',
+        usermail : 'rrachala@ucsd.edu',
+        password : '12345678',
         buildingName : '',
         fromValue : dayjs('2020-08-21T00:00:00'),
-        toValue : dayjs('2021-04-18T00:00:00'),
+        toValue : dayjs('2020-08-21T01:00:00'),
         lineValue : '100',
         optionSelected: null,
+        filetype: 'csv',
         response:''
     };
     console.log(buildingData)
@@ -87,8 +91,21 @@ class Web extends Component {
     this.errors = {
       buildingName : false,
       features : false,
+      fromValue : false,
+      toValue : false,
       proxy:true
     };  
+
+    this.filetypes = [
+      {
+        value: 'csv',
+        label: 'csv',
+      },
+      {
+        value: 'json',
+        label: 'json',
+      }
+  ];
 
   }
 
@@ -133,6 +150,9 @@ class Web extends Component {
   handleLineChange = event => {
     this.setState({lineValue : event.target.value});
   };
+  handleFileTypeChange = event => {
+    this.setState({filetype : event.target.value});
+  };
 
   handleOptionChange = (selected) => {
     this.setState({
@@ -148,42 +168,67 @@ class Web extends Component {
   };
 
 
-  handleClick(){
+  handleClick(e){
     console.log(this.state.usermail)
     console.log(this.state.password)
     console.log(this.state.buildingName)
     console.log(this.state.fromValue)
     console.log(this.state.toValue)
     console.log(this.state.lineValue)
+    console.log(this.state.filetype)
     console.log(this.state.optionSelected)
+    this.setState({response : "started"});
+    e.preventDefault();
+    this.getData().then((res) => {
+      console.log(res)
+      
+    });
+    
+   
+  }
 
-  
-    const options={
-        method: "POST",
-        body: JSON.stringify(this.state),
-        headers:{
-            'Content-Type':'application/json',
-        }
-    };
-
-    axios.post("http://127.0.0.1:5000/api/data", this.state).then((response) => {
-      this.setState({response : response.data.message});
-      this.download()
-    }).catch(error => {
+  async getData() {
+    var ret = "ret";
+    try {
+      axios.post("http://127.0.0.1:5000/api/data", this.state).then((res) => {
+      this.setState({response : res.data.message});
+    })
+    return ret
+    }
+    catch(error) {
       console.error('There was an error!', error);
       this.setState({response : error});
-      });   
+    };   
+    // const requestOptions = {
+    //   method: 'POST',
+    //   mode: 'no-cors',
+    //   headers: {
+    //       "Content-type": "application/json; charset=UTF-8"
+    //   },
+    //   body: JSON.stringify(this.state),
+    // };
+    // try {
+    //     fetch("http://127.0.0.1:5000/api/data", requestOptions).then((res) => {
+    //     // this.setState({response : res.data.message});
+    //     console.log(res)
+    //   })
+    //   return ret
+    //   }
+    //   catch(error) {
+    //     console.error('There was an error!', error);
+    //     this.setState({response : error});
+    //   };   
   }
 
   download(){
-    fetch(`${this.state.buildingName}.json`).then(response => {
+    fetch(`${this.state.buildingName}.zip`).then(response => {
       response.blob().then(blob => {
           // Creating new object of PDF file
           const fileURL = window.URL.createObjectURL(blob);
           // Setting various property values
           let alink = document.createElement('a');
           alink.href = fileURL;
-          alink.download = `${this.state.buildingName}.json`;
+          alink.download = `${this.state.buildingName}.zip`;
           alink.click();
       })
   })
@@ -194,7 +239,15 @@ class Web extends Component {
     if (this.state.response === "") {
       return null;
     }
-    if(this.state.response === "User Verified"){
+    if (this.state.response === "started") {
+      return (
+        <Box sx={{ display: "flex", justifyContent: "center" }}>
+        <CircularProgress />
+      </Box>
+      );
+    }
+    else if(this.state.response === "User Verified"){
+      this.download()
      return ( 
       <Alert severity="success">
           <AlertTitle>Success</AlertTitle>
@@ -255,6 +308,7 @@ class Web extends Component {
         </Typography>
         <this.Form />
         <this.AlertItem/>
+        {/* {loading ? /: null} */}
         <Box align="center">
         <Button variant="outlined" onClick={this.handleClick} disabled={this.allTrue(this.errors)} sx={this.styles.buttonStyle}>
           <Typography  variant="button" color="inherit" noWrap sx={{ flexGrow: 1 }}>
@@ -322,6 +376,9 @@ class Web extends Component {
           label="From Date&Time"
           value={this.state.fromValue}
           onChange={this.handleFromChange}
+          onBlur={this.handleFromChange}
+          helperText={this.errors.fromValue ? "Enter a valid email address" : ""}
+          error={this.errors.fromValue}
           renderInput={(params) => <TextField {...params} />}
         />
         </LocalizationProvider>
@@ -344,6 +401,22 @@ class Web extends Component {
           value={this.state.lineValue}
           onChange={this.handleLineChange}
         >
+        </TextField>
+      </div>
+      <div>
+        <TextField
+          id="outlined-select-fileType"
+          select
+          label="Select File Type"
+          value={this.state.filetype}
+          onChange={this.handleFileTypeChange}
+          helperText="Please select the file type to download"
+        >
+          {this.filetypes.map((option) => (
+            <MenuItem key={option.value} value={option.value}>
+              {option.label}
+            </MenuItem>
+          ))}
         </TextField>
       </div>
       <div >

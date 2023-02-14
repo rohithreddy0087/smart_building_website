@@ -1,0 +1,93 @@
+uuid,device_ref,instance,object_type,description,jci_name,name,unit
+urn:uuid:868d842f-a99a-4996-85ce-de635c6200b4,575,3001850,analogInput,Zone Temperature,SDSC.1ST-FL.RM-COMP.MAU-2.ZN-T,NAE-75/FC-2.MAU2-FEC-008.ZN-T,degreesFahrenheit
+urn:uuid:1b3b88c2-b097-40cc-935f-454e5fc75cc2,575,3001854,analogInput,Supply Air Temperature,SDSC.1ST-FL.RM-COMP.MAU-2.SA-T,NAE-75/FC-2.MAU2-FEC-008.SA-T,degreesFahrenheit
+urn:uuid:8db1aca6-63e8-4b16-adf7-e72c04208160,575,3001871,analogInput,Outdoor Air Temperature,SDSC.1ST-FL.RM-COMP.MAU-2.OA-T,NAE-75/FC-2.MAU2-FEC-008.OA-T,degreesFahrenheit
+urn:uuid:79746802-d7f2-4a60-916e-b09180504a2c,575,3001950,analogInput,Zone Temperature,SDSC.2ND-FL.RM-279.HP-1A.ZN-T,NAE-75/FC-2.HP1A-FEC-009.ZN-T,degreesFahrenheit
+urn:uuid:c97ebaff-a81f-4fb6-aaf2-9900e79296da,575,3001862,analogOutput,Cooling Valve  Command,SDSC.1ST-FL.RM-COMP.MAU-2.CLGVLV-CMD,NAE-75/FC-2.MAU2-FEC-008.CLGVLV-CMD,percent
+urn:uuid:75cf88ce-ed4c-4f56-a616-6950fdfde9d6,575,3001864,analogOutput,Heating Valve Command,SDSC.1ST-FL.RM-COMP.MAU-2.HTGVLV-CMD,NAE-75/FC-2.MAU2-FEC-008.HTGVLV-CMD,percent
+urn:uuid:ca0fee35-32d5-40a6-bb44-bb8dcfd51f78,575,3001852,analogValue,Zone Temperature Setpoint,SDSC.1ST-FL.RM-COMP.MAU-2.ZNT-STPT,NAE-75/FC-2.MAU2-FEC-008.ZNT-STPT,degreesFahrenheit
+urn:uuid:e027bffe-f31f-41fb-9f7b-e6b9ea00b87e,575,3001856,analogValue,Actual Supply Air Temperature Setpoint,SDSC.1ST-FL.RM-COMP.MAU-2.ACTSAT-STPT,NAE-75/FC-2.MAU2-FEC-008.ACTSAT-STPT,degreesFahrenheit
+urn:uuid:86e68e35-7988-49c9-9632-bc37b8f60fe6,575,3001858,analogValue,Actual Cooling Setpoint,SDSC.1ST-FL.RM-COMP.MAU-2.ACTCLG-STPT,NAE-75/FC-2.MAU2-FEC-008.ACTCLG-STPT,degreesFahrenheit
+urn:uuid:505f5d6e-73f3-47b1-948c-c8112d9b7798,575,3001860,analogValue,Actual Heating Setpoint,SDSC.1ST-FL.RM-COMP.MAU-2.ACTHTG-STPT,NAE-75/FC-2.MAU2-FEC-008.ACTHTG-STPT,degreesFahrenheit
+urn:uuid:96d4c8b2-3657-41c3-85bd-540d0819d198,575,3001903,analogValue,Common Temperature Setpoint,SDSC.2ND-FL.RM-279.HP-1B.COM-STPT,NAE-75/FC-2.HP1B-FEC-010.COM-STPT,degreesFahrenheit
+urn:uuid:2edd03f6-b36e-43d5-91dd-f5f6808de69f,575,3001904,analogValue,Actual Cooling Setpoint,SDSC.2ND-FL.RM-279.HP-1B.ACTCLG-STPT,NAE-75/FC-2.HP1B-FEC-010.ACTCLG-STPT,degreesFahrenheit
+urn:uuid:aaf17846-1014-44d8-ab11-1c8b14cb9c29,575,3001906,analogValue,Actual Heating Setpoint,SDSC.2ND-FL.RM-279.HP-1B.ACTHTG-STPT,NAE-75/FC-2.HP1B-FEC-010.ACTHTG-STPT,degreesFahrenheit
+urn:uuid:5f81face-8369-4c8f-be40-a6f60fd81408,575,3001908,analogValue,Occupied Cooling Setpoint,SDSC.2ND-FL.RM-279.HP-1B.OCCCLG-STPT,NAE-75/FC-2.HP1B-FEC-010.OCCCLG-STPT,degreesFahrenheit
+urn:uuid:295368b3-e15b-4b62-b237-711ea487d6e4,575,3001909,analogValue,Occupied Heating Setpoint,SDSC.2ND-FL.RM-279.HP-1B.OCCHTG-STPT,NAE-75/FC-2.HP1B-FEC-010.OCCHTG-STPT,degreesFahrenheit
+urn:uuid:dd56a8c0-65de-4e31-9a1f-a42cc40099f8,575,3001910,analogValue,Unoccupied Cooling Setpoint,SDSC.2ND-FL.RM-279.HP-1B.UNOCCCLG-STPT,NAE-75/FC-2.HP1B-FEC-010.UNOCCCLG-STPT,degreesFahrenheit
+urn:uuid:f17c24ad-57c9-4317-bdec-602f164df509,575,3001911,analogValue,Unoccupied Heating Setpoint,SDSC.2ND-FL.RM-279.HP-1B.UNOCCHTG-STPT,NAE-75/FC-2.HP1B-FEC-010.UNOCCHTG-STPT,degreesFahrenheit
+urn:uuid:88b21a18-157d-4141-98b4-e6c86c6a7df2,575,3001953,analogValue,Common Temperature Setpoint,SDSC.2ND-FL.RM-279.HP-1A.COM-STPT,NAE-75/FC-2.HP1A-FEC-009.COM-STPT,degreesFahrenheit
+urn:uuid:e1776f15-8a0e-44ee-aa03-bd18ca6a06df,575,3001954,analogValue,Actual Cooling Setpoint,SDSC.2ND-FL.RM-279.HP-1A.ACTCLG-STPT,NAE-75/FC-2.HP1A-FEC-009.ACTCLG-STPT,degreesFahrenheit
+urn:uuid:f71fafcd-d473-47b6-b00e-7b73ffae4bda,575,3001956,analogValue,Actual Heating Setpoint,SDSC.2ND-FL.RM-279.HP-1A.ACTHTG-STPT,NAE-75/FC-2.HP1A-FEC-009.ACTHTG-STPT,degreesFahrenheit
+urn:uuid:bfb4faea-4274-47e0-adf6-7e319ed31d12,575,3001958,analogValue,Occupied Cooling Setpoint,SDSC.2ND-FL.RM-279.HP-1A.OCCCLG-STPT,NAE-75/FC-2.HP1A-FEC-009.OCCCLG-STPT,degreesFahrenheit
+urn:uuid:4aad8079-d514-44b0-b418-408f37a5f979,575,3001959,analogValue,Occupied Heating Setpoint,SDSC.2ND-FL.RM-279.HP-1A.OCCHTG-STPT,NAE-75/FC-2.HP1A-FEC-009.OCCHTG-STPT,degreesFahrenheit
+urn:uuid:75d218fa-541e-4509-af29-ed51a569efc6,575,3001960,analogValue,Unoccupied Cooling Setpoint,SDSC.2ND-FL.RM-279.HP-1A.UNOCCCLG-STPT,NAE-75/FC-2.HP1A-FEC-009.UNOCCCLG-STPT,degreesFahrenheit
+urn:uuid:a68afb6d-3a20-46ac-8d31-2c38ed2cc464,575,3001961,analogValue,Unoccupied Heating Setpoint,SDSC.2ND-FL.RM-279.HP-1A.UNOCCHTG-STPT,NAE-75/FC-2.HP1A-FEC-009.UNOCCHTG-STPT,degreesFahrenheit
+urn:uuid:dd341eb4-1b10-4360-b75d-b9bd513e18d0,575,3002368,analogValue,Zone Temperature Network Input,SDSC.2ND-FL.RM-279.HP-1B.ZN-T,NAE-75/FC-2.HP1B-FEC-010.ZN-T,degreesFahrenheit
+urn:uuid:d80c18fb-0a35-4e14-ae20-238b3fb50ae1,575,3003457,analogValue,,AVG-POS,NAE-75/Programming.AH-1.AVG-POS,percent
+urn:uuid:9f8dd96e-b7db-48ce-ba8c-50d8625829b1,575,3003794,analogValue,,AVG-POS,NAE-75/Programming.AH-2.AVG-POS,percent
+urn:uuid:bcd0a649-ffe8-465b-9961-2cdadb6ee106,575,3001868,binaryInput,Supply Fan Status,SDSC.1ST-FL.RM-COMP.MAU-2.SF-STS,NAE-75/FC-2.MAU2-FEC-008.SF-STS,
+urn:uuid:79895675-75d5-466e-bc2d-9f25320febfc,575,3001872,binaryInput,Cooling Unit 3 Alarm,SDSC.1ST-FL.RM-COMP.MAU-2.CCU3-ALM,NAE-75/FC-2.MAU2-FEC-008.CCU3-ALM,
+urn:uuid:d49746fe-1931-4e3a-8376-b978d3321f9d,575,3001874,binaryInput,Cooling Unit 4 Alarm,SDSC.1ST-FL.RM-COMP.MAU-2.CCU4-ALM,NAE-75/FC-2.MAU2-FEC-008.CCU4-ALM,
+urn:uuid:65220e87-f4ca-47df-950c-382e951e2e76,575,3001876,binaryInput,Cooling Unit 5 Alarm,SDSC.1ST-FL.RM-COMP.MAU-2.CCU5-ALM,NAE-75/FC-2.MAU2-FEC-008.CCU5-ALM,
+urn:uuid:6d225a8b-faa3-4e30-a2ff-cf3719c9a819,575,3001866,binaryOutput,Supply Fan Start/Stop,SDSC.1ST-FL.RM-COMP.MAU-2.SF-SS,NAE-75/FC-2.MAU2-FEC-008.SF-SS,
+urn:uuid:90a0530c-35b1-4020-a87c-a0b26053f7b6,575,3001912,binaryOutput,Supply Fan Start/Stop,SDSC.2ND-FL.RM-279.HP-1B.SF-SS,NAE-75/FC-2.HP1B-FEC-010.SF-SS,
+urn:uuid:a6818553-b837-4090-b89f-8ef88634fb54,575,3001914,binaryOutput,Reversing Valve 1 Command,SDSC.2ND-FL.RM-279.HP-1B.REVLV1-CMD,NAE-75/FC-2.HP1B-FEC-010.REVLV1-CMD,
+urn:uuid:1dfe3e14-b27b-42e6-af34-e1085cbb5d23,575,3001915,binaryOutput,Compressor Stage 1 Command,SDSC.2ND-FL.RM-279.HP-1B.COMP1-CMD,NAE-75/FC-2.HP1B-FEC-010.COMP1-CMD,
+urn:uuid:197f44a3-faff-46c5-81a6-7ca2c84f43cc,575,3001962,binaryOutput,Supply Fan Start/Stop,SDSC.2ND-FL.RM-279.HP-1A.SF-SS,NAE-75/FC-2.HP1A-FEC-009.SF-SS,
+urn:uuid:8f28de36-0896-4f4c-a851-279fefc4684f,575,3001964,binaryOutput,Reversing Valve 1 Command,SDSC.2ND-FL.RM-279.HP-1A.REVLV1-CMD,NAE-75/FC-2.HP1A-FEC-009.REVLV1-CMD,
+urn:uuid:1119eea8-aa46-416c-9070-5911f1d02220,575,3001965,binaryOutput,Compressor Stage 1 Command,SDSC.2ND-FL.RM-279.HP-1A.COMP1-CMD,NAE-75/FC-2.HP1A-FEC-009.COMP1-CMD,
+urn:uuid:54e740ca-d21a-40db-85cf-3bf5071c99a9,575,3002371,binaryValue,,110WT-Active,NAE-75/Programming.AH-2.110WT-Active,
+urn:uuid:df39c4c9-773f-4875-903c-713c300a41c3,575,3002372,binaryValue,,154WT-Active,NAE-75/Programming.AH-2.154WT-Active,
+urn:uuid:e1825128-1e56-4b26-be0a-a092249baead,575,3002373,binaryValue,,129WT-Active,NAE-75/Programming.AH-2.129WT-Active,
+urn:uuid:d0490972-045a-4924-b789-4fc6aa485b8f,575,3002374,binaryValue,,109WT-Active,NAE-75/Programming.AH-2.109WT-Active,
+urn:uuid:138d846f-9b57-4ff8-8cc9-bbf25f9a0e89,575,3002375,binaryValue,,211WT-Active,NAE-75/Programming.AH-2.211WT-Active,
+urn:uuid:1b86762e-dabd-4321-8cf6-60803df711e4,575,3002376,binaryValue,,229WT-Active,NAE-75/Programming.AH-2.229WT-Active,
+urn:uuid:9f72dea8-8413-42c2-a818-198eacc694b3,575,3002377,binaryValue,,258WT-Active,NAE-75/Programming.AH-2.258WT-Active,
+urn:uuid:b645c304-3010-4feb-a93a-17917e8e10ee,575,3002378,binaryValue,,304WSLABT-Active,NAE-75/Programming.AH-2.304WSLABT-Active,
+urn:uuid:9376bfab-f9f1-4ef3-8e29-9668bdd612fc,575,3002379,binaryValue,,319SURMT-Active,NAE-75/Programming.AH-2.319SURMT-Active,
+urn:uuid:79e1b961-021f-4145-81a9-34f0eda038a3,575,3002380,binaryValue,,341SURFMT-Active,NAE-75/Programming.AH-2.341SURFMT-Active,
+urn:uuid:7646fc02-22cf-4bb8-812e-e4649a4f2d20,575,3002381,binaryValue,,357SURFMT-Active,NAE-75/Programming.AH-2.357SURFMT-Active,
+urn:uuid:195fece0-8131-437b-92f4-7280e32d57be,575,3003596,binaryValue,,BV1,NAE-75/Programming.AH-1.BV1,
+urn:uuid:bb3d1cc8-3391-41b3-9bc2-861447a7b768,575,3001223,program,,Lead Change,NAE-75/Programming.Lead Change,
+urn:uuid:82ceecd9-d60e-4b69-b59c-b755275a8bde,575,3002363,program,,HP-TSTAT-SHARE,NAE-75/Programming.HP-TSTAT-SHARE,
+urn:uuid:309dacf9-362c-423f-ba18-ac001d6ae85d,575,3002370,program,,AVG-TEMPS,NAE-75/Programming.AH-2.AVG-TEMPS,
+urn:uuid:fd01361f-3e40-4e18-bd1a-0cf79bfe7a5c,575,3003422,program,,AH1-SASP-RESET,NAE-75/Programming.AH-1.AH1-SASP-RESET,
+urn:uuid:01811a87-8b01-43e6-963d-ebff0ac757c9,575,3003719,program,,AH2-SASP-RESET,NAE-75/Programming.AH-2.AH2-SASP-RESET,
+urn:uuid:175c9492-23e2-419c-b633-b267ee7c2099,575,3001845,multiStateValue,System Enable,SDSC.1ST-FL.RM-COMP.MAU-2.SYS-ENB,NAE-75/FC-2.MAU2-FEC-008.SYS-ENB,
+urn:uuid:a869a927-de1c-44ad-8a2a-445bc0c46d32,575,3001846,multiStateValue,Occupied Command,SDSC.1ST-FL.RM-COMP.MAU-2.OCC-CMD,NAE-75/FC-2.MAU2-FEC-008.OCC-CMD,
+urn:uuid:c4246ec0-5362-4efe-b0e0-828c6057ce1f,575,3001848,multiStateValue,Occupied Status,SDSC.1ST-FL.RM-COMP.MAU-2.OCC-STS,NAE-75/FC-2.MAU2-FEC-008.OCC-STS,
+urn:uuid:cbf874e3-a491-4d06-8951-3096efc407fa,575,3001895,multiStateValue,System Enable,SDSC.2ND-FL.RM-279.HP-1B.SYS-ENB,NAE-75/FC-2.HP1B-FEC-010.SYS-ENB,
+urn:uuid:64854984-1cee-42c7-a2b1-8461f8bea8b7,575,3001896,multiStateValue,Occupied Command,SDSC.2ND-FL.RM-279.HP-1B.OCC-CMD,NAE-75/FC-2.HP1B-FEC-010.OCC-CMD,
+urn:uuid:f06c68a6-3140-4065-b2f5-a5e3329a15ed,575,3001898,multiStateValue,Occupied Status,SDSC.2ND-FL.RM-279.HP-1B.OCC-STS,NAE-75/FC-2.HP1B-FEC-010.OCC-STS,
+urn:uuid:80f3706e-029c-481d-9f72-7087d3fd3128,575,3001945,multiStateValue,System Enable,SDSC.2ND-FL.RM-279.HP-1A.SYS-ENB,NAE-75/FC-2.HP1A-FEC-009.SYS-ENB,
+urn:uuid:bfb9024f-8a91-4183-8f0c-6385f1eaa5a5,575,3001946,multiStateValue,Occupied Command,SDSC.2ND-FL.RM-279.HP-1A.OCC-CMD,NAE-75/FC-2.HP1A-FEC-009.OCC-CMD,
+urn:uuid:1761c460-1290-4115-91c4-dd251611587e,575,3001948,multiStateValue,Occupied Status,SDSC.2ND-FL.RM-279.HP-1A.OCC-STS,NAE-75/FC-2.HP1A-FEC-009.OCC-STS,
+urn:uuid:2aad9d6a-eb4a-47d7-af29-1ae47fb2589f,575,3000606,trendLog,,Memory Usage Trend Log,NAE-75/Memory Usage Trend Log,
+urn:uuid:44b252ac-4912-4b6a-a901-c68bee2d6ded,575,3001465,trendLog,,Event Rate Trend Log,NAE-75/Event Rate Trend Log,
+urn:uuid:60e2029b-404f-4412-b470-6e086bdb42d0,575,3001847,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.OCC-CMD.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.OCC-CMD.Trend1,
+urn:uuid:5fbf1c35-cc02-4fec-b5bd-2e4ae1d29a34,575,3001849,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.OCC-STS.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.OCC-STS.Trend1,
+urn:uuid:5ba0934e-07f5-49ac-aa0c-4aaefabf2202,575,3001851,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.ZN-T.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.ZN-T.Trend1,
+urn:uuid:3809312a-2173-4f21-8570-388fd69dbe0b,575,3001853,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.ZNT-STPT.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.ZNT-STPT.Trend1,
+urn:uuid:f5a36185-12d1-42dc-ac12-d3bceddddf94,575,3001855,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.SA-T.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.SA-T.Trend1,
+urn:uuid:90c22e4c-fed1-491a-9a7b-9c3450647f34,575,3001857,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.ACTSAT-STPT.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.ACTSAT-STPT.Trend1,
+urn:uuid:d144c976-eaa5-4a95-adab-99c2ceb65a31,575,3001859,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.ACTCLG-STPT.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.ACTCLG-STPT.Trend1,
+urn:uuid:2244f662-7cf5-4bda-bcd4-7af9bff16742,575,3001861,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.ACTHTG-STPT.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.ACTHTG-STPT.Trend1,
+urn:uuid:5ee9fd49-9b6d-4e48-8ec4-b3b225a33e52,575,3001863,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.CLGVLV-CMD.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.CLGVLV-CMD.Trend1,
+urn:uuid:a8731a8b-8306-4d50-b078-150448f76dbb,575,3001865,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.HTGVLV-CMD.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.HTGVLV-CMD.Trend1,
+urn:uuid:51de6cf2-7d39-406e-964c-afff2a98d6a6,575,3001867,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.SF-SS.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.SF-SS.Trend1,
+urn:uuid:b32a0831-52f7-4e1e-af6f-fbbce162252d,575,3001870,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.SF-STS.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.SF-STS.Trend1,
+urn:uuid:75fcd74a-face-4ea5-baff-833608aa922b,575,3001873,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.CCU3-ALM.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.CCU3-ALM.Trend1,
+urn:uuid:40adc270-a413-4134-9c41-96e01ce2ee94,575,3001875,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.CCU4-ALM.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.CCU4-ALM.Trend1,
+urn:uuid:524cb722-4988-4234-a731-67660059015c,575,3001877,trendLog,,SDSC.1ST-FL.RM-COMP.MAU-2.CCU5-ALM.Trend - Present Value,NAE-75/FC-2.MAU2-FEC-008.CCU5-ALM.Trend1,
+urn:uuid:e357195e-f28e-4361-ac78-1904f826a67b,575,3001897,trendLog,,SDSC.2ND-FL.RM-279.HP-1B.OCC-CMD.Trend - Present Value,NAE-75/FC-2.HP1B-FEC-010.OCC-CMD.Trend1,
+urn:uuid:665df5b1-a099-416c-82db-c45d94bf5141,575,3001899,trendLog,,SDSC.2ND-FL.RM-279.HP-1B.OCC-STS.Trend - Present Value,NAE-75/FC-2.HP1B-FEC-010.OCC-STS.Trend1,
+urn:uuid:12ab7540-d500-4a89-b2b4-eb84f53ed316,575,3001905,trendLog,,SDSC.2ND-FL.RM-279.HP-1B.ACTCLG-STPT.Trend - Present Value,NAE-75/FC-2.HP1B-FEC-010.ACTCLG-STPT.Trend1,
+urn:uuid:4ec92f7f-e66c-4f4e-94ba-5db0bdac6938,575,3001907,trendLog,,SDSC.2ND-FL.RM-279.HP-1B.ACTHTG-STPT.Trend - Present Value,NAE-75/FC-2.HP1B-FEC-010.ACTHTG-STPT.Trend1,
+urn:uuid:c71501be-1743-4a41-b9c7-82a2ea3cf38d,575,3001913,trendLog,,SDSC.2ND-FL.RM-279.HP-1B.SF-SS.Trend - Present Value,NAE-75/FC-2.HP1B-FEC-010.SF-SS.Trend1,
+urn:uuid:ba26bc16-d734-4b7c-962c-fa013176c650,575,3001947,trendLog,,SDSC.2ND-FL.RM-279.HP-1A.OCC-CMD.Trend - Present Value,NAE-75/FC-2.HP1A-FEC-009.OCC-CMD.Trend1,
+urn:uuid:914b787f-f3e1-4507-a275-ddad4f07d546,575,3001949,trendLog,,SDSC.2ND-FL.RM-279.HP-1A.OCC-STS.Trend - Present Value,NAE-75/FC-2.HP1A-FEC-009.OCC-STS.Trend1,
+urn:uuid:42b8786b-3652-4a8a-800b-0f1d994f108c,575,3001951,trendLog,,SDSC.2ND-FL.RM-279.HP-1A.ZN-T.Trend - Present Value,NAE-75/FC-2.HP1A-FEC-009.ZN-T.Trend1,
+urn:uuid:8cbe6d36-fd70-4438-b262-49c40f7bf251,575,3001955,trendLog,,SDSC.2ND-FL.RM-279.HP-1A.ACTCLG-STPT.Trend - Present Value,NAE-75/FC-2.HP1A-FEC-009.ACTCLG-STPT.Trend1,
+urn:uuid:55bf2bf5-a834-46a2-bad2-b5449571c2e7,575,3001957,trendLog,,SDSC.2ND-FL.RM-279.HP-1A.ACTHTG-STPT.Trend - Present Value,NAE-75/FC-2.HP1A-FEC-009.ACTHTG-STPT.Trend1,
+urn:uuid:5f2a9c0c-cecd-4867-9642-67a754ce2265,575,3001963,trendLog,,SDSC.2ND-FL.RM-279.HP-1A.SF-SS.Trend - Present Value,NAE-75/FC-2.HP1A-FEC-009.SF-SS.Trend1,
