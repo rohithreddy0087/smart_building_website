@@ -16,7 +16,7 @@ import AlertTitle from '@mui/material/AlertTitle';
 import Alert from '@mui/material/Alert';
 import axios from 'axios';
 import download from 'downloadjs';
-
+import Helpers from './helpers';
 import buildingData from '../../assets/building_data.json';
 const Option = (props) => {
   return (
@@ -50,7 +50,7 @@ class Web extends Component {
     this.allTrue = this.allTrue.bind(this)
     this.AlertItem = this.AlertItem.bind(this)
     this.download = this.download.bind(this)
-    this.getData = this.getData.bind(this)
+    // this.getData = this.getData.bind(this)
     // this.Option = this.Option.bind(this)
     this.state = {
         usermail : 'rrachala@ucsd.edu',
@@ -169,69 +169,49 @@ class Web extends Component {
 
 
   handleClick(e){
-    console.log(this.state.usermail)
-    console.log(this.state.password)
-    console.log(this.state.buildingName)
-    console.log(this.state.fromValue)
-    console.log(this.state.toValue)
-    console.log(this.state.lineValue)
-    console.log(this.state.filetype)
-    console.log(this.state.optionSelected)
+    // console.log(this.state.usermail)
+    // console.log(this.state.password)
+    // console.log(this.state.buildingName)
+    // console.log(this.state.fromValue)
+    // console.log(this.state.toValue)
+    // console.log(this.state.lineValue)
+    // console.log(this.state.filetype)
+    // console.log(this.state.optionSelected)
     this.setState({response : "started"});
-    e.preventDefault();
-    this.getData().then((res) => {
-      console.log(res)
+    // e.preventDefault();
+    // this.getData().then((res) => {
+    //   console.log(res)
       
-    });
-    
+    // });
+    Helpers.httpRequest(
+      'http://127.0.0.1:5000/api/data',
+      'post',
+      this.state
+    )
+    .then((res) => {
+      console.log("Res",res)
+      this.setState({response : res.message});
+      this.download(res.data);
+    }); 
    
   }
 
-  async getData() {
-    var ret = "ret";
-    try {
-      axios.post("http://127.0.0.1:5000/api/data", this.state).then((res) => {
-      this.setState({response : res.data.message});
-    })
-    return ret
-    }
-    catch(error) {
-      console.error('There was an error!', error);
-      this.setState({response : error});
-    };   
-    // const requestOptions = {
-    //   method: 'POST',
-    //   mode: 'no-cors',
-    //   headers: {
-    //       "Content-type": "application/json; charset=UTF-8"
-    //   },
-    //   body: JSON.stringify(this.state),
-    // };
-    // try {
-    //     fetch("http://127.0.0.1:5000/api/data", requestOptions).then((res) => {
-    //     // this.setState({response : res.data.message});
-    //     console.log(res)
-    //   })
-    //   return ret
-    //   }
-    //   catch(error) {
-    //     console.error('There was an error!', error);
-    //     this.setState({response : error});
-    //   };   
-  }
-
-  download(){
-    fetch(`${this.state.buildingName}.zip`).then(response => {
-      response.blob().then(blob => {
-          // Creating new object of PDF file
-          const fileURL = window.URL.createObjectURL(blob);
-          // Setting various property values
-          let alink = document.createElement('a');
-          alink.href = fileURL;
-          alink.download = `${this.state.buildingName}.zip`;
-          alink.click();
-      })
-  })
+  download = (myData) => {
+    const fileName = "my-file";
+    const json = JSON.stringify(myData);
+    const blob = new Blob([json], { type: "application/json" });
+    const href = URL.createObjectURL(blob);
+  
+    // create "a" HTLM element with href to file
+    const link = document.createElement("a");
+    link.href = href;
+    link.download = fileName + ".json";
+    document.body.appendChild(link);
+    link.click();
+  
+    // clean up "a" element & remove ObjectURL
+    document.body.removeChild(link);
+    URL.revokeObjectURL(href);
   }
 
   AlertItem() {
@@ -247,7 +227,6 @@ class Web extends Component {
       );
     }
     else if(this.state.response === "User Verified"){
-      this.download()
      return ( 
       <Alert severity="success">
           <AlertTitle>Success</AlertTitle>

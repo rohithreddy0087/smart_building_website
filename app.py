@@ -30,9 +30,10 @@ def register():
 def data():
     """_summary_
     """
-    payload = json.loads(request.get_data())
+    # print(request.data)
+    # payload = json.loads(request.get_data())
     # print(request.get_json())
-    # payload = request.json
+    payload = request.json
     print(payload)
     building_name = payload["buildingName"]
     email = payload["usermail"]
@@ -67,7 +68,7 @@ def data():
                 features = features
             )
         else:
-            data_interface_obj.fetch_and_save_data_json(
+            ret = data_interface_obj.fetch_and_save_data_json(
                 building_name = building_name,
                 start_time = from_time,
                 end_time= to_time,
@@ -79,7 +80,7 @@ def data():
         text_message = "Internal Error"
         config.logger.debug("Data %s",err)
     print(text_message)
-    return {"message":text_message}
+    return {"message":text_message, "data":ret}
 
 if __name__ == '__main__':
     global_var = {}

@@ -66,7 +66,7 @@ class DataFetcher:
         if not self.check_table_exists(table_name):
             return None
         query = "select time,number from %s where time between '%s' and '%s' order by time desc"%(table_name, start_time, end_time)
-        self.logger.debug('%s',query)
+        # self.logger.debug('%s',query)
         data = self.fetch_data(query)
         return data
 

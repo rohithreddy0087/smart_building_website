@@ -67,7 +67,8 @@ class DataInterface:
             "meta": self.__meta_dict,
             "items": self.__items_list
         }
-        json.dump( json_dict, open( f"{self.config.download_path}/{building_name}.json", 'w' ) )
+        # json.dump( json_dict, open( f"{self.config.download_path}/{building_name}.json", 'w' ) )
+        return json_dict
         
     
     def fetch_and_save_data_csv(self, building_name: str, start_time: str = None, end_time: str = None, limit: int = 100, features: List[str] = None):

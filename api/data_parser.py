@@ -53,14 +53,13 @@ class DataParser:
         """
         initial = datetime.datetime.strptime(initial,"%Y-%m-%d %H:%M:%S.%f")
         final = datetime.datetime.strptime(final,"%Y-%m-%d %H:%M:%S.%f")
-        print(initial,final)
         if start_time < initial or start_time is None:
             start_time = initial
         if end_time < initial or end_time is None:
             end_time = final
         rows = self.data_fetcher_obj.fetch_data_between_interval(table_name,start_time,end_time)
-        # feature_data = self.parse_feature_data(rows)
-        return rows
+        feature_data = self.parse_feature_data(rows)
+        return feature_data
 
     def __get_data_with_limit(self, table_name: str,limit: int = 10)-> List[Tuple]:
         """Fetches and parseslatest data with limit
@@ -73,8 +72,8 @@ class DataParser:
             List[Tuple]: latest data fetched
         """
         rows = self.data_fetcher_obj.fetch_latest_data(table_name,limit)
-        feature_data = self.parse_feature_data(rows)
-        return feature_data
+        # feature_data = self.parse_feature_data(rows)
+        return rows
 
     def parse_feature_data(self, data: List[Tuple])->List[dict]:
         """Parses data fetched from database
@@ -89,7 +88,7 @@ class DataParser:
         for d in data:
             data_dict = {}
             data_dict["time"] = str(d[0])
-            data_dict["value"] = d[1]
+            data_dict["value"] = str(d[1])
             data_list.append(data_dict)
         return data_list
 
@@ -110,8 +109,8 @@ class DataParser:
             features = self.__meta[building_name]["meta"]["most_common_features"]
         meta_dict = {
             "building_name": building_name,
-            "start_time": start_time,
-            "end_time": end_time,
+            "start_time": str(start_time),
+            "end_time": str(end_time),
             "total_rooms": len(self.__meta[building_name]["items"]),
             "features": features,
             "line_limit": limit
@@ -142,19 +141,21 @@ class DataParser:
             for feature in features:
                 feature_dict = {}
                 feature_dict["feature"] = feature
-                if feature in self.__meta[building_name]["items"][room_no]:
-                    uuid = self.__meta[building_name]["items"][room_no][feature]["uuid"]
-                    initial_ts = self.__meta[building_name]["items"][room_no][feature]["inital_timestamp"]
-                    final_ts = self.__meta[building_name]["items"][room_no][feature]["final_timestamp"]
-                    feature_dict["id"] = uuid[10:]
-                    table_name = f"{building_name}_{room_no}_{feature}"
-                    table_name = table_name.replace(" ","_").strip().lower()
-                    table_name = table_name.replace("-","_").strip().lower()
-                    table_name = table_name.replace("/","_")
-                    if start_time is not None and end_time is not None:
-                        feature_dict["data"] = self.__get_data_between_interval(table_name,start_time,end_time,initial_ts,final_ts)
-                    else:
-                        feature_dict["data"] = self.__get_data_with_limit(table_name,limit)
+                if feature not in self.__meta[building_name]["items"][room_no]:
+                    continue
+                uuid = self.__meta[building_name]["items"][room_no][feature]["uuid"]
+                initial_ts = self.__meta[building_name]["items"][room_no][feature]["inital_timestamp"]
+                final_ts = self.__meta[building_name]["items"][room_no][feature]["final_timestamp"]
+                feature_dict["id"] = uuid[10:]
+                table_name = f"{building_name}_{room_no}_{feature}"
+                table_name = table_name.replace(" ","_").replace("-","_").replace("/","_").strip().lower()
+                # table_name = table_name
+                # table_name = table_name.
+                if start_time is not None and end_time is not None:
+                    feature_dict["data"] = self.__get_data_between_interval(table_name,start_time,end_time,initial_ts,final_ts)
+                else:
+                    feature_dict["data"] = self.__get_data_with_limit(table_name,limit)
+
                 item_dict["recorded_features"].append(feature_dict)
             items_list.append(item_dict)
         return items_list
