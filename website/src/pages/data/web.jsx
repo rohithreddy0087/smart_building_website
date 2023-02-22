@@ -54,8 +54,10 @@ class Web extends Component {
         usermail : '',
         password : '',
         buildingName : '',
-        fromValue : dayjs('2020-08-21T00:00:00'),
-        toValue : dayjs('2020-08-21T01:00:00'),
+        fromValue:'',
+        toValue:'',
+        fromValueDate : dayjs('2020-08-21T00:00:00'),
+        toValueDate : dayjs('2020-08-21T01:00:00'),
         lineValue : '100',
         optionSelected: null,
         filetype: 'json',
@@ -145,10 +147,12 @@ class Web extends Component {
     }
   };
   handleFromChange = (newValue) => {
-    this.setState({fromValue : newValue});
+    this.setState({fromValueDate : newValue});
+    this.setState({fromValue : newValue.$d.toLocaleString()});
   };
   handleToChange = (newValue) => {
-    this.setState({toValue : newValue});
+    this.setState({toValueDate : newValue});
+    this.setState({toValue : newValue.$d.toLocaleString()});
   };
   handleLineChange = event => {
     this.setState({lineValue : event.target.value});
@@ -175,8 +179,7 @@ class Web extends Component {
     // console.log(this.state.usermail)
     // console.log(this.state.password)
     // console.log(this.state.buildingName)
-    this.state.fromValue = this.state.fromValue.$d.toLocaleString();
-    this.state.toValue = this.state.toValue.$d.toLocaleString();
+    
     
     // console.log(this.state.lineValue)
     // console.log(this.state.filetype)
@@ -186,15 +189,15 @@ class Web extends Component {
     //   console.log(res)
       
     // });
-    // Helpers.httpRequest(
-    //   'http://137.110.198.246:5000/api/data',
-    //   'post',
-    //   this.state
-    // )
-    // .then((res) => {
-    //   this.setState({response : res.message});
-    //   this.download(res.data);
-    // }); 
+    Helpers.httpRequest(
+      'http://137.110.198.246:5000/api/data',
+      'post',
+      this.state
+    )
+    .then((res) => {
+      this.setState({response : res.message});
+      this.download(res.data);
+    }); 
    
   }
 
@@ -354,7 +357,7 @@ class Web extends Component {
         <LocalizationProvider dateAdapter={AdapterDayjs}>
         <DateTimePicker
           label="From Date&Time"
-          value={this.state.fromValue}
+          value={this.state.fromValueDate}
           onChange={this.handleFromChange}
           onBlur={this.handleFromChange}
           helperText={this.errors.fromValue ? "Enter a valid email address" : ""}
@@ -367,7 +370,7 @@ class Web extends Component {
         <LocalizationProvider dateAdapter={AdapterDayjs}>
         <DateTimePicker
           label="To Date&Time"
-          value={this.state.toValue}
+          value={this.state.toValueDate}
           onChange={this.handleToChange}
           renderInput={(params) => <TextField {...params} />}
         />
