@@ -54,8 +54,8 @@ class Web extends Component {
         usermail : '',
         password : '',
         buildingName : '',
-        fromValue:'',
-        toValue:'',
+        fromValue:dayjs('2020-08-21T00:00:00').$d.toLocaleString(),
+        toValue:dayjs('2020-08-21T01:00:00').$d.toLocaleString(),
         fromValueDate : dayjs('2020-08-21T00:00:00'),
         toValueDate : dayjs('2020-08-21T01:00:00'),
         lineValue : '100',
@@ -179,8 +179,8 @@ class Web extends Component {
     // console.log(this.state.usermail)
     // console.log(this.state.password)
     // console.log(this.state.buildingName)
-    
-    
+    console.log(this.state.fromValue)
+    console.log(this.state.toValue)
     // console.log(this.state.lineValue)
     // console.log(this.state.filetype)
     // console.log(this.state.optionSelected)
