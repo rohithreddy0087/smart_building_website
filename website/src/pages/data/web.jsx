@@ -14,8 +14,6 @@ import {DateTimePicker, LocalizationProvider} from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import AlertTitle from '@mui/material/AlertTitle';
 import Alert from '@mui/material/Alert';
-import axios from 'axios';
-import download from 'downloadjs';
 import Helpers from './helpers';
 import buildingData from '../../assets/building_data.json';
 const Option = (props) => {
@@ -53,27 +51,32 @@ class Web extends Component {
     // this.getData = this.getData.bind(this)
     // this.Option = this.Option.bind(this)
     this.state = {
-        usermail : 'rrachala@ucsd.edu',
-        password : '12345678',
+        usermail : '',
+        password : '',
         buildingName : '',
         fromValue : dayjs('2020-08-21T00:00:00'),
         toValue : dayjs('2020-08-21T01:00:00'),
         lineValue : '100',
         optionSelected: null,
-        filetype: 'csv',
+        filetype: 'json',
         response:''
     };
-    console.log(buildingData)
     this.buildings = [];
     this.featureOptions = [];
-    for(const [key, value] of Object.entries(buildingData)){
-      this.buildings.push(
-        {
-          value: key,
-          label: value["meta"]["description"],
-        },
-      )
-    }
+    this.buildings.push(
+      {
+        value: "NAE-01",
+        label: "Mulitpurpose Building",
+      }
+    )
+    // for(const [key, value] of Object.entries(buildingData)){
+    //   this.buildings.push(
+    //     {
+    //       value: key,
+    //       label: value["meta"]["description"],
+    //     },
+    //   )
+    // }
     this.styles = {
       buttonStyle: {
         backgroundColor: '#3c52b2',
@@ -97,10 +100,10 @@ class Web extends Component {
     };  
 
     this.filetypes = [
-      {
-        value: 'csv',
-        label: 'csv',
-      },
+      // {
+      //   value: 'csv',
+      //   label: 'csv',
+      // },
       {
         value: 'json',
         label: 'json',
@@ -172,27 +175,26 @@ class Web extends Component {
     // console.log(this.state.usermail)
     // console.log(this.state.password)
     // console.log(this.state.buildingName)
-    // console.log(this.state.fromValue)
-    // console.log(this.state.toValue)
+    this.state.fromValue = this.state.fromValue.$d.toLocaleString();
+    this.state.toValue = this.state.toValue.$d.toLocaleString();
+    
     // console.log(this.state.lineValue)
     // console.log(this.state.filetype)
     // console.log(this.state.optionSelected)
-    this.setState({response : "started"});
     // e.preventDefault();
     // this.getData().then((res) => {
     //   console.log(res)
       
     // });
-    Helpers.httpRequest(
-      'http://127.0.0.1:5000/api/data',
-      'post',
-      this.state
-    )
-    .then((res) => {
-      console.log("Res",res)
-      this.setState({response : res.message});
-      this.download(res.data);
-    }); 
+    // Helpers.httpRequest(
+    //   'http://137.110.198.246:5000/api/data',
+    //   'post',
+    //   this.state
+    // )
+    // .then((res) => {
+    //   this.setState({response : res.message});
+    //   this.download(res.data);
+    // }); 
    
   }
 
@@ -215,7 +217,6 @@ class Web extends Component {
   }
 
   AlertItem() {
-    console.log(this.state.response)
     if (this.state.response === "") {
       return null;
     }

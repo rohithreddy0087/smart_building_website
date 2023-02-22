@@ -187,16 +187,16 @@ class Page extends Component {
   
 
   handleClick = () => {
-    console.log(this.state.firstName)
-    console.log(this.state.lastName)
-    console.log(this.state.affliation)
-    console.log(this.state.affliationType)
-    console.log(this.state.job)
-    console.log(this.state.usermail)
-    console.log(this.state.password)
-    console.log(this.state.confirmPassword)
+    // console.log(this.state.firstName)
+    // console.log(this.state.lastName)
+    // console.log(this.state.affliation)
+    // console.log(this.state.affliationType)
+    // console.log(this.state.job)
+    // console.log(this.state.usermail)
+    // console.log(this.state.password)
+    // console.log(this.state.confirmPassword)
 
-    axios.post("http://127.0.0.1:5000/api/register", this.state).then((response) => {
+    axios.post("http://137.110.198.246:5000/api/register", this.state).then((response) => {
             this.setState({response : response.data.message});
     }).catch(error => {
       console.error('There was an error!', error);
@@ -206,7 +206,6 @@ class Page extends Component {
   }
 
   AlertItem() {
-    console.log(this.state.response)
     if (this.state.response === "") {
       return null;
     }

@@ -1,7 +1,6 @@
 const Helpers = {
     // Main wrapper for Fetch API
     httpRequest: (url, method, payload, headers) => { 
-        console.log("Payload",method)
      const config = {
         method,
         headers: {
@@ -9,7 +8,6 @@ const Helpers = {
         }
       };    // method = post and payload, add it to the fetch request
       if (method.toLowerCase() === 'post' ) {
-        console.log(payload)
         config.body = JSON.stringify(payload);
       }    // if custom headers need to be set for the specific request
       // override them here

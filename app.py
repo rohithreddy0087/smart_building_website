@@ -50,8 +50,8 @@ def data():
     if register_obj.check_if_user_exists(email):
         if register_obj.check_user_credentials(email,password):
             # lines = int(payload["lineValue"])
-            from_time = datetime.strptime(payload["fromValue"],"%Y-%m-%dT%H:%M:%S.%fZ")
-            to_time = datetime.strptime(payload["toValue"],"%Y-%m-%dT%H:%M:%S.%fZ")
+            from_time = datetime.strptime(payload["fromValue"],'%m/%d/%Y, %I:%M:%S %p')
+            to_time = datetime.strptime(payload["toValue"],'%m/%d/%Y, %I:%M:%S %p')
             text_message = "User Verified"
         else:
             text_message = "Wrong password"
