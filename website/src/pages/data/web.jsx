@@ -16,6 +16,10 @@ import AlertTitle from '@mui/material/AlertTitle';
 import Alert from '@mui/material/Alert';
 import Helpers from './helpers';
 import buildingData from '../../assets/building_data.json';
+
+import parseJson from './csvFormatter'
+
+
 const Option = (props) => {
   return (
     <div>
@@ -102,10 +106,10 @@ class Web extends Component {
     };  
 
     this.filetypes = [
-      // {
-      //   value: 'csv',
-      //   label: 'csv',
-      // },
+      {
+        value: 'csv',
+        label: 'csv',
+      },
       {
         value: 'json',
         label: 'json',
@@ -183,7 +187,8 @@ class Web extends Component {
     console.log(this.state.toValue)
     // console.log(this.state.lineValue)
     // console.log(this.state.filetype)
-    // console.log(this.state.optionSelected)
+    console.log(this.state.optionSelected)
+    // parseJson(det,this.state.optionSelected,this.state.fromValue,this.state.toValue);
     // e.preventDefault();
     // this.getData().then((res) => {
     //   console.log(res)
@@ -196,9 +201,13 @@ class Web extends Component {
     )
     .then((res) => {
       this.setState({response : res.message});
-      this.download(res.data);
+      if(res.message=== "User Verified" && this.state.filetype === "csv"){
+        parseJson(res.data,this.state.optionSelected,this.state.fromValue,this.state.toValue);
+      }
+      else{
+        this.download(res.data);
+      }
     }); 
-   
   }
 
   download = (myData) => {
@@ -236,8 +245,16 @@ class Web extends Component {
           <AlertTitle>Success</AlertTitle>
           User Verified — <strong> Please wait till the data gets downloaded.</strong>
       </Alert>
-   );
+      );
     }
+    else if(this.state.response != "User Verified" && this.state.filetype === "csv"){
+      return ( 
+       <Alert severity="success">
+           <AlertTitle>Success</AlertTitle>
+           User Verified — <strong> Cannot download csv. User needs to be registered.</strong>
+       </Alert>
+       );
+     }
     else if (this.state.response === "Wrong password"){
       return (
         <Alert severity="error">

@@ -43,7 +43,7 @@ def data():
     features = []
     for option in options:
         features.append(option['value'])
-    lines = 100
+    lines = 10
     from_time = None
     to_time = None
     text_message =  None
@@ -59,22 +59,22 @@ def data():
         text_message =  "User doesn't exist"
 
     try:
-        if type_file == "csv":
-            data_interface_obj.fetch_and_save_data_csv(
-                building_name = building_name,
-                start_time = from_time,
-                end_time= to_time,
-                limit = lines,
-                features = features
-            )
-        else:
-            ret = data_interface_obj.fetch_and_save_data_json(
-                building_name = building_name,
-                start_time = from_time,
-                end_time= to_time,
-                limit = lines,
-                features = features
-            )
+        # if type_file == "csv":
+        #     data_interface_obj.fetch_and_save_data_csv(
+        #         building_name = building_name,
+        #         start_time = from_time,
+        #         end_time= to_time,
+        #         limit = lines,
+        #         features = features
+        #     )
+        # else:
+        ret = data_interface_obj.fetch_and_save_data_json(
+            building_name = building_name,
+            start_time = from_time,
+            end_time= to_time,
+            limit = lines,
+            features = features
+        )
 
     except Exception as err:
         text_message = "Internal Error"

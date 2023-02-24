@@ -65,8 +65,9 @@ class DataFetcher:
         """
         if not self.check_table_exists(table_name):
             return None
-        query = "select time,number from %s where time between '%s' and '%s' order by time desc"%(table_name, start_time, end_time)
-        # self.logger.debug('%s',query)
+        query = "select date_trunc('hour', t.time) + date_part('minute', t.time)::int / 5 * interval '5 min',\
+                number from %s as t where time between '%s' and '%s' order by time desc"%(table_name, start_time, end_time)
+        self.logger.debug('%s',query)
         data = self.fetch_data(query)
         return data
 
@@ -82,7 +83,8 @@ class DataFetcher:
         """
         if not self.check_table_exists(table_name):
             return None
-        query = "select time,number from %s limit %s"%(table_name, limit)
+        query = "select date_trunc('hour', t.time) + date_part('minute', t.time)::int / 5 * interval '5 min',\
+                number from %s as t limit %s"%(table_name, limit)
         self.logger.debug('%s',query)
         data = self.fetch_data(query)
         return data
