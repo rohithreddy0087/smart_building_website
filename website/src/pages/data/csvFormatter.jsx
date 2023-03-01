@@ -23,8 +23,9 @@ const parseJson = (data,features,start_time,end_time) => {
     // let df_n = df.column('Timestamp') = times
     // df.addColumn("Timeamp", times, { inplace: true });
     console.log(times)
-    const obj = times.reduce((acc, curr) => {
-        const dateObj = new Date(curr);
+    var obj = {}
+    for(let curr in times){
+        const dateObj = new Date(times[curr]);
         const year = dateObj.getFullYear();
         const month = (dateObj.getMonth() + 1).toString().padStart(2, '0');
         const day = dateObj.getDate().toString().padStart(2, '0');
@@ -33,12 +34,31 @@ const parseJson = (data,features,start_time,end_time) => {
         const seconds = dateObj.getSeconds().toString().padStart(2, '0');
 
         const dateStringFormatted = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-        acc[dateStringFormatted] = {};
+        // var acc = {};
+        // acc["Timestamp"] = dateStringFormatted
+        obj[dateStringFormatted] = {}
         features.forEach((element) => {
-            acc[dateStringFormatted][element] = ""
+            obj[dateStringFormatted][element] = ""
         })
-        return acc;
-      }, {});
+    }
+    // const obj = times.reduce((acc, curr) => {
+    //     const dateObj = new Date(curr);
+    //     const year = dateObj.getFullYear();
+    //     const month = (dateObj.getMonth() + 1).toString().padStart(2, '0');
+    //     const day = dateObj.getDate().toString().padStart(2, '0');
+    //     const hours = dateObj.getHours().toString().padStart(2, '0');
+    //     const minutes = dateObj.getMinutes().toString().padStart(2, '0');
+    //     const seconds = dateObj.getSeconds().toString().padStart(2, '0');
+
+    //     const dateStringFormatted = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+    //     acc = {};
+    //     acc["Timestamp"] = dateStringFormatted
+    //     features.forEach((element) => {
+    //         acc[element] = ""
+    //     })
+    //     return acc;
+    //   }, {});
+    // console.log(obj)
     const zip = new JSZip();
     for(let room in data["items"]){
         var room_json = obj;
@@ -51,11 +71,18 @@ const parseJson = (data,features,start_time,end_time) => {
                 room_json[time][col_name] = feature_data[rec]["value"]
             }
         }
-
-      const csv = json2csv.parse(room_json, { cols });
+        var conv = Object.keys(room_json).map(function(timestamp) {
+            var data = room_json[timestamp];
+            var ret = {};
+            ret["Timestap"] = timestamp;
+            features.forEach((element) => {
+                ret[element] = data[element]
+            })
+            return ret
+        });
+      const csv = json2csv.parse(conv);
       const filename = `${data["items"][room]["room_id"]}.csv`;
       zip.file(filename, csv);
-        
     }
     zip.generateAsync({ type: 'blob' }).then((blob) => {
         FileSaver.saveAs(blob, 'output.zip');

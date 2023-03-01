@@ -183,19 +183,20 @@ class Web extends Component {
     // console.log(this.state.usermail)
     // console.log(this.state.password)
     // console.log(this.state.buildingName)
-    console.log(this.state.fromValue)
-    console.log(this.state.toValue)
+    // console.log(this.state.fromValue)
+    // console.log(this.state.toValue)
     // console.log(this.state.lineValue)
     // console.log(this.state.filetype)
-    console.log(this.state.optionSelected)
+    // console.log(this.state.optionSelected)
     // parseJson(det,this.state.optionSelected,this.state.fromValue,this.state.toValue);
     // e.preventDefault();
     // this.getData().then((res) => {
     //   console.log(res)
       
     // });
+    this.setState({response : "started"});
     Helpers.httpRequest(
-      'http://137.110.198.246:5000/api/data',
+      'http://127.0.0.1:5000/api/data',
       'post',
       this.state
     )
@@ -349,6 +350,7 @@ class Web extends Component {
           id="outlined-select-line-limit"
           label="Password"
           helperText="Please input the password"
+          type="password"
           value={this.state.password}
           onChange={this.handlePassChange}
         >
