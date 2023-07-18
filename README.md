@@ -5,6 +5,10 @@ This GitHub project contains the code for a smart building research website. The
 ## Website Demo
 
 
+https://github.com/rohithreddy0087/smart_building_website/assets/51110057/3be66cbf-dd39-4a63-ba3d-4b94618d084d
+
+
+
 ## Features
 
 - Partitioned database: The data from the sensors is stored in a PostgreSQL table with millions of rows. To improve performance, the data is partitioned into different databases with table names as sensor IDs. Additionally, indices are added for faster data retrieval between two timestamps.
