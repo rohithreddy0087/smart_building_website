@@ -2,6 +2,10 @@
 
 This GitHub project contains the code for a smart building research website. The website consists of a React.js-based frontend and a Flask API-based backend. The backend interacts with a PostgreSQL database that stores data from hundreds of sensors across 50 rooms, recorded every second.
 
+## Website Demo
+
+https://github.com/rohithreddy0087/smart_building_website/assets/51110057/dc444edf-f2db-431a-95f4-24e507cffa3f
+
 ## Features
 
 - Partitioned database: The data from the sensors is stored in a PostgreSQL table with millions of rows. To improve performance, the data is partitioned into different databases with table names as sensor IDs. Additionally, indices are added for faster data retrieval between two timestamps.
@@ -41,13 +45,3 @@ To use this project, follow these steps:
 7. Register on the website using the provided form.
 8. Provide the required details and select the desired parameters on the data download page.
 9. Click the download button and wait for the zip file to be generated and downloaded.
-
-## Contribution
-
-Contributions to this project are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on GitHub.
-
-Please ensure that your contributions align with the project's coding style and guidelines.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as per the terms of the license.
