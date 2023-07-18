@@ -4,7 +4,6 @@ This GitHub project contains the code for a smart building research website. The
 
 ## Website Demo
 
-https://github.com/rohithreddy0087/smart_building_website/assets/51110057/dc444edf-f2db-431a-95f4-24e507cffa3f
 
 ## Features
 
