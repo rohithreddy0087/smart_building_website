@@ -3,7 +3,6 @@
 This GitHub project contains the code for a smart building research website. The website consists of a React.js-based frontend and a Flask API-based backend. The backend interacts with a PostgreSQL database that stores data from hundreds of sensors across 50 rooms, recorded every second.
 
 ## Website Demo
-file:///home/rrr/smart_building_website/website_demo-2023-07-18_02.46.57.mp4
 
 
 ## Features
