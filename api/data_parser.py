@@ -240,6 +240,7 @@ class DataParser:
                     else:
                         data_dict = self.__get_data_with_limit(table_name,limit)
                     for data in data_dict:
-                        t = self.round_time(data[0],datetime.timedelta(minutes=5))
-                        df.loc[df['Timestamp']==t,feature] = str(data[1])
+                        # t = self.round_time(data['time'],datetime.timedelta(minutes=5))
+                        t = data["time"]
+                        df.loc[df['Timestamp']==t,feature] = str(data['value'])
             df.to_csv(filename,index_label="S.No")

@@ -10,6 +10,7 @@ __pycache__/
 *.ini
 *.json
 *.log
+*.zip
 
 # Distribution / packaging
 .Python

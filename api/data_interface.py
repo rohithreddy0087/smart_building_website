@@ -84,4 +84,4 @@ class DataInterface:
         """
         self.data_parser_obj.generate_meta_csv(building_name,start_time,end_time,limit,features)
         self.data_parser_obj.generate_items_csv(building_name,start_time,end_time,limit,features)
-        shutil.make_archive(f"{self.config.download_path}/{building_name}", 'zip', f"{self.config.download_path}/{building_name}")
+        shutil.make_archive(f"{self.config.download_path}/{building_name}_{str(start_time.date())}_{str(end_time.date())}", 'zip', f"{self.config.download_path}/{building_name}")
